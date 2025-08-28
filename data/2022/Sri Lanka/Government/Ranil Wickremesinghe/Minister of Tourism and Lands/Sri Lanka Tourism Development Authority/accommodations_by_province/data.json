@@ -1,0 +1,14 @@
+{
+  "columns": ["Province", "Number of Rooms"],
+  "rows": [
+    ["Western", 16828],
+    ["Southern", 12514],
+    ["Central", 8021],
+    ["Eastern", 2314],
+    ["Uva", 2590],
+    ["North Central", 2158],
+    ["North Western", 1884],
+    ["Sabaragamuwa", 1025],
+    ["Northern", 786]
+  ]
+}

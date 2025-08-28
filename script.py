@@ -64,7 +64,8 @@ hierarchy = {
                         "arrivals_by_sex",
                         "arrivals_by_month",
                         "arrivals_by_month_vs_country",
-                        "accommodations_by_province_and_district",
+                        "accommodations_by_province",
+                        "accommodations_by_district",
                         "occupancy_rate_by_month",
                         "occupancy_rate_by_district",
                         "occupancy_rate_by_region"
