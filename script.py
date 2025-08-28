@@ -65,7 +65,8 @@ hierarchy = {
                         "arrivals_by_sex",
                         "arrivals_by_month",
                         "arrivals_by_month_vs_country",
-                        "accommodations_by_province_and_district",
+                        "accommodations_by_province",
+                        "accommodations_by_district",
                         "occupancy_rate_by_month",
                         "occupancy_rate_by_district",
                         "occupancy_rate_by_region"
@@ -98,9 +99,25 @@ def create_structure(base, hierarchy, parent=None):
                     for fixed_file in ["data.json", "metadata.json"]:
                         file_path = os.path.join(dtype_path, fixed_file)
                         if not os.path.exists(file_path):  # only if missing
-                            with open(file_path, "w") as f:
-                                f.write("{}")
+                            open(file_path, "w").close()  # create empty file
 
+
+def cleanup_empty_json(base):
+    """Remove {} from files that are completely empty JSON placeholders"""
+    for root, _, files in os.walk(base):
+        for file in files:
+            if file.endswith(".json"):
+                path = os.path.join(root, file)
+                try:
+                    with open(path, "r+") as f:
+                        content = f.read().strip()
+                        if content == "{}":  # only pure placeholder
+                            f.seek(0)
+                            f.truncate()  # clear file
+                            print(f"🗑️ Cleared placeholder: {path}")
+                except Exception as e:
+                    print(f"⚠️ Could not check {path}: {e}")
 
 create_structure(BASE_DIR, hierarchy)
+cleanup_empty_json(BASE_DIR)
 print("✅ Folder structure generated in:", BASE_DIR)
