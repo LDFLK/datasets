@@ -1,4 +1,5 @@
 import os
+import copy
 
 # Base folder
 BASE_DIR = "data"
@@ -74,14 +75,15 @@ hierarchy = {
         }
     }
 }
+hierarchy["2023"] = copy.deepcopy(hierarchy["2022"])
 
-SKIP_LEVELS = {"2022", "Sri Lanka", "Government"}
+SKIP_LEVELS = {"2022", "2023", "Sri Lanka", "Government"}
 
 
 def create_structure(base, hierarchy, parent=None):
     for name, content in hierarchy.items():
         path = os.path.join(base, name)
-        os.makedirs(path, exist_ok=True)
+        os.makedirs(path, exist_ok=True)  # won’t overwrite
 
         if isinstance(content, dict):
             create_structure(path, content, parent=name)
@@ -90,11 +92,11 @@ def create_structure(base, hierarchy, parent=None):
                 dtype_path = os.path.join(path, dtype)
                 os.makedirs(dtype_path, exist_ok=True)
 
-                # Only add data.json & metadata.json if not a skip level
+                # Only add files if not in skip levels
                 if name not in SKIP_LEVELS:
                     for fixed_file in ["data.json", "metadata.json"]:
                         file_path = os.path.join(dtype_path, fixed_file)
-                        if not os.path.exists(file_path):
+                        if not os.path.exists(file_path):  # only if missing
                             with open(file_path, "w") as f:
                                 f.write("{}")
 
