@@ -1,7 +1,6 @@
 import os
 import copy
 
-
 # Base folder
 BASE_DIR = "data"
 
@@ -99,7 +98,6 @@ def create_structure(base, hierarchy, parent=None):
                         file_path = os.path.join(dtype_path, fixed_file)
                         if not os.path.exists(file_path):  # only if missing
                             open(file_path, "w").close()  # create empty file
-
 
 create_structure(BASE_DIR, hierarchy)
 
