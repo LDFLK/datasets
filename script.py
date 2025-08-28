@@ -81,7 +81,6 @@ hierarchy["2023"] = copy.deepcopy(hierarchy["2022"])
 
 SKIP_LEVELS = {"2022", "2023", "Sri Lanka", "Government"}
 
-
 def create_structure(base, hierarchy, parent=None):
     for name, content in hierarchy.items():
         path = os.path.join(base, name)
@@ -99,9 +98,9 @@ def create_structure(base, hierarchy, parent=None):
                     for fixed_file in ["data.json", "metadata.json"]:
                         file_path = os.path.join(dtype_path, fixed_file)
                         if not os.path.exists(file_path):  # only if missing
-                            with open(file_path, "w") as f:
-                                f.write("{}")
+                            open(file_path, "w").close()  # create empty file
 
 
 create_structure(BASE_DIR, hierarchy)
+
 print("✅ Folder structure generated in:", BASE_DIR)
