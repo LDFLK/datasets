@@ -1,7 +1,6 @@
 import os
 import copy
 
-
 # Base folder
 BASE_DIR = "data"
 
@@ -81,7 +80,6 @@ hierarchy["2023"] = copy.deepcopy(hierarchy["2022"])
 
 SKIP_LEVELS = {"2022", "2023", "Sri Lanka", "Government"}
 
-
 def create_structure(base, hierarchy, parent=None):
     for name, content in hierarchy.items():
         path = os.path.join(base, name)
@@ -101,23 +99,6 @@ def create_structure(base, hierarchy, parent=None):
                         if not os.path.exists(file_path):  # only if missing
                             open(file_path, "w").close()  # create empty file
 
-
-def cleanup_empty_json(base):
-    """Remove {} from files that are completely empty JSON placeholders"""
-    for root, _, files in os.walk(base):
-        for file in files:
-            if file.endswith(".json"):
-                path = os.path.join(root, file)
-                try:
-                    with open(path, "r+") as f:
-                        content = f.read().strip()
-                        if content == "{}":  # only pure placeholder
-                            f.seek(0)
-                            f.truncate()  # clear file
-                            print(f"🗑️ Cleared placeholder: {path}")
-                except Exception as e:
-                    print(f"⚠️ Could not check {path}: {e}")
-
 create_structure(BASE_DIR, hierarchy)
-cleanup_empty_json(BASE_DIR)
+
 print("✅ Folder structure generated in:", BASE_DIR)

@@ -1,14 +1,10 @@
 {
-  "columns": [
-    "Katunayake",
-    "Mattala",
-    "Colombo Harbour",
-    "Galle Harbour",
-    "Talaimannar",
-    "Other"
-  ],
+  "columns": ["Port", "Arrivals"],
   "rows": [
-    [1124022, 0, 1466, 1922, 0, 102]
+    ["Katunayake (Bandaranaike International Airport)", 1124022],
+    ["Mattala Rajapaksa International Airport", 0],
+    ["Galle Harbour", 1922],
+    ["Colombo Harbour", 1466],
+    ["Others", 102]
   ]
 }
-
