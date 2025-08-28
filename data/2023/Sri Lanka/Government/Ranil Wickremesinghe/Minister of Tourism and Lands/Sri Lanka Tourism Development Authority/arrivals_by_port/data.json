@@ -1,1 +1,10 @@
-{}
+{
+  "columns": ["Port", "Arrivals"],
+  "rows": [
+    ["Katunayake (Bandaranaike International Airport)", 1391263],
+    ["Mattala Rajapaksa International Airport", 71115],
+    ["Galle Harbour", 10405],
+    ["Colombo Harbour", 446],
+    ["Others", 14074]
+  ]
+}
