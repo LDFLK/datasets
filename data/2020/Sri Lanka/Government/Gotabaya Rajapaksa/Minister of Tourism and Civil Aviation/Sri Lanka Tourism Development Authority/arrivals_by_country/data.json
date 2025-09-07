@@ -1,5 +1,5 @@
 {
-  "columns": ["Country", "Total"],
+  "columns": ["Country of Residence", "Arrivals"],
   "rows": [
     ["Afghanistan", 146],
     ["Albania", 97],

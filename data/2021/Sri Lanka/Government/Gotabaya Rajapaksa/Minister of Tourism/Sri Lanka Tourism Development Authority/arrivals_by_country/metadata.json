@@ -1,0 +1,13 @@
+{
+  "storage_type": "tabular", 
+  "dataset_name": "Arrivals by Country",
+  "column_count": 2,
+  "row_count": 190,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/All%20Countries%2020211600995180.pdf",
+  "extracted_date": "2025-09-07",
+  "extracted_by" : {
+    "name": "Lanka Data Foundation",
+    "email": ""}
+}
