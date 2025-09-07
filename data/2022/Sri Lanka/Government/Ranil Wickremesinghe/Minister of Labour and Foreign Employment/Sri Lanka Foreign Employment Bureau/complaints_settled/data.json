@@ -1,1 +1,6 @@
-{}
+{
+"columns": ["Year","Complaints Resolved"],
+"rows": [
+  ["2022",4557]
+]
+}
