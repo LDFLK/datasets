@@ -1,12 +1,12 @@
 {
   "storage_type": "tabular", 
   "dataset_name": "Annual Tourism Receipts",
-  "column_count": 2,
+  "column_count": 3,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,
-  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
-  "extracted_date": "2025-09-04",
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Tourism-Growth-Trends-1985-2023.pdf",
+  "extracted_date": "2025-09-07",
   "extracted_by" : {
     "name": "Lanka Data Foundation",
     "email": ""}
