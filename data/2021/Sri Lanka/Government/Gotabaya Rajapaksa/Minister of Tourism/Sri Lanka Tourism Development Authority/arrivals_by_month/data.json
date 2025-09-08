@@ -1,0 +1,17 @@
+{
+  "columns": ["Month", "Arrivals"],
+  "rows": [
+    ["January", 1682],
+    ["February", 3366],
+    ["March", 4581],
+    ["April", 4168],
+    ["May", 1497],
+    ["June", 1614],
+    ["July", 2429],
+    ["August", 5040],
+    ["September", 13547],
+    ["October", 22771],
+    ["November", 44294],
+    ["December", 89506]
+  ]
+}

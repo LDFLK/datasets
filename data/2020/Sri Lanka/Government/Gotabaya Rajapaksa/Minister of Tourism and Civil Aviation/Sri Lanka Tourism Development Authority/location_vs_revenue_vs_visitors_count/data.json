@@ -3,10 +3,10 @@
   "rows": [
     ["Museum", "Colombo National Museum", 11762, 11813400.00, 24541, 1298670.00],
     ["Museum", "Natural History Museum", 1053, 818000.00, 11164, 459650.00],
-    ["Museum", "Dutch Museum *", 0, 0.00, 0, 0.00],
+    ["Museum", "Dutch Museum", 0, 0.00, 0, 0.00],
     ["Museum", "Independence Memorial Museum", 478, 137400.00, 4335, 34450.00],
     ["Museum", "Hambantota National Museum", 22, 10800.00, 680, 10990.00],
-    ["Museum", "Rathnapura National Museum *", 1, 500.00, 1362, 35260.00],
+    ["Museum", "Rathnapura National Museum", 1, 500.00, 1362, 35260.00],
     ["Museum", "Galle National Museum", 1301, 385050.00, 6315, 82390.00],
     ["Museum", "Galle Maritime Museum", 1092, 319800.00, 9160, 122835.00],
     ["Museum", "Anuradhapura Folk Museum", 25, 7500.00, 1660, 26050.00],
@@ -70,9 +70,9 @@
     ["Conservation Forest", "Kanneliya Conservation Forest", 868, 586600.00, 18959, 475425.00],
     ["Conservation Forest", "Hurulu Eco Park", 45267, 53483400.00, 21362, 1461705.00],
     ["Conservation Forest", "Sinharaja Conservation Forest", 5673, 3937500.00, 21343, 553311.00],
-    ["Conservation Forest", "Udawattakele Conservation Forest / Kandy", 3798, 3014000.00, 10897, 378665.00],
+    ["Conservation Forest", "Udawattakele Conservation Forest", 3798, 3014000.00, 10897, 378665.00],
     ["Conservation Forest", "Knuckles Conservation Forest", 491, 326508.00, 38161, 1017069.00],
-    ["Conservation Forest", "Kandeela Forest / Nuwaraeliya", 0, 0.00, 0, 0.00],
+    ["Conservation Forest", "Kandeela Forest", 0, 0.00, 0, 0.00],
     ["Conservation Forest", "Kurulukele", 0, 0.00, 0, 0.00],
     ["Conservation Forest", "Rathna Ella", 1, 300.00, 1005, 40600.00]
   ]
