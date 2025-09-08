@@ -1,5 +1,5 @@
 {
-"columns": ["Ref. No.","Division Activities","2022 (Rs)"],
+"columns": ["Ref. No.","Division Activities","(Rs)"],
 "rows": [
   [1,"Recovery by Litigation",1590000],
   [2,"Fines Imposed for cases filed",1640000],
