@@ -2,11 +2,11 @@
   "storage_type": "tabular", 
   "dataset_name": "Arrivals by Country",
   "column_count": 2,
-  "row_count": 106,
+  "row_count": 187,
   "node_count": null,
   "edges_count": null,
-  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
-  "extracted_date": "2025-08-28",
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Tourist%20Arrivals%20All%20Countries%20-%202022(Jan%20-%20Dec)585362286.pdf",
+  "extracted_date": "2025-09-07",
   "extracted_by" : {
     "name": "Lanka Data Foundation",
     "email": ""}

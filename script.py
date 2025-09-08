@@ -80,6 +80,7 @@ YEARS = {
         }
     },
     "2023": None,  # copy from 2022
+
     "2020": {
         "Gotabaya Rajapaksa": {
             "Minister of Foreign Relations": TEMPLATES["foreign_affairs"],
@@ -90,6 +91,20 @@ YEARS = {
                 "Sri Lanka Foreign Employment Bureau": TEMPLATES["foreign_employment"],
             },
             "Minister of Tourism and Civil Aviation": {
+                "Sri Lanka Tourism Development Authority": TEMPLATES["tourism"],
+            },
+        }
+    },
+     "2021": {
+        "Gotabaya Rajapaksa": {
+            "Minister of Foreign Relations": TEMPLATES["foreign_affairs"],
+            "State Minister of Internal Security, Home affairs and Disaster Management": {
+                "Department of Immigration and Emigration": TEMPLATES["immigration"],
+            },
+            "State Minister of Foreign Employment Promotion and Market Diversification": {
+                "Sri Lanka Foreign Employment Bureau": TEMPLATES["foreign_employment"],
+            },
+            "Minister of Tourism": {
                 "Sri Lanka Tourism Development Authority": TEMPLATES["tourism"],
             },
         }
