@@ -1,0 +1,6 @@
+{
+  "columns": ["Professional Male (Number)","Professional Male (%)","Professional Female (Number)","Professional Female (%)","Middle Level Male (Number)","Middle Level Male (%)","Middle Level Female (Number)","Middle Level Female (%)","Skilled Male (Number)","Skilled Male (%)","Skilled Female (Number)","Skilled Female (%)","Clearical & Related Male (Number)","Clerical & Related Male (%)","Clearical & Related Female (Number)","Clerical & Related Female (%)","Semi Skilled (Number)","Semi Skilled (%)","Low skilled (Number)","Low skilled (%)","Total"],
+  "rows": [
+    [12841, 6.87,1466,1.18, 6795, 3.63,1335,1.08,85978,45.99,6858,5.53,9587,5.13,2547,2.05,3721,1.99,74419,59.97,68043,36.39,37466,30.19,311056]
+  ]
+}
