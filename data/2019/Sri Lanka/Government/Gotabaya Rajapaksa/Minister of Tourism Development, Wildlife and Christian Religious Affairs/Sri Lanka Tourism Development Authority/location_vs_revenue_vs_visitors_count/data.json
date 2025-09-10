@@ -1,0 +1,249 @@
+{
+  "columns": [
+    "Location",
+    "Revenue (USD Mn)",
+    "Visitor Count"
+  ],
+  "rows": [
+    [
+      "Sigiriya Museum and Sigiriya Rock",
+      12.3,
+      414575
+    ],
+    [
+      "Polonnaruwa Gal Viharaya, Museum & Kingdom",
+      4.6,
+      181778
+    ],
+    [
+      "Jethawanaya",
+      1.8,
+      70397
+    ],
+    [
+      "Buduruwagala",
+      0.6,
+      31263
+    ],
+    [
+      "Yapahuwa Kingdom",
+      0.2,
+      4660
+    ],
+    [
+      "Ritigala Forest Monastery",
+      0.2,
+      9207
+    ],
+    [
+      "Namal Uyana",
+      0.1,
+      1753
+    ],
+    [
+      "Abhayagiriya",
+      0.03,
+      1352
+    ],
+    [
+      "Apegama",
+      0.05,
+      1356
+    ],
+    [
+      "Galle Museum",
+      0.06,
+      12661
+    ],
+    [
+      "Ibbankatuwa Ancient Burial Ground",
+      0.02,
+      1002
+    ],
+    [
+      "Dambulla Museum",
+      0.006,
+      321
+    ],
+    [
+      "Katharagama Museum",
+      0.004,
+      68
+    ],
+    [
+      "Kandy Museum",
+      0.002,
+      176
+    ],
+    [
+      "Ramba Viharaya",
+      0.0006,
+      31
+    ],
+    [
+      "Lahugala",
+      0.0005,
+      254
+    ],
+    [
+      "Yala National Park",
+      3.0,
+      206843
+    ],
+    [
+      "Udawalawa National Park",
+      2.6,
+      175251
+    ],
+    [
+      "Wilpattu National Park",
+      0.4,
+      63543
+    ],
+    [
+      "Kumana Bird Sanctuary",
+      0.07,
+      11471
+    ],
+    [
+      "Hurulu Eco Park",
+      62.8,
+      82724
+    ],
+    [
+      "Kanneliya Conservation Forest",
+      0.7,
+      1985
+    ],
+    [
+      "Sinharaja Conservation Forest",
+      4.4,
+      13877
+    ],
+    [
+      "Udawattakele Conservation Forest",
+      3.8,
+      12969
+    ],
+    [
+      "Knuckles Conservation Forest",
+      0.6,
+      1964
+    ],
+    [
+      "Makandawa Conservation Forest",
+      2.8,
+      814
+    ],
+    [
+      "Kottawa Conservation Forest",
+      0.05,
+      168
+    ],
+    [
+      "Kurulukele",
+      0.0,
+      0
+    ],
+    [
+      "Kandeela Forest",
+      0.0,
+      0
+    ],
+    [
+      "Peradeniya Botanical Garden",
+      2.9,
+      309909
+    ],
+    [
+      "Hakgala Botanical Garden",
+      0.2,
+      21207
+    ],
+    [
+      "Gampaha Botanical Garden",
+      0.003,
+      305
+    ],
+    [
+      "Mirijjawila Botanical Garden",
+      0.002,
+      261
+    ],
+    [
+      "Avissawella Botanical Garden",
+      0.002,
+      203
+    ],
+    [
+      "Ganewattha Botanical Garden",
+      3e-05,
+      3
+    ],
+    [
+      "Dehiwala Zoo",
+      0.2,
+      23667
+    ],
+    [
+      "Pinnawala Elephant Orphanage",
+      2.5,
+      198399
+    ],
+    [
+      "Pinnawala Zoo",
+      0.01,
+      3345
+    ],
+    [
+      "Ridiyagama Safari Park",
+      0.01,
+      954
+    ],
+    [
+      "Colombo National Museum",
+      0.3,
+      49736
+    ],
+    [
+      "Natural History Museum",
+      0.01,
+      2509
+    ],
+    [
+      "Independence Memorial Museum",
+      0.002,
+      1298
+    ],
+    [
+      "Galle National Museum",
+      0.008,
+      5038
+    ],
+    [
+      "Galle Maritime Museum",
+      0.005,
+      3247
+    ],
+    [
+      "Kandy National Museum",
+      0.009,
+      2747
+    ],
+    [
+      "Polonnaruwa Museum",
+      0.0006,
+      118
+    ],
+    [
+      "Anuradapura Folk Museum",
+      0.0002,
+      126
+    ],
+    [
+      "Hambantota National Museum",
+      0.0002,
+      58
+    ]
+  ]
+}
