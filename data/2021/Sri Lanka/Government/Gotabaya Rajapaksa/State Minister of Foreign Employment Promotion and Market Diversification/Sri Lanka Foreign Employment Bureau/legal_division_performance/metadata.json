@@ -1,0 +1,12 @@
+{
+  "storage_type": "tabular", 
+  "dataset_name": "Legal division performance",
+  "column_count": 3,
+  "row_count": 4,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/06/English_2021.pdf",
+  "extracted_date": "2025-09-08",
+  "extracted_by": "",
+  "verified_by": ""
+}
