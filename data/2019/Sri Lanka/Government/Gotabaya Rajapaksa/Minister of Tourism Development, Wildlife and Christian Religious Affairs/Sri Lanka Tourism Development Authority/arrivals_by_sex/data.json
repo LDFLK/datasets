@@ -1,0 +1,16 @@
+{
+  "columns": [
+    "Gender",
+    "Percentage"
+  ],
+  "rows": [
+    [
+      "Male",
+      52.3
+    ],
+    [
+      "Female",
+      47.7
+    ]
+  ]
+}
