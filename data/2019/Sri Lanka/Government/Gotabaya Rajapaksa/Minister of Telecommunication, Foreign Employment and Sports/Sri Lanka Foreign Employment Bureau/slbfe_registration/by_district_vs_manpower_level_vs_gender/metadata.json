@@ -1,0 +1,13 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE Departures by District, Manpower Level & Gender - 2019",
+  "column_count": 15,
+  "row_count": 26,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2019.pdf",
+  "extracted_date": "2025-09-18",
+  "extracted_by": "Advanced PDF Extractor",
+  "verified_by": "",
+  "notes": "Data represents departures for foreign employment, not registrations. Mapped to standard schema for consistency."
+}

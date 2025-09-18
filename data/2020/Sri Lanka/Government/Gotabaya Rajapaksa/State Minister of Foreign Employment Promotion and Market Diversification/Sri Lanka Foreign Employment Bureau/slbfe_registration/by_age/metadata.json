@@ -1,0 +1,13 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "SLBFE Registration by Age - 2020",
+    "column_count": 4,
+    "row_count": 8,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "Statistics-2020.pdf",
+    "extracted_date": "2025-09-17",
+    "extracted_by": "",
+    "verified_by": ""
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "Workers' Remittances by Country (US$ Million) - 2023",
+    "column_count": 6,
+    "row_count": 32,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "SLBFE-Annual-Report-English-2023.pdf",
+    "extracted_date": "2025-09-17",
+    "extracted_by": "",
+    "verified_by": ""
+  }
+  

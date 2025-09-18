@@ -1,0 +1,23 @@
+{
+    "columns": [
+      "Origin",
+      "US$ Million",
+      "Rs. Million",
+      "Percentage Share"
+    ],
+    "rows": [
+      ["Middle East", 3459, 618394, 51.5],
+      ["European Union", 1263, 225744, 18.8],
+      ["Far East Asia", 826, 147694, 12.3],
+      ["Europe-Other", 282, 50432, 4.2],
+      ["North America", 161, 28818, 2.4],
+      ["South East Asia", 376, 67243, 5.6],
+      ["Australia and New Zealand", 175, 31220, 2.6],
+      ["South Asia", 134, 24015, 2.0],
+      ["South and Central America", 27, 4803, 0.4],
+      ["Other", 13, 2402, 0.2]
+    ]
+  }
+  
+  
+  
