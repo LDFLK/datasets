@@ -1,0 +1,12 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE Registration by Manpower Level - 2023",
+  "column_count": 16,
+  "row_count": 1,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2023.pdf",
+  "extracted_date": "2025-01-18",
+  "extracted_by": "AI Assistant",
+  "verified_by": "AI Assistant"
+}
