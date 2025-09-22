@@ -1,5 +1,5 @@
-# RawData
-Raw data extracted to be inserted into the databases
+# Datasets
+Datasets from various public sources are explored and cleaned up for application development. 
 
 
 Special Notes on 2022 folder structure 
