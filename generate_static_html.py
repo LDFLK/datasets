@@ -116,20 +116,30 @@ def scan_data_folder(data_path="data"):
                 content.append('</details>')
             else:
                 if item == "data.json":
+                    parent_name = os.path.basename(folder_path)
+                    data_url = quote(f"../data/{item_relative_path}")
+                    
+                    emoji = get_emoji_for_type(parent_name)
+                    clean_display_name = clean_name(parent_name)
+                    
+                    # Check if metadata.json exists
                     metadata_path = os.path.join(folder_path, "metadata.json")
-                    if os.path.exists(metadata_path):
-                        parent_name = os.path.basename(folder_path)
-                        data_url = quote(f"../data/{item_relative_path}")
+                    metadata_exists = os.path.exists(metadata_path)
+                    
+                    if metadata_exists:
                         metadata_url = quote(f"../data/{item_relative_path.replace('data.json', 'metadata.json')}")
-                        
-                        emoji = get_emoji_for_type(parent_name)
-                        clean_display_name = clean_name(parent_name)
-                        
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
     <a href="{data_url}" target="_blank">data.json</a>
     <a href="{metadata_url}" target="_blank">metadata.json</a>
+  </div>
+</div>''')
+                    else:
+                        content.append(f'''<div class="dataset-item">
+  <span class="dataset-name">{emoji} {clean_display_name}</span>
+  <div class="dataset-links">
+    <a href="{data_url}" target="_blank">data.json</a>
   </div>
 </div>''')
         
