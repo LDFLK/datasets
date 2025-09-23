@@ -161,7 +161,7 @@ def scan_data_folder(data_path="data", zip_files=None):
             else:
                 if item == "data.json":
                     parent_name = os.path.basename(folder_path)
-                    data_url = quote(f"../data/{item_relative_path}")
+                    data_url = quote(f"data/{item_relative_path}")
                     
                     emoji = get_emoji_for_type(parent_name)
                     clean_display_name = clean_name(parent_name)
@@ -171,7 +171,7 @@ def scan_data_folder(data_path="data", zip_files=None):
                     metadata_exists = os.path.exists(metadata_path)
                     
                     if metadata_exists:
-                        metadata_url = quote(f"../data/{item_relative_path.replace('data.json', 'metadata.json')}")
+                        metadata_url = quote(f"data/{item_relative_path.replace('data.json', 'metadata.json')}")
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
