@@ -223,8 +223,8 @@ def main():
 <body>
     <div class="container">
         <header>
-            <h1>Sri Lanka Government Datasets (2019–2023)</h1>
-            <p>Browse by folder hierarchy or jump to year pages. Links point into <code>data/</code> where the JSON lives.</p>
+            <h1>Sri Lanka Government Statistics Datasets (2019–2023)</h1>
+            <p>Browse by folder hierarchy, download all data for a year, or view and download a specific dataset.</p>
         </header>
 
         <div class="stats">
@@ -240,9 +240,9 @@ def main():
 
         <footer>
             <h2>About</h2>
-            <p>This documentation is automatically generated from the data folder structure.</p>
-            <p>To update this page, run: <code>python generate_static_html.py</code></p>
-            <p>Project notes: <a href="../README.md">README.md</a></p>
+            <p>This data was collected and compiled by <em>Lanka Data Foundation</em> from public sources.</p>
+            <p>For any enquiries please contact: <a href="mailto:info@lankadatafoundation.org">info@lankadatafoundation.org</a></p>
+            <p>Codebase at: <a href="https://github.com/LDFLK/datasets" target="_blank" rel="noopener">https://github.com/LDFLK/datasets</a></p>
         </footer>
     </div>
 
@@ -321,7 +321,6 @@ def main():
     print(f"✅ Generated {output_path}")
     print(f"📊 Found {dataset_count} datasets")
     print("🚀 Ready for GitHub Pages deployment!")
-    print("💡 No JavaScript needed - pure HTML/CSS with collapsible sections!")
 
 if __name__ == "__main__":
     main()
