@@ -126,7 +126,7 @@ The generated `index.html` is ready for deployment on:
 
 ## 📞 Contact
 
-For any enquiries please contact: [info@lankadatafoundation.org](mailto:info@lankadatafoundation.org)
+For any enquiries please contact: [contact@datafoundation.lk](mailto:contact@datafoundation.lk)
 
 Codebase at: [https://github.com/LDFLK/datasets](https://github.com/LDFLK/datasets)
 

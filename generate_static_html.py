@@ -241,7 +241,7 @@ def main():
         <footer>
             <h2>About</h2>
             <p>This data was collected and compiled by <em>Lanka Data Foundation</em> from public sources.</p>
-            <p>For any enquiries please contact: <a href="mailto:info@lankadatafoundation.org">info@lankadatafoundation.org</a></p>
+            <p>For any inquiries please contact: <a href="mailto:contact@datafoundation.lk">contact@datafoundation.lk</a></p>
             <p>Codebase at: <a href="https://github.com/LDFLK/datasets" target="_blank" rel="noopener">https://github.com/LDFLK/datasets</a></p>
         </footer>
     </div>
