@@ -92,7 +92,7 @@ def create_zip_for_section(section_path, section_name, output_dir="docs"):
     
     return zip_filename
 
-def generate_all_zips(data_path="data", output_dir="docs"):
+def generate_all_zips(data_path="data", output_dir="."):
     """Generate ZIP files for all major sections"""
     zip_files = {}
     
@@ -314,7 +314,7 @@ def main():
 </body>
 </html>"""
     
-    output_path = "docs/index.html"
+    output_path = "index.html"
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(content)
     
