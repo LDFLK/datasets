@@ -6,6 +6,7 @@ No JavaScript needed - pure HTML/CSS solution
 
 import os
 import json
+import zipfile
 from pathlib import Path
 from urllib.parse import quote
 
@@ -75,13 +76,49 @@ def generate_css():
     """Generate CSS link for external stylesheet"""
     return """<link rel="stylesheet" href="styles.css">"""
 
-def scan_data_folder(data_path="data"):
+def create_zip_for_section(section_path, section_name, output_dir="docs"):
+    """Create a ZIP file for a specific section"""
+    zip_filename = f"{section_name.replace(' ', '_').replace('(', '').replace(')', '')}_Data.zip"
+    zip_path = os.path.join(output_dir, zip_filename)
+    
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for root, dirs, files in os.walk(section_path):
+            for file in files:
+                if file.endswith('.json'):
+                    file_path = os.path.join(root, file)
+                    # Create relative path from the section root
+                    arcname = os.path.relpath(file_path, section_path)
+                    zipf.write(file_path, arcname)
+    
+    return zip_filename
+
+def generate_all_zips(data_path="data", output_dir="docs"):
+    """Generate ZIP files for all major sections"""
+    zip_files = {}
+    
+    if not os.path.exists(data_path):
+        return zip_files
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Generate ZIP for each year
+    for year in sorted(os.listdir(data_path)):
+        year_path = os.path.join(data_path, year)
+        if os.path.isdir(year_path):
+            zip_filename = create_zip_for_section(year_path, year, output_dir)
+            zip_files[year] = zip_filename
+            print(f"📦 Generated {zip_filename}")
+    
+    return zip_files
+
+def scan_data_folder(data_path="data", zip_files=None):
     """Scan the data folder and generate the structure"""
     if not os.path.exists(data_path):
         print(f"Error: {data_path} folder not found!")
         return ""
     
-    def process_folder(folder_path, level=0, relative_path=""):
+    def process_folder(folder_path, level=0, relative_path="", zip_files=None):
         """Recursively process folder structure"""
         content = []
         
@@ -111,8 +148,15 @@ def scan_data_folder(data_path="data"):
                     css_class = "sub-section"  # For deeper levels
                 
                 content.append(f'<details class="details {css_class}">')
-                content.append(f'<summary class="summary">{emoji} {clean_display_name}</summary>')
-                content.append(process_folder(item_path, level + 1, item_relative_path))
+                
+                # Add download button for year-level sections
+                download_button = ""
+                if level == 0 and zip_files and item in zip_files:
+                    zip_filename = zip_files[item]
+                    download_button = f' <a href="{zip_filename}" class="download-btn" download>📦 Download All {item} Data</a>'
+                
+                content.append(f'<summary class="summary">{emoji} {clean_display_name}{download_button}</summary>')
+                content.append(process_folder(item_path, level + 1, item_relative_path, zip_files))
                 content.append('</details>')
             else:
                 if item == "data.json":
@@ -131,21 +175,21 @@ def scan_data_folder(data_path="data"):
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
-    <a href="{data_url}" target="_blank">data.json</a>
-    <a href="{metadata_url}" target="_blank">metadata.json</a>
+    <a href="{data_url}" target="_blank" download>data.json</a>
+    <a href="{metadata_url}" target="_blank" download>metadata.json</a>
   </div>
 </div>''')
                     else:
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
-    <a href="{data_url}" target="_blank">data.json</a>
+    <a href="{data_url}" target="_blank" download>data.json</a>
   </div>
 </div>''')
         
         return "\n".join(content)
     
-    return process_folder(data_path)
+    return process_folder(data_path, zip_files=zip_files)
 
 def count_datasets(data_path="data"):
     """Count total datasets"""
@@ -159,8 +203,12 @@ def main():
     """Main function to generate static HTML"""
     print("🔍 Scanning data folder...")
     
+    # Generate ZIP files first
+    print("📦 Generating ZIP files...")
+    zip_files = generate_all_zips()
+    
     css = generate_css()
-    data_structure = scan_data_folder()
+    data_structure = scan_data_folder(zip_files=zip_files)
     dataset_count = count_datasets()
     
     content = f"""<!DOCTYPE html>
