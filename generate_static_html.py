@@ -175,15 +175,15 @@ def scan_data_folder(data_path="data", zip_files=None):
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
-    <a href="{data_url}" target="_blank" download>data.json</a>
-    <a href="{metadata_url}" target="_blank" download>metadata.json</a>
+    <a href="#" onclick="showJsonData('{data_url}', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('{metadata_url}', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>''')
                     else:
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
-    <a href="{data_url}" target="_blank" download>data.json</a>
+    <a href="#" onclick="showJsonData('{data_url}', 'data.json')" class="file-link">📄 data.json</a>
   </div>
 </div>''')
         
@@ -245,6 +245,72 @@ def main():
             <p>Project notes: <a href="../README.md">README.md</a></p>
         </footer>
     </div>
+
+    <!-- JSON Data Modal -->
+    <div id="jsonModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">JSON Data</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <pre id="jsonContent">Loading...</pre>
+            </div>
+            <div class="modal-footer">
+                <button onclick="copyToClipboard()" class="copy-btn">📋 Copy to Clipboard</button>
+                <button onclick="downloadJson()" class="download-btn">⬇️ Download</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentJsonUrl = '';
+        
+        function showJsonData(url, filename) {{
+            currentJsonUrl = url;
+            document.getElementById('modalTitle').textContent = filename;
+            document.getElementById('jsonContent').textContent = 'Loading...';
+            document.getElementById('jsonModal').style.display = 'block';
+            
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {{
+                    document.getElementById('jsonContent').textContent = JSON.stringify(data, null, 2);
+                }})
+                .catch(error => {{
+                    document.getElementById('jsonContent').textContent = 'Error loading data: ' + error.message;
+                }});
+        }}
+        
+        function copyToClipboard() {{
+            const content = document.getElementById('jsonContent').textContent;
+            navigator.clipboard.writeText(content).then(() => {{
+                alert('Copied to clipboard!');
+            }});
+        }}
+        
+        function downloadJson() {{
+            if (currentJsonUrl) {{
+                const link = document.createElement('a');
+                link.href = currentJsonUrl;
+                link.download = '';
+                link.click();
+            }}
+        }}
+        
+        // Close modal when clicking X
+        document.querySelector('.close').onclick = function() {{
+            document.getElementById('jsonModal').style.display = 'none';
+        }}
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {{
+            const modal = document.getElementById('jsonModal');
+            if (event.target == modal) {{
+                modal.style.display = 'none';
+            }}
+        }}
+    </script>
 </body>
 </html>"""
     
