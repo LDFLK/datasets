@@ -1,5 +1,4 @@
 {
-  "top_10_source_markets": {
     "columns": ["Country", "Arrivals", "Share"],
     "rows": [
       ["India", 355002, 18.6],
@@ -13,5 +12,5 @@
       ["Maldives", 60278, 3.1],
       ["Canada", 48729, 2.5]
     ]
-  }
 }
+
