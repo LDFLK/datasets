@@ -1,0 +1,6 @@
+name: "slbfe_registration_by_country"
+kind:
+  major: "Dataset"
+  minor: "Tabular"
+start_date: "2021-01-01"
+end_date: "2021-12-31"
