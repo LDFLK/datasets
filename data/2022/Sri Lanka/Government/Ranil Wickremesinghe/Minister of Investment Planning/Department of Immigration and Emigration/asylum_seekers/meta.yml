@@ -1,0 +1,6 @@
+name: "asylum_seekers"
+kind:
+  major: "Dataset"
+  minor: "Tabular"
+start_date: "2022-01-01"
+end_date: "2022-12-31"
