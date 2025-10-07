@@ -1,0 +1,12 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "Media Releases from Ministry of Foreign Affairs",
+    "column_count": 5,
+    "row_count": 1077,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "Official Communications - Year 2019 data",
+    "extracted_date": "2025-09-07",
+    "extracted_by": "",
+    "verified_by": ""
+  }
