@@ -1,0 +1,6 @@
+name: "slbfe_registration_by_district_vs_manpower_level_vs_gender"
+kind:
+  major: "Dataset"
+  minor: "Tabular"
+start_date: "2022-01-01"
+end_date: "2022-12-31"
