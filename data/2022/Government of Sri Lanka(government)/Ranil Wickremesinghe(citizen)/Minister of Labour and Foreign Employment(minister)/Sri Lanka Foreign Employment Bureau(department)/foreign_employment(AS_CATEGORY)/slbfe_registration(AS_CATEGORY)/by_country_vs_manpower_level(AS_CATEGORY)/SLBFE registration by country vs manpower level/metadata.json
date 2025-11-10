@@ -1,0 +1,12 @@
+{
+  "storage_type": "tabular", 
+  "dataset_name": "SLBFE registration by country vs manpower level",
+  "column_count": 15,
+  "row_count": 50,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2022.pdf",
+  "extracted_date": "2025-08-29",
+  "extracted_by": "",
+  "verified_by": ""
+}

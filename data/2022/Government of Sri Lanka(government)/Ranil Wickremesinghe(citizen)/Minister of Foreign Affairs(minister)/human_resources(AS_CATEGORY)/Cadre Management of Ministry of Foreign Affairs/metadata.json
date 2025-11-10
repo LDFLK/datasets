@@ -1,0 +1,15 @@
+
+{
+  "metadata": {
+    "storage_type": "tabular",
+    "dataset_name": "Cadre Management of Ministry of Foreign Affairs",
+    "column_count": 6,
+    "row_count": 9,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "https://mfa.gov.lk/en/wp-content/uploads/2023/06/APR-2022-Trilingual-with-Cover-Page.pdf",
+    "extracted_date": "2025-09-03",
+    "extracted_by": "",
+    "verified_by": ""
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+    "metadata": {
+      "storage_type": "tabular",
+      "dataset_name": "Cadre Management of Ministry of Foreign Relations",
+      "column_count": 6,
+      "row_count": 9,
+      "node_count": null,
+      "edges_count": null,
+      "resource": "Human Resources - Year 2020 data",
+      "extracted_date": "2025-09-03",
+      "extracted_by": "",
+      "verified_by": ""
+    }
+  }
