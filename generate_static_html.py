@@ -314,7 +314,7 @@ def main():
 </body>
 </html>"""
     
-    output_path = "index.html"
+    output_path = "docs/index.html"
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(content)
     
