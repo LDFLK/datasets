@@ -1,0 +1,56 @@
+{
+  "columns": [
+    "Nationality",
+    "No. of Persons"
+  ],
+  "rows": [
+    [
+      "Pakistani",
+      347
+    ],
+    [
+      "Afghans",
+      87
+    ],
+    [
+      "Burmese",
+      36
+    ],
+    [
+      "Iranian",
+      12
+    ],
+    [
+      "Sudanese",
+      9
+    ],
+    [
+      "Yemeni",
+      8
+    ],
+    [
+      "Palestinian",
+      5
+    ],
+    [
+      "Nigerian",
+      2
+    ],
+    [
+      "Syrian",
+      2
+    ],
+    [
+      "Maldivian",
+      2
+    ],
+    [
+      "Bangladeshi",
+      1
+    ],
+    [
+      "Somali",
+      1
+    ]
+  ]
+}

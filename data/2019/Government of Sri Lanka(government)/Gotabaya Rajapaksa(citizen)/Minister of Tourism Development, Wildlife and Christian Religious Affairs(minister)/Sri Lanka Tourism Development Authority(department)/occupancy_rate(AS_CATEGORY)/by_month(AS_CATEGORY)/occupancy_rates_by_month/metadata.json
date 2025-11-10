@@ -1,0 +1,14 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Occupancy Rates by Month",
+  "column_count": 2,
+  "row_count": 12,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://srilanka.travel/SLTDA_documents/ASR%202019.pdf",
+  "extracted_date": "2025-01-09",
+  "extracted_by": {
+    "name": "Lanka Data Foundation",
+    "email": ""
+  }
+}
