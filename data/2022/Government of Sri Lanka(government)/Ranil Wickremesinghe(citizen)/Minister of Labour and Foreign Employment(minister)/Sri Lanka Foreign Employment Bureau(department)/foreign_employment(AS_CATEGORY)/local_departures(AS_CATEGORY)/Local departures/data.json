@@ -1,0 +1,17 @@
+{
+"columns": ["Month", "Number of persons"],
+"rows": [
+  ["January", 70803],
+  ["February", 72425],
+  ["March", 89684],
+  ["April", 83562],
+  ["May", 85715],
+  ["June", 92523],
+  ["July", 93244],
+  ["August", 107835],
+  ["September", 116436],
+  ["October", 109010],
+  ["November", 100119],
+  ["December", 106405]
+]
+}

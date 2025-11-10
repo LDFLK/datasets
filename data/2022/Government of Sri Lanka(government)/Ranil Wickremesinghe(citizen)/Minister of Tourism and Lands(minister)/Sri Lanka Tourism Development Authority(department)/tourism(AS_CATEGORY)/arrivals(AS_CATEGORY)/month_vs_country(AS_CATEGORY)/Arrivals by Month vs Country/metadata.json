@@ -1,0 +1,13 @@
+{
+  "storage_type": "tabular", 
+  "dataset_name": "Arrivals by Month vs Country",
+  "column_count": 13,
+  "row_count": 187,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Tourist%20Arrivals%20All%20Countries%20-%202022(Jan%20-%20Dec)585362286.pdf",
+  "extracted_date": "2025-09-07",
+  "extracted_by" : {
+    "name": "Lanka Data Foundation",
+    "email": ""}
+}

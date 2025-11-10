@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "refused_entry_by_nationality",
+  "column_count": 2,
+  "row_count": 24,
+  "node_count": null,
+  "edges_count": null,
+  "resources": [
+    "https://www.immigration.gov.lk/content/files/reports/perfomance_report_2021_e.pdf"
+  ],
+  "extracted_date": "2025-09-15",
+  "extracted_by": {
+    "name": "Lanka Data Foundation",
+    "email": ""
+  }
+}
