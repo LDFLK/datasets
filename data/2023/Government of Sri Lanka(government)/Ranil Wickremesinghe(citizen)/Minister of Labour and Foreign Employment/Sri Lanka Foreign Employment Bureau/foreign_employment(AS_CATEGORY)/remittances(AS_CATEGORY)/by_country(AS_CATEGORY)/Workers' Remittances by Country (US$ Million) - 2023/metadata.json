@@ -1,13 +1,16 @@
 {
-    "storage_type": "tabular",
-    "dataset_name": "Workers' Remittances by Country (US$ Million) - 2023",
-    "column_count": 6,
-    "row_count": 32,
-    "node_count": null,
-    "edges_count": null,
-    "resource": "SLBFE-Annual-Report-English-2023.pdf",
-    "extracted_date": "2025-09-17",
-    "extracted_by": "",
-    "verified_by": ""
-  }
-  
+  "storage_type": "tabular",
+  "dataset_name": "Inflow of workers’ Remittances by country (US$ Million) in 2023",
+  "column_count": 6,
+  "row_count": 32,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",
+  "resource_page": "50",
+  "resource_section": "Inflow of workers’ Remittances by country (US$ Million) in 2023*",
+  "resource_identifier": "Table 46",
+  "extracted_date": "2025-09-17",
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the inflow of workers’ remittances by country in 2023"
+}

@@ -1,13 +1,16 @@
 {
-    "storage_type": "tabular",
-    "dataset_name": "SLBFE Registration by Age - 2023",
-    "column_count": 4,
-    "row_count": 8,
-    "node_count": null,
-    "edges_count": null,
-    "resource": "SLBFE-Annual-Report-English-2023.pdf",
-    "extracted_date": "2025-09-17",
-    "extracted_by": "",
-    "verified_by": ""
-  }
-  
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE Registration by Age - 2023",
+  "column_count": 4,
+  "row_count": 8,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",
+  "resource_page": "14",
+  "resource_section": "Total Registration with the SLBFE by age 2019-2023",
+  "resource_identifier": "Table 08",
+  "extracted_date": "2025-09-17",
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the number of SLBFE registrations by age in 2023"
+}
