@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
+  "resource_page": "29",
+  "resource_section": " Distribution of Tourists by Gender (Percentage) 2023",
+  "resource_identifier": "Chart 13",
   "extracted_date": "2025-09-07",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the distribution of tourist arrivals in Sri Lanka by age group in 2023"
 }
