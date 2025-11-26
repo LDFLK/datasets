@@ -1,13 +1,16 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Top 10 source markets",
   "column_count": 3,
   "row_count": 10,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
+  "resource_page": "21",
+  "resource_section": "Top ten source markets – 2023",
+  "resource_identifier": "Chart 13",
   "extracted_date": "2025-08-28",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the top 10 source markets for tourist arrivals in Sri Lanka in 2023"
 }
