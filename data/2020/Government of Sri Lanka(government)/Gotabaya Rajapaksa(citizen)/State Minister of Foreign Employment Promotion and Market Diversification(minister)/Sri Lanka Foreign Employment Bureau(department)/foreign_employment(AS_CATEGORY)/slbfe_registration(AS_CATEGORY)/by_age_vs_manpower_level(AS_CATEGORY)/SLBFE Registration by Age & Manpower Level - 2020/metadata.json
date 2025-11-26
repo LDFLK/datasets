@@ -6,7 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
+  "resource_page": "10",
+  "resource_section": "Total Registration with the SLBFE by age & manpower level- 2020",
+  "resource_identifier": "Table 09",
   "extracted_date": "2025-09-17",
   "extracted_by": "",
-  "verified_by": ""
+  "verified_by": "",
+  "remarks": "This is the SLBFE registration by age vs manpower level in 2020"
 }
