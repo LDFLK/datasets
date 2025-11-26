@@ -6,7 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2023.pdf",
+  "resource_page": "14",
+  "resource_section": "Total Registration with the SLBFE by age & manpower level 2023",
+  "resource_identifier": "Table 09",
   "extracted_date": "2025-09-17",
   "extracted_by": "",
-  "verified_by": ""
+  "verified_by": "",
+  "remarks": "This is the number of SLBFE registrations by age and manpower level in 2023"
 }
