@@ -5,12 +5,12 @@
   "row_count": 24,
   "node_count": null,
   "edges_count": null,
-  "resources": [
-    "https://www.immigration.gov.lk/content/files/reports/perfomance_report_2020_e.pdf"
-  ],
+  "resources": "https://www.immigration.gov.lk/content/files/reports/perfomance_report_2020_e.pdf",
+  "resource_page": "54",
+  "resource_section": "Foreigners deported from the Country (Based on Nationality) (Since 01.01.2020 to 31.12.2020)",
+  "resource_identifier": "(2)",
   "extracted_date": "2025-09-15",
-  "extracted_by": {
-    "name": "Lanka Data Foundation",
-    "email": ""
-  }
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the deportations by nationality in 2020"
 }
