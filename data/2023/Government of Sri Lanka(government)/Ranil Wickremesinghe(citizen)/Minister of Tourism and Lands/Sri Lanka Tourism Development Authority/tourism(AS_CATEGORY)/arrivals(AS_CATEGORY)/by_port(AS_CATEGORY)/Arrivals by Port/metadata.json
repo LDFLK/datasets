@@ -12,5 +12,5 @@
   "extracted_date": "2025-08-28",
   "extracted_by": "",
   "verified_by": "",
-  "remarks": "This is the distribution of tourist arrivals in Sri Lanka by port of arrival in 2023, data is calulated using the available percentages against total arrivals."
+  "remarks": "This is the distribution of tourist arrivals in Sri Lanka by port of arrival in 2023, data is calulated using the available percentages against total arrivals. The Original chart in the PDF doesn't give the numbers but a percentage, the actual numbers have been calculated to the nearest int value based on the total number mentioned in the report."
 }
