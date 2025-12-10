@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
+ "resource_page": "24",
+  "resource_section": "Distribution by Ports of Arrival (percentage) – 2023",
+  "resource_identifier": "Chart 9",
   "extracted_date": "2025-08-28",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the distribution of tourist arrivals in Sri Lanka by port of arrival in 2023, data is calulated using the available percentages against total arrivals. The Original chart in the PDF doesn't give the numbers but a percentage, the actual numbers have been calculated to the nearest int value based on the total number mentioned in the report."
 }
