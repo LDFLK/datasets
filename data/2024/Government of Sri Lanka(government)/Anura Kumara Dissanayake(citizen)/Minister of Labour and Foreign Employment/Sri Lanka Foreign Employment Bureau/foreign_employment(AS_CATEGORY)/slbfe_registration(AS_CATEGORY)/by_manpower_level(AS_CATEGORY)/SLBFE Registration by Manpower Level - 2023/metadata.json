@@ -1,1 +1,11 @@
-{}
+{
+    "dataset_name": "Migrant Employee’s Registration by Manpower Level - 2024",
+    "column_count": 6,
+    "row_count": 1,
+    "resource": "https://www.slbfe.lk/statistical_handbook_yers/2024/",
+    "extracted_date": "2025-12-17",
+    "extracted_by" : {
+      "name": "Lanka Data Foundation",
+      "email": "yasandu@datafoundation.lk"},
+    "page_number": 6
+}
