@@ -1,0 +1,16 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "Arrivals by Month",
+    "column_count": 2,
+    "row_count": 12,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "https://www.sltda.gov.lk/storage/common_media/Year_In_Review_2024_Final_2024_Jan-Dec1.pdf",
+    "resource_page": "4",
+    "resource_section": "Tourist arrivals by month & percentage change, 2023 & 2024",
+    "resource_identifier": "Table 01",
+    "extracted_date": "2025-12-16",
+    "extracted_by": "",
+    "verified_by": "",
+    "remarks": "This is the number of tourist arrivals in Sri Lanka by month in 2024"
+}

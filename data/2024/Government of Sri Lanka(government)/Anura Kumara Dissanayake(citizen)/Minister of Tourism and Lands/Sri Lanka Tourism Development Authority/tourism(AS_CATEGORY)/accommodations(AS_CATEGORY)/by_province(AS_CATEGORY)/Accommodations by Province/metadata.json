@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Accommodations by Province",
+  "column_count": 2,
+  "row_count": 9,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Year_In_Review_2024_Final_2024_Jan-Dec1.pdf",
+  "resource_page": "20",
+  "resource_section": "Total rooms by province",
+  "resource_identifier": "Table 08",
+  "extracted_date": "2025-12-16",
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the number of accommodations available in each province of Sri Lanka in 2024"
+}

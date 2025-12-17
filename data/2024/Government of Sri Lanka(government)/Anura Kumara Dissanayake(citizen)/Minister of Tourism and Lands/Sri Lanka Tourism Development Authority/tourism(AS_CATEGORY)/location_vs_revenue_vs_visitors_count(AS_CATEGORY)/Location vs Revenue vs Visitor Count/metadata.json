@@ -1,0 +1,16 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "Arrivals by Month vs Country",
+    "column_count": 6,
+    "row_count": 76,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "https://www.sltda.gov.lk/storage/common_media/All-Countries-2024-Jan-Dec.pdf",
+    "resource_page": "1",
+    "resource_section": "Number of Tourist Arrivals – Jan ~ Dec 2024 (All Countries)",
+    "resource_identifier": "Visitors to conservation forests;VISITORS TO MAJOR TOURIST ATTRACTIONS;Visitors to tourist attractions administered by Central Cultural Fund",
+    "extracted_date": "2025-12-17",
+    "extracted_by": "",
+    "verified_by": "",
+    "remarks": "This is the distribution of tourist arrivals by gender in Sri Lanka in 2023. This data was compiled using VISITORS TO MAJOR TOURIST ATTRACTIONS, 2024 -> Table:14 Visitors to major national parks, 2024 Visitors to conservation forests ,2024 -> Table: 15 Visitors to conservation forests ,2024 Visitors to tourist attractions administered by Central Cultural Fund -> Table 16: Visitors to tourist attractions administered by Central Cultural Fund"
+}

@@ -1,0 +1,16 @@
+{
+    "storage_type": "tabular",
+    "dataset_name": "Arrivals by Purpose",
+    "column_count": 3,
+    "row_count": 10,
+    "node_count": null,
+    "edges_count": null,
+    "resource": "https://www.sltda.gov.lk/storage/common_media/Year_In_Review_2024_Final_2024_Jan-Dec1.pdf",
+    "resource_page": "9",
+    "resource_section": "Analysis of purpose of visit",
+    "resource_identifier": "Table 03",
+    "extracted_date": "2025-12-17",
+    "extracted_by": "",
+    "verified_by": "",
+    "remarks": "This is the distribution of tourist arrivals in Sri Lanka by purpose of visit in 2024. countries accounted are India, Russian Federation, United Kingdom, Germany, China, Australia, France, United States, Netherlands, Maldives"
+}
