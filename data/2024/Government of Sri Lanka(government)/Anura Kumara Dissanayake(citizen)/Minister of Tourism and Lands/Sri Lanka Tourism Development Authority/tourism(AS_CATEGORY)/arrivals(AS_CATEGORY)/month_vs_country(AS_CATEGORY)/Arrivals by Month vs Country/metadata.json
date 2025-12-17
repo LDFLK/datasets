@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "Arrivals by Month vs Country",
-  "column_count": 15,
+  "column_count": 13,
   "row_count": 195,
   "node_count": null,
   "edges_count": null,
