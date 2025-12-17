@@ -1,0 +1,20 @@
+{
+    "columns": [
+        "Country",
+        "Arrivals",
+        "Share"
+    ],
+    "rows": [
+        ["India", 416974, "20.3"],
+        ["Russian Federation", 201920, "9.8"],
+        ["United Kingdom", 178339, "8.6"],
+        ["Germany", 136084, "6.6"],
+        ["China", 131681, "6.4"],
+        ["Australia", 89573, "4.4"],
+        ["France", 88772, "4.3"],
+        ["United States", 59532, "2.9"],
+        ["Netherlands", 50116, "2.4"],
+        ["Maldives", 47222, "2.3"],
+        ["Others", 653252, "31.8"]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Sex",
+  "column_count": 2,
+  "row_count": 2,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Year_In_Review_2024_Final_2024_Jan-Dec1.pdf",
+  "resource_page": "12",
+  "resource_section": "Tourist arrivals by gender -2024",
+  "resource_identifier": "Chart 5",
+  "extracted_date": "2025-12-17",
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the distribution of tourist arrivals by gender in Sri Lanka in 2024"
+}

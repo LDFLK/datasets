@@ -1,0 +1,19 @@
+{
+    "columns": [
+        "Purpose",
+        "Number of Visitors",
+        "Percentage"
+    ],
+    "rows": [
+        ["Other or not responded (or VFS related online Visa)", 702791, 50.19],
+        ["Pleasure / Vacation", 545260, 38.94],
+        ["Visiting friends and relatives", 71798, 5.13],
+        ["MICE", 52067, 3.72],
+        ["Business", 19073, 1.36],
+        ["Health / Ayurveda", 5451, 0.39],
+        ["Sports", 1765, 0.13],
+        ["Religious", 1453, 0.1],
+        ["Education", 534, 0.04],
+        ["Official", 24, 0.0]
+    ]
+}

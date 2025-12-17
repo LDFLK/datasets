@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Top 10 source markets",
+  "column_count": 3,
+  "row_count": 12,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Year_In_Review_2024_Final_2024_Jan-Dec1.pdf",
+  "resource_page": "8",
+  "resource_section": "Top ten markets to Sri Lanka, 2024 & 2023",
+  "resource_identifier": "Table 02",
+  "extracted_date": "2025-12-17",
+  "extracted_by": "",
+  "verified_by": "",
+  "remarks": "This is the top 10 source markets for tourist arrivals in Sri Lanka in 2024. We have ignored the total row but generated shares from the table"
+}
