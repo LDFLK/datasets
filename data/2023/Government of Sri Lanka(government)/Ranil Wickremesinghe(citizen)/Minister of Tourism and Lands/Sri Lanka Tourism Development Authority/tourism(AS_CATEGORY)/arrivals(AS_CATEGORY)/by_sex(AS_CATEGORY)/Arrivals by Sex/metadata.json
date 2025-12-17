@@ -1,16 +1,13 @@
 {
-  "storage_type": "tabular",
+  "storage_type": "tabular", 
   "dataset_name": "Arrivals by Sex",
   "column_count": 2,
   "row_count": 2,
   "node_count": null,
   "edges_count": null,
-  "resource": "https://www.sltda.gov.lk/storage/common_media/YearinReview-2023Final-updatedReport.pdf",
-  "resource_page": "7",
-  "resource_section": "Tourist arrivals by gender, 2023",
-  "resource_identifier": "Chart 02",
-  "extracted_date": "2025-12-17",
-  "extracted_by": "",
-  "verified_by": "",
-  "remarks": "This is the distribution of tourist arrivals by gender in Sri Lanka in 2023"
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
+  "extracted_date": "2025-09-07",
+  "extracted_by" : {
+    "name": "Lanka Data Foundation",
+    "email": ""}
 }
