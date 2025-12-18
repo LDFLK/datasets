@@ -1,5 +1,5 @@
 {
-  "columns": ["District", "Number of Tourists"],
+  "columns": ["District", "Number of Rooms"],
   "rows": [
     ["Colombo", 8396],
     ["Galle", 6370],
