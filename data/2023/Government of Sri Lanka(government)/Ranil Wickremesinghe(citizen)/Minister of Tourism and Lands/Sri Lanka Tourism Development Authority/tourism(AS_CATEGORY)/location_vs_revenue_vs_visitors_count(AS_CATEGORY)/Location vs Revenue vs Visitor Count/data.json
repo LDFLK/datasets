@@ -12,7 +12,6 @@
     ["Museum", "Anuradhapura Folk Museum", 0, 0, 0, 0],
     ["Museum", "Kandy National Museum", 1966, 1169000, 19657, 1262820],
     ["Museum", "Polonnaruwa Museum", 107, 124800, 46654, 2885850],
-
     ["Cultural Triangle", "Abhayagiriya", 984, 8240425, 18681, 1738300],
     ["Cultural Triangle", "Jethawanaya", 40390, 278882489, 14902, 1317713],
     ["Cultural Triangle", "Sigiriya Museum and Sigiriya Rock", 272475, 2373358021, 627712, 57793950],
@@ -30,19 +29,16 @@
     ["Cultural Triangle", "Ibbankatuwa Ancient Bural Ground", 689, 414084, 18949, 1732250],
     ["Cultural Triangle", "Trincomalee", 350, 947856, 5047, 491900],
     ["Cultural Triangle", "Namal Uyana", 1041, 1251786, 41541, 1828532],
-
     ["Zoological Garden", "Dehiwala", 15837, 55062934, 1272912, 242911660],
     ["Zoological Garden", "Pinnawala", 114867, 434253786, 452559, 82131470],
     ["Zoological Garden", "Pinnawala Zoo", 14458, 19723848, 263407, 48253570],
     ["Zoological Garden", "Safari Park", 5138, 19710277, 221938, 84595200],
-
     ["Botanical Garden", "Peradeniya", 211677, 528319700, 977869, 112456710],
     ["Botanical Garden", "Hakgala", 14844, 36657500, 548742, 63270140],
     ["Botanical Garden", "Gampaha", 165, 1244500, 129506, 17073700],
     ["Botanical Garden", "Mirijjawila", 753, 1818000, 65416, 6612940],
     ["Botanical Garden", "Avissawella", 285, 600523, 202965, 23569450],
     ["Botanical Garden", "Ganewattha", 5, 11000, 631, 78220],
-
     ["Wildlife Park", "Yala", 38050064, 466437, 214572, 1708426610],
     ["Wildlife Park", "Horton Plains", 30947100, 245706, 30950, 247267547],
     ["Wildlife Park", "Udawalawa", 14575800, 188388, 89827, 725187069],
@@ -65,7 +61,6 @@
     ["Wildlife Park", "Bareef -Kalpitiya", 188030, 10057, 1922, 4994218],
     ["Wildlife Park", "Mirissa", 1582500, 76959, 60900, 166058035],
     ["Wildlife Park", "Girithale", 295720, 8714, 104, 64523],
-
     ["Conservation Forest", "Makandawa Conservation Forest", 557, 411653, 1491, 80178],
     ["Conservation Forest", "Kottawa Conservation Forest", 186, 101583, 1185, 70482],
     ["Conservation Forest", "Kanneliya Conservation Forest", 1726, 1722261, 33739, 2578005],

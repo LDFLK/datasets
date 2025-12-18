@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Number%20of%20Tourist%20Arrivals%20Jan%20-%20Dec%202023.pdf",
+  "resource_page": "48",
+  "resource_section": "Tourist Arrivals by Country of Residence- 2022 & 2023",
+  "resource_identifier": "Table 1",
   "extracted_date": "2025-09-07",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains tourist arrival statistics by country of residence for 2023, showing the total number of arrivals from each country. Columns: Country of Residence and Arrivals. Data includes 190 countries with India having the highest arrivals (302,844), followed by Russian Federation (197,498), United Kingdom (130,088), Germany (102,539), and China (68,789). This represents a significant recovery from the 2020 COVID-19 impact."
 }
