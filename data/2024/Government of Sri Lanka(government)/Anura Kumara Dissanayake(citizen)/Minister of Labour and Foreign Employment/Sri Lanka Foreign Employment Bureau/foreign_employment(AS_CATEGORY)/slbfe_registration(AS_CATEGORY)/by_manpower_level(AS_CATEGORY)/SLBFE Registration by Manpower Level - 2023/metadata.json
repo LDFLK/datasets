@@ -1,1 +1,16 @@
-{}
+{
+  "storage_type": "tabular",
+  "dataset_name": "Migrant Employee's Registration by Manpower Level - 2024",
+  "column_count": 6,
+  "row_count": 1,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/statistical_handbook_yers/2024/",
+  "resource_page": "6",
+  "resource_section": "Total Migrant Employee’s Registration with the SLBFE by Manpower Level 1994 – 2024",
+  "resource_identifier": "Table 1.3",
+  "extracted_date": "2025-12-17",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by manpower level for 2024, showing the distribution of registered workers by skill level. Columns: Year, Skilled, Skilled %, Low Skilled, Low Skilled %, and Total. Data shows that in 2024, skilled workers totaled 244,467 (77.66%), while low-skilled workers totaled 70,319 (22.34%), with a total of 314,786 registrations. This indicates a significant majority of skilled workers in foreign employment registrations."
+}
