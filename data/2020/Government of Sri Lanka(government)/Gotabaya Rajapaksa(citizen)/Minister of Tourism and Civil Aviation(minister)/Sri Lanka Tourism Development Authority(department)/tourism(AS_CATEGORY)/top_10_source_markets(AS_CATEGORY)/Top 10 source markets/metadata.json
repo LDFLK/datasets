@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "21",
+  "resource_section": "Top ten source markets- 2019 & 2020",
+  "resource_identifier": "Table V",
   "extracted_date": "2025-09-04",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains the top 10 source markets for tourist arrivals in 2020, showing the country, number of arrivals, and market share percentage. Columns: Country, Arrivals, and Share. India leads with 89,357 arrivals (17.6% share), followed by United Kingdom (55,455 arrivals, 10.9% share) and Russian Federation (49,397 arrivals, 9.7% share). The top 10 markets account for approximately 68.2% of total arrivals."
 }

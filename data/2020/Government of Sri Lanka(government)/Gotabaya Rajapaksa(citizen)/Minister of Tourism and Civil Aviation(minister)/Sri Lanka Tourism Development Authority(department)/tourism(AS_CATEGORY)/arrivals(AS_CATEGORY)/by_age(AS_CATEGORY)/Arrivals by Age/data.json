@@ -1,5 +1,5 @@
 {
-  "columns": ["Age Group", "Percentage"],
+  "columns": ["Age Group", "Distributions of tourists by age (percentage)"],
   "rows": [
     ["3-19", 8.1],
     ["20-29", 16.8],

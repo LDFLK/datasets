@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "26",
+  "resource_section": "Distribution of tourists by age group (percentage) –2020",
+  "resource_identifier": "Chart 14",
   "extracted_date": "2025-09-04",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains tourist arrival statistics by age group for 2020, showing the distribution of tourists by age as percentages. Columns: Age Group and Distributions of tourists by age (percentage). Data includes 6 age groups ranging from 3-19 (8.1%) to 60 & Over (19.2%), with the 30-39 age group having the highest percentage (24.5%)."
 }
