@@ -12,7 +12,6 @@
     ["Museum", "Anuradhapura Folk Museum", 25, 7500.00, 1660, 26050.00],
     ["Museum", "Kandy National Museum", 914, 542000.00, 6099, 127505.00],
     ["Museum", "Polonnaruwa Museum", 83, 81500.00, 30713, 2338270.00],
-
     ["Cultural Triangle", "Abhayagiriya", 366, 1521838.00, 14815, 288020.00],
     ["Cultural Triangle", "Jethawanaya", 16721, 72829772.00, 452, 8380.00],
     ["Cultural Triangle", "Sigiriya", 103651, 537489876.00, 182093, 9387175.00],
@@ -29,19 +28,16 @@
     ["Cultural Triangle", "Ibbankatuwa", 2119, 1035992.00, 10138, 190310.00],
     ["Cultural Triangle", "Namal Uyana", 192, 69010.00, 24377, 415838.00],
     ["Cultural Triangle", "Lahugala", 543, 542355.00, 0, 0.00],
-
     ["Zoological Garden", "Dehiwala", 5058, 9662100.00, 301897, 28536370.00],
     ["Zoological Garden", "Pinnawala", 48326, 102508650.00, 126214, 11178680.00],
     ["Zoological Garden", "Pinnawala Zoo", 704, 481950.00, 94277, 8686750.00],
     ["Zoological Garden", "Ridiyagama Safari Park", 401, 1066400.00, 106821, 29654420.00],
-
     ["Botanical Garden", "Peradeniya", 87554, 17051040.00, 359456, 30548640.00],
     ["Botanical Garden", "Hakgala", 5562, 10790200.00, 210717, 16870260.00],
     ["Botanical Garden", "Gampaha", 86, 168000.00, 67869, 6284980.00],
     ["Botanical Garden", "Mirijawila", 60, 115400.00, 40978, 2791040.00],
     ["Botanical Garden", "Avissawella", 121, 237000.00, 133987, 11383100.00],
     ["Botanical Garden", "Ganewattha", 2, 4000.00, 405, 34660.00],
-
     ["Wildlife Park", "Yala", 67137, 179408732.00, 161330, 16195691.00],
     ["Wildlife Park", "Horton Plains", 20382, 51945787.00, 100644, 5761610.00],
     ["Wildlife Park", "Udawalawa", 53507, 144079040.00, 67953, 3964530.00],
@@ -64,7 +60,6 @@
     ["Wildlife Park", "Kalawewa", 0, 0.00, 410, 16400.00],
     ["Wildlife Park", "Bar Reef - Kalpitiya", 2347, 3349492.00, 7054, 139190.00],
     ["Wildlife Park", "Mirissa", 43234, 75363078.00, 3412, 379003.00],
-
     ["Conservation Forest", "Makandawa Conservation Forest", 0, 0.00, 0, 0.00],
     ["Conservation Forest", "Kottawa Conservation Forest", 66, 45500.00, 899, 25767.00],
     ["Conservation Forest", "Kanneliya Conservation Forest", 868, 586600.00, 18959, 475425.00],
