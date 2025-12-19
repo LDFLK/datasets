@@ -1,12 +1,16 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE Registration by Country & Manpower Level - 2023",
-  "column_count": 15,
-  "row_count": 48,
+  "column_count": 8,
+  "row_count": 50,
   "node_count": null,
   "edges_count": null,
-  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2023.pdf",
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",
+  "resource_page": "12",
+  "resource_section": "Registration with the SLBFE by Country and Manpower Level 2023",
+  "resource_identifier": "Table 6",
   "extracted_date": "2025-09-17",
   "extracted_by": "",
-  "verified_by": ""
+  "verified_by": "",
+  "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by country and manpower level for 2023, showing the distribution of registered workers across different skill levels and countries. Columns include Country, Skilled Male, Skilled Female, Skilled Total, Low Skilled Male, Low Skilled Female, Low Skilled Total, and Total. Data includes 50 entries (49 countries plus 'Other') with Saudi Arabia having the highest registrations (63,929), followed by Kuwait (62,277), Qatar (48,521), UAE (38,451), and Maldives (11,986). The dataset provides detailed breakdown of skilled and low-skilled workers by gender for each destination country."
 }
