@@ -6,8 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "30",
+  "resource_section": "Distribution of accommodation capacity by province – 2020",
+  "resource_identifier": "Chart 17: I",
   "extracted_date": "2025-09-04",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains accommodation statistics by province for 2020, showing the number of rooms in each of the 9 provinces of Sri Lanka. Columns: Province and Number of Rooms. Data ranges from Western Province (15,817 rooms) to Northern Province (753 rooms)."
 }
