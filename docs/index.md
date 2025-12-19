@@ -1,30 +1,30 @@
 ---
 layout: default
-title: Sri Lanka Government Statistics Datasets (2019–2023)
+title: Sri Lanka Government Statistics Datasets (2019–2024)
 ---
 
-# Sri Lanka Government Statistics Datasets (2019–2023)
+# Sri Lanka Government Statistics Datasets (2019–2024)
 
 Browse cleaned public datasets by year, ministry, and department.
 
 ## 📊 Dataset Statistics
 
-**Total Years:** 5 (2019-2023) | **Ministries:** 4 main categories
+**Total Years:** 6 (2019-2024) | **Ministries:** 4 main categories
 
 ## 📋 Data Matrix
 
 | Data Source | Dataset Category | Years Available | Collection Status | Verification Status |
 |-------------|------------------|-----------------|-------------------|---------------------|
-| M. Foreign Affairs | Diplomatic Missions | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| M. Foreign Affairs | Official Communications | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Dept. Immigration | Asylum Seekers & Refugees | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Dept. Immigration | Visas & Passports | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Worker Complaints | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Remittances & Earnings | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Registrations (SLBFE) | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Tourism Authority | Tourist Arrivals | 2019-2023 | ✅ Collected | ✅ Verified |
-| Tourism Authority | Accommodations & Occupancy | 2019-2023 | ✅ Collected | ✅ Verified |
-| Tourism Authority | Revenue Statistics | 2019-2023 | ✅ Collected | ✅ Verified |
+| Ministry of Foreign Affairs | Diplomatic Missions | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Ministry of Foreign Affairs | Official Communications | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Asylum Seekers & Refugees | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Visas & Passports | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Worker Complaints | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Remittances & Earnings | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Registrations (SLBFE) | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Tourism Development Authority | Tourist Arrivals | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Accommodations & Occupancy | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Revenue Statistics | 2019-2024 | ✅ Collected | ✅ Verified |
 
 ## 📊 Interactive Data Browser
 

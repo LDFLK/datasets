@@ -1,4 +1,4 @@
-# 🇱🇰 Sri Lanka Government Datasets (2019-2023)
+# 🇱🇰# Sri Lanka Government Statistics Datasets (2019–2024)
 
 > **Clean, structured datasets from Sri Lankan government sources**
 
@@ -22,22 +22,23 @@
 
 | Data Source | Dataset Category | Years Available | Collection Status | Verification Status |
 |-------------|------------------|-----------------|-------------------|---------------------|
-| M. Foreign Affairs | Diplomatic Missions | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| M. Foreign Affairs | Official Communications | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Dept. Immigration | Asylum Seekers & Refugees | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Dept. Immigration | Visas & Passports | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Worker Complaints | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Remittances & Earnings | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Bur. Foreign Employment | Registrations (SLBFE) | 2019-2023 | ✅ Collected | ⚠️ Pending |
-| Tourism Authority | Tourist Arrivals | 2019-2023 | ✅ Collected | ✅ Verified |
-| Tourism Authority | Accommodations & Occupancy | 2019-2023 | ✅ Collected | ✅ Verified |
-| Tourism Authority | Revenue Statistics | 2019-2023 | ✅ Collected | ✅ Verified |
+| Ministry of Foreign Affairs | Diplomatic Missions | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Ministry of Foreign Affairs | Official Communications | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Asylum Seekers & Refugees | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Visas & Passports | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Worker Complaints | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Remittances & Earnings | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Registrations (SLBFE) | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Tourism Development Authority | Tourist Arrivals | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Accommodations & Occupancy | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Revenue Statistics | 2019-2024 | ✅ Collected | ✅ Verified |
 
 ## 📅 Years Available
 
 - **2019** 
 - **2020-2021**   
 - **2022-2023** 
+- **2024** 
 
 ## 🚀 Quick Start
 
@@ -47,11 +48,11 @@
 
 All datasets are in clean JSON format with metadata .
 
-This repository contains cleaned and organized datasets from various Sri Lankan government public sources, compiled by the Lanka Data Foundation. The data spans from 2019 to 2023 and covers multiple ministries and departments.
+This repository contains cleaned and organized datasets from various Sri Lankan government public sources, compiled by the Lanka Data Foundation. The data spans from 2019 to 2024 and covers multiple ministries and departments.
 
 ## 📊 Dataset Overview
 
-- **Total Years:** 5 (2019-2023)
+- **Total Years:** 6 (2019-2024)
 - **Total Datasets:** 175+ JSON files
 - **Ministries Covered:** 4 main categories
 - **Data Sources:** Public government sources
