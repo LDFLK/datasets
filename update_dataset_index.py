@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate static HTML with CSS-only collapsible sections
-No JavaScript needed - pure HTML/CSS solution
+Update docs/index.md with dynamic content (Data Browser)
 """
 
 import os
@@ -72,12 +71,13 @@ def clean_name(name):
     name = name.replace('_', ' ')
     return name.title()
 
-def generate_css():
-    """Generate CSS link for external stylesheet"""
-    return """<link rel="stylesheet" href="styles.css">"""
 
-def create_zip_for_section(section_path, section_name, output_dir="docs"):
+
+def create_zip_for_section(section_path, section_name, output_dir="docs/downloads"):
     """Create a ZIP file for a specific section"""
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+    
     zip_filename = f"{section_name.replace(' ', '_').replace('(', '').replace(')', '')}_Data.zip"
     zip_path = os.path.join(output_dir, zip_filename)
     
@@ -92,7 +92,7 @@ def create_zip_for_section(section_path, section_name, output_dir="docs"):
     
     return zip_filename
 
-def generate_all_zips(data_path="data", output_dir="."):
+def generate_all_zips(data_path="data", output_dir="docs/downloads"):
     """Generate ZIP files for all major sections"""
     zip_files = {}
     
@@ -108,7 +108,7 @@ def generate_all_zips(data_path="data", output_dir="."):
         if os.path.isdir(year_path):
             zip_filename = create_zip_for_section(year_path, year, output_dir)
             zip_files[year] = zip_filename
-            print(f"📦 Generated {zip_filename}")
+            print(f"📦 Generated {output_dir}/{zip_filename}")
     
     return zip_files
 
@@ -153,7 +153,7 @@ def scan_data_folder(data_path="data", zip_files=None):
                 download_button = ""
                 if level == 0 and zip_files and item in zip_files:
                     zip_filename = zip_files[item]
-                    download_button = f' <a href="{zip_filename}" class="download-btn" download>📦 Download All {item} Data</a>'
+                    download_button = f' <a href="downloads/{zip_filename}" class="download-btn" download>📦 Download All {item} Data</a>'
                 
                 content.append(f'<summary class="summary">{emoji} {clean_display_name}{download_button}</summary>')
                 content.append(process_folder(item_path, level + 1, item_relative_path, zip_files))
@@ -199,6 +199,36 @@ def count_datasets(data_path="data"):
             count += 1
     return count
 
+
+
+def update_markdown_file(data_structure):
+    """Update docs/index.md with the generated data structure"""
+    input_path = "docs/index.md"
+    
+    if not os.path.exists(input_path):
+        print(f"Error: {input_path} not found!")
+        return
+        
+    with open(input_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    start_marker = "<!-- DATA_BROWSER_START -->"
+    end_marker = "<!-- DATA_BROWSER_END -->"
+    
+    if start_marker not in content or end_marker not in content:
+        print(f"Error: Markers not found in {input_path}")
+        return
+        
+    start_pos = content.find(start_marker) + len(start_marker)
+    end_pos = content.find(end_marker)
+    
+    new_content = content[:start_pos] + "\n" + data_structure + "\n" + content[end_pos:]
+    
+    with open(input_path, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print(f"✅ Updated {input_path}")
+
 def main():
     """Main function to generate static HTML"""
     print("🔍 Scanning data folder...")
@@ -207,120 +237,14 @@ def main():
     print("📦 Generating ZIP files...")
     zip_files = generate_all_zips()
     
-    css = generate_css()
     data_structure = scan_data_folder(zip_files=zip_files)
     dataset_count = count_datasets()
     
-    content = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Lanka Government Datasets (2019–2023)</title>
-    <meta name="description" content="Browse cleaned public datasets by year, ministry, and department.">
-    {css}
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Sri Lanka Government Statistics Datasets (2019–2023)</h1>
-            <p>Browse by folder hierarchy, download all data for a year, or view and download a specific dataset.</p>
-        </header>
-
-        <div class="stats">
-            <h3>📊 Dataset Statistics</h3>
-            <p><strong>Total Years:</strong> 5 (2019-2023) | <strong>Total Datasets:</strong> {dataset_count} files | <strong>Ministries:</strong> 4 main categories</p>
-        </div>
-
-        <main>
-            <h2>📊 Interactive Data Browser</h2>
-            <p><em>Click on any section to expand/collapse it</em></p>
-            {data_structure}
-        </main>
-
-        <footer>
-            <h2>About</h2>
-            <p>This data was collected and compiled by <em>Lanka Data Foundation</em> from public sources.</p>
-            <p>For any inquiries please contact: <a href="mailto:contact@datafoundation.lk">contact@datafoundation.lk</a></p>
-            <p>Codebase at: <a href="https://github.com/LDFLK/datasets" target="_blank" rel="noopener">https://github.com/LDFLK/datasets</a></p>
-        </footer>
-    </div>
-
-    <!-- JSON Data Modal -->
-    <div id="jsonModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 id="modalTitle">JSON Data</h3>
-                <span class="close">&times;</span>
-            </div>
-            <div class="modal-body">
-                <pre id="jsonContent">Loading...</pre>
-            </div>
-            <div class="modal-footer">
-                <button onclick="copyToClipboard()" class="copy-btn">📋 Copy to Clipboard</button>
-                <button onclick="downloadJson()" class="download-btn">⬇️ Download</button>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        let currentJsonUrl = '';
-        
-        function showJsonData(url, filename) {{
-            currentJsonUrl = url;
-            document.getElementById('modalTitle').textContent = filename;
-            document.getElementById('jsonContent').textContent = 'Loading...';
-            document.getElementById('jsonModal').style.display = 'block';
-            
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {{
-                    document.getElementById('jsonContent').textContent = JSON.stringify(data, null, 2);
-                }})
-                .catch(error => {{
-                    document.getElementById('jsonContent').textContent = 'Error loading data: ' + error.message;
-                }});
-        }}
-        
-        function copyToClipboard() {{
-            const content = document.getElementById('jsonContent').textContent;
-            navigator.clipboard.writeText(content).then(() => {{
-                alert('Copied to clipboard!');
-            }});
-        }}
-        
-        function downloadJson() {{
-            if (currentJsonUrl) {{
-                const link = document.createElement('a');
-                link.href = currentJsonUrl;
-                link.download = '';
-                link.click();
-            }}
-        }}
-        
-        // Close modal when clicking X
-        document.querySelector('.close').onclick = function() {{
-            document.getElementById('jsonModal').style.display = 'none';
-        }}
-        
-        // Close modal when clicking outside
-        window.onclick = function(event) {{
-            const modal = document.getElementById('jsonModal');
-            if (event.target == modal) {{
-                modal.style.display = 'none';
-            }}
-        }}
-    </script>
-</body>
-</html>"""
+    update_markdown_file(data_structure)
     
-    output_path = "docs/index.html"
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(content)
-    
-    print(f"✅ Generated {output_path}")
     print(f"📊 Found {dataset_count} datasets")
     print("🚀 Ready for GitHub Pages deployment!")
 
 if __name__ == "__main__":
     main()
+

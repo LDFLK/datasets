@@ -1,4 +1,4 @@
-# 🇱🇰 Sri Lanka Government Datasets (2019-2023)
+# 🇱🇰 Sri Lanka Government Statistics Datasets (2019–2024)
 
 > **Clean, structured datasets from Sri Lankan government sources**
 
@@ -17,11 +17,28 @@
 - **💼 Employment:** Worker complaints, remittances, registration data, legal performance
 - **🏖️ Tourism:** Arrivals, accommodations, occupancy rates, revenue statistics
 
+
+## 📋 Data Matrix
+
+| Data Source | Dataset Category | Years Available | Collection Status | Verification Status |
+|-------------|------------------|-----------------|-------------------|---------------------|
+| Ministry of Foreign Affairs | Diplomatic Missions | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Ministry of Foreign Affairs | Official Communications | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Asylum Seekers & Refugees | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Department of Immigration and Emigration | Visas & Passports | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Worker Complaints | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Remittances & Earnings | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Bureau of Foreign Employment | Registrations (SLBFE) | 2019-2024 | ✅ Collected | ⚠️ Pending |
+| Sri Lanka Tourism Development Authority | Tourist Arrivals | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Accommodations & Occupancy | 2019-2024 | ✅ Collected | ✅ Verified |
+| Sri Lanka Tourism Development Authority | Revenue Statistics | 2019-2024 | ✅ Collected | ✅ Verified |
+
 ## 📅 Years Available
 
 - **2019** 
 - **2020-2021**   
 - **2022-2023** 
+- **2024** 
 
 ## 🚀 Quick Start
 
@@ -31,11 +48,11 @@
 
 All datasets are in clean JSON format with metadata .
 
-This repository contains cleaned and organized datasets from various Sri Lankan government public sources, compiled by the Lanka Data Foundation. The data spans from 2019 to 2023 and covers multiple ministries and departments.
+This repository contains cleaned and organized datasets from various Sri Lankan government public sources, compiled by the Lanka Data Foundation. The data spans from 2019 to 2024 and covers multiple ministries and departments.
 
 ## 📊 Dataset Overview
 
-- **Total Years:** 5 (2019-2023)
+- **Total Years:** 6 (2019-2024)
 - **Total Datasets:** 175+ JSON files
 - **Ministries Covered:** 4 main categories
 - **Data Sources:** Public government sources
@@ -94,19 +111,21 @@ Each dataset contains:
 - **metadata.json**: Optional, should contain dataset metadata (description, source, etc.)
 - Files must be placed in appropriately named folders with category indicators
 
-### 2. Regenerating the HTML
+### 2. Update the Website (Optional)
 
-After adding new data, regenerate the static HTML and ZIP files:
+The API documentation website is built with Jekyll on GitHub Pages. The data listing is auto-generated and injected into `docs/index.md`.
 
-```bash
-python3 generate_static_html.py
-```
+To update the data listing:
 
-This script will:
-- Scan the `data/` folder for all datasets
-- Generate ZIP files for each year (e.g., `2019_Data.zip`)
-- Create/update `index.html` with the new structure
-- Count total datasets and update statistics
+1.  Run the update script:
+    ```bash
+    python3 update_dataset_index.py
+    ```
+2.  This will:
+    *   Scan the `data/` directory.
+    *   Generate ZIP files for each year.
+    *   Inject the file listing into `docs/index.md`.
+3.  Commit and push changes to `main` branch.
 
 ### 3. What Gets Generated
 
