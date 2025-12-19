@@ -301,6 +301,46 @@ code {
   background-color: #218838;
 }
 
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.95em;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table thead tr {
+  background-color: #007acc;
+  color: white;
+  text-align: left;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #007acc;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
 footer {
   margin-top: 40px;
   padding-top: 20px;
