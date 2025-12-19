@@ -1,1 +1,7 @@
-{}
+{
+    "columns": ["Year", "Male Skilled", "Male Skilled %", "Female Skilled", "Female Skilled %", "Total Skilled", "Male Low Skilled", "Male Low Skilled %", "Female Low Skilled", "Female Low Skilled %", "Total Low Skilled", "Total"],
+    "rows": [
+      ["2024",127928, 68.53, 116539, 90.97, 244467, 58746, 31.47, 11573, 9.03, 70319, 314786]
+    ]
+}
+  

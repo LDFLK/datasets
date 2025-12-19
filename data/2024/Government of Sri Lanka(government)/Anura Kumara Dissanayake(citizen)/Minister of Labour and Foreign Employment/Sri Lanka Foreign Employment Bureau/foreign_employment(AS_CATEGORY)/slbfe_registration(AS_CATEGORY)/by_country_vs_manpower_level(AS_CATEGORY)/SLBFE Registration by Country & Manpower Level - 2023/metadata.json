@@ -1,1 +1,16 @@
-{}
+{
+  "storage_type": "tabular",
+  "dataset_name": "Migrant Employee's Registration by Country and Manpower Level - 2024",
+  "column_count": 8,
+  "row_count": 39,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2025/11/for-web-slbfe_251127_143733_compressed-1.pdf",
+  "resource_page": "9",
+  "resource_section": "Migrant Employee’s Registration with the SLBFE by Country and Manpower Level 2024",
+  "resource_identifier": "Table 1.6",
+  "extracted_date": "2025-12-17",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by country and manpower level for 2024, showing the distribution of registered workers across different skill levels and countries. Columns include Country, Male Skilled, Female Skilled, Total Skilled, Male Low Skilled, Female Low Skilled, Total Low Skilled, and Total. Data includes 39 countries with Kuwait having the highest registrations (77,917), followed by UAE (52,067), Saudi Arabia (48,020), Qatar (46,639), and Maldives (12,299). The dataset provides insights into skill level distribution by destination country."
+}
