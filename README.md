@@ -17,6 +17,22 @@
 - **💼 Employment:** Worker complaints, remittances, registration data, legal performance
 - **🏖️ Tourism:** Arrivals, accommodations, occupancy rates, revenue statistics
 
+
+## 📋 Data Matrix
+
+| Data Source | Dataset Category | Years Available | Collection Status | Verification Status |
+|-------------|------------------|-----------------|-------------------|---------------------|
+| M. Foreign Affairs | Diplomatic Missions | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| M. Foreign Affairs | Official Communications | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Dept. Immigration | Asylum Seekers & Refugees | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Dept. Immigration | Visas & Passports | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Bur. Foreign Employment | Worker Complaints | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Bur. Foreign Employment | Remittances & Earnings | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Bur. Foreign Employment | Registrations (SLBFE) | 2019-2023 | ✅ Collected | ⚠️ Pending |
+| Tourism Authority | Tourist Arrivals | 2019-2023 | ✅ Collected | ✅ Verified |
+| Tourism Authority | Accommodations & Occupancy | 2019-2023 | ✅ Collected | ✅ Verified |
+| Tourism Authority | Revenue Statistics | 2019-2023 | ✅ Collected | ✅ Verified |
+
 ## 📅 Years Available
 
 - **2019** 
@@ -94,19 +110,21 @@ Each dataset contains:
 - **metadata.json**: Optional, should contain dataset metadata (description, source, etc.)
 - Files must be placed in appropriately named folders with category indicators
 
-### 2. Regenerating the HTML
+### 2. Update the Website (Optional)
 
-After adding new data, regenerate the static HTML and ZIP files:
+The API documentation website is built with Jekyll on GitHub Pages. The data listing is auto-generated and injected into `docs/index.md`.
 
-```bash
-python3 generate_static_html.py
-```
+To update the data listing:
 
-This script will:
-- Scan the `data/` folder for all datasets
-- Generate ZIP files for each year (e.g., `2019_Data.zip`)
-- Create/update `index.html` with the new structure
-- Count total datasets and update statistics
+1.  Run the update script:
+    ```bash
+    python3 update_dataset_index.py
+    ```
+2.  This will:
+    *   Scan the `data/` directory.
+    *   Generate ZIP files for each year.
+    *   Inject the file listing into `docs/index.md`.
+3.  Commit and push changes to `main` branch.
 
 ### 3. What Gets Generated
 
