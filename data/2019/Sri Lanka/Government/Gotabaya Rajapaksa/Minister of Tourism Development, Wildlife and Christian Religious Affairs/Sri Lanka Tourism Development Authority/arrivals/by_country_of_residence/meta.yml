@@ -1,6 +1,0 @@
-name: "arrivals_by_country_of_residence"
-kind:
-  major: "Dataset"
-  minor: "Tabular"
-start_date: "2019-01-01"
-end_date: "2019-12-31"
