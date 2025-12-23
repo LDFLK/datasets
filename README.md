@@ -50,6 +50,30 @@ All datasets are in clean JSON format with metadata .
 
 This repository contains cleaned and organized datasets from various Sri Lankan government public sources, compiled by the Lanka Data Foundation. The data spans from 2019 to 2024 and covers multiple ministries and departments.
 
+## 🛠️ Installation & Setup
+
+To run the data ingestion and utility scripts, you'll need to set up the Python environment. We recommend using **Mamba** (or Conda).
+
+1.  **Create the environment:**
+    ```bash
+    mamba env create -f environment.yml
+    ```
+    *(If using Conda: `conda env create -f environment.yml`)*
+
+2.  **Activate the environment:**
+    ```bash
+    mamba activate datasets_env
+    ```
+
+3.  **Run the scripts:**
+    ```bash
+    # Run the optimized ingestion script
+    python insert.py
+    
+    # Run the attribute writer (optional year filter)
+    python write_attributes.py --year 2023
+    ```
+
 ## 📊 Dataset Overview
 
 - **Total Years:** 6 (2019-2024)
