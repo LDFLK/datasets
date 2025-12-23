@@ -112,3 +112,15 @@ Generated on: 2025-12-23 22:45:05
 ...
 ```
 
+## Limitations
+
+> [!WARNING]
+> **Type Inference Issues**
+> There is a known issue in OpenGIN where type inference can be incorrect for certain numeric values (e.g., distinguishing between float/int or handling large numbers).
+>
+> **Known Issues:**
+> - [Issue #409: Type Inference Logic Update](https://github.com/LDFLK/OpenGIN/issues/409)
+>
+> **Workaround:**
+> As a temporary workaround, please use **decimal point values** in the first row of your dataset to enforce correct type inference.
+> - **Overflowing Case:** Always prefer `float` for large numbers until this is officially supported.
