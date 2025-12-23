@@ -6,3 +6,4 @@ dependencies:
   - requests
   - pymongo
   - protobuf
+  - rich

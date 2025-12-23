@@ -73,3 +73,42 @@ Found 40 datasets in OpenGIN across 36 parent categories.
 ...
 ✅ Verification SUCCESS: All local datasets accounted for.
 ```
+
+### 3. Missing Dataset Detection (`find_missing_datasets.py`)
+
+This script scans your local data directory to identify "empty" datasets (i.e., `data.json` files that exist but have no content). This is useful for tracking data coverage and identifying which years or categories still need population.
+
+**Features:**
+- **Recursive Scan**: Crawls the entire data directory structure.
+- **Empty Detection**: identifying `data.json` files that are empty or whitespace-only.
+- **Pretty Output**: Generates a formatted Markdown table in the terminal (uses `rich` if installed).
+- **File Export**: Can save the report to a Markdown file with Jekyll front matter for documentation sites.
+
+**Usage:**
+
+```bash
+# Print report to terminal
+python find_missing_datasets.py
+
+# Save report to a file (e.g. for docs)
+python find_missing_datasets.py --output-file docs/missing_datasets.md
+```
+
+**Arguments:**
+
+*   `--dir`: The base data directory to scan (default: `data`).
+*   `--output-file`: Optional path to write the generated markdown report. if provided, it adds Jekyll front matter (`layout: default`) to the file.
+
+**Example Output:**
+
+```text
+# 🚨 Missing Datasets Report
+Generated on: 2025-12-23 22:45:05
+
+## 📅 Year: 2024 (Missing: 21)
+| Category | Relative Path | Status |
+| :--- | :--- | :--- |
+| **annual_tourism_receipts** | `2024/...` | 🔴 Empty `data.json` |
+...
+```
+
