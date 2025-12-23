@@ -68,7 +68,8 @@ class MissingDatasetFinder:
             report_lines.append("✅ No missing datasets found! All data.json files are populated.")
         else:
             report_lines.append("# 🚨 Missing Datasets Report")
-            report_lines.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            report_lines.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            report_lines.append("")
 
             # Sort years descending
             for year in sorted(self.missing_datasets.keys(), reverse=True):
@@ -76,6 +77,7 @@ class MissingDatasetFinder:
                 count = len(items)
                 
                 report_lines.append(f"## 📅 Year: {year} (Missing: {count})")
+                report_lines.append("")
                 report_lines.append("| Category | Relative Path | Status |")
                 report_lines.append("| :--- | :--- | :--- |")
                 
