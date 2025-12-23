@@ -4,9 +4,10 @@ title: Missing Datasets Report
 ---
 
 # 🚨 Missing Datasets Report
-Generated on: 2025-12-23 23:18:06
+Generated on: 2025-12-23 23:43:44
 
 ## 📅 Year: 2024 (Missing: 21)
+
 | Category | Relative Path | Status |
 | :--- | :--- | :--- |
 | **annual_tourism_receipts** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/Sri Lanka Tourism Development Authority(department)/tourism(AS_CATEGORY)/annual_tourism_receipts(AS_CATEGORY)/Annual Tourism Receipts` | 🔴 Empty `data.json` |
