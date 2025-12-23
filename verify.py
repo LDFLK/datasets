@@ -124,7 +124,7 @@ class Verifier:
         except Exception:
             return None
 
-    def get_remote_datasets(self, major_kind="Dataset"):
+    def get_remote_datasets(self, major_kind="Dataset", year_filter=None):
         url = f"{self.base_url}/v1/entities/search"
         payload = {
             "kind": {
@@ -148,6 +148,13 @@ class Verifier:
                 
                 for i, entity in enumerate(entities):
                     entity_id = entity.get("id")
+                    
+                    # Filter by year if provided
+                    if year_filter:
+                         created_date = entity.get("created", "")
+                         if not created_date or year_filter not in created_date:
+                             continue
+
                     if entity_id:
                         parent_name = self.get_parent_category_name(entity_id)
                         if parent_name:
@@ -165,7 +172,7 @@ class Verifier:
         print(f"Found {total_local} local datasets across {len(local_counts)} categories.")
         
         target_kind = "Dataset"
-        remote_counts = self.get_remote_datasets(target_kind)
+        remote_counts = self.get_remote_datasets(target_kind, year_filter)
         
         if remote_counts is None:
             print("Verification failed due to API error.")
@@ -175,6 +182,7 @@ class Verifier:
         print(f"Found {total_remote} datasets in OpenGIN across {len(remote_counts)} parent categories.")
         
         print("\n--- Detailed Verification ---")
+        
         all_cats = set(local_counts.keys()) | set(remote_counts.keys())
         missing_datasets = 0
         
@@ -183,14 +191,18 @@ class Verifier:
             r_c = remote_counts.get(cat, 0)
             status = "✅" if l_c == r_c else "❌"
             if l_c != r_c:
-                missing_datasets += abs(l_c - r_c) # rough estimate of discrepancies
+                missing_datasets += abs(l_c - r_c) 
             
             print(f"{status} Category '{cat}': Local={l_c}, Remote={r_c}")
 
-        if totals_match := (total_local <= total_remote) and missing_datasets == 0:
-             print(f"\n✅ Verification SUCCESS: All local datasets accounted for.")
+        # Check 1: Category-wise discrepancy
+        # Check 2: Total count match
+        if missing_datasets == 0 and total_local == total_remote:
+             print(f"\n✅ Verification SUCCESS: Exact match found (Local={total_local}, Remote={total_remote}).")
         else:
              print(f"\n❌ Verification FAILED: Found discrepancies.")
+             if total_local != total_remote:
+                 print(f"   - Total count mismatch: Local={total_local} vs Remote={total_remote}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Verify data ingestion.")

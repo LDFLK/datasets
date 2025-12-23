@@ -28,6 +28,20 @@ python write_attributes.py --year 2020
 
 This script verifies that the datasets present in your local file system have been correctly ingested into OpenGIN. It compares the count of datasets per category between your local environment and the remote OpenGIN instance.
 
+**Verification Logic:**
+
+The verification process ensures accuracy through an exact comparison for the specified year:
+
+1.  **Local Discovery**: The script identifies all categories present in your local file system for the specified `--year`.
+2.  **Remote Resolution**: It queries OpenGIN to find all dataset entities. It filters these remote datasets by the `created` date to include only those matching the specified year.
+3.  **Comparision**:
+    *   **Category-wise Check**: It iterates through each category and confirms that the number of local files exactly matches the number of remote datasets for that year.
+    *   **Total Count Check**: It also verifying that the *total* number of local datasets matches the *total* number of remote datasets found for that year.
+
+    > [!NOTE]
+    > **Exact Matching:**
+    > Since the script now filters both local and remote datasets by the specified year (e.g., `--year 2021`), we expect an **exact count match** (e.g., `Local=1, Remote=1`). Any discrepancy indicates a missing or extra dataset for that specific year.
+
 **Usage:**
 
 ```bash
