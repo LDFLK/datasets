@@ -57,6 +57,8 @@ class Verifier:
 
     def get_local_datasets(self, base_path, year_filter=None):
         dataset_counts = {}
+        empty_dataset_counts = {}
+        
         base_path = os.path.abspath(base_path)
         print(f"Traversing {base_path}...")
         for root, dirs, files in os.walk(base_path):
@@ -68,24 +70,40 @@ class Verifier:
                     continue
             
             if 'data.json' in files:
+                file_path = os.path.join(root, 'data.json')
+                
+                # Check for empty file
+                is_empty = False
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        if not f.read().strip():
+                            is_empty = True
+                except Exception:
+                    is_empty = True 
+
                 # Find nearest parent with (AS_CATEGORY)
                 curr = root
                 found_cat = False
+                cat_name = ""
+                
                 while curr.startswith(base_path) and curr != base_path:
                     dirname = os.path.basename(curr)
                     if dirname.endswith("(AS_CATEGORY)"):
                         cat_name = dirname.replace("(AS_CATEGORY)", "")
-                        dataset_counts[cat_name] = dataset_counts.get(cat_name, 0) + 1
                         found_cat = True
                         break
                     curr = os.path.dirname(curr)
                 
                 if not found_cat:
                     # Fallback to direct parent if no AS_CATEGORY found
-                    parent = os.path.basename(root)
-                    dataset_counts[parent] = dataset_counts.get(parent, 0) + 1
+                    cat_name = os.path.basename(root)
 
-        return dataset_counts
+                if is_empty:
+                    empty_dataset_counts[cat_name] = empty_dataset_counts.get(cat_name, 0) + 1
+                else:
+                    dataset_counts[cat_name] = dataset_counts.get(cat_name, 0) + 1  
+                    
+        return dataset_counts, empty_dataset_counts
 
     def get_category_name(self, entity_id):
         url = f"{self.base_url}/v1/entities/search"
@@ -167,9 +185,11 @@ class Verifier:
             return None
 
     def verify(self, base_path, year_filter=None):
-        local_counts = self.get_local_datasets(base_path, year_filter)
+        local_counts, empty_counts = self.get_local_datasets(base_path, year_filter)
         total_local = sum(local_counts.values())
-        print(f"Found {total_local} local datasets across {len(local_counts)} categories.")
+        total_empty = sum(empty_counts.values())
+        
+        print(f"Found {total_local} valid local datasets and {total_empty} empty files across {len(set(local_counts) | set(empty_counts))} categories.")
         
         target_kind = "Dataset"
         remote_counts = self.get_remote_datasets(target_kind, year_filter)
@@ -183,22 +203,38 @@ class Verifier:
         
         print("\n--- Detailed Verification ---")
         
-        all_cats = set(local_counts.keys()) | set(remote_counts.keys())
+        all_cats = set(local_counts.keys()) | set(remote_counts.keys()) | set(empty_counts.keys())
         missing_datasets = 0
         
         for cat in sorted(all_cats):
             l_c = local_counts.get(cat, 0)
             r_c = remote_counts.get(cat, 0)
-            status = "✅" if l_c == r_c else "❌"
-            if l_c != r_c:
-                missing_datasets += abs(l_c - r_c) 
+            e_c = empty_counts.get(cat, 0)
             
-            print(f"{status} Category '{cat}': Local={l_c}, Remote={r_c}")
+            if l_c == r_c:
+                status = "✅" 
+                msg = f"Category '{cat}': Local={l_c}, Remote={r_c}"
+                if e_c > 0:
+                     msg += f" (Skipped {e_c} empty files)"
+                print(f"{status} {msg}")
+            else:
+                if l_c == 0 and r_c == 0 and e_c > 0:
+                    status = "⚪"
+                    print(f"{status} Category '{cat}': Skipped (Empty File)")
+                else:
+                    status = "❌"
+                    missing_datasets += abs(l_c - r_c)
+                    msg = f"Category '{cat}': Local={l_c}, Remote={r_c}"
+                    if e_c > 0:
+                        msg += f" (Skipped {e_c} empty files)"
+                    print(f"{status} {msg}")
 
         # Check 1: Category-wise discrepancy
         # Check 2: Total count match
         if missing_datasets == 0 and total_local == total_remote:
              print(f"\n✅ Verification SUCCESS: Exact match found (Local={total_local}, Remote={total_remote}).")
+             if total_empty > 0:
+                 print(f"   (Ignored {total_empty} empty data files)")
         else:
              print(f"\n❌ Verification FAILED: Found discrepancies.")
              if total_local != total_remote:
