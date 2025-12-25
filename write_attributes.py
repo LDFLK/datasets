@@ -20,8 +20,8 @@ class WriteAttributes:
     def _create_session(self):
         session = requests.Session()
         retry_strategy = Retry(
-            total=3,
-            backoff_factor=0.5,
+            total=10,
+            backoff_factor=1,
             status_forcelist=[429, 500, 502, 503, 504],
             allowed_methods=["HEAD", "GET", "OPTIONS", "POST", "PUT"]
         )
@@ -30,6 +30,33 @@ class WriteAttributes:
         session.mount("https://", adapter)
         return session
     
+    def throttled_request(self, method, url, **kwargs):
+        """
+        Wrapper for session.request with throttling and enhanced error handling.
+        """
+        # Throttling: sleep a bit before each request to avoid overwhelming servers
+        time.sleep(1) 
+        
+        max_outer_retries = 3
+        for attempt in range(max_outer_retries):
+            try:
+                response = self.session.request(method, url, **kwargs)
+                response.raise_for_status()
+                return response
+            except (requests.exceptions.RetryError, requests.exceptions.ConnectionError, requests.exceptions.HTTPError) as e:
+                # Catch MaxRetriesExceeded (wrapped in RetryError/ConnectionError) or final HTTP 500
+                print(f"    [WARN] Request failed (attempt {attempt+1}/{max_outer_retries}): {e}")
+                if attempt < max_outer_retries - 1:
+                    wait_time = 5 * (attempt + 1)
+                    print(f"    [INFO] Cooling down for {wait_time}s before retrying...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"    [ERR] Request failed after all retries.")
+                    raise
+            except Exception as e:
+                print(f"    [ERR] Unexpected request error: {e}")
+                raise
+
     def generate_id_for_category(self, parent_of_parent_category_id, parent_category_name):
         raw = f"{parent_of_parent_category_id}-{parent_category_name}"
         short_hash = hashlib.sha1(raw.encode()).hexdigest()[:10]
@@ -66,8 +93,7 @@ class WriteAttributes:
         print(f"    [DEBUG] Create URL: {url}")
         
         try:
-            response = self.session.post(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("POST", url, json=payload, headers=headers)
             output = response.json()
             return output
         except Exception as e:
@@ -97,8 +123,7 @@ class WriteAttributes:
         print(f"    [DEBUG] Search URL: {url}")
         
         try:
-            response = self.session.post(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("POST", url, json=payload, headers=headers)
             output = response.json()
             if output and "body" in output and len(output["body"]) > 0:
                 entity_id = output["body"][0]["id"]
@@ -126,8 +151,7 @@ class WriteAttributes:
                 }
                 
         try:
-            response = self.session.post(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("POST", url, json=payload, headers=headers)
             output = response.json()
             if output and "body" in output and len(output["body"]) > 0:
                 return True, output["body"][0]["created"]
@@ -169,8 +193,7 @@ class WriteAttributes:
         
         
         try:
-            response = self.session.put(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("PUT", url, json=payload, headers=headers)
             output = response.json()
             return output
         except Exception as e:
@@ -205,8 +228,7 @@ class WriteAttributes:
                 }
         
         try:
-            response = self.session.put(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("PUT", url, json=payload, headers=headers)
             output = response.json()
             return output
         except Exception as e:
@@ -228,8 +250,7 @@ class WriteAttributes:
                 }
         
         try:
-            response = self.session.put(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("PUT", url, json=payload, headers=headers)
             output = response.json()
             return output
         except Exception as e:
@@ -782,8 +803,7 @@ class WriteAttributes:
             # "Authorization": f"Bearer {token}"  
         }
         try:
-            response = self.session.get(url, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("GET", url, headers=headers)
             metadata = response.json()
             return metadata
         
@@ -1033,8 +1053,7 @@ class WriteAttributes:
         }
         
         try:
-            response = self.session.post(url, json=payload, headers=headers)
-            response.raise_for_status()  
+            response = self.throttled_request("POST", url, json=payload, headers=headers)
             documents = response.json()
             return documents['body']
         except Exception as e:
