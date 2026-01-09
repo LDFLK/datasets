@@ -23,64 +23,81 @@
 > [!NOTE]
 > 🚨 **Action Required:** View the [Missing Datasets Report](docs/missing_datasets.md) to see which datasets need to be populated.
 
-| Data Source | Dataset Name | Years Available | Collection Status | Verification Status |
-|-------------|--------------|-----------------|-------------------|---------------------|
-| Minister of Foreign Relations / Foreign Affairs | Media Releases from Ministry of Foreign Affairs | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (scraped, no verification needed) |
-| Minister of Foreign Relations / Foreign Affairs | Cadre Management of Ministry of Foreign Relations | 2020, 2022 | ✅ Collected | ✅ Verified (scraped, no verification needed) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Accommodations by District | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Accommodations by Province | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Annual Tourism Receipts | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not available (2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Age | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Carrier | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Country | 2020, 2021, 2022 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Could not find (2023) ⚠️ Partial (2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Month | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Port | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not available (2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Purpose | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Sex | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Arrivals by Month vs Country | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Location vs Revenue vs Visitors Count | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Occupancy Rate by District | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Occupancy Rate by Month | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) |
-| Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands | Top 10 source markets | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Number of complaints received | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Number of complaints resolved | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Legal division performance | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Local arrivals | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Local departures | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Monthly foreign exchange earnings | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Number of raids conducted | 2022 | ✅ Collected | ✅ Verified (2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Private Remittances (Region-wise) - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Private Remittances (Region-wise) - 2021 | 2021 | ✅ Collected | ✅ Verified (2021) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age & Manpower Level - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age & Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age & Manpower Level | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Age | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE registration by country vs manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ⚠️ Unclear status (2020) ✅ Verified (2021, 2022, 2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Country & Manpower Level - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE registration by country | 2020, 2021, 2022 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by District, Manpower Level & Gender - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by District, Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by District, Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by district | 2024 | ✅ Collected | ✅ Verified (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE registration by gender | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) ⚠️ Could not find (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Manpower Level & Gender - 2020 | 2020, 2024 | ✅ Collected | ⚠️ Could not find (2020) ✅ Verified (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE registration by manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration by Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration through Private Sources by Country - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration through Private Sources by Country | 2021 | ✅ Collected | ✅ Verified (2021) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | SLBFE Registration all Sources by Country | 2022 | ✅ Collected | ✅ Verified (2022) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Workers Remittances | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Pending (2023) ⚠️ Not exists (2024) |
-| State Minister of Foreign Employment / Minister of Labour and Foreign Employment | Workers' Remittances by Country (US$ Million) - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | asylum_seekers_by_nationality | 2020, 2021, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2023) ⚠️ Not exists (2024) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | deportations_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | refugees_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | refused_entry_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023) ⚠️ Not exists (2024) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | fake_passport_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
-| State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs | fraudulent_visa_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
+### Minister of Foreign Relations / Foreign Affairs
+
+| Dataset Name | Years Available | Collection Status | Verification Status |
+|--------------|-----------------|-------------------|---------------------|
+| Media Releases from Ministry of Foreign Affairs | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (scraped, no verification needed) |
+| Cadre Management of Ministry of Foreign Relations | 2020, 2022 | ✅ Collected | ✅ Verified (scraped, no verification needed) |
+
+### Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands
+
+| Dataset Name | Years Available | Collection Status | Verification Status |
+|--------------|-----------------|-------------------|---------------------|
+| Accommodations by District | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Accommodations by Province | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Annual Tourism Receipts | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not available (2024) |
+| Arrivals by Age | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
+| Arrivals by Carrier | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Arrivals by Country | 2020, 2021, 2022 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Could not find (2023) ⚠️ Partial (2024) |
+| Arrivals by Month | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Arrivals by Port | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not available (2024) |
+| Arrivals by Purpose | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Arrivals by Sex | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
+| Arrivals by Month vs Country | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| Location vs Revenue vs Visitors Count | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023, 2024) |
+| Occupancy Rate by District | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) |
+| Occupancy Rate by Month | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) |
+| Top 10 source markets | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+
+### State Minister of Foreign Employment / Minister of Labour and Foreign Employment
+
+| Dataset Name | Years Available | Collection Status | Verification Status |
+|--------------|-----------------|-------------------|---------------------|
+| Number of complaints received | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Number of complaints resolved | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Legal division performance | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Local arrivals | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Local departures | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Monthly foreign exchange earnings | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| Number of raids conducted | 2022 | ✅ Collected | ✅ Verified (2022) |
+| Private Remittances (Region-wise) - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
+| Private Remittances (Region-wise) - 2021 | 2021 | ✅ Collected | ✅ Verified (2021) |
+| SLBFE Registration by Age & Manpower Level - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
+| SLBFE Registration by Age & Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
+| SLBFE Registration by Age & Manpower Level | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
+| SLBFE Registration by Age - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
+| SLBFE Registration by Age - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
+| SLBFE Registration by Age | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
+| SLBFE registration by country vs manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ⚠️ Unclear status (2020) ✅ Verified (2021, 2022, 2024) |
+| SLBFE Registration by Country & Manpower Level - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
+| SLBFE registration by country | 2020, 2021, 2022 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Not exists (2024) |
+| SLBFE Registration by District, Manpower Level & Gender - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
+| SLBFE Registration by District, Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
+| SLBFE Registration by District, Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
+| SLBFE Registration by district | 2024 | ✅ Collected | ✅ Verified (2024) |
+| SLBFE registration by gender | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) ⚠️ Could not find (2023) |
+| SLBFE Registration by Manpower Level & Gender - 2020 | 2020, 2024 | ✅ Collected | ⚠️ Could not find (2020) ✅ Verified (2024) |
+| SLBFE Registration by Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
+| SLBFE Registration by Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
+| SLBFE registration by manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) |
+| SLBFE Registration by Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
+| SLBFE Registration through Private Sources by Country - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
+| SLBFE Registration through Private Sources by Country | 2021 | ✅ Collected | ✅ Verified (2021) |
+| SLBFE Registration all Sources by Country | 2022 | ✅ Collected | ✅ Verified (2022) |
+| Workers Remittances | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Pending (2023) ⚠️ Not exists (2024) |
+| Workers' Remittances by Country (US$ Million) - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
+
+### State Minister of Internal Security / Minister of Investment Planning / Minister of Investment Promotion / Minister of Public Security and Parliamentary Affairs
+
+| Dataset Name | Years Available | Collection Status | Verification Status |
+|--------------|-----------------|-------------------|---------------------|
+| asylum_seekers_by_nationality | 2020, 2021, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2023) ⚠️ Not exists (2024) |
+| deportations_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
+| refugees_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
+| refused_entry_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023) ⚠️ Not exists (2024) |
+| fake_passport_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
+| fraudulent_visa_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
 
 ## 📅 Years Available
 
