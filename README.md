@@ -63,27 +63,18 @@
 | Number of raids conducted | 2022 | ✅ Collected | ✅ Verified (2022) |
 | Private Remittances (Region-wise) - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
 | Private Remittances (Region-wise) - 2021 | 2021 | ✅ Collected | ✅ Verified (2021) |
-| SLBFE Registration by Age & Manpower Level - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| SLBFE Registration by Age & Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| SLBFE Registration by Age & Manpower Level | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| SLBFE Registration by Age - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| SLBFE Registration by Age - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| SLBFE Registration by Age | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| SLBFE registration by country vs manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ⚠️ Unclear status (2020) ✅ Verified (2021, 2022, 2024) |
-| SLBFE Registration by Country & Manpower Level - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
+| SLBFE Registration by Age & Manpower Level | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| SLBFE Registration by Age | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Not exists (2024) |
+| SLBFE registration by country vs manpower level | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2021, 2022, 2023, 2024) |
 | SLBFE registration by country | 2020, 2021, 2022 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Not exists (2024) |
 | SLBFE Registration by District, Manpower Level & Gender - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
 | SLBFE Registration by District, Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
 | SLBFE Registration by District, Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
 | SLBFE Registration by district | 2024 | ✅ Collected | ✅ Verified (2024) |
 | SLBFE registration by gender | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) ⚠️ Could not find (2023) |
-| SLBFE Registration by Manpower Level & Gender - 2020 | 2020, 2024 | ✅ Collected | ⚠️ Could not find (2020) ✅ Verified (2024) |
-| SLBFE Registration by Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
-| SLBFE Registration by Manpower Level & Gender - 2023 | 2023 | ✅ Collected | ⚠️ Could not find table (2023) |
-| SLBFE registration by manpower level | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) |
-| SLBFE Registration by Manpower Level - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
-| SLBFE Registration through Private Sources by Country - 2020 | 2020 | ✅ Collected | ✅ Verified (2020) ⚠️ Not exists (2024) |
-| SLBFE Registration through Private Sources by Country | 2021 | ✅ Collected | ✅ Verified (2021) |
+| SLBFE Registration by Manpower Level & Gender - 2020 | 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Could not find (2020) ✅ Verified (2021, 2022, 2023, 2024) |
+| SLBFE registration by manpower level | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| SLBFE Registration through Private Sources by Country | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) ⚠️ Not exists (2024) |
 | SLBFE Registration all Sources by Country | 2022 | ✅ Collected | ✅ Verified (2022) |
 | Workers Remittances | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022) ⚠️ Pending (2023) ⚠️ Not exists (2024) |
 | Workers' Remittances by Country (US$ Million) - 2023 | 2023 | ✅ Collected | ✅ Verified (2023) |
@@ -96,8 +87,8 @@
 | deportations_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
 | refugees_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
 | refused_entry_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023) ⚠️ Not exists (2024) |
-| fake_passport_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
-| fraudulent_visa_detection_by_nationality | 2023 | ✅ Collected | ⚠️ Unclear if table exists (2023) |
+| fake_passport_detection_by_nationality | 2023 | ✅ Collected | ✅ Verified (2023) |
+| fraudulent_visa_detection_by_nationality | 2023 | ✅ Collected | ✅ Verified (2023) |
 
 ## 📅 Years Available
 
