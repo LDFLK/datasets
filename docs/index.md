@@ -65,7 +65,7 @@ Browse cleaned public datasets by year, ministry, and department.
 | SLBFE Registration by District, Manpower Level & Gender | 2021, 2022 | ✅ Collected | ✅ Verified (2021, 2022) |
 | SLBFE Registration by district | 2024 | ✅ Collected | ✅ Verified (2024) |
 | SLBFE registration by gender | 2020, 2021, 2022, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2024) ⚠️ Unavailable (2023) |
-| SLBFE Registration by Manpower Level & Gender | 2021, 2022, 2023, 2024 | ✅ Collected |  ✅ Verified (2021, 2022, 2023, 2024) ⚠️ Unavailable (2020) |
+| SLBFE Registration by Manpower Level & Gender | 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2021, 2022, 2023, 2024) ⚠️ Unavailable (2020) |
 | SLBFE registration by manpower level | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
 | SLBFE Registration through Private Sources by Country | 2020, 2021 | ✅ Collected | ✅ Verified (2020, 2021) ⚠️ Unavailable (2024) |
 | SLBFE Registration all Sources by Country | 2022 | ✅ Collected | ✅ Verified (2022) |
