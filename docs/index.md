@@ -21,8 +21,8 @@ Browse cleaned public datasets by year, ministry, and department.
 
 | Dataset Name | Years Available | Collection Status | Verification Status |
 |--------------|-----------------|-------------------|---------------------|
-| Media Releases from Ministry of Foreign Affairs | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified |
-| Cadre Management of Ministry of Foreign Relations | 2020, 2022 | ✅ Collected | ✅ Verified |
+| Media Releases from Ministry of Foreign Affairs | 2020, 2021, 2022, 2023 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) |
+| Cadre Management of Ministry of Foreign Relations | 2020, 2022 | ✅ Collected | ✅ Verified (2020, 2022) |
 
 ### Minister of Tourism / Tourism and Civil Aviation / Tourism and Lands
 
