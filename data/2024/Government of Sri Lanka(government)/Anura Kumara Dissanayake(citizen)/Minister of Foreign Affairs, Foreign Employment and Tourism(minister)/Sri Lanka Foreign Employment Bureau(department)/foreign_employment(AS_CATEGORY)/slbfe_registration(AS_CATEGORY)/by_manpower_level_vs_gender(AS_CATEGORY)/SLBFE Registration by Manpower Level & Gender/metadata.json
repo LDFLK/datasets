@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "Migrant Employee's Registration by Gender and Manpower Level - 2024",
-  "column_count": 12,
+  "column_count": 4,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,

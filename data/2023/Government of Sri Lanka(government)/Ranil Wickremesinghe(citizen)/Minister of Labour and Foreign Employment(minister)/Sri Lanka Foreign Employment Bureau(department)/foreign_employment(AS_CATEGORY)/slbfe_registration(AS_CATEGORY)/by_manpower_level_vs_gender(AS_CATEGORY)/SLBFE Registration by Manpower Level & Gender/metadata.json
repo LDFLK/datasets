@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE Registration by Manpower Level & Gender - 2023",
-  "column_count": 23,
+  "column_count": 4,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,

@@ -1,21 +1,34 @@
 {
   "columns": [
-    "Professional Female",
-    "Professional Male",
-    "Skilled Female",
-    "Skilled Male",
-    "Domestic Housekeeping Assistant Female",
-    "Semi-Skilled Other Female",
-    "Semi-Skilled Other Male",
-    "Middle Level Female",
-    "Middle Level Male",
-    "Clerical & Related Female",
-    "Clerical & Related Male",
-    "Low-Skilled Female",
-    "Low-Skilled Male",
-    "Total"
+    "Professional Male (Number)",
+    "Middle Level Male (Number)",
+    "Skilled Male (Number)",
+    "Clerical & Related Male (Number)",
+    "Semi Skilled Male (Number)",
+    "Low skilled Male (Number)",
+    "Professional Female (Number)",
+    "Middle Level Female (Number)",
+    "Skilled Female (Number)",
+    "Clerical & Related Female (Number)",
+    "Semi Skilled Female Domestic Housekeeping Assistant (Number)",
+    "Semi Skilled Female Other (Number)",
+    "Low skilled Female (Number)"
   ],
   "rows": [
-    [1466, 12841, 6858, 85978, 74007, 412, 3721, 1335, 6795, 2547, 9587, 37466, 68043, 311056]
+    [
+      12841,
+      6795,
+      85978,
+      9587,
+      3721,
+      68043,
+      1466,
+      1335,
+      6858,
+      2547,
+      74007,
+      412,
+      37466
+    ]
   ]
 }

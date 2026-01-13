@@ -1,12 +1,16 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by Manpower Level & Gender - 2021",
-  "column_count": 23,
+  "dataset_name": "SLBFE Registration by Manpower Level & Gender",
+  "column_count": 13,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2021.pdf",
+  "resource_page": "5,6",
+  "resource_section": "Registration of Male Migrant Employees with the SLBFE - by Manpower Level 2014-2021 AND Female Registration with the SLBFE by Manpower Level 2014-2021",
+  "resource_identifier": "Table 5, Table 6",
   "extracted_date": "2025-01-18",
   "extracted_by": "",
-  "verified_by": ""
+  "verified_by": "",
+  "remarks": "This is the SLBFE registration by manpower level vs gender in 2021 - two tables were merged from the original source"
 }
