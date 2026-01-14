@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Location vs Revenue vs Visitor Count -2023",
   "column_count": 6,
   "row_count": 76,
@@ -11,6 +11,6 @@
   "resource_identifier": "Table 17 ->  Table - 23",
   "extracted_date": "2025-09-07",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains visitor statistics and revenue data by location type and place for 2023, showing visitor counts and income for both foreign and local visitors. Columns: Type, Place, Foreign Number, Foreign Income, Local Number, and Local Income. Data includes 76 locations across 6 categories: Museums, Cultural Triangle sites, Zoological Gardens, Botanical Gardens, Wildlife Parks, and Conservation Forests. Notable locations include Sigiriya Museum and Sigiriya Rock (272,475 foreign visitors, 2.37B revenue), Peradeniya Botanical Garden (211,677 foreign visitors, 528.3M revenue), and Yala Wildlife Park (38,050,064 foreign visitors, 466.4M revenue)."
 }

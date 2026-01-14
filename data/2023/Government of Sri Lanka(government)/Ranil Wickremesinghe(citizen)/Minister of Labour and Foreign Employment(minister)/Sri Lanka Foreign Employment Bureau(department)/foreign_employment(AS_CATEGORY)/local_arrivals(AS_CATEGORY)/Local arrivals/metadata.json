@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Local arrivals",
   "column_count": 2,
   "row_count": 12,
@@ -10,7 +10,7 @@
   "resource_section": "Arrivals of Sri Lankan (Unclassified) 2019-2023",
   "resource_identifier": "Table 42",
   "extracted_date": "2025-09-05",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the number of arrivals of Sri Lankans in 2023"
 }

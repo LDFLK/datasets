@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Monthly foreign exchange earnings",
   "column_count": 2,
   "row_count": 12,
@@ -10,8 +10,7 @@
   "resource_section": "Monthly Foreign Exchange Earnings (2019-2023)",
   "resource_identifier": "Table 44",
   "extracted_date": "2025-09-05",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the monthly foreign exchange earnings in 2023"
-
 }
