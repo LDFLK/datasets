@@ -75,10 +75,10 @@ Browse cleaned public datasets by year, ministry, and department.
 
 | Dataset Name | Years Available | Collection Status | Verification Status |
 |--------------|-----------------|-------------------|---------------------|
-| asylum_seekers_by_nationality | 2020, 2021, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2023) ⚠️ Unavailable (2024) |
-| deportations_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
-| refugees_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023, 2024) |
-| refused_entry_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ⚠️ Pending (2020) ✅ Verified (2021, 2022, 2023) ⚠️ Unavailable (2024) |
+| asylum_seekers_by_nationality | 2020, 2021, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2023) ⚠️ Unavailable (2024) |
+| deportations_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| refugees_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023, 2024) |
+| refused_entry_by_nationality | 2020, 2021, 2022, 2023, 2024 | ✅ Collected | ✅ Verified (2020, 2021, 2022, 2023) ⚠️ Unavailable (2024) |
 | fake_passport_detection_by_nationality | 2023 | ✅ Collected | ✅ Verified (2023) |
 | fraudulent_visa_detection_by_nationality | 2023 | ✅ Collected | ✅ Verified (2023) |
 
