@@ -6,10 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
-  "extracted_date": "2025-11-26",
-  "extracted_by": "",
-  "verified_by": "",
   "resource_page": "13",
   "resource_section": "Registration with the SLBFE through private sources",
-  "resource_identifier": "Table 13"
+  "resource_identifier": "Table 13",
+  "extracted_date": "2025-11-26",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
 }

@@ -6,10 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
-  "extracted_date": "2025-09-18",
-  "extracted_by": "Advanced PDF Extractor",
-  "verified_by": "",
   "resource_page": "32",
   "resource_section": "Registration of Migrant Employees with the SLBFE by district, Manpower level and Gender-2020*",
-  "resource_identifier": "Table 30"
+  "resource_identifier": "Table 30",
+  "extracted_date": "2025-09-18",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
 }
