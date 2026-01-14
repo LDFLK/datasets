@@ -11,6 +11,6 @@
   "resource_identifier": "Table 1.13",
   "extracted_date": "2025-12-17",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by district for 2024, showing the distribution of registered migrant employees by district and gender. Columns: District, Female, Male, and Total. Data includes 24 districts with Gampaha having the highest registrations (33,773), followed by Colombo (32,812), Kandy (24,817), Galle (18,332), Batticaloa (18,007), and Kalutara (17,764). The total registrations across all districts amount to 314,786 workers."
 }

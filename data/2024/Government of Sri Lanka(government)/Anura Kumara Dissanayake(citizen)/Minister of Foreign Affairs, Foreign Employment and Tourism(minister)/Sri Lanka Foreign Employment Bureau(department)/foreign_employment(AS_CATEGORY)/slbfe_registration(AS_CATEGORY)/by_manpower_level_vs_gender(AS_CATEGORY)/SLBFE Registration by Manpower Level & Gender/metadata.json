@@ -11,6 +11,6 @@
   "resource_identifier": "Table 1.4, Table 1.5",
   "extracted_date": "2025-12-17",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by gender and manpower level for 2024, showing the distribution of registered workers across skill levels and gender. Columns include Year, Male Skilled, Male Skilled %, Female Skilled, Female Skilled %, Total Skilled, Male Low Skilled, Male Low Skilled %, Female Low Skilled, Female Low Skilled %, Total Low Skilled, and Total. Data shows that skilled workers totaled 244,467 (127,928 male at 68.53% and 116,539 female at 90.97%), while low-skilled workers totaled 70,319 (58,746 male at 31.47% and 11,573 female at 9.03%), with a total of 314,786 registrations."
 }
