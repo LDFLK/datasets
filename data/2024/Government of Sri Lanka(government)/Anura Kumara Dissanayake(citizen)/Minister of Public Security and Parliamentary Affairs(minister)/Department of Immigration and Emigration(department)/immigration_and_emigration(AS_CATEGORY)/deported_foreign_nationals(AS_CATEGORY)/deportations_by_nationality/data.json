@@ -1,5 +1,5 @@
 {
-    "columns": ["Nationality", "Deportations"],
+    "columns": ["Nationality", "Number of Deportations"],
     "rows": [
       ["Bangladeshi", 400],
       ["Chinese", 51],
