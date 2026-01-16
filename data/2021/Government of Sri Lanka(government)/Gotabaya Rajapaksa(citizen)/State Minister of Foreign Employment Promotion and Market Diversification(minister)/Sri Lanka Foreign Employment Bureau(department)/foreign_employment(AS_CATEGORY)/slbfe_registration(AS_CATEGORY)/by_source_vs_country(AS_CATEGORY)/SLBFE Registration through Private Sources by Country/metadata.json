@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration through Private Sources by Country - 2021",
+  "dataset_name": "SLBFE Registration through Private Sources by Country",
   "column_count": 3,
   "row_count": 60,
   "node_count": null,

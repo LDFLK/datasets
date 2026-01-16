@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by District, Manpower Level & Gender - 2023",
+  "dataset_name": "SLBFE Registration by District, Manpower Level & Gender",
   "column_count": 15,
   "row_count": 26,
   "node_count": null,

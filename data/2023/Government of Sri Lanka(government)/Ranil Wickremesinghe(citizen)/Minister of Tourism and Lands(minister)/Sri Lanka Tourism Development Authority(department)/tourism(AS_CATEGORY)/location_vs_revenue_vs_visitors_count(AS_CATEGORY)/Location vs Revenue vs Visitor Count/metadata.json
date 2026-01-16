@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Location vs Revenue vs Visitor Count -2023",
+  "dataset_name": "Location vs Revenue vs Visitor Count",
   "column_count": 6,
   "row_count": 76,
   "node_count": null,

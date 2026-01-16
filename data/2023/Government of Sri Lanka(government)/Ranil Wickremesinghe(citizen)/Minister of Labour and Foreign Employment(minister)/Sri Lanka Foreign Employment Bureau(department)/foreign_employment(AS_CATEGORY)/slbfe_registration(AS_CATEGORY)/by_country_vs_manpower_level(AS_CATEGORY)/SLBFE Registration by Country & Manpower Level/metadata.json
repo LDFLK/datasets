@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by Country & Manpower Level - 2023",
+  "dataset_name": "SLBFE Registration by Country & Manpower Level",
   "column_count": 8,
   "row_count": 50,
   "node_count": null,

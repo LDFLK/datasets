@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Total Registration with the SLBFE by age - 2020",
+  "dataset_name": "Total Registration with the SLBFE by age",
   "column_count": 4,
   "row_count": 8,
   "node_count": null,

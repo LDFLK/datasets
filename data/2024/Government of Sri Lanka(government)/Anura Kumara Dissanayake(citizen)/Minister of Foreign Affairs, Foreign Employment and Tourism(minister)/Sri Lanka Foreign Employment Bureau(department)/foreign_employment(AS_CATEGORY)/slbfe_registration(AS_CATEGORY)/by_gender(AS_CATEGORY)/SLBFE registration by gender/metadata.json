@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Migrant Employee's Registration by Gender - 2024",
+  "dataset_name": "Migrant Employee's Registration by Gender",
   "column_count": 6,
   "row_count": 1,
   "node_count": null,

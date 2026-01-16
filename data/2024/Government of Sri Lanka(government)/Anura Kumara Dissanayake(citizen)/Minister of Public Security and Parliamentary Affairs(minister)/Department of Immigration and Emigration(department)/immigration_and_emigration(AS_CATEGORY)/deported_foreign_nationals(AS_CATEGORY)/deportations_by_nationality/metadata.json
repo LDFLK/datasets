@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Deportations by Nationality - 2024",
+  "dataset_name": "Deportations by Nationality",
   "column_count": 2,
   "row_count": 38,
   "node_count": null,

@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Refugees by Nationality - 2024",
+  "dataset_name": "Refugees by Nationality",
   "column_count": 2,
   "row_count": 10,
   "node_count": null,

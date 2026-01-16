@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Private Remittances (Region-wise) - 2020",
+  "dataset_name": "Private Remittances (Region-wise)",
   "column_count": 4,
   "row_count": 11,
   "node_count": null,

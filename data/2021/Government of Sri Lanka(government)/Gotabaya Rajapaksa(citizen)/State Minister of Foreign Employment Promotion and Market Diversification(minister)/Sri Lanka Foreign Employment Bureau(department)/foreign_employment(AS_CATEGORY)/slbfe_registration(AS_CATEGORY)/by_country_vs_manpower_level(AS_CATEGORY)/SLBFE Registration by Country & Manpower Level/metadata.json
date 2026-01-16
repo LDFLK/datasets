@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by Country & Manpower Level - 2021",
+  "dataset_name": "SLBFE Registration by Country & Manpower Level",
   "column_count": 15,
   "row_count": 53,
   "node_count": null,

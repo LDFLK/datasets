@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Migrant Employee's Registration by Districts - 2024",
+  "dataset_name": "Migrant Employee's Registration by Districts",
   "column_count": 4,
   "row_count": 24,
   "node_count": null,

@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Inflow of workers’ Remittances by country (US$ Million) in 2023",
+  "dataset_name": "Inflow of workers' Remittances by country (US$ Million)",
   "column_count": 6,
   "row_count": 32,
   "node_count": null,
