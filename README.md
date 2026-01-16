@@ -167,7 +167,7 @@ Each dataset contains:
 ### 1. Adding New Data
 
 #### Adding Data for a New Year
-1. Create a new folder under `data/` (e.g., `data/2024/`)
+1. Create a new folder under `data/statistics` (e.g., `data/statistics/2024/`)
 2. Follow the existing folder structure:
    ```
    data/statistics/2024/
