@@ -5,12 +5,12 @@
   "row_count": 12,
   "node_count": null,
   "edges_count": null,
-  "resources": [
-    "https://www.immigration.gov.lk/content/files/reports/performance_report_2022_english.pdf"
-  ],
+  "resource": "https://www.immigration.gov.lk/content/files/reports/performance_report_2022_english.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
   "extracted_date": "2025-09-15",
-  "extracted_by": {
-    "name": "Lanka Data Foundation",
-    "email": ""
-  }
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
 }

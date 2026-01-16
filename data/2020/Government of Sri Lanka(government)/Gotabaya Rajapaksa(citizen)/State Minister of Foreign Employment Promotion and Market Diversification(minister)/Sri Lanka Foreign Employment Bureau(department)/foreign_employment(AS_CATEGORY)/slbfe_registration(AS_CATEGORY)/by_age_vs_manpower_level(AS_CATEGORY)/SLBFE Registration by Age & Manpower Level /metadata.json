@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by Age & Manpower Level - 2020",
+  "dataset_name": "SLBFE Registration by Age & Manpower Level",
   "column_count": 15,
   "row_count": 8,
   "node_count": null,
@@ -10,7 +10,7 @@
   "resource_section": "Total Registration with the SLBFE by age & manpower level- 2020",
   "resource_identifier": "Table 09",
   "extracted_date": "2025-09-17",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the SLBFE registration by age vs manpower level in 2020"
 }

@@ -1,13 +1,16 @@
 {
-    "storage_type": "tabular",
-    "dataset_name": "SLBFE Registration by Age - 2021",
-    "column_count": 4,
-    "row_count": 8,
-    "node_count": null,
-    "edges_count": null,
-    "resource": "Statistics-2021.pdf",
-    "extracted_date": "2025-09-17",
-    "extracted_by": "",
-    "verified_by": ""
-  }
-  
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE Registration by Age",
+  "column_count": 4,
+  "row_count": 8,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "Statistics-2021.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
+  "extracted_date": "2025-09-17",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

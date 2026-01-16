@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Accommodations by District",
   "column_count": 2,
   "row_count": 25,
@@ -11,6 +11,6 @@
   "resource_identifier": "Chart 17. II",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains accommodation statistics by district for 2020, showing the number of tourists in each of the 25 districts of Sri Lanka. Columns: District and Number of Tourists. Data ranges from Colombo (8,396 tourists) to Mannar (37 tourists)."
 }

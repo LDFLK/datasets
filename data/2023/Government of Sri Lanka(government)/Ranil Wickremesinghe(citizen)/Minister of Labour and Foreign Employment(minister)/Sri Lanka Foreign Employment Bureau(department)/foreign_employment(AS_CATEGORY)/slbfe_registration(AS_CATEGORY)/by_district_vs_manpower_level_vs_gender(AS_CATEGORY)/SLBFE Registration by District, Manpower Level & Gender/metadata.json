@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by District, Manpower Level & Gender - 2023",
+  "dataset_name": "SLBFE Registration by District, Manpower Level & Gender",
   "column_count": 15,
   "row_count": 26,
   "node_count": null,
@@ -10,7 +10,7 @@
   "resource_section": "Registration of Migrant Employees with the SLBFE by district, Manpower level and Gender 2023*",
   "resource_identifier": "Table 15",
   "extracted_date": "2025-09-17",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the number of SLBFE registrations by district, manpower level and gender in 2023"
 }

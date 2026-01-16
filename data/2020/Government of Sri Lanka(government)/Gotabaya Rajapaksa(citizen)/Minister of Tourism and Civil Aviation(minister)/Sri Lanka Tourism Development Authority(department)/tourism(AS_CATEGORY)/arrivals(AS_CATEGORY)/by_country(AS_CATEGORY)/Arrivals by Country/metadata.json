@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Country",
   "column_count": 2,
   "row_count": 188,
@@ -11,6 +11,6 @@
   "resource_identifier": "Table 4",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains tourist arrival statistics by country of residence for 2020, showing the total number of arrivals from each country. Columns: Country of Residence and Arrivals. Data includes 188 countries with India having the highest arrivals (89,357), followed by United Kingdom (55,455) and Russian Federation (49,397)."
 }

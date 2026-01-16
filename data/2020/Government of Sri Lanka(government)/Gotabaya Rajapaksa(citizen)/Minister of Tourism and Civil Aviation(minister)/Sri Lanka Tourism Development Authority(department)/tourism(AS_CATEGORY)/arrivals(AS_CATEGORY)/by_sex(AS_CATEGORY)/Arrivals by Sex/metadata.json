@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Sex",
   "column_count": 2,
   "row_count": 2,
@@ -11,6 +11,6 @@
   "resource_identifier": "Table 13",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains tourist arrival statistics by sex for 2020, showing the distribution of tourists by gender as percentages. Columns: Sex and Percentage. Data shows Male (51.9%) and Female (48.1%) arrivals, indicating a relatively balanced gender distribution."
 }
