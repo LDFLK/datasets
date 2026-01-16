@@ -1,5 +1,5 @@
 {
-  "columns": ["District", "Professional Female", "Professional Male", "Skilled Female", "Skilled Male", "Semi Skilled Domestic HouseKeeping Assistance","Semi Skilled Others","Middle Level Female","Middle Level Male", "Clerical & Related Female","Clerical & Related Male","Low Skilled Female","Low Skilled Male"],
+  "columns": ["District", "Professional Female", "Professional Male", "Skilled Female", "Skilled Male", "Semi Skilled Domestic Housekeeping Assistants","Semi Skilled Others","Middle Level Female","Middle Level Male", "Clerical & Related Female","Clerical & Related Male","Low Skilled Female","Low Skilled Male"],
   "rows": [
     ["Ampara", 0, 0, 2271, 8138, 0, 0, 0, 0, 0, 0, 460, 4712],
     ["Anuradhapura", 0, 0, 6576, 3592, 0, 0, 0, 0, 0, 0, 2184, 1637],
