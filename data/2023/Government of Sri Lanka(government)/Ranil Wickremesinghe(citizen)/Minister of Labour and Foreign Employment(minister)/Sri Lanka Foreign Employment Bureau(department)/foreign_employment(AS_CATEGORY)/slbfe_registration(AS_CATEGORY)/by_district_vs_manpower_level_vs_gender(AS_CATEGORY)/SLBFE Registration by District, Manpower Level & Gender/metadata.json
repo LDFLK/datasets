@@ -1,8 +1,8 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE Registration by District, Manpower Level & Gender",
-  "column_count": 15,
-  "row_count": 26,
+  "column_count": 13,
+  "row_count": 25,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",

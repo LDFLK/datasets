@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE registration by district vs manpower level vs gender",
-  "column_count": 15,
+  "column_count": 14,
   "row_count": 25,
   "node_count": null,
   "edges_count": null,
