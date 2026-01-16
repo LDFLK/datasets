@@ -4,7 +4,7 @@ title: Missing Datasets Report
 ---
 
 # 🚨 Missing Datasets Report
-Generated on: 2025-12-23 23:43:44
+Generated on: 2026-01-16 15:17:04
 
 ## 📅 Year: 2024 (Missing: 21)
 
@@ -24,11 +24,11 @@ Generated on: 2025-12-23 23:43:44
 | **fraudulent_visa** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Public Security and Parliamentary Affairs(minister)/Department of Immigration and Emigration(department)/immigration_and_emigration(AS_CATEGORY)/fraudulent_visa(AS_CATEGORY)/fraudulent_visa_detection_by_nationality` | 🔴 Empty `data.json` |
 | **local_arrivals** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/Sri Lanka Foreign Employment Bureau(department)/foreign_employment(AS_CATEGORY)/local_arrivals(AS_CATEGORY)/Local arrivals` | 🔴 Empty `data.json` |
 | **local_departures** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/Sri Lanka Foreign Employment Bureau(department)/foreign_employment(AS_CATEGORY)/local_departures(AS_CATEGORY)/Local departures` | 🔴 Empty `data.json` |
-| **ministry_news** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/ministry_news(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
-| **mission_news** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/mission_news(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
+| **ministry_news** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/ministry_news(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
+| **mission_news** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/mission_news(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
 | **monthly_foreign_exchange_earnings** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/Sri Lanka Foreign Employment Bureau(department)/foreign_employment(AS_CATEGORY)/monthly_foreign_exchange_earnings(AS_CATEGORY)/Monthly foreign exchange earnings` | 🔴 Empty `data.json` |
-| **news_from_other_sources** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/news_from_other_sources(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
+| **news_from_other_sources** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/official_communications(AS_CATEGORY)/news(AS_CATEGORY)/news_from_other_sources(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
 | **refused_foreign_entry** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Public Security and Parliamentary Affairs(minister)/Department of Immigration and Emigration(department)/immigration_and_emigration(AS_CATEGORY)/refused_foreign_entry(AS_CATEGORY)/refused_entry_by_nationality` | 🔴 Empty `data.json` |
-| **special_notices** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs(minister)/official_communications(AS_CATEGORY)/special_notices(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
+| **special_notices** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/official_communications(AS_CATEGORY)/special_notices(AS_CATEGORY)/Media Releases from Ministry of Foreign Affairs` | 🔴 Empty `data.json` |
 | **workers_remittances** | `2024/Government of Sri Lanka(government)/Anura Kumara Dissanayake(citizen)/Minister of Foreign Affairs, Foreign Employment and Tourism(minister)/Sri Lanka Foreign Employment Bureau(department)/foreign_employment(AS_CATEGORY)/workers_remittances(AS_CATEGORY)/Workers Remittances` | 🔴 Empty `data.json` |
 

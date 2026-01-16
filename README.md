@@ -140,7 +140,7 @@ To run the data ingestion and utility scripts, you'll need to set up the Python 
 
 ```
 datasets/
-├── data/                           # Main data directory
+├── data/statistics/                  # Main data directory
 │   ├── 2019/                      # Year-based organization
 │   ├── 2020/
 │   ├── 2021/
@@ -170,7 +170,7 @@ Each dataset contains:
 1. Create a new folder under `data/` (e.g., `data/2024/`)
 2. Follow the existing folder structure:
    ```
-   data/2024/
+   data/statistics/2024/
    └── Government of Sri Lanka(government)/
        └── [President Name](citizen)/
            └── [Ministry Name](minister)/
@@ -181,7 +181,7 @@ Each dataset contains:
    ```
 
 #### Adding Data to Existing Year
-1. Navigate to the appropriate year folder in `data/`
+1. Navigate to the appropriate year folder in `data/statistics/`
 2. Follow the existing hierarchy to find the correct ministry/department
 3. Add your `data.json` and optional `metadata.json` files
 
@@ -201,7 +201,7 @@ To update the data listing:
     python3 update_dataset_index.py
     ```
 2.  This will:
-    *   Scan the `data/` directory.
+    *   Scan the `data/statistics/` directory.
     *   Generate ZIP files for each year.
     *   Inject the file listing into `docs/index.md`.
 3.  Commit and push changes to `main` branch.
