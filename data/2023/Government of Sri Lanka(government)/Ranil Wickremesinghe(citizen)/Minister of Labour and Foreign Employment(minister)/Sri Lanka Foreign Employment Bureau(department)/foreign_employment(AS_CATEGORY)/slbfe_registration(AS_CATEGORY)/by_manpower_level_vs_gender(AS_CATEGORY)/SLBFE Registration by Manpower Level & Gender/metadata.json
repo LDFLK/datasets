@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "SLBFE Registration by Manpower Level & Gender - 2023",
-  "column_count": 23,
+  "dataset_name": "SLBFE Registration by Manpower Level & Gender",
+  "column_count": 4,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,
@@ -10,7 +10,7 @@
   "resource_section": "Registration of Migrant Employees with the SLBFE by district, Manpower level andGender 2023",
   "resource_identifier": "Table 15",
   "extracted_date": "2025-01-18",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by manpower level and gender for 2023, showing the distribution of registered workers across skill levels and gender. Columns include Skilled Male, Skilled Female, Total Skilled, Low Skilled Male, Low Skilled Female, and Total Low Skilled. Data shows that skilled workers totaled 208,586 (106,763 male and 101,823 female), while low-skilled workers totaled 89,070 (57,845 male and 31,225 female). The total registrations amount to 297,656 workers, with skilled workers comprising approximately 70% of all registrations."
 }

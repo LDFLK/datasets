@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Annual Tourism Receipts",
   "column_count": 3,
   "row_count": 1,
@@ -11,6 +11,6 @@
   "resource_identifier": "Foreign exchange earnings",
   "extracted_date": "2025-09-07",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains annual tourism receipts for 2020. Columns: Year, Value in Rupees(Mn), and Value in USD(Mn). Data shows tourism receipts of 126,608.1 million rupees (682.5 million USD) for the year 2020."
 }

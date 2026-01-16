@@ -1,6 +1,34 @@
 {
-  "columns": ["Professional Male (Number)","Professional Male (%)","Professional Female (Number)","Professional Female (%)","Middle Level Male (Number)","Middle Level Male (%)","Middle Level Female (Number)","Middle Level Female (%)","Skilled Male (Number)","Skilled Male (%)","Skilled Female (Number)","Skilled Female (%)","Clearical & Related Male (Number)","Clerical & Related Male (%)","Clearical & Related Female (Number)","Clerical & Related Female (%)","Semi Skilled (Number)","Semi Skilled (%)","Low skilled Male (Number)","Low skilled Male (%)","Low skilled Female (Number)","Low skilled Female (%)","Total"],
+  "columns": [
+    "Professional Male",
+    "Middle Level Male",
+    "Skilled Male",
+    "Clerical & Related Male",
+    "Semi Skilled Male",
+    "Low skilled Male",
+    "Professional Female",
+    "Middle Level Female",
+    "Skilled Female",
+    "Clerical & Related Female",
+    "Semi Skilled Female Domestic Housekeeping Assistant",
+    "Semi Skilled Female Other",
+    "Low skilled Female"
+  ],
   "rows": [
-    [5688, 4.65, 2887, 2.36, 2830, 2.31, 1437, 1.18, 26800, 21.92, 13590, 11.12, 4358, 3.57, 2212, 1.81, 30581, 25.01, 21144, 17.29, 10737, 8.78, 122264]
+    [
+      7735,
+      3618,
+      37523,
+      5474,
+      1798,
+      24962,
+      638,
+      638,
+      2651,
+      1066,
+      29315,
+      132,
+      6714
+    ]
   ]
 }

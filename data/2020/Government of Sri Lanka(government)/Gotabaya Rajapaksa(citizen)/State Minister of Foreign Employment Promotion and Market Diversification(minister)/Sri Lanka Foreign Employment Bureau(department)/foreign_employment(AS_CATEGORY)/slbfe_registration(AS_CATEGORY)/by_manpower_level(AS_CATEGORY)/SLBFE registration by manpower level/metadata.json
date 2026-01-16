@@ -1,15 +1,16 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "SLBFE registration by manpower level",
   "column_count": 16,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2022.pdf",
-  "extracted_date": "2025-09-05",
-  "extracted_by": "",
-  "verified_by": "",
   "resource_page": "4",
   "resource_section": "Total Registration with the SLBFE by Manpower Level 2018-2022",
-  "resource_identifier": "Table 3"
+  "resource_identifier": "Table 3",
+  "extracted_date": "2025-09-05",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
 }

@@ -5,12 +5,12 @@
   "row_count": 9,
   "node_count": null,
   "edges_count": null,
-  "resources": "https://www.immigration.gov.lk/content/files/reports/perfomance_report_2020_e.pdf",
+  "resource": "https://www.immigration.gov.lk/content/files/reports/perfomance_report_2020_e.pdf",
   "resource_page": "49",
   "resource_section": "Foreigners with Refused entry to the country - 2020",
   "resource_identifier": "8)",
   "extracted_date": "2025-09-15",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the refused entry by nationality in 2020"
 }

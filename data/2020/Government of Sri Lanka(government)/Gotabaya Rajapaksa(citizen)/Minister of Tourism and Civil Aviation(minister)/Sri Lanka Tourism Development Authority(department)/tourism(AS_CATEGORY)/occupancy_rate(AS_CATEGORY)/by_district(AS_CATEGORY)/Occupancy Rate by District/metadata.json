@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Occupancy Rate by District",
   "column_count": 2,
   "row_count": 25,
@@ -11,6 +11,6 @@
   "resource_identifier": "Chart 19",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains hotel occupancy rate statistics by district for 2020, showing the occupancy rate percentage for each of the 25 districts of Sri Lanka. Columns: District and Occupancy Rate. Data ranges from Galle (23.2%) and Kandy (22.0%) having the highest rates, to Kilinochchi, Mullaitivu, and Mannar (0%) having no occupancy, reflecting the impact of COVID-19 on tourism."
 }

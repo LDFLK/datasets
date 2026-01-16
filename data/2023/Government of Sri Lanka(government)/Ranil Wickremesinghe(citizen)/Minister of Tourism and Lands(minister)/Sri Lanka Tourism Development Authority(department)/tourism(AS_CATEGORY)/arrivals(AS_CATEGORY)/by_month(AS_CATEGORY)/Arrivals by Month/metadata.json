@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Month",
   "column_count": 2,
   "row_count": 12,
@@ -10,7 +10,7 @@
   "resource_section": "Tourist Arrivals by Month 1971 to 2023",
   "resource_identifier": "Table 15",
   "extracted_date": "2025-08-28",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the number of tourist arrivals in Sri Lanka by month in 2023"
 }
