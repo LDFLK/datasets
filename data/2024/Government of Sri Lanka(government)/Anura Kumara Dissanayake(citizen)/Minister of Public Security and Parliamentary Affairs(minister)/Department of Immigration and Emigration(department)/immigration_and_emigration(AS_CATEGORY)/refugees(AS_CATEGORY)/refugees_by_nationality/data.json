@@ -1,5 +1,5 @@
 {
-    "columns": ["Nationality", "Refugees"],
+    "columns": ["Nationality", "No. of Persons"],
     "rows": [
       ["Afghanistan", 27],
       ["Iranian", 1],
