@@ -11,8 +11,8 @@ def ignore_files(src, names):
             ignored.append(name)
     return ignored
 
-src_dir = 'data/2023'
-dst_dir = 'data/2024'
+src_dir = 'data/statistics/2023'
+dst_dir = 'data/statistics/2024'
 
 if not os.path.exists(src_dir):
     print(f"Source directory {src_dir} does not exist.")

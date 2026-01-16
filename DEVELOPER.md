@@ -96,7 +96,7 @@ python find_missing_datasets.py --output-file docs/missing_datasets.md
 
 **Arguments:**
 
-*   `--dir`: The base data directory to scan (default: `data`).
+*   `--dir`: The base data directory to scan (default: `data/statistics`).
 *   `--output-file`: Optional path to write the generated markdown report. if provided, it adds Jekyll front matter (`layout: default`) to the file.
 
 **Example Output:**

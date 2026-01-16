@@ -114,7 +114,7 @@ class MissingDatasetFinder:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Find empty data.json files.")
-    parser.add_argument("--dir", type=str, default="data", help="Data directory path")
+    parser.add_argument("--dir", type=str, default="data/statistics", help="Data directory path")
     parser.add_argument("--output-file", type=str, help="Path to save the markdown report (e.g. docs/missing_datasets.md)", default=None)
     
     args = parser.parse_args()

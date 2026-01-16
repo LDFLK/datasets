@@ -88,7 +88,7 @@ Browse cleaned public datasets by year, ministry, and department.
 
 <!-- DATA_BROWSER_START -->
 <details class="details year-section">
-<summary class="summary">🗓️ 2019 (❗❗ This data has not been verified) <a href="downloads/2019_Data.zip" class="download-btn" download>📦 Download All 2019 Data</a></summary>
+<summary class="summary">🗓️ 2019 <a href="downloads/2019_Data.zip" class="download-btn" download>📦 Download All 2019 Data</a></summary>
 <details class="details president-section">
 <summary class="summary">🏛️ Government Of Sri Lanka</summary>
 <details class="details president-section">
@@ -102,8 +102,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Cadre Management Of Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -117,8 +117,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -130,8 +130,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -143,8 +143,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -162,8 +162,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -175,8 +175,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -188,8 +188,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Legal Division Performance</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -201,8 +201,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -214,8 +214,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -227,8 +227,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -242,8 +242,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE_registration_by_country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE_registration_by_country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE_registration_by_country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE_registration_by_country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -255,8 +255,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE_registration_by_gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE_registration_by_gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE_registration_by_gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE_registration_by_gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -268,8 +268,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE_registration_by_manpower_level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE_registration_by_manpower_level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE_registration_by_manpower_level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE_registration_by_manpower_level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -280,8 +280,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/workers_remittances%28AS_CATEGORY%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/workers_remittances%28AS_CATEGORY%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/workers_remittances%28AS_CATEGORY%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Telecommunication%2C%20Foreign%20Employment%20and%20Sports%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/workers_remittances%28AS_CATEGORY%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -300,8 +300,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodation Capacity By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/accommodation_capacity_by_district/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/accommodation_capacity_by_district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/accommodation_capacity_by_district/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/accommodation_capacity_by_district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -313,8 +313,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodation Capacity By Resort Region</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/accommodation_capacity_by_resort_region/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/accommodation_capacity_by_resort_region/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/accommodation_capacity_by_resort_region/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/accommodation_capacity_by_resort_region/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -327,8 +327,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -342,8 +342,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Age Group</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/tourist_arrivals_by_age_group/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/tourist_arrivals_by_age_group/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/tourist_arrivals_by_age_group/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/tourist_arrivals_by_age_group/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -355,8 +355,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Carrier</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/tourist_arrivals_by_carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/tourist_arrivals_by_carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/tourist_arrivals_by_carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/tourist_arrivals_by_carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -368,8 +368,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Country Of Residence</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/tourist_arrivals_by_country_of_residence/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/tourist_arrivals_by_country_of_residence/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/tourist_arrivals_by_country_of_residence/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/tourist_arrivals_by_country_of_residence/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -381,8 +381,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/tourist_arrivals_by_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/tourist_arrivals_by_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/tourist_arrivals_by_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/tourist_arrivals_by_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -394,8 +394,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Port</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/tourist_arrivals_by_port/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/tourist_arrivals_by_port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/tourist_arrivals_by_port/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/tourist_arrivals_by_port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -407,8 +407,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Purpose Of Visit</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/tourist_arrivals_by_purpose_of_visit/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/tourist_arrivals_by_purpose_of_visit/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/tourist_arrivals_by_purpose_of_visit/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/tourist_arrivals_by_purpose_of_visit/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -420,8 +420,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/tourist_arrivals_by_gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/tourist_arrivals_by_gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/tourist_arrivals_by_gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/tourist_arrivals_by_gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -433,8 +433,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Arrivals By Country And Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/tourist_arrivals_by_country_and_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/tourist_arrivals_by_country_and_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/tourist_arrivals_by_country_and_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/tourist_arrivals_by_country_and_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -447,8 +447,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Tourist Attractions Revenue And Visitors</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Tourist%20Attractions%20Revenue%20and%20Visitors/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Tourist%20Attractions%20Revenue%20and%20Visitors/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Tourist%20Attractions%20Revenue%20and%20Visitors/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Tourist%20Attractions%20Revenue%20and%20Visitors/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -462,8 +462,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rates By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/occupancy_rates_by_district/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/occupancy_rates_by_district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/occupancy_rates_by_district/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/occupancy_rates_by_district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -475,8 +475,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rates By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/occupancy_rates_by_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/occupancy_rates_by_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/occupancy_rates_by_month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/occupancy_rates_by_month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -488,8 +488,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rates By Resort Region</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/occupancy_rates_by_resort_region/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/occupancy_rates_by_resort_region/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/occupancy_rates_by_resort_region/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/occupancy_rate%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/occupancy_rates_by_resort_region/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -502,8 +502,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2019/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20Development%2C%20Wildlife%20and%20Christian%20Religious%20Affairs%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -528,8 +528,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Cadre Management Of Ministry Of Foreign Relations</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Relations/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Relations/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Relations/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Relations/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -545,8 +545,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -558,8 +558,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -571,8 +571,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -595,8 +595,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -608,8 +608,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By Province</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -622,8 +622,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -637,8 +637,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -650,8 +650,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Carrier</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -663,8 +663,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -676,8 +676,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -689,8 +689,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Port</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -702,8 +702,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Purpose</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -715,8 +715,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Sex</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -728,8 +728,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month Vs Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -742,8 +742,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Location Vs Revenue Vs Visitors Count</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitors%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitors%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitors%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitors%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -757,8 +757,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rate By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -770,8 +770,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rate By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Occupancy%20Rate%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Occupancy%20Rate%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Occupancy%20Rate%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Occupancy%20Rate%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -784,8 +784,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%20and%20Civil%20Aviation%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -806,8 +806,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -819,8 +819,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -832,8 +832,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Legal Division Performance</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -845,8 +845,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -858,8 +858,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -871,8 +871,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -886,8 +886,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Private Remittances (Region-Wise)</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -902,8 +902,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age </span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -915,8 +915,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age & Manpower Level </span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level%20/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level%20/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level%20/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level%20/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -928,8 +928,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -941,8 +941,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country Vs Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -954,8 +954,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District, Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -967,8 +967,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -980,8 +980,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -993,8 +993,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1006,8 +1006,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration Through Private Sources By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1020,8 +1020,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1042,8 +1042,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Asylum Seekers By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1055,8 +1055,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Deportations By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1068,8 +1068,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refugees By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1081,8 +1081,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refused Entry By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2020/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Internal%20Security%2C%20Home%20affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1112,8 +1112,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1125,8 +1125,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1138,8 +1138,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Foreign%20Relations%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1162,8 +1162,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accomodations By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accomodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accomodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accomodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accomodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1175,8 +1175,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accomodations By Province</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accomodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accomodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accomodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accomodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1189,8 +1189,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1204,8 +1204,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1217,8 +1217,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1230,8 +1230,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month Vs Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1246,8 +1246,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Occupancy Rate By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/occupancy_rate%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Occupancy%20Rate%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1260,8 +1260,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/Minister%20of%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1282,8 +1282,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1295,8 +1295,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1308,8 +1308,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Legal Division Performance</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1321,8 +1321,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1334,8 +1334,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1347,8 +1347,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1358,12 +1358,12 @@ Browse cleaned public datasets by year, ministry, and department.
 <details class="details sub-section">
 <summary class="summary">📁 By Region</summary>
 <details class="details sub-section">
-<summary class="summary">📁 Private Remittances (Region-Wise) - 2021</summary>
+<summary class="summary">📁 Private Remittances (Region-Wise)</summary>
 <div class="dataset-item">
-  <span class="dataset-name">📁 Private Remittances (Region-Wise) - 2021</span>
+  <span class="dataset-name">📁 Private Remittances (Region-Wise)</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29%20-%202021/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29%20-%202021/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_region%28AS_CATEGORY%29/Private%20Remittances%20%28Region-wise%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1378,8 +1378,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1391,8 +1391,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1404,8 +1404,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1417,8 +1417,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1430,8 +1430,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District, Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1443,8 +1443,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1456,8 +1456,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1469,8 +1469,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1482,8 +1482,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration Through Private Sources By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20Registration%20through%20Private%20Sources%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1496,8 +1496,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20Foreign%20Employment%20Promotion%20and%20Market%20Diversification%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1518,8 +1518,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Asylum Seekers By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1531,8 +1531,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Deportations By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1544,8 +1544,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refugees By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1557,8 +1557,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refused Entry By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2021/Government%20of%20Sri%20Lanka%28government%29/Gotabaya%20Rajapaksa%28citizen%29/State%20Minister%20of%20National%20Security%2C%20Home%20Affairs%20and%20Disaster%20Management%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1584,8 +1584,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Cadre Management Of Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/human_resources%28AS_CATEGORY%29/Cadre%20Management%20of%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1601,8 +1601,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1614,8 +1614,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1627,8 +1627,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1649,8 +1649,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Asylum Seekers By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1662,8 +1662,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Deportations By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1675,8 +1675,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refugees By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1688,8 +1688,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refused Entry By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Promotion%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1710,8 +1710,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1723,8 +1723,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1736,8 +1736,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Legal Division Performance</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/legal_division_performance%28AS_CATEGORY%29/Legal%20division%20performance/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1749,8 +1749,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1762,8 +1762,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1775,8 +1775,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1788,8 +1788,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Raids Conducted</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/raids_conducted%28AS_CATEGORY%29/Number%20of%20raids%20conducted/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/raids_conducted%28AS_CATEGORY%29/Number%20of%20raids%20conducted/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/raids_conducted%28AS_CATEGORY%29/Number%20of%20raids%20conducted/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/raids_conducted%28AS_CATEGORY%29/Number%20of%20raids%20conducted/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1803,8 +1803,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20registration%20by%20age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20registration%20by%20age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20registration%20by%20age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20registration%20by%20age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1816,8 +1816,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age Vs Man Power Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20age%20vs%20Man%20power%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20age%20vs%20Man%20power%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20age%20vs%20Man%20power%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20age%20vs%20Man%20power%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1829,8 +1829,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/SLBFE%20registration%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1842,8 +1842,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country Vs Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20country%20vs%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1855,8 +1855,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District Vs Manpower Level Vs Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20district%20vs%20manpower%20level%20vs%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20district%20vs%20manpower%20level%20vs%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20district%20vs%20manpower%20level%20vs%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20district%20vs%20manpower%20level%20vs%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1868,8 +1868,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1881,8 +1881,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1894,8 +1894,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level Vs Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level%20vs%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level%20vs%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level%20vs%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20manpower%20level%20vs%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1907,8 +1907,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration All Sources By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20registration%20all%20sources%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20registration%20all%20sources%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20registration%20all%20sources%20by%20country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_source_vs_country%28AS_CATEGORY%29/SLBFE%20registration%20all%20sources%20by%20country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1921,8 +1921,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1945,8 +1945,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1958,8 +1958,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By Province</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1972,8 +1972,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -1987,8 +1987,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Carrier</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2000,8 +2000,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2013,8 +2013,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2026,8 +2026,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Port</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2039,8 +2039,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Purpose</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2052,8 +2052,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month Vs Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2066,8 +2066,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2022/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20Source%20Markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2097,8 +2097,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2110,8 +2110,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2123,8 +2123,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2137,8 +2137,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2158,8 +2158,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Asylum Seekers By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2171,8 +2171,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Deportations By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2184,8 +2184,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Fake Passport Detection By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2197,8 +2197,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Fraudulent Visa Detection By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2210,8 +2210,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refugees By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2223,8 +2223,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refused Entry By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Investment%20Planning%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2245,8 +2245,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2258,8 +2258,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2271,8 +2271,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2284,8 +2284,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2297,8 +2297,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2312,8 +2312,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers' Remittances By Country (Us$ Million)</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2328,8 +2328,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2341,8 +2341,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2354,8 +2354,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2367,8 +2367,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District, Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2380,8 +2380,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2393,8 +2393,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2406,8 +2406,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2420,8 +2420,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Labour%20and%20Foreign%20Employment%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2444,8 +2444,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2457,8 +2457,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By Province</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2471,8 +2471,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2486,8 +2486,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2499,8 +2499,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Carrier</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2512,8 +2512,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2525,8 +2525,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2538,8 +2538,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Port</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2551,8 +2551,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Purpose</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2564,8 +2564,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Sex</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2577,8 +2577,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month Vs Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2591,8 +2591,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Location Vs Revenue Vs Visitor Count</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2604,8 +2604,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2023/Government%20of%20Sri%20Lanka%28government%29/Ranil%20Wickremesinghe%28citizen%29/Minister%20of%20Tourism%20and%20Lands%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2623,67 +2623,6 @@ Browse cleaned public datasets by year, ministry, and department.
 <details class="details president-section">
 <summary class="summary">👤 Anura Kumara Dissanayake</summary>
 <details class="details ministry-section">
-<summary class="summary">🏛️ Minister Of Foreign Affairs</summary>
-<details class="details department-section">
-<summary class="summary">🏢 Official Communications</summary>
-<details class="details sub-section">
-<summary class="summary">📁 News</summary>
-<details class="details sub-section">
-<summary class="summary">📁 Ministry News</summary>
-<details class="details sub-section">
-<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
-<div class="dataset-item">
-  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
-  <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
-  </div>
-</div>
-</details>
-</details>
-<details class="details sub-section">
-<summary class="summary">📁 Mission News</summary>
-<details class="details sub-section">
-<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
-<div class="dataset-item">
-  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
-  <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
-  </div>
-</div>
-</details>
-</details>
-<details class="details sub-section">
-<summary class="summary">📁 News From Other Sources</summary>
-<details class="details sub-section">
-<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
-<div class="dataset-item">
-  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
-  <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
-  </div>
-</div>
-</details>
-</details>
-</details>
-<details class="details sub-section">
-<summary class="summary">📁 Special Notices</summary>
-<details class="details sub-section">
-<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
-<div class="dataset-item">
-  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
-  <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
-  </div>
-</div>
-</details>
-</details>
-</details>
-</details>
-<details class="details ministry-section">
 <summary class="summary">🏛️ Minister Of Foreign Affairs, Foreign Employment And Tourism</summary>
 <details class="details department-section">
 <summary class="summary">🏢 Sri Lanka Foreign Employment Bureau</summary>
@@ -2696,8 +2635,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Received</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_recieved%28AS_CATEGORY%29/Number%20of%20complaints%20received/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2709,8 +2648,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Number Of Complaints Resolved</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/complaints_settled%28AS_CATEGORY%29/Number%20of%20complaints%20resolved/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2722,8 +2661,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Arrivals</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_arrivals%28AS_CATEGORY%29/Local%20arrivals/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2735,8 +2674,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Local Departures</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/local_departures%28AS_CATEGORY%29/Local%20departures/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2748,8 +2687,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Monthly Foreign Exchange Earnings</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/monthly_foreign_exchange_earnings%28AS_CATEGORY%29/Monthly%20foreign%20exchange%20earnings/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2763,8 +2702,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers' Remittances By Country (Us$ Million)</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/remittances%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Workers%27%20Remittances%20by%20Country%20%28US%24%20Million%29/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2779,8 +2718,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2792,8 +2731,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Age & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_age_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Age%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2805,8 +2744,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Country & Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_country_vs_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Country%20%26%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2818,8 +2757,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/SLBFE%20registration%20by%20district/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/SLBFE%20registration%20by%20district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/SLBFE%20registration%20by%20district/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/SLBFE%20registration%20by%20district/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2831,8 +2770,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By District, Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_district_vs_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20District%2C%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2844,8 +2783,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_gender%28AS_CATEGORY%29/SLBFE%20registration%20by%20gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2857,8 +2796,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2870,8 +2809,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Slbfe Registration By Manpower Level & Gender</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/slbfe_registration%28AS_CATEGORY%29/by_manpower_level_vs_gender%28AS_CATEGORY%29/SLBFE%20Registration%20by%20Manpower%20Level%20%26%20Gender/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2884,8 +2823,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Workers Remittances</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Foreign%20Employment%20Bureau%28department%29/foreign_employment%28AS_CATEGORY%29/workers_remittances%28AS_CATEGORY%29/Workers%20Remittances/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2905,8 +2844,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By District</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_district%28AS_CATEGORY%29/Accommodations%20by%20District/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2918,8 +2857,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Accommodations By Province</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/accommodations%28AS_CATEGORY%29/by_province%28AS_CATEGORY%29/Accommodations%20by%20Province/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2932,8 +2871,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Annual Tourism Receipts</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/annual_tourism_receipts%28AS_CATEGORY%29/Annual%20Tourism%20Receipts/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2947,8 +2886,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Age</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_age%28AS_CATEGORY%29/Arrivals%20by%20Age/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2960,8 +2899,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Carrier</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_carrier%28AS_CATEGORY%29/Arrivals%20by%20Carrier/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2973,8 +2912,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_country%28AS_CATEGORY%29/Arrivals%20by%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2986,8 +2925,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_month%28AS_CATEGORY%29/Arrivals%20by%20Month/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -2999,8 +2938,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Port</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_port%28AS_CATEGORY%29/Arrivals%20by%20Port/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3012,8 +2951,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Purpose</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_purpose%28AS_CATEGORY%29/Arrivals%20by%20Purpose/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3025,8 +2964,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Sex</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/by_sex%28AS_CATEGORY%29/Arrivals%20by%20Sex/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3038,8 +2977,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Arrivals By Month Vs Country</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/arrivals%28AS_CATEGORY%29/month_vs_country%28AS_CATEGORY%29/Arrivals%20by%20Month%20vs%20Country/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3052,8 +2991,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Location Vs Revenue Vs Visitor Count</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/location_vs_revenue_vs_visitors_count%28AS_CATEGORY%29/Location%20vs%20Revenue%20vs%20Visitor%20Count/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3065,11 +3004,69 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Top 10 Source Markets</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/Sri%20Lanka%20Tourism%20Development%20Authority%28department%29/tourism%28AS_CATEGORY%29/top_10_source_markets%28AS_CATEGORY%29/Top%2010%20source%20markets/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
+</details>
+</details>
+</details>
+<details class="details department-section">
+<summary class="summary">🏢 Official Communications</summary>
+<details class="details sub-section">
+<summary class="summary">📁 News</summary>
+<details class="details sub-section">
+<summary class="summary">📁 Ministry News</summary>
+<details class="details sub-section">
+<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
+<div class="dataset-item">
+  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
+  <div class="dataset-links">
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/ministry_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+  </div>
+</div>
+</details>
+</details>
+<details class="details sub-section">
+<summary class="summary">📁 Mission News</summary>
+<details class="details sub-section">
+<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
+<div class="dataset-item">
+  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
+  <div class="dataset-links">
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/mission_news%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+  </div>
+</div>
+</details>
+</details>
+<details class="details sub-section">
+<summary class="summary">📁 News From Other Sources</summary>
+<details class="details sub-section">
+<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
+<div class="dataset-item">
+  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
+  <div class="dataset-links">
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/news%28AS_CATEGORY%29/news_from_other_sources%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+  </div>
+</div>
+</details>
+</details>
+</details>
+<details class="details sub-section">
+<summary class="summary">📁 Special Notices</summary>
+<details class="details sub-section">
+<summary class="summary">📁 Media Releases From Ministry Of Foreign Affairs</summary>
+<div class="dataset-item">
+  <span class="dataset-name">📁 Media Releases From Ministry Of Foreign Affairs</span>
+  <div class="dataset-links">
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Foreign%20Affairs%2C%20Foreign%20Employment%20and%20Tourism%28minister%29/official_communications%28AS_CATEGORY%29/special_notices%28AS_CATEGORY%29/Media%20Releases%20from%20Ministry%20of%20Foreign%20Affairs/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+  </div>
+</div>
 </details>
 </details>
 </details>
@@ -3087,8 +3084,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Asylum Seekers By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/asylum_seekers%28AS_CATEGORY%29/asylum_seekers_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3100,8 +3097,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Deportations By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/deported_foreign_nationals%28AS_CATEGORY%29/deportations_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3113,8 +3110,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Fake Passport Detection By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fake_passports%28AS_CATEGORY%29/fake_passport_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3126,8 +3123,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Fraudulent Visa Detection By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/fraudulent_visa%28AS_CATEGORY%29/fraudulent_visa_detection_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3139,8 +3136,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refugees By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refugees%28AS_CATEGORY%29/refugees_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>
@@ -3152,8 +3149,8 @@ Browse cleaned public datasets by year, ministry, and department.
 <div class="dataset-item">
   <span class="dataset-name">📁 Refused Entry By Nationality</span>
   <div class="dataset-links">
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
-    <a href="#" onclick="showJsonData('data/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/data.json', 'data.json')" class="file-link">📄 data.json</a>
+    <a href="#" onclick="showJsonData('data/statistics/2024/Government%20of%20Sri%20Lanka%28government%29/Anura%20Kumara%20Dissanayake%28citizen%29/Minister%20of%20Public%20Security%20and%20Parliamentary%20Affairs%28minister%29/Department%20of%20Immigration%20and%20Emigration%28department%29/immigration_and_emigration%28AS_CATEGORY%29/refused_foreign_entry%28AS_CATEGORY%29/refused_entry_by_nationality/metadata.json', 'metadata.json')" class="file-link">📄 metadata.json</a>
   </div>
 </div>
 </details>

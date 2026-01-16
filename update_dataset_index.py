@@ -92,7 +92,7 @@ def create_zip_for_section(section_path, section_name, output_dir="docs/download
     
     return zip_filename
 
-def generate_all_zips(data_path="data", output_dir="docs/downloads"):
+def generate_all_zips(data_path="data/statistics", output_dir="docs/downloads"):
     """Generate ZIP files for all major sections"""
     zip_files = {}
     
@@ -104,6 +104,10 @@ def generate_all_zips(data_path="data", output_dir="docs/downloads"):
     
     # Generate ZIP for each year
     for year in sorted(os.listdir(data_path)):
+        # Only process year directories (numeric)
+        if not year.isdigit():
+            continue
+            
         year_path = os.path.join(data_path, year)
         if os.path.isdir(year_path):
             zip_filename = create_zip_for_section(year_path, year, output_dir)
@@ -112,7 +116,7 @@ def generate_all_zips(data_path="data", output_dir="docs/downloads"):
     
     return zip_files
 
-def scan_data_folder(data_path="data", zip_files=None):
+def scan_data_folder(data_path="data/statistics", zip_files=None):
     """Scan the data folder and generate the structure"""
     if not os.path.exists(data_path):
         print(f"Error: {data_path} folder not found!")
@@ -132,6 +136,10 @@ def scan_data_folder(data_path="data", zip_files=None):
             item_relative_path = os.path.join(relative_path, item) if relative_path else item
             
             if os.path.isdir(item_path):
+                # For level 0 (years), only process numeric directories
+                if level == 0 and not item.isdigit():
+                    continue
+
                 emoji = get_emoji_for_level(level)
                 clean_display_name = clean_name(item)
                 css_class = ""
@@ -161,7 +169,7 @@ def scan_data_folder(data_path="data", zip_files=None):
             else:
                 if item == "data.json":
                     parent_name = os.path.basename(folder_path)
-                    data_url = quote(f"data/{item_relative_path}")
+                    data_url = quote(f"data/statistics/{item_relative_path}")
                     
                     emoji = get_emoji_for_type(parent_name)
                     clean_display_name = clean_name(parent_name)
@@ -171,7 +179,7 @@ def scan_data_folder(data_path="data", zip_files=None):
                     metadata_exists = os.path.exists(metadata_path)
                     
                     if metadata_exists:
-                        metadata_url = quote(f"data/{item_relative_path.replace('data.json', 'metadata.json')}")
+                        metadata_url = quote(f"data/statistics/{item_relative_path.replace('data.json', 'metadata.json')}")
                         content.append(f'''<div class="dataset-item">
   <span class="dataset-name">{emoji} {clean_display_name}</span>
   <div class="dataset-links">
@@ -191,7 +199,7 @@ def scan_data_folder(data_path="data", zip_files=None):
     
     return process_folder(data_path, zip_files=zip_files)
 
-def count_datasets(data_path="data"):
+def count_datasets(data_path="data/statistics"):
     """Count total datasets"""
     count = 0
     for root, dirs, files in os.walk(data_path):
