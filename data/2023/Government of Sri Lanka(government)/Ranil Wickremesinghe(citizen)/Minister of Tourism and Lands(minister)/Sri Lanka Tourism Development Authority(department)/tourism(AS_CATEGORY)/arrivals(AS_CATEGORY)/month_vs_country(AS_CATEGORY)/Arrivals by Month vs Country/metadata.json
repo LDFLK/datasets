@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Month vs Country",
   "column_count": 13,
   "row_count": 190,
@@ -11,6 +11,6 @@
   "resource_identifier": "Table 3",
   "extracted_date": "2025-09-07",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains tourist arrival statistics by month and country for 2023, showing monthly arrivals for 190 countries throughout the year. Columns: Country and 12 months (January through December). Data shows arrivals distributed across all months of 2023, indicating a recovery in tourism compared to 2020 when arrivals were concentrated in the first three months. The dataset allows for analysis of seasonal patterns and country-specific monthly trends."
 }

@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Carrier",
   "column_count": 2,
   "row_count": 30,
@@ -11,6 +11,6 @@
   "resource_identifier": "Table 08",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains tourist arrival statistics by airline carrier for 2020, showing the number of passengers for each airline. Columns: Airline and Number of Passengers. Data includes 30 airlines with Sri Lankan Airlines having the highest number of passengers (148,251), followed by Emirates (62,845) and Qatar Airways (59,882)."
 }

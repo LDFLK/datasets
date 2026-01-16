@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Inflow of workers’ Remittances by country (US$ Million) in 2023",
+  "dataset_name": "Inflow of workers' Remittances by country (US$ Million)",
   "column_count": 6,
   "row_count": 32,
   "node_count": null,
@@ -10,7 +10,7 @@
   "resource_section": "Inflow of workers’ Remittances by country (US$ Million) in 2023*",
   "resource_identifier": "Table 46",
   "extracted_date": "2025-09-17",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the inflow of workers’ remittances by country in 2023"
 }

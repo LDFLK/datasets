@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Age",
   "column_count": 2,
   "row_count": 7,
@@ -10,7 +10,7 @@
   "resource_section": "Tourist arrivals by age category, 2023",
   "resource_identifier": "Table 02",
   "extracted_date": "2025-12-17",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the distribution of tourist arrivals in Sri Lanka by age group in 2023"
 }

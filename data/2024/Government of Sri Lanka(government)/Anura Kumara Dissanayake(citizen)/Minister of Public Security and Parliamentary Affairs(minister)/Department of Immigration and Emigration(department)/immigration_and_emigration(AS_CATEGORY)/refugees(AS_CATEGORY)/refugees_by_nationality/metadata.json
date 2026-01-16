@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Refugees by Nationality - 2024",
+  "dataset_name": "Refugees by Nationality",
   "column_count": 2,
   "row_count": 10,
   "node_count": null,
@@ -11,6 +11,6 @@
   "resource_identifier": "2.1.4.11",
   "extracted_date": "2025-12-17",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains refugee statistics by nationality for 2024, showing the number of refugees from each country. Columns: Nationality and Refugees. Data includes 10 nationalities with Burmese nationals having the highest number of refugees (112), followed by Pakistani (98), Afghan (27), Palestinian (4), Sudanese (4), and others. The dataset provides insights into refugee populations in Sri Lanka and their countries of origin."
 }

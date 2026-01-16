@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Arrivals by Age",
   "column_count": 2,
   "row_count": 6,
@@ -11,6 +11,6 @@
   "resource_identifier": "Chart 14",
   "extracted_date": "2025-09-04",
   "extracted_by": "Lanka Data Foundation",
-  "verified_by": "",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "Dataset contains tourist arrival statistics by age group for 2020, showing the distribution of tourists by age as percentages. Columns: Age Group and Distributions of tourists by age (percentage). Data includes 6 age groups ranging from 3-19 (8.1%) to 60 & Over (19.2%), with the 30-39 age group having the highest percentage (24.5%)."
 }

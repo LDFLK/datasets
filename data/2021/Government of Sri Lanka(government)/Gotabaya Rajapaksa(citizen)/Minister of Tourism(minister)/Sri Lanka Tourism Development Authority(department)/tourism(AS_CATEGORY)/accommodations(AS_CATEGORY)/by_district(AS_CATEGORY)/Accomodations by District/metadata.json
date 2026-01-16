@@ -1,13 +1,16 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Accomodations by District",
   "column_count": 2,
   "row_count": 25,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/new%20year%20in%20review%20Update%2020213611163389.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
   "extracted_date": "2025-09-07",
-  "extracted_by" : {
-    "name": "Lanka Data Foundation",
-    "email": ""}
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
 }

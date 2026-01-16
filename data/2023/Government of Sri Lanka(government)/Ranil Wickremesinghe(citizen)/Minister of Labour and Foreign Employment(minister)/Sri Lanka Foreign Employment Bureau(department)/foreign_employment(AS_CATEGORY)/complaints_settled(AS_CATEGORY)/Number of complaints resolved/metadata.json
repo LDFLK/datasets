@@ -1,5 +1,5 @@
 {
-  "storage_type": "tabular", 
+  "storage_type": "tabular",
   "dataset_name": "Number of complaints resolved",
   "column_count": 2,
   "row_count": 1,
@@ -10,7 +10,7 @@
   "resource_section": "Number of Complaints Received, Resolved and Compensation Payments during 2019-2023*",
   "resource_identifier": "Table 55",
   "extracted_date": "2025-09-05",
-  "extracted_by": "",
-  "verified_by": "",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
   "remarks": "This is the number of complaints resolved in 2023"
 }

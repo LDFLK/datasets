@@ -6,7 +6,11 @@
   "node_count": null,
   "edges_count": null,
   "resource": "Mission News - Year 2019 data",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
   "extracted_date": "2025-09-07",
-  "extracted_by": "",
-  "verified_by": ""
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": ""
 }
