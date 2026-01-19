@@ -1,10 +1,10 @@
-ministers:
+minister:
 - name: Minister of Foreign Relations
-  categories:
+  category:
   - name: official_communications
-    subcategories:
+    subcategory:
     - name: news
-      subcategories:
+      subcategory:
       - name: news_from_other_sources
         datasets:
         - datasets/News From Other Sources
@@ -15,9 +15,9 @@ ministers:
         datasets:
         - datasets/Ministry News
   - name: human_resources
-    categories:
+    category:
     - name: cadre_management
-      subcategories:
+      subcategory:
       - name: staff_of_missions
         datasets:
         - datasets/Staff of Missions
@@ -25,16 +25,16 @@ ministers:
         datasets:
         - datasets/Staff of the Ministry
 - name: Minister of Tourism and Civil Aviation
-  departments:
+  department:
   - name: Sri Lanka Tourism Development Authority
-    categories:
+    category:
     - name: tourism
-      subcategories:
+      subcategory:
       - name: annual_tourism_receipts
         datasets:
         - datasets/Annual Tourism Receipts
       - name: accommodations
-        subcategories:
+        subcategory:
         - name: by_province
           datasets:
           - datasets/Accommodations by Province
@@ -45,7 +45,7 @@ ministers:
         datasets:
         - datasets/Location vs Revenue vs Visitors Count
       - name: occupancy_rate
-        subcategories:
+        subcategory:
         - name: by_district
           datasets:
           - datasets/Occupancy Rate by District
@@ -56,7 +56,7 @@ ministers:
         datasets:
         - datasets/Top 10 source markets
       - name: arrivals
-        subcategories:
+        subcategory:
         - name: by_age
           datasets:
           - datasets/Arrivals by Age
@@ -82,11 +82,11 @@ ministers:
           datasets:
           - datasets/Arrivals by Purpose
 - name: State Minister of Internal Security, Home affairs and Disaster Management
-  departments:
+  department:
   - name: Department of Immigration and Emigration
-    categories:
+    category:
     - name: immigration_and_emigration
-      subcategories:
+      subcategory:
       - name: refugees
         datasets:
         - datasets/refugees_by_nationality
@@ -100,13 +100,13 @@ ministers:
         datasets:
         - datasets/refused_entry_by_nationality
 - name: State Minister of Foreign Employment Promotion and Market Diversification
-  departments:
+  department:
   - name: Sri Lanka Foreign Employment Bureau
-    categories:
+    category:
     - name: foreign_employment
-      subcategories:
+      subcategory:
       - name: slbfe_registration
-        subcategories:
+        subcategory:
         - name: by_country_vs_manpower_level
           datasets:
           - datasets/SLBFE registration by country vs manpower level
@@ -150,7 +150,7 @@ ministers:
         datasets:
         - datasets/Monthly foreign exchange earnings
       - name: remittances
-        subcategories:
+        subcategory:
         - name: by_region
           datasets:
           - datasets/Private Remittances (Region-wise)
