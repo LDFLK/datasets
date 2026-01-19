@@ -7,3 +7,6 @@ dependencies:
   - pymongo
   - protobuf
   - rich
+  - python-dotenv
+  - aiohttp
+  - pyyaml
