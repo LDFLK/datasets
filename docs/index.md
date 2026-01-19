@@ -88,7 +88,7 @@ Browse cleaned public datasets by year, ministry, and department.
 
 <!-- DATA_BROWSER_START -->
 <details class="details year-section">
-<summary class="summary">🗓️ 2019 <a href="downloads/2019_Data.zip" class="download-btn" download>📦 Download All 2019 Data</a></summary>
+<summary class="summary">🗓️ 2019 (❗❗ This data has not been verified) <a href="downloads/2019_Data.zip" class="download-btn" download>📦 Download All 2019 Data</a></summary>
 <details class="details president-section">
 <summary class="summary">🏛️ Government Of Sri Lanka</summary>
 <details class="details president-section">
