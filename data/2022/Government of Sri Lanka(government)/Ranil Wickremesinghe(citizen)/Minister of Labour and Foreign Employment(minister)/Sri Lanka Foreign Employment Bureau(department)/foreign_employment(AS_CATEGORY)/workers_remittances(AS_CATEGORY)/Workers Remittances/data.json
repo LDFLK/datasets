@@ -1,6 +1,6 @@
 {
-"columns": ["Year", "Remittances Middle East (Rs. Million)", "Remittances Middle East (US$ Million)",  "Remittances Total (Rs. Million)", "Remittances Total (US$ Million)", "Middle East as a % of total remittance"],
+"columns": ["Year", "Remittances Middle East (Rs. Million)", "Remittances Middle East (US$ Million)",  "Remittances Total (Rs. Million)", "Remittances Total (US$ Million)"],
 "rows": [
-  ["2022", 824491, 2493, 1252504, 3789, 65.8]
+  ["2022", 824491, 2493, 1252504, 3789]
 ]
 }
