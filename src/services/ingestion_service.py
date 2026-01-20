@@ -8,9 +8,7 @@ load_dotenv()
 READ_BASE_URL = os.getenv("READ_BASE_URL")
 
 class IngestionService:
-    """
-    The OpenGINService directly interfaces with the OpenGIN APIs to insert data.
-    """
+
     def __init__(self, config: dict):
         self.config = config
 
@@ -33,25 +31,6 @@ class IngestionService:
             raise Exception(f"Failed to create entity: {e}")
 
     async def update_entity(self, entity_id: str, entity: EntityCreate):
-        """
-        Update an existing entity by its ID.
-        
-        This method allows you to update an existing entity by:
-        - Updating its core attributes (name, created, terminated)
-        - Adding its metadata
-        - Adding its attributes
-        - Adding or Updating its relationships
-        
-        Args:
-            entity_id: The ID of the entity to update (required in path and body)
-            entity: The entity data to update (EntityCreate object)
-        
-        Returns:
-            The updated entity as a dictionary
-        
-        Raises:
-            Exception: If the update fails
-        """
         url = f"{READ_BASE_URL}/v1/entities/{entity_id}"
         headers = {"Content-Type": "application/json"}
         payload = entity.model_dump()

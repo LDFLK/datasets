@@ -19,15 +19,6 @@ class ReadService:
         return http_client.session
 
     async def get_entities(self, entity: Entity):
-        """
-        Search for entities based on the provided entity criteria.
-        
-        Args:
-            entity: Entity object with search criteria
-        
-        Returns:
-            List of Entity objects matching the search criteria
-        """
         url = f"{READ_BASE_URL}/v1/entities/search"
         headers = {"Content-Type": "application/json"}
         payload = entity.model_dump()
@@ -46,19 +37,6 @@ class ReadService:
             raise Exception(f"Read API Error: {str(e)}")
     
     async def fetch_relations(self, entityId: str, relation: Relation):
-        """
-        Fetch relations for a given entity based on the provided relation criteria.
-        
-        Args:
-            entityId: The ID of the entity to fetch relations for
-            relation: Relation object with search criteria
-        
-        Returns:
-            List of Relation objects matching the search criteria
-        
-        Raises:
-            Exception: If entityId is missing or empty, or if the API call fails
-        """
         if not entityId or not relation:
             raise Exception("Entity ID and relation are required")
         
@@ -81,18 +59,6 @@ class ReadService:
             raise Exception(f"Read API Error: {str(e)}")
     
     async def get_entity_metadata(self, entityId: str):
-        """
-        Get metadata of an entity.
-        
-        Args:
-            entityId: The ID of the entity to get metadata for
-        
-        Returns:
-            A dictionary containing entity metadata (structure may vary based on entity type)
-        
-        Raises:
-            Exception: If entityId is missing or empty, or if the API call fails
-        """
         if not entityId:
             raise Exception("Entity ID is required")
         
@@ -120,23 +86,7 @@ class ReadService:
         endTime: str = None, 
         fields: list = None
     ):
-        """
-        Get entity attribute value(s).
-        
-        Args:
-            entityId: The ID of the entity
-            attributeName: The name of the attribute to retrieve
-            startTime: Optional start time filter (date-time format)
-            endTime: Optional end time filter (date-time format)
-            fields: Optional list of field names to return. Defaults to ['*'] (all fields)
-        
-        Returns:
-            Attribute value(s) - can be a single object, an array of objects, or null.
-            Each object has 'start', 'end' (nullable), and 'value' properties.
-        
-        Raises:
-            Exception: If entityId or attributeName is missing or empty, or if the API call fails
-        """
+
         if not entityId or not attributeName:
             raise Exception("Entity ID and attribute name are required")
         

@@ -13,16 +13,6 @@ class Entity(BaseModel):
     created: str = ""
     terminated: str = ""
 
-class EntityCreate(BaseModel):
-    """EntityCreate refers to the object in the OpenGIN Specification"""
-    name: str = ""
-    kind: Kind = Kind()
-    created: str = ""
-    terminated: str = ""
-    metadata: dict = {}
-    attributes: dict = {}
-    relationships: Relation = []
-
 class Relation(BaseModel):
     """Relation refers to the relation between two entities in the OpenGIN Specification"""
     name: str = ""
@@ -32,6 +22,16 @@ class Relation(BaseModel):
     endTime: str = ""
     id: str = ""
     direction: str = ""
+
+class EntityCreate(BaseModel):
+    """EntityCreate refers to the object in the OpenGIN Specification"""
+    name: str = ""
+    kind: Kind = Kind()
+    created: str = ""
+    terminated: str = ""
+    metadata: dict = {}
+    attributes: dict = {}
+    relationships: list[Relation] = []
 
 class Date(BaseModel):
     date: str

@@ -4,34 +4,10 @@ from src.services.read_service import ReadService
 from src.models.schema import Entity, Relation, Kind
 from src.utils.date_utils import is_relationship_active_in_year
 
-
-async def find_ministers_by_name_and_year(
-    name: str, 
-    year: str, 
-    read_service: ReadService
-) -> List[Dict[str, str]]:
-    """
-    Find all ministers with the given name that were active in the target year.
+# Find all ministers with the given name that were active in the target year.
+# returns a list of dictionaries with id, starttime, endtime
+async def find_ministers_by_name_and_year(name: str, year: str, read_service: ReadService) -> List[Dict[str, str]]:
     
-    This function:
-    1. Searches for ministers by name using the search API
-    2. For each minister found, fetches AS_MINISTER relationships with OUTGOING direction
-    3. Filters relationships to only those active in the target year
-    4. Returns all ministers that were active in the year with their relationship times
-    
-    Args:
-        name: The name of the minister to search for
-        year: The target year as a string (e.g., "2020")
-        read_service: An instance of ReadService for API calls
-        
-    Returns:
-        List of dictionaries, each containing:
-        - 'minister_id': The minister entity ID
-        - 'start_time': The start time of the relationship that was active in the year
-        - 'end_time': The end time of the relationship (empty string if ongoing)
-        
-        Returns empty list if no ministers are found or none are active in the year.
-    """
     # Search for ministers by name
     search_entity = Entity(
         name=name,
@@ -49,7 +25,7 @@ async def find_ministers_by_name_and_year(
     # For each minister, fetch AS_MINISTER relationships and check if active in year
     active_ministers = []
     
-    # Create relation filter for AS_MINISTER OUTGOING
+    # Create relation filter for AS_MINISTER INCOMING
     relation_filter = Relation(
         name="AS_MINISTER",
         direction="INCOMING"
@@ -66,7 +42,7 @@ async def find_ministers_by_name_and_year(
     except Exception as e:
         raise Exception(f"Failed to fetch minister relations: {e}")
     
-    # Process results - collect ALL active relationships, not just one per minister
+    # Process results - collect ALL active relationships for each minister
     for i, relations in enumerate(all_relations):
         if isinstance(relations, Exception):
             # Skip ministers where relation fetch failed
@@ -89,33 +65,10 @@ async def find_ministers_by_name_and_year(
     
     return active_ministers
 
+#Find a department by name that is connected to any of the given ministers and active in the target year.
+# Returns department id
+async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[str]:
 
-async def find_department_by_name_and_ministers(
-    name: str,
-    active_ministers: List[Dict[str, str]],
-    year: str,
-    read_service: ReadService
-) -> Optional[str]:
-    """
-    Find a department by name that is connected to any of the given ministers and active in the target year.
-    
-    This function:
-    1. Searches for departments by name using the search API
-    2. For each department found, fetches AS_DEPARTMENT relationships
-    3. Filters relationships where relatedEntityId matches any of the minister IDs from active_ministers
-    4. Filters relationships to only those active in the target year
-    5. Returns the department ID with the latest startTime that's still within the year
-    
-    Args:
-        name: The name of the department to search for
-        active_ministers: List of dictionaries with 'minister_id', 'start_time', and 'end_time'
-        year: The target year as a string (e.g., "2020")
-        read_service: An instance of ReadService for API calls
-        
-    Returns:
-        The department ID (string) with the latest startTime that was connected to one of the
-        ministers and active in the year. Returns None if no matching department is found.
-    """
     if not active_ministers:
         return None
     

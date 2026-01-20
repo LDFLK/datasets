@@ -21,6 +21,7 @@ from src.services.ingestion_service import IngestionService
 from src.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
 
 
+# Recursively process categories and their subcategories/datasets.
 async def process_categories(
     categories: List[Dict[str, Any]],
     parent_id: str,
@@ -28,16 +29,7 @@ async def process_categories(
     yaml_base_path: str,
     year: str
 ):
-    """
-    Recursively process categories and their subcategories/datasets.
-    
-    Args:
-        categories: List of category dictionaries from YAML
-        parent_id: ID of the parent entity (minister or department)
-        parent_type: Type of parent ("minister" or "department")
-        yaml_base_path: Base path where YAML file is located (for dataset paths)
-        year: Target year for relationships
-    """
+
     for category in categories:
         category_name = category.get('name', '')
         if not category_name:
@@ -68,21 +60,14 @@ async def process_categories(
             )
 
 
+# Recursively process subcategories and their nested subcategories/datasets.
 async def process_subcategories_recursive(
     subcategories: List[Dict[str, Any]],
     parent_id: str,
     yaml_base_path: str,
     year: str
 ):
-    """
-    Recursively process subcategories and their nested subcategories/datasets.
-    
-    Args:
-        subcategories: List of subcategory dictionaries from YAML
-        parent_id: ID of the parent entity (category or subcategory)
-        yaml_base_path: Base path where YAML file is located (for dataset paths)
-        year: Target year for relationships
-    """
+
     for subcategory in subcategories:
         subcategory_name = subcategory.get('name', '')
         if not subcategory_name:
@@ -112,20 +97,13 @@ async def process_subcategories_recursive(
                 yaml_base_path
             )
 
-
+# Process dataset files
 async def process_datasets(
     datasets: List[str],
     parent_id: str,
     yaml_base_path: str
 ):
-    """
-    Process dataset files.
-    
-    Args:
-        datasets: List of dataset path strings from YAML
-        parent_id: ID of the parent entity (category or subcategory)
-        yaml_base_path: Base path where YAML file is located
-    """
+
     for dataset_path in datasets:
         # Resolve full path to dataset
         full_dataset_path = os.path.join(yaml_base_path, dataset_path)
@@ -150,22 +128,14 @@ async def process_datasets(
         else:
             print(f"        WARNING: Dataset path does not exist: {full_dataset_path}")
 
-
+# Process a single department entry from the YAML.
 async def process_department_entry(
     department_entry: Dict[str, Any],
     department_id: str,
     yaml_base_path: str,
     year: str
 ):
-    """
-    Process a single department entry from the YAML.
-    
-    Args:
-        department_entry: Dictionary containing department information from YAML
-        department_id: The resolved department entity ID
-        yaml_base_path: Base path where YAML file is located
-        year: Target year for relationships
-    """
+
     department_name = department_entry.get('name', '')
     
     # Process categories under this department
@@ -190,7 +160,7 @@ async def process_department_entry(
             yaml_base_path
         )
 
-
+# Process a single minister entry from the YAML.
 async def process_minister_entry(
     minister_entry: Dict[str, Any],
     year: str,
@@ -198,16 +168,7 @@ async def process_minister_entry(
     read_service: ReadService,
     ingestion_service: IngestionService
 ):
-    """
-    Process a single minister entry from the YAML.
-    
-    Args:
-        minister_entry: Dictionary containing minister information from YAML
-        year: Target year for filtering relationships
-        yaml_base_path: Base path where YAML file is located
-        read_service: ReadService instance for API calls
-        ingestion_service: IngestionService instance for creating entities
-    """
+
     minister_name = minister_entry.get('name', '')
     if not minister_name:
         print(f"[WARNING] Skipping minister entry with no name")
@@ -364,7 +325,7 @@ async def main():
     read_service = ReadService(config)
     ingestion_service = IngestionService(config)
     
-    # Process each minister entry sequentially
+    # Process each minister entry sequentially - change to parallel later
     for minister_entry in ministers:
         await process_minister_entry(
             minister_entry,
