@@ -1,8 +1,8 @@
 import asyncio
 from typing import List, Optional, Dict
-from src.services.read_service import ReadService
-from src.models.schema import Entity, Relation, Kind
-from src.utils.date_utils import is_relationship_active_in_year
+from ingestion.services.read_service import ReadService
+from ingestion.models.schema import Entity, Relation, Kind
+from ingestion.utils.date_utils import is_relationship_active_in_year
 
 # Find all ministers with the given name that were active in the target year.
 # returns a list of dictionaries with id, starttime, endtime

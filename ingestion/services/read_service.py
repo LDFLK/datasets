@@ -1,10 +1,10 @@
-from src.utils.http_client import http_client
+from ingestion.utils.http_client import http_client
 from aiohttp import ClientSession
 import os
 from dotenv import load_dotenv
-from src.models.schema import Entity, Relation
+from ingestion.models.schema import Entity, Relation
 from google.api_core import retry_async
-from src.exception.exceptions import BadRequestError, NotFoundError, InternalServerError
+from ingestion.exception.exceptions import BadRequestError, NotFoundError, InternalServerError
 
 load_dotenv()
 READ_BASE_URL = os.getenv("READ_BASE_URL")

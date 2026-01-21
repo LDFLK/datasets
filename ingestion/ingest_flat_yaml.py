@@ -15,11 +15,11 @@ import os
 import sys
 from typing import Dict, List, Any, Optional
 
-from src.services.yaml_parser import YamlParser
-from src.services.read_service import ReadService
-from src.services.ingestion_service import IngestionService
-from src.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
-from src.utils.http_client import http_client
+from ingestion.services.yaml_parser import YamlParser
+from ingestion.services.read_service import ReadService
+from ingestion.services.ingestion_service import IngestionService
+from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
+from ingestion.utils.http_client import http_client
 
 
 # Recursively process categories and their subcategories/datasets.

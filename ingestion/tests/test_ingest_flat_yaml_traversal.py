@@ -12,16 +12,17 @@ from typing import Dict, List, Any
 # Import the functions to test
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Add the parent directory (datasets) to sys.path so we can import ingestion
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from ingest_flat_yaml import (
+from ingestion.ingest_flat_yaml import (
     process_categories,
     process_subcategories_recursive,
     process_datasets,
     process_department_entry,
     process_minister_entry
 )
-import ingest_flat_yaml
+import ingestion.ingest_flat_yaml as ingest_flat_yaml
 
 
 class TestProcessCategories:

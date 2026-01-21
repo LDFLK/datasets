@@ -1,5 +1,5 @@
 from typing import Optional
-from src.models.schema import Relation
+from ingestion.models.schema import Relation
 
 
 # Get ISO 8601 timestamps for the start and end of a given year.
