@@ -1,8 +1,11 @@
 import asyncio
+import logging
 from typing import List, Optional, Dict
 from ingestion.services.read_service import ReadService
 from ingestion.models.schema import Entity, Relation, Kind
 from ingestion.utils.date_utils import is_relationship_active_in_year
+
+logger = logging.getLogger(__name__)
 
 # Find all ministers with the given name that were active in the target year.
 # returns a list of dictionaries with id, starttime, endtime
@@ -46,6 +49,11 @@ async def find_ministers_by_name_and_year(name: str, year: str, read_service: Re
     for i, relations in enumerate(all_relations):
         if isinstance(relations, Exception):
             # Skip ministers where relation fetch failed
+            minister = ministers[i]
+            logger.warning(
+                f"Failed to fetch relations for minister {minister.id} ({minister.name}): {relations}",
+                exc_info=relations
+            )
             continue
         
         minister = ministers[i]
@@ -116,6 +124,11 @@ async def find_department_by_name_and_ministers(name: str, active_ministers: Lis
     for i, relations in enumerate(all_relations):
         if isinstance(relations, Exception):
             # Skip where relation fetch failed
+            department = task_department_map[i]
+            logger.warning(
+                f"Failed to fetch relations for department {department.id} ({department.name}): {relations}",
+                exc_info=relations
+            )
             continue
         
         if not relations:
