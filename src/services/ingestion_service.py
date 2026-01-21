@@ -1,23 +1,42 @@
-from http_client import http_client
+from src.utils.http_client import http_client
 from aiohttp import ClientSession
 import os
 from dotenv import load_dotenv
 from src.models.schema import EntityCreate
+from google.api_core import retry_async
+from src.exception.exceptions import BadRequestError, NotFoundError, InternalServerError
 
 load_dotenv()
-READ_BASE_URL = os.getenv("READ_BASE_URL")
+INGESTION_BASE_URL = os.getenv("INGESTION_BASE_URL")
+
+def custom_retry_predicate(exception: Exception) -> bool:
+    """
+    Determine if the request should be retried based on the exception type.
+    Returns False for BadRequestError to skip retries.
+    """
+    if isinstance(exception, (BadRequestError, NotFoundError)):
+        return False
+    
+    if isinstance(exception, (InternalServerError)):
+        return True
+
+api_retry_decorator = retry_async.AsyncRetry(
+    predicate=custom_retry_predicate,
+    initial=1.0,
+    maximum=6.0,
+    multiplier=2.0,
+    timeout=10.0 # retry for 10 seconds
+)
 
 class IngestionService:
-
-    def __init__(self, config: dict):
-        self.config = config
 
     @property
     def session(self) -> ClientSession:
         return http_client.session
 
+    @api_retry_decorator
     async def create_entity(self, entity: EntityCreate):
-        url = f"{READ_BASE_URL}/v1/entities"
+        url = f"{INGESTION_BASE_URL}/v1/entities"
         headers = {"Content-Type":"application/json"}      
         payload = entity.model_dump()
 
@@ -30,8 +49,9 @@ class IngestionService:
         except Exception as e:
             raise Exception(f"Failed to create entity: {e}")
 
+    @api_retry_decorator
     async def update_entity(self, entity_id: str, entity: EntityCreate):
-        url = f"{READ_BASE_URL}/v1/entities/{entity_id}"
+        url = f"{INGESTION_BASE_URL}/v1/entities/{entity_id}"
         headers = {"Content-Type": "application/json"}
         payload = entity.model_dump()
         # Include the id in the payload as required by the API

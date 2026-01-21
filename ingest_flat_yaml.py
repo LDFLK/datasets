@@ -19,6 +19,7 @@ from src.services.yaml_parser import YamlParser
 from src.services.read_service import ReadService
 from src.services.ingestion_service import IngestionService
 from src.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
+from src.utils.http_client import http_client
 
 
 # Recursively process categories and their subcategories/datasets.
@@ -320,22 +321,28 @@ async def main():
     
     print(f"\nFound {len(ministers)} minister(s) in YAML")
     
-    # Initialize services
-    config = {}  # Empty config for now, services use environment variables
-    read_service = ReadService(config)
-    ingestion_service = IngestionService(config)
+    # Initialize HTTP client
+    await http_client.start()
     
-    # Process each minister entry sequentially - change to parallel later
-    for minister_entry in ministers:
-        await process_minister_entry(
-            minister_entry,
-            year,
-            yaml_base_path,
-            read_service,
-            ingestion_service
-        )
-    
-    print("\n[COMPLETE] Ingestion process finished")
+    try:
+        # Initialize services
+        read_service = ReadService()
+        ingestion_service = IngestionService()
+        
+        # Process each minister entry sequentially - change to parallel later
+        for minister_entry in ministers:
+            await process_minister_entry(
+                minister_entry,
+                year,
+                yaml_base_path,
+                read_service,
+                ingestion_service
+            )
+        
+        print("\n[COMPLETE] Ingestion process finished")
+    finally:
+        # Clean up HTTP client
+        await http_client.close()
 
 
 if __name__ == "__main__":

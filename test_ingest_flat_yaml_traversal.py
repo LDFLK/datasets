@@ -6,7 +6,6 @@ navigate through the YAML structure (categories, subcategories, datasets).
 """
 
 import pytest
-import asyncio
 from unittest.mock import AsyncMock, MagicMock, patch
 from typing import Dict, List, Any
 
