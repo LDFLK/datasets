@@ -48,3 +48,49 @@ def get_latest_relationship_in_year(relationships: list[Relation], year: str) ->
     )
     
     return active_relationships[0]
+
+
+def calculate_attribute_time_period(
+    parent_start_time: str,
+    parent_end_time: str,
+    year: str
+) -> Optional[tuple[str, str]]:
+    """
+    Calculate the attribute time period as the intersection of parent time period and target year.
+    
+    The attribute's startTime and endTime must be within both:
+    - The parent entity's time period (parent_start_time to parent_end_time)
+    - The target year's time period ({year}-01-01T00:00:00Z to {year}-12-31T23:59:59Z)
+    
+    Args:
+        parent_start_time: Start time of the parent entity relationship (ISO 8601 format)
+        parent_end_time: End time of the parent entity relationship (ISO 8601 format, empty string if ongoing)
+        year: Target year as a string (e.g., "2020")
+        
+    Returns:
+        Tuple of (attribute_start_time, attribute_end_time) if there's an overlap, None otherwise.
+        Returns None if the parent time period doesn't overlap with the target year.
+    """
+    # Get year boundaries
+    year_start, year_end = get_year_boundaries(year)
+    
+    # Calculate intersection start: max of parent_start_time and year_start
+    attr_start = max(parent_start_time, year_start)
+    
+    # If attr_start is after year_end, there's no overlap
+    if attr_start > year_end:
+        return None
+    
+    # Calculate intersection end
+    if not parent_end_time or parent_end_time == "":
+        # Parent has no end time (ongoing), so use year_end
+        attr_end = year_end
+    else:
+        # Parent has an end time, use the minimum of parent_end_time and year_end
+        attr_end = min(parent_end_time, year_end)
+    
+    # Validate: if attr_start > attr_end, there's no overlap
+    if attr_start > attr_end:
+        return None
+    
+    return (attr_start, attr_end)

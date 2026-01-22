@@ -30,4 +30,82 @@ class Util:
                 print(f"[DEBUG decode] outer exception: {e}")
                 return "Unknown"
 
+    @staticmethod
+    def validate_tabular_dataset(data_content: dict) -> bool:
+        """
+        Validate the structure of a dataset JSON content.
+        
+        Validates:
+        - data_content is a dictionary
+        - Has 'columns' key that is a non-empty list
+        - Has 'rows' key that is a list
+        - Each row is a list
+        - All rows have the same number of columns (matching columns length)
+        
+        Args:
+            data_content: Dictionary containing dataset data with 'columns' and 'rows' keys
+            
+        Returns:
+            True if validation passes, False otherwise
+        """
+        # Validate structure: must have columns and rows
+        if not isinstance(data_content, dict):
+            print(f"        [ERROR] data.json is not a dictionary")
+            return False
+        
+        columns = data_content.get('columns')
+        rows = data_content.get('rows')
+        
+        if not isinstance(columns, list):
+            print(f"        [ERROR] 'columns' in data.json is not a list")
+            return False
+        
+        if not isinstance(rows, list):
+            print(f"        [ERROR] 'rows' in data.json is not a list")
+            return False
+        
+        if not columns:
+            print(f"        [ERROR] 'columns' list is empty")
+            return False
+        
+        if not rows:
+            print(f"        [ERROR] 'rows' list is empty")
+            return False
+        
+        expected_column_count = len(columns)
+        
+        # Validate rows structure (each row must be a list with same number of columns)
+        for i, row in enumerate(rows):
+            if not isinstance(row, list):
+                print(f"        [ERROR] Row {i} is not a list")
+                return False
+            if len(row) != expected_column_count:
+                print(f"        [ERROR] Row {i} has {len(row)} values but expected {expected_column_count}")
+                return False
+        
+        return True
+
+    @staticmethod
+    def format_attribute_name(name: str) -> str:
+        """
+        Format a name to be used as an attribute name in a human-readable format.
+        
+        Converts the name to a nice human-readable format by:
+        - Replacing underscores and hyphens with spaces
+        - Converting to title case
+        - Cleaning up extra whitespace
+        
+        Args:
+            name: The original name to format
+            
+        Returns:
+            Formatted human-readable attribute name (e.g., "Monthly Foreign Exchange Earnings")
+        """
+        # Replace underscores and hyphens with spaces
+        formatted = name.replace('_', ' ').replace('-', ' ')
+        # Remove extra whitespace and convert to title case
+        formatted = ' '.join(formatted.split())
+        formatted = formatted.title()
+        return formatted
+
     

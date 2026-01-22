@@ -14,6 +14,8 @@ import argparse
 import os
 import sys
 import uuid
+import json
+import re
 from typing import Dict, List, Any, Optional
 
 from ingestion.services.yaml_parser import YamlParser
@@ -23,6 +25,7 @@ from ingestion.services.entity_resolver import find_ministers_by_name_and_year, 
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
 from ingestion.utils.util_functions import Util
+from ingestion.utils.date_utils import calculate_attribute_time_period
 
 
 async def create_category(
@@ -267,6 +270,114 @@ async def process_subcategories_recursive(
                 subcategory_name,  # Using name as placeholder, would use subcategory_id
                 yaml_base_path
             )
+
+async def add_dataset_attribute(
+    parent_id: str,
+    dataset_path: str,
+    yaml_base_path: str,
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    ingestion_service: IngestionService
+) -> bool:
+    """
+    Add a dataset as an attribute to the parent entity.
+    
+    Args:
+        parent_id: ID of the parent entity (category or subcategory)
+        dataset_path: Path to the dataset directory (relative to yaml_base_path)
+        yaml_base_path: Base path where YAML file is located
+        year: Target year for the dataset
+        parent_start_time: Start time from parent entity relationship
+        parent_end_time: End time from parent entity relationship (empty string if ongoing)
+        ingestion_service: IngestionService instance for updating entities
+        
+    Returns:
+        True if successful, False otherwise
+    """
+    # Calculate attribute time period (intersection of parent time and year)
+    time_period = calculate_attribute_time_period(
+        parent_start_time,
+        parent_end_time,
+        year
+    )
+    
+    if time_period is None:
+        print(f"        [WARNING] No time overlap between parent period and year {year}, skipping dataset")
+        return False
+    
+    attr_start_time, attr_end_time = time_period
+    
+    # Resolve full path to dataset directory
+    full_dataset_path = os.path.join(yaml_base_path, dataset_path)
+    data_json_path = os.path.join(full_dataset_path, 'data.json')
+    metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
+    
+    # Check if dataset directory and data.json exist
+    if not os.path.exists(full_dataset_path):
+        print(f"        [WARNING] Dataset path does not exist: {full_dataset_path}")
+        return False
+    
+    if not os.path.exists(data_json_path):
+        print(f"        [WARNING] data.json not found at: {data_json_path}")
+        return False
+    
+    # Read data.json
+    try:
+        with open(data_json_path, 'r', encoding='utf-8') as f:
+            data_content = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"        [ERROR] Failed to parse data.json: {e}")
+        return False
+    except Exception as e:
+        print(f"        [ERROR] Failed to read data.json: {e}")
+        return False
+    
+    # Validate structure using utility function
+    if not Util.validate_tabular_dataset(data_content):
+        return False
+    
+    # TODO: Read metadata.json
+    
+    # Generate attribute name from dataset path
+    dataset_name = os.path.basename(dataset_path.rstrip('/'))
+    attribute_name = Util.format_attribute_name(dataset_name)
+    
+    columns = data_content.get('columns', [])
+    rows = data_content.get('rows', [])
+    print(f"        [ATTRIBUTE] Adding attribute '{attribute_name}' to parent {parent_id}")
+    print(f"          Time period: {attr_start_time} to {attr_end_time}")
+    print(f"          Columns: {len(columns)}, Rows: {len(rows)}")
+    
+    # Create attribute structure - use data_content directly
+    attribute = {
+        "key": attribute_name,
+        "value": {
+            "values": [
+                {
+                    "startTime": attr_start_time,
+                    "endTime": attr_end_time if attr_end_time else "",
+                    "value": data_content
+                }
+            ]
+        }
+    }
+    
+    # Update parent entity with the attribute
+    try:
+        entity_update = EntityCreate(
+            id=parent_id,
+            attributes=[attribute]
+        )
+        
+        await ingestion_service.update_entity(parent_id, entity_update)
+        print(f"        [SUCCESS] Added attribute '{attribute_name}' to parent {parent_id}")
+        return True
+        
+    except Exception as e:
+        print(f"        [ERROR] Failed to update parent entity with attribute: {e}")
+        return False
+
 
 # Process dataset files
 async def process_datasets(
