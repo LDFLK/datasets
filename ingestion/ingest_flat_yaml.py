@@ -213,7 +213,11 @@ async def process_categories(
             await process_datasets(
                 datasets,
                 category_id,
-                yaml_base_path
+                yaml_base_path,
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                ingestion_service=ingestion_service
             )
 
 
@@ -267,8 +271,12 @@ async def process_subcategories_recursive(
         if datasets:
             await process_datasets(
                 datasets,
-                subcategory_name,  # Using name as placeholder, would use subcategory_id
-                yaml_base_path
+                subcategory_id,
+                yaml_base_path,
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                ingestion_service=ingestion_service
             )
 
 async def add_dataset_attribute(
@@ -362,6 +370,8 @@ async def add_dataset_attribute(
             ]
         }
     }
+
+    print(f"        [DEBUG] Attribute structure: {attribute}")
     
     # Update parent entity with the attribute
     try:
@@ -383,32 +393,41 @@ async def add_dataset_attribute(
 async def process_datasets(
     datasets: List[str],
     parent_id: str,
-    yaml_base_path: str
+    yaml_base_path: str,
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    ingestion_service: IngestionService
 ):
-
+    """
+    Process a list of datasets and add them as attributes to the parent entity.
+    
+    Args:
+        datasets: List of dataset paths (relative to yaml_base_path)
+        parent_id: ID of the parent entity (category, subcategory, department, or minister)
+        yaml_base_path: Base path where YAML file is located
+        year: Target year for the datasets
+        parent_start_time: Start time from parent entity relationship
+        parent_end_time: End time from parent entity relationship (empty string if ongoing)
+        ingestion_service: IngestionService instance for updating entities
+    """
     for dataset_path in datasets:
-        # Resolve full path to dataset
-        full_dataset_path = os.path.join(yaml_base_path, dataset_path)
         dataset_name = os.path.basename(dataset_path.rstrip('/'))
-        
         print(f"      [DATASET] Processing dataset: {dataset_name} under parent {parent_id}")
-        print(f"        Path: {full_dataset_path}")
         
-        # Check if dataset directory exists
-        if os.path.exists(full_dataset_path):
-            data_json_path = os.path.join(full_dataset_path, 'data.json')
-            metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
-            
-            if os.path.exists(data_json_path):
-                print(f"        Found data.json")
-            if os.path.exists(metadata_json_path):
-                print(f"        Found metadata.json")
-            
-            # TODO: Read data.json and metadata.json
-            # TODO: Create dataset entity
-            # TODO: Link dataset to parent category/subcategory
-        else:
-            print(f"        WARNING: Dataset path does not exist: {full_dataset_path}")
+        # Add dataset as attribute to parent entity
+        success = await add_dataset_attribute(
+            parent_id=parent_id,
+            dataset_path=dataset_path,
+            yaml_base_path=yaml_base_path,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            ingestion_service=ingestion_service
+        )
+        
+        if not success:
+            print(f"        [WARNING] Failed to add dataset '{dataset_name}' as attribute")
 
 # Process a single department entry from the YAML.
 async def process_department_entry(
@@ -447,7 +466,11 @@ async def process_department_entry(
         await process_datasets(
             datasets,
             department_id,
-            yaml_base_path
+            yaml_base_path,
+            year,
+            parent_start_time=dept_start_time,
+            parent_end_time=dept_end_time,
+            ingestion_service=ingestion_service
         )
 
 # Process a single minister entry from the YAML.
@@ -559,7 +582,11 @@ async def process_minister_entry(
             await process_datasets(
                 datasets,
                 minister_id,
-                yaml_base_path
+                yaml_base_path,
+                year,
+                parent_start_time=latest_minister['start_time'],
+                parent_end_time=latest_minister['end_time'],
+                ingestion_service=ingestion_service
             )
 
 
