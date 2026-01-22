@@ -61,7 +61,7 @@ class IngestionService:
 
         try:
             async with self.session.put(url, headers=headers, json=payload) as response:
-                if response.status == 201:
+                if response.status == 200:
                     return await response.json()
                 else:
                     error_text = await response.text()

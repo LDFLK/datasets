@@ -96,21 +96,8 @@ async def create_category(
     # Generate a unique ID for the entity
     unique_id = str(uuid.uuid4())
     
-    # Create the relationship in API format
-    relation_id = str(uuid.uuid4())
-    category_relation = AddRelation(
-        key=relation_id,
-        value=AddRelationValue(
-            id=relation_id,
-            name="AS_CATEGORY",
-            relatedEntityId=parent_id,
-            startTime=parent_start_time,
-            endTime=parent_end_time if parent_end_time else ""
-        )
-    )
-    
-    # Create EntityCreate with all required fields in API format
-    entity_create = EntityCreate(
+    # Step 1: Create the category entity WITHOUT relationships
+    category_create = EntityCreate(
         id=unique_id,
         name=NameValue(
             startTime=parent_start_time,
@@ -122,18 +109,51 @@ async def create_category(
         terminated=parent_end_time if parent_end_time else "",
         metadata=[],
         attributes=[],
-        relationships=[category_relation]
+        relationships=[]  # No relationships when creating
     )
     
     try:
-        result = await ingestion_service.create_entity(entity_create)
+        result = await ingestion_service.create_entity(category_create)
         # Extract entity ID from response
-        created_id = result.get('id', unique_id)
-        print(f"    [SUCCESS] Created category '{name}' with ID: {created_id}")
-        return created_id
+        created_cat_id = result.get('id', unique_id)
+        print(f"    [SUCCESS] Created category '{name}' with ID: {created_cat_id}")
     except Exception as e:
         print(f"    [ERROR] Failed to create category '{name}': {e}")
         raise
+    
+    # Step 2: Update the parent entity to add the relationship
+    print(f"    [UPDATE] Adding relationship from parent {parent_id} to category {created_cat_id}")
+    
+    try:
+        # Create the new relationship in API format
+        relation_id = str(uuid.uuid4())
+        parent_cat_relation = AddRelation(
+            key="AS_CATEGORY",
+            value=AddRelationValue(
+                id=relation_id,
+                name="AS_CATEGORY",
+                relatedEntityId=created_cat_id,  # Relationship points TO the category
+                startTime=parent_start_time,
+                endTime=parent_end_time if parent_end_time else ""
+            )
+        )
+        
+        # Add relationship from parent entity to category entity
+        parent_cat_rel_update = EntityCreate(
+            id=parent_id,
+            relationships=[parent_cat_relation]  # Only the new relationship
+        )
+        
+        # Update the parent entity
+        await ingestion_service.update_entity(parent_id, parent_cat_rel_update)
+        print(f"    [SUCCESS] Added relationship from parent {parent_id} to category {created_cat_id}")
+        
+    except Exception as e:
+        print(f"    [WARNING] Failed to update parent entity with relationship: {e}")
+        # Category was created successfully, so we still return the ID
+        print(f"    [INFO] Category {created_cat_id} was created but relationship may not have been added")
+    
+    return created_cat_id
 
 
 # Recursively process categories and their subcategories/datasets.
@@ -199,7 +219,9 @@ async def process_subcategories_recursive(
     yaml_base_path: str,
     year: str,
     parent_start_time: str,
-    parent_end_time: str
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     for subcategory in subcategories:
@@ -221,7 +243,9 @@ async def process_subcategories_recursive(
                 yaml_base_path,
                 year,
                 parent_start_time=parent_start_time,
-                parent_end_time=parent_end_time
+                parent_end_time=parent_end_time,
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
         
         # Check for datasets under subcategory
