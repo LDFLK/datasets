@@ -22,6 +22,7 @@ from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
+from ingestion.utils.util_functions import Util
 
 
 async def create_category(
@@ -82,8 +83,10 @@ async def create_category(
             if entities and len(entities) > 0:
                 entity = entities[0]
                 # Check if the entity's name matches
-                if entity.name == name:
-                    print(f"    [INFO] Category '{name}' already exists with ID: {related_entity_id}")
+                decoded_name = Util.decode_protobuf_attribute_name(entity.name)
+                print(f"    [DEBUG] Name: {decoded_name}")
+                if decoded_name == name:
+                    print(f"    [INFO] Category '{decoded_name}' already exists with ID: {related_entity_id}")
                     return related_entity_id
         except Exception as e:
             # Continue checking other relations if this one fails
