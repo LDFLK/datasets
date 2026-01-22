@@ -109,7 +109,7 @@ async def find_department_by_name_and_ministers(name: str, active_ministers: Lis
         for minister_id in minister_ids:
             relation_filter = Relation(
                 name="AS_DEPARTMENT",
-                direction="OUTGOING",
+                direction="INCOMING",
                 relatedEntityId=minister_id
             )
             tasks.append(read_service.fetch_relations(department.id, relation_filter))
