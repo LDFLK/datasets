@@ -36,13 +36,15 @@ class IngestionService:
 
     @api_retry_decorator
     async def create_entity(self, entity: EntityCreate):
-        url = f"{INGESTION_BASE_URL}/v1/entities"
+        url = f"{INGESTION_BASE_URL}/entities"
         headers = {"Content-Type":"application/json"}      
         payload = entity.model_dump()
+        print(f"    [DEBUG] Create payload: {payload}")
+        print(f"    [DEBUG] Create URL: {url}")
 
         try:
             async with self.session.post(url, headers=headers, json=payload) as response:
-                if response.status == 200:
+                if response.status == 201:
                     return await response.json()
                 else:
                     raise Exception(f"Failed to create entity: {response.status}")
@@ -51,7 +53,7 @@ class IngestionService:
 
     @api_retry_decorator
     async def update_entity(self, entity_id: str, entity: EntityCreate):
-        url = f"{INGESTION_BASE_URL}/v1/entities/{entity_id}"
+        url = f"{INGESTION_BASE_URL}/entities/{entity_id}"
         headers = {"Content-Type": "application/json"}
         payload = entity.model_dump()
         # Include the id in the payload as required by the API
@@ -59,7 +61,7 @@ class IngestionService:
 
         try:
             async with self.session.put(url, headers=headers, json=payload) as response:
-                if response.status == 200:
+                if response.status == 201:
                     return await response.json()
                 else:
                     error_text = await response.text()

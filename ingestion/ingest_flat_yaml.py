@@ -21,7 +21,7 @@ from ingestion.services.read_service import ReadService
 from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
 from ingestion.utils.http_client import http_client
-from ingestion.models.schema import Entity, EntityCreate, Relation, Kind
+from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
 
 
 async def create_category(
@@ -96,26 +96,32 @@ async def create_category(
     # Generate a unique ID for the entity
     unique_id = str(uuid.uuid4())
     
-    # Create the relationship
+    # Create the relationship in API format
     relation_id = str(uuid.uuid4())
-    category_relation = Relation(
-        id=relation_id,
-        name="AS_CATEGORY",
-        direction="INCOMING",
-        relatedEntityId=parent_id,
-        startTime=parent_start_time,
-        endTime=parent_end_time if parent_end_time else ""
+    category_relation = AddRelation(
+        key=relation_id,
+        value=AddRelationValue(
+            id=relation_id,
+            name="AS_CATEGORY",
+            relatedEntityId=parent_id,
+            startTime=parent_start_time,
+            endTime=parent_end_time if parent_end_time else ""
+        )
     )
     
-    # Create EntityCreate with all required fields
+    # Create EntityCreate with all required fields in API format
     entity_create = EntityCreate(
         id=unique_id,
-        name=name,
+        name=NameValue(
+            startTime=parent_start_time,
+            endTime=parent_end_time if parent_end_time else "",
+            value=name  # The actual name string
+        ),
         kind=kind,
         created=parent_start_time,
         terminated=parent_end_time if parent_end_time else "",
-        metadata={},
-        attributes={},
+        metadata=[],
+        attributes=[],
         relationships=[category_relation]
     )
     
@@ -413,6 +419,20 @@ async def process_minister_entry(
 
 async def main():
     """Main entry point for the ingestion script."""
+    # Check required environment variables first
+    read_base_url = os.getenv("READ_BASE_URL")
+    ingestion_base_url = os.getenv("INGESTION_BASE_URL")
+    
+    if not read_base_url:
+        print("Error: READ_BASE_URL environment variable is not set")
+        print("Please set it before running the ingestion script.")
+        sys.exit(1)
+    
+    if not ingestion_base_url:
+        print("Error: INGESTION_BASE_URL environment variable is not set")
+        print("Please set it before running the ingestion script.")
+        sys.exit(1)
+    
     parser = argparse.ArgumentParser(
         description='Ingest datasets from YAML manifest files using flat folder structure'
     )

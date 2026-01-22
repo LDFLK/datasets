@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from ingestion.services.read_service import ReadService
 from ingestion.models.schema import Entity, Relation, Kind
 from ingestion.utils.date_utils import is_relationship_active_in_year

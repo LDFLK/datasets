@@ -15,7 +15,7 @@ minister:
         datasets:
         - datasets/Ministry News
   - name: human_resources
-    category:
+    subcategory:
     - name: cadre_management
       subcategory:
       - name: staff_of_missions

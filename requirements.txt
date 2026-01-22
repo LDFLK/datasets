@@ -9,7 +9,7 @@ protobuf>=4.25.0
 rich>=13.0.0
 google-api-core>=2.25.0
 fastapi>=0.115.0
-logging>=0.10.0
+logging
 
 # Testing dependencies
 pytest>=7.4.0
