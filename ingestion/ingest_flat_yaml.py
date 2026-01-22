@@ -84,7 +84,6 @@ async def create_category(
                 entity = entities[0]
                 # Check if the entity's name matches
                 decoded_name = Util.decode_protobuf_attribute_name(entity.name)
-                print(f"    [DEBUG] Name: {decoded_name}")
                 if decoded_name == name:
                     print(f"    [INFO] Category '{decoded_name}' already exists with ID: {related_entity_id}")
                     return related_entity_id
@@ -210,7 +209,7 @@ async def process_categories(
         if datasets:
             await process_datasets(
                 datasets,
-                category_name,  # Using name as placeholder, would use category_id
+                category_id,
                 yaml_base_path
             )
 
@@ -234,15 +233,24 @@ async def process_subcategories_recursive(
         
         print(f"    [SUBCATEGORY] Processing subcategory: {subcategory_name} under parent {parent_id}")
         
-        # TODO: Create subcategory entity and relationship to parent
-        # subcategory_id = await create_subcategory_entity(subcategory_name, parent_id, year)
+        # Create subcategory entity and relationship to parent
+        subcategory_id = await create_category(
+            name=subcategory_name,
+            parent_id=parent_id,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service,
+            is_subcategory=True
+        )
         
         # Check for nested subcategories
         nested_subcategories = YamlParser.get_subcategories(subcategory)
         if nested_subcategories:
             await process_subcategories_recursive(
                 nested_subcategories,
-                subcategory_name,  # Using name as placeholder, would use subcategory_id
+                subcategory_id,
                 yaml_base_path,
                 year,
                 parent_start_time=parent_start_time,
