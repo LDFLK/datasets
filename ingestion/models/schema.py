@@ -25,6 +25,7 @@ class Relation(BaseModel):
 
 class EntityCreate(BaseModel):
     """EntityCreate refers to the object in the OpenGIN Specification"""
+    id: str = ""
     name: str = ""
     kind: Kind = Kind()
     created: str = ""

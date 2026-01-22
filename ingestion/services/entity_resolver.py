@@ -75,7 +75,7 @@ async def find_ministers_by_name_and_year(name: str, year: str, read_service: Re
 
 #Find a department by name that is connected to any of the given ministers and active in the target year.
 # Returns department id
-async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[str]:
+async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[Dict[str, Any]]:
 
     if not active_ministers:
         return None
@@ -158,4 +158,7 @@ async def find_department_by_name_and_ministers(name: str, active_ministers: Lis
         key=lambda x: x['relation'].startTime if x['relation'].startTime else ""
     )
     
-    return latest_relation['department_id']
+    return {
+        'department_id': latest_relation['department_id'],
+        'relation': latest_relation['relation']
+    }

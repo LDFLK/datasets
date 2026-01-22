@@ -13,6 +13,7 @@ import asyncio
 import argparse
 import os
 import sys
+import uuid
 from typing import Dict, List, Any, Optional
 
 from ingestion.services.yaml_parser import YamlParser
@@ -20,6 +21,113 @@ from ingestion.services.read_service import ReadService
 from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
 from ingestion.utils.http_client import http_client
+from ingestion.models.schema import Entity, EntityCreate, Relation, Kind
+
+
+async def create_category(
+    name: str,
+    parent_id: str,
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService,
+    is_subcategory: bool
+) -> str:
+    """
+    Create a category or subcategory entity, checking for existence first.
+    
+    Args:
+        name: Category/subcategory name
+        parent_id: ID of the parent entity (minister, department, or category)
+        year: Target year (for reference)
+        parent_start_time: Start time from parent entity relationship
+        parent_end_time: End time from parent entity relationship (empty string if ongoing)
+        read_service: ReadService instance for API calls
+        ingestion_service: IngestionService instance for creating entities
+        is_subcategory: Boolean flag to determine Kind type
+        
+    Returns:
+        Entity ID (string) - either existing or newly created
+    """
+    # Determine Kind based on is_subcategory flag
+    if is_subcategory:
+        kind = Kind(major="Category", minor="childCategory")
+    else:
+        kind = Kind(major="Category", minor="parentCategory")
+    
+    # Existence check: Fetch OUTGOING relations from parent_id with name AS_CATEGORY
+    relation_filter = Relation(
+        name="AS_CATEGORY",
+        direction="OUTGOING"
+    )
+    
+    try:
+        relations = await read_service.fetch_relations(parent_id, relation_filter)
+    except Exception as e:
+        print(f"    [WARNING] Failed to fetch relations for existence check: {e}")
+        relations = []
+    
+    # Iterate through ALL returned relations
+    for relation in relations:
+        related_entity_id = relation.relatedEntityId
+        if not related_entity_id:
+            continue
+        
+        # Fetch the entity to check its name
+        try:
+            search_entity = Entity(id=related_entity_id)
+            entities = await read_service.get_entities(search_entity)
+            
+            if entities and len(entities) > 0:
+                entity = entities[0]
+                # Check if the entity's name matches
+                if entity.name == name:
+                    print(f"    [INFO] Category '{name}' already exists with ID: {related_entity_id}")
+                    return related_entity_id
+        except Exception as e:
+            # Continue checking other relations if this one fails
+            print(f"    [WARNING] Failed to fetch entity {related_entity_id} for existence check: {e}")
+            continue
+    
+    # Category not found - create new one
+    print(f"    [CREATE] Creating new category '{name}'")
+    
+    # Generate a unique ID for the entity
+    unique_id = str(uuid.uuid4())
+    
+    # Create the relationship
+    relation_id = str(uuid.uuid4())
+    category_relation = Relation(
+        id=relation_id,
+        name="AS_CATEGORY",
+        direction="INCOMING",
+        relatedEntityId=parent_id,
+        startTime=parent_start_time,
+        endTime=parent_end_time if parent_end_time else ""
+    )
+    
+    # Create EntityCreate with all required fields
+    entity_create = EntityCreate(
+        id=unique_id,
+        name=name,
+        kind=kind,
+        created=parent_start_time,
+        terminated=parent_end_time if parent_end_time else "",
+        metadata={},
+        attributes={},
+        relationships=[category_relation]
+    )
+    
+    try:
+        result = await ingestion_service.create_entity(entity_create)
+        # Extract entity ID from response
+        created_id = result.get('id', unique_id)
+        print(f"    [SUCCESS] Created category '{name}' with ID: {created_id}")
+        return created_id
+    except Exception as e:
+        print(f"    [ERROR] Failed to create category '{name}': {e}")
+        raise
 
 
 # Recursively process categories and their subcategories/datasets.
@@ -28,7 +136,11 @@ async def process_categories(
     parent_id: str,
     parent_type: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     for category in categories:
@@ -38,17 +150,30 @@ async def process_categories(
         
         print(f"  [CATEGORY] Processing category: {category_name} under {parent_type} {parent_id}")
         
-        # TODO: Create category entity and relationship to parent
-        # category_id = await create_category_entity(category_name, parent_id, parent_type, year)
+        # Create category entity and relationship to parent
+        category_id = await create_category(
+            name=category_name,
+            parent_id=parent_id,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service,
+            is_subcategory=False
+        )
         
         # Check for subcategories
         subcategories = YamlParser.get_subcategories(category)
         if subcategories:
             await process_subcategories_recursive(
                 subcategories, 
-                category_name,  # Using name as placeholder, would use category_id
+                category_id,
                 yaml_base_path, 
-                year
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
         
         # Check for datasets directly under category
@@ -66,7 +191,9 @@ async def process_subcategories_recursive(
     subcategories: List[Dict[str, Any]],
     parent_id: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str
 ):
 
     for subcategory in subcategories:
@@ -86,7 +213,9 @@ async def process_subcategories_recursive(
                 nested_subcategories,
                 subcategory_name,  # Using name as placeholder, would use subcategory_id
                 yaml_base_path,
-                year
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time
             )
         
         # Check for datasets under subcategory
@@ -134,7 +263,11 @@ async def process_department_entry(
     department_entry: Dict[str, Any],
     department_id: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    dept_start_time: str,
+    dept_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     department_name = department_entry.get('name', '')
@@ -147,7 +280,11 @@ async def process_department_entry(
             department_id,
             "department",
             yaml_base_path,
-            year
+            year,
+            parent_start_time=dept_start_time,
+            parent_end_time=dept_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service
         )
     else:
         print(f"    [INFO] No categories found under department {department_name}")
@@ -190,7 +327,7 @@ async def process_minister_entry(
     
     print(f"  Found {len(active_ministers)} active minister relationship(s) in {year}")
     
-    # Select the minister with latest startTime for direct categories/datasets
+    # Select the minister with latest startTime for direct categories
     minister_id = None
     if active_ministers:
         latest_minister = max(
@@ -213,17 +350,19 @@ async def process_minister_entry(
             print(f"\n  [DEPARTMENT] Processing: {department_name}")
             
             # Find department connected to any of the active ministers
-            department_id = await find_department_by_name_and_ministers(
+            department_info = await find_department_by_name_and_ministers(
                 department_name,
                 active_ministers,
                 year,
                 read_service
             )
             
-            if not department_id:
+            if not department_info:
                 print(f"    [WARNING] Department '{department_name}' not found or not connected to active ministers")
                 continue
             
+            department_id = department_info['department_id']
+            department_relation = department_info['relation']
             print(f"    Found department ID: {department_id}")
             
             # Process the department entry
@@ -231,7 +370,11 @@ async def process_minister_entry(
                 department_entry,
                 department_id,
                 yaml_base_path,
-                year
+                year,
+                dept_start_time=department_relation.startTime or "",
+                dept_end_time=department_relation.endTime or "",
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
     
     # Process direct categories under minister if they exist
@@ -246,7 +389,11 @@ async def process_minister_entry(
                     minister_id,
                     "minister",
                     yaml_base_path,
-                    year
+                    year,
+                    parent_start_time=latest_minister['start_time'],
+                    parent_end_time=latest_minister['end_time'],
+                    read_service=read_service,
+                    ingestion_service=ingestion_service
                 )
             else:
                 print(f"  [INFO] No categories found under minister {minister_name}")
