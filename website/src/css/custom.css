@@ -1,0 +1,40 @@
+/**
+ * Custom CSS for LDF Datasets
+ * Primary color: oklch(0.65 0.2 240) - Blue
+ */
+
+:root {
+  /* Primary blue color palette */
+  --ifm-color-primary: oklch(0.65 0.2 240);
+  --ifm-color-primary-dark: oklch(0.58 0.2 240);
+  --ifm-color-primary-darker: oklch(0.54 0.2 240);
+  --ifm-color-primary-darkest: oklch(0.45 0.2 240);
+  --ifm-color-primary-light: oklch(0.72 0.18 240);
+  --ifm-color-primary-lighter: oklch(0.78 0.15 240);
+  --ifm-color-primary-lightest: oklch(0.88 0.08 240);
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] {
+  --ifm-color-primary: oklch(0.72 0.18 240);
+  --ifm-color-primary-dark: oklch(0.65 0.2 240);
+  --ifm-color-primary-darker: oklch(0.60 0.2 240);
+  --ifm-color-primary-darkest: oklch(0.55 0.2 240);
+  --ifm-color-primary-light: oklch(0.78 0.15 240);
+  --ifm-color-primary-lighter: oklch(0.82 0.12 240);
+  --ifm-color-primary-lightest: oklch(0.88 0.08 240);
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure links have good contrast */
+a {
+  color: var(--ifm-color-primary);
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+}
