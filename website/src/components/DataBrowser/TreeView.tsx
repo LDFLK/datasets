@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import DatasetCard from './DatasetCard';
 import type { Dataset } from './index';
 import styles from './DataBrowser.module.css';
@@ -116,6 +117,7 @@ function YearSection({
   defaultExpanded = false,
 }: YearSectionProps): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
+  const downloadUrl = useBaseUrl(`/downloads/${year}_Data.zip`);
 
   const totalDatasets = Object.values(ministries).reduce(
     (sum, datasets) => sum + datasets.length,
@@ -134,7 +136,7 @@ function YearSection({
         <span className={styles.sectionTitle}>{year}</span>
         <span className={styles.datasetCount}>({totalDatasets} datasets)</span>
         <a
-          href={`downloads/${year}_Data.zip`}
+          href={downloadUrl}
           className={styles.downloadBtn}
           onClick={(e) => e.stopPropagation()}
           download

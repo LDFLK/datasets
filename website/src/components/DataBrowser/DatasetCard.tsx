@@ -1,4 +1,5 @@
 import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import type { Dataset } from './index';
 import styles from './DataBrowser.module.css';
 
@@ -11,6 +12,9 @@ export default function DatasetCard({
   dataset,
   onViewJson,
 }: DatasetCardProps): JSX.Element {
+  const dataUrl = useBaseUrl(`/${dataset.path}`);
+  const metadataUrl = useBaseUrl(`/${dataset.metadataPath}`);
+
   const getCategoryEmoji = (category: string): string => {
     const emojiMap: Record<string, string> = {
       'diplomatic missions': '📊',
@@ -65,7 +69,7 @@ export default function DatasetCard({
         <button
           className={`${styles.viewButton} ${dataset.isEmpty ? styles.viewButtonEmpty : ''}`}
           onClick={() =>
-            onViewJson(`/${dataset.path}`, `${dataset.name} - data.json`)
+            onViewJson(dataUrl, `${dataset.name} - data.json`)
           }
           title={dataset.isEmpty ? "View empty data.json" : "View data.json"}
         >
@@ -75,10 +79,7 @@ export default function DatasetCard({
           <button
             className={styles.viewButton}
             onClick={() =>
-              onViewJson(
-                `/${dataset.metadataPath}`,
-                `${dataset.name} - metadata.json`
-              )
+              onViewJson(metadataUrl, `${dataset.name} - metadata.json`)
             }
             title="View metadata.json"
           >
