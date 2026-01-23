@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Main ingestion script for processing YAML manifest files from the flat folder structure.
-
-This script:
-1. Parses YAML manifest files
-2. Finds the correct minister and department entities in the database
-3. Processes categories, subcategories, and datasets from the YAML structure
-4. Inserts entities and relationships into the database
-"""
 
 import asyncio
 import argparse
@@ -144,7 +135,6 @@ async def create_category(
     
     return created_cat_id
 
-
 # Recursively process categories and their subcategories/datasets.
 async def process_categories(
     categories: List[Dict[str, Any]],
@@ -202,7 +192,6 @@ async def process_categories(
                 parent_end_time=parent_end_time,
                 ingestion_service=ingestion_service
             )
-
 
 # Recursively process subcategories and their nested subcategories/datasets.
 async def process_subcategories_recursive(
@@ -318,7 +307,7 @@ async def add_dataset_attribute(
     
     # Generate attribute name from dataset path
     dataset_name = os.path.basename(dataset_path.rstrip('/'))
-    attribute_name = Util.format_attribute_name(dataset_name)
+    attribute_name = Util.format_attribute_name(dataset_name) + "-" + year
     
     columns = data_content.get('columns', [])
     rows = data_content.get('rows', [])
@@ -356,7 +345,6 @@ async def add_dataset_attribute(
     except Exception as e:
         print(f"        [ERROR] Failed to update parent entity with attribute: {e}")
         return False
-
 
 # Process dataset files and add them as attributes to the parent entity.
 async def process_datasets(
@@ -546,7 +534,6 @@ async def process_minister_entry(
                 parent_end_time=latest_minister['end_time'],
                 ingestion_service=ingestion_service
             )
-
 
 async def main():
     """Main entry point for the ingestion script."""
