@@ -13,13 +13,136 @@ import asyncio
 import argparse
 import os
 import sys
-from typing import Dict, List, Any, Optional
+import uuid
+import json
+from typing import Dict, List, Any
 
 from ingestion.services.yaml_parser import YamlParser
 from ingestion.services.read_service import ReadService
 from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
 from ingestion.utils.http_client import http_client
+from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
+from ingestion.utils.util_functions import Util
+from ingestion.utils.date_utils import calculate_attribute_time_period
+
+
+# Create either a category or subcategory IF it does not exist yet
+async def create_category(
+    name: str,
+    parent_id: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService,
+    is_subcategory: bool
+) -> str:
+
+    # Determine Kind based on is_subcategory flag
+    if is_subcategory:
+        kind = Kind(major="Category", minor="childCategory")
+    else:
+        kind = Kind(major="Category", minor="parentCategory")
+    
+    # Existence check: Fetch OUTGOING relations from parent_id with name AS_CATEGORY
+    relation_filter = Relation(
+        name="AS_CATEGORY",
+        direction="OUTGOING"
+    )
+    
+    try:
+        relations = await read_service.fetch_relations(parent_id, relation_filter)
+    except Exception as e:
+        print(f"    [WARNING] Failed to fetch relations for existence check: {e}")
+        relations = []
+    
+    # Iterate through ALL returned relations
+    for relation in relations:
+        related_entity_id = relation.relatedEntityId
+        if not related_entity_id:
+            continue
+        
+        # Fetch the entity to check its name
+        try:
+            search_entity = Entity(id=related_entity_id)
+            entities = await read_service.get_entities(search_entity)
+            
+            if entities and len(entities) > 0:
+                entity = entities[0]
+                # Check if the entity's name matches
+                decoded_name = Util.decode_protobuf_attribute_name(entity.name)
+                if decoded_name == name:
+                    print(f"    [INFO] Category '{decoded_name}' already exists with ID: {related_entity_id}")
+                    return related_entity_id
+        except Exception as e:
+            # Continue checking other relations if this one fails
+            print(f"    [WARNING] Failed to fetch entity {related_entity_id} for existence check: {e}")
+            continue
+    
+    # Category not found - create new one
+    print(f"    [CREATE] Creating new category '{name}'")
+    
+    # Generate a unique ID for the entity
+    unique_id = str(uuid.uuid4())
+    
+    # Step 1: Create the category entity WITHOUT relationships
+    category_create = EntityCreate(
+        id=unique_id,
+        name=NameValue(
+            startTime=parent_start_time,
+            endTime=parent_end_time if parent_end_time else "",
+            value=name  # The actual name string
+        ),
+        kind=kind,
+        created=parent_start_time,
+        terminated=parent_end_time if parent_end_time else "",
+        metadata=[],
+        attributes=[],
+        relationships=[]  # No relationships when creating
+    )
+    
+    try:
+        result = await ingestion_service.create_entity(category_create)
+        # Extract entity ID from response
+        created_cat_id = result.get('id', unique_id)
+        print(f"    [SUCCESS] Created category '{name}' with ID: {created_cat_id}")
+    except Exception as e:
+        print(f"    [ERROR] Failed to create category '{name}': {e}")
+        raise
+    
+    # Step 2: Update the parent entity to add the relationship
+    print(f"    [UPDATE] Adding relationship from parent {parent_id} to category {created_cat_id}")
+    
+    try:
+        # Create the new relationship in API format
+        relation_id = str(uuid.uuid4())
+        parent_cat_relation = AddRelation(
+            key="AS_CATEGORY",
+            value=AddRelationValue(
+                id=relation_id,
+                name="AS_CATEGORY",
+                relatedEntityId=created_cat_id,  # Relationship points TO the category
+                startTime=parent_start_time,
+                endTime=parent_end_time if parent_end_time else ""
+            )
+        )
+        
+        # Add relationship from parent entity to category entity
+        parent_cat_rel_update = EntityCreate(
+            id=parent_id,
+            relationships=[parent_cat_relation]  # Only the new relationship
+        )
+        
+        # Update the parent entity
+        await ingestion_service.update_entity(parent_id, parent_cat_rel_update)
+        print(f"    [SUCCESS] Added relationship from parent {parent_id} to category {created_cat_id}")
+        
+    except Exception as e:
+        print(f"    [WARNING] Failed to update parent entity with relationship: {e}")
+        # Category was created successfully, so we still return the ID
+        print(f"    [INFO] Category {created_cat_id} was created but relationship may not have been added")
+    
+    return created_cat_id
 
 
 # Recursively process categories and their subcategories/datasets.
@@ -28,7 +151,11 @@ async def process_categories(
     parent_id: str,
     parent_type: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     for category in categories:
@@ -38,17 +165,30 @@ async def process_categories(
         
         print(f"  [CATEGORY] Processing category: {category_name} under {parent_type} {parent_id}")
         
-        # TODO: Create category entity and relationship to parent
-        # category_id = await create_category_entity(category_name, parent_id, parent_type, year)
+        # Create category entity and relationship to parent
+        category_id = await create_category(
+            name=category_name,
+            parent_id=parent_id,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service,
+            is_subcategory=False
+        )
         
         # Check for subcategories
         subcategories = YamlParser.get_subcategories(category)
         if subcategories:
             await process_subcategories_recursive(
                 subcategories, 
-                category_name,  # Using name as placeholder, would use category_id
+                category_id,
                 yaml_base_path, 
-                year
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
         
         # Check for datasets directly under category
@@ -56,8 +196,12 @@ async def process_categories(
         if datasets:
             await process_datasets(
                 datasets,
-                category_name,  # Using name as placeholder, would use category_id
-                yaml_base_path
+                category_id,
+                yaml_base_path,
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                ingestion_service=ingestion_service
             )
 
 
@@ -66,7 +210,11 @@ async def process_subcategories_recursive(
     subcategories: List[Dict[str, Any]],
     parent_id: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     for subcategory in subcategories:
@@ -76,17 +224,30 @@ async def process_subcategories_recursive(
         
         print(f"    [SUBCATEGORY] Processing subcategory: {subcategory_name} under parent {parent_id}")
         
-        # TODO: Create subcategory entity and relationship to parent
-        # subcategory_id = await create_subcategory_entity(subcategory_name, parent_id, year)
+        # Create subcategory entity and relationship to parent
+        subcategory_id = await create_category(
+            name=subcategory_name,
+            parent_id=parent_id,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service,
+            is_subcategory=True
+        )
         
         # Check for nested subcategories
         nested_subcategories = YamlParser.get_subcategories(subcategory)
         if nested_subcategories:
             await process_subcategories_recursive(
                 nested_subcategories,
-                subcategory_name,  # Using name as placeholder, would use subcategory_id
+                subcategory_id,
                 yaml_base_path,
-                year
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
         
         # Check for datasets under subcategory
@@ -94,47 +255,150 @@ async def process_subcategories_recursive(
         if datasets:
             await process_datasets(
                 datasets,
-                subcategory_name,  # Using name as placeholder, would use subcategory_id
-                yaml_base_path
+                subcategory_id,
+                yaml_base_path,
+                year,
+                parent_start_time=parent_start_time,
+                parent_end_time=parent_end_time,
+                ingestion_service=ingestion_service
             )
 
-# Process dataset files
+# Add a dataset as an attribute to the parent entity.Return True if successful
+async def add_dataset_attribute(
+    parent_id: str,
+    dataset_path: str,
+    yaml_base_path: str,
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    ingestion_service: IngestionService
+) -> bool:
+
+    # Calculate attribute time period (intersection of parent time and year)
+    time_period = calculate_attribute_time_period(
+        parent_start_time,
+        parent_end_time,
+        year
+    )
+    
+    if time_period is None:
+        print(f"        [WARNING] No time overlap between parent period and year {year}, skipping dataset")
+        return False
+    
+    attr_start_time, attr_end_time = time_period
+    
+    # Resolve full path to dataset directory
+    full_dataset_path = os.path.join(yaml_base_path, dataset_path)
+    data_json_path = os.path.join(full_dataset_path, 'data.json')
+    metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
+    
+    # Check if dataset directory and data.json exist
+    if not os.path.exists(full_dataset_path):
+        print(f"        [WARNING] Dataset path does not exist: {full_dataset_path}")
+        return False
+    
+    if not os.path.exists(data_json_path):
+        print(f"        [WARNING] data.json not found at: {data_json_path}")
+        return False
+    
+    # Read data.json
+    try:
+        with open(data_json_path, 'r', encoding='utf-8') as f:
+            data_content = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"        [ERROR] Failed to parse data.json: {e}")
+        return False
+    except Exception as e:
+        print(f"        [ERROR] Failed to read data.json: {e}")
+        return False
+    
+    # Validate structure using utility function
+    if not Util.validate_tabular_dataset(data_content):
+        return False
+    
+    # TODO: Read metadata.json
+    
+    # Generate attribute name from dataset path
+    dataset_name = os.path.basename(dataset_path.rstrip('/'))
+    attribute_name = Util.format_attribute_name(dataset_name)
+    
+    columns = data_content.get('columns', [])
+    rows = data_content.get('rows', [])
+    print(f"        [ATTRIBUTE] Adding attribute '{attribute_name}' to parent {parent_id}")
+    print(f"          Time period: {attr_start_time} to {attr_end_time}")
+    print(f"          Columns: {len(columns)}, Rows: {len(rows)}")
+    
+    # Create attribute structure - use data_content directly
+    attribute = {
+        "key": attribute_name,
+        "value": {
+            "values": [
+                {
+                    "startTime": attr_start_time,
+                    "endTime": attr_end_time if attr_end_time else "",
+                    "value": data_content
+                }
+            ]
+        }
+    }
+
+    print(f"        [DEBUG] Attribute structure: {attribute}")
+    
+    # Update parent entity with the attribute
+    try:
+        entity_update = EntityCreate(
+            id=parent_id,
+            attributes=[attribute]
+        )
+        
+        await ingestion_service.update_entity(parent_id, entity_update)
+        print(f"        [SUCCESS] Added attribute '{attribute_name}' to parent {parent_id}")
+        return True
+        
+    except Exception as e:
+        print(f"        [ERROR] Failed to update parent entity with attribute: {e}")
+        return False
+
+
+# Process dataset files and add them as attributes to the parent entity.
 async def process_datasets(
     datasets: List[str],
     parent_id: str,
-    yaml_base_path: str
+    yaml_base_path: str,
+    year: str,
+    parent_start_time: str,
+    parent_end_time: str,
+    ingestion_service: IngestionService
 ):
 
     for dataset_path in datasets:
-        # Resolve full path to dataset
-        full_dataset_path = os.path.join(yaml_base_path, dataset_path)
         dataset_name = os.path.basename(dataset_path.rstrip('/'))
-        
         print(f"      [DATASET] Processing dataset: {dataset_name} under parent {parent_id}")
-        print(f"        Path: {full_dataset_path}")
         
-        # Check if dataset directory exists
-        if os.path.exists(full_dataset_path):
-            data_json_path = os.path.join(full_dataset_path, 'data.json')
-            metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
-            
-            if os.path.exists(data_json_path):
-                print(f"        Found data.json")
-            if os.path.exists(metadata_json_path):
-                print(f"        Found metadata.json")
-            
-            # TODO: Read data.json and metadata.json
-            # TODO: Create dataset entity
-            # TODO: Link dataset to parent category/subcategory
-        else:
-            print(f"        WARNING: Dataset path does not exist: {full_dataset_path}")
+        # Add dataset as attribute to parent entity
+        success = await add_dataset_attribute(
+            parent_id=parent_id,
+            dataset_path=dataset_path,
+            yaml_base_path=yaml_base_path,
+            year=year,
+            parent_start_time=parent_start_time,
+            parent_end_time=parent_end_time,
+            ingestion_service=ingestion_service
+        )
+        
+        if not success:
+            print(f"        [WARNING] Failed to add dataset '{dataset_name}' as attribute")
 
 # Process a single department entry from the YAML.
 async def process_department_entry(
     department_entry: Dict[str, Any],
     department_id: str,
     yaml_base_path: str,
-    year: str
+    year: str,
+    dept_start_time: str,
+    dept_end_time: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
 ):
 
     department_name = department_entry.get('name', '')
@@ -147,7 +411,11 @@ async def process_department_entry(
             department_id,
             "department",
             yaml_base_path,
-            year
+            year,
+            parent_start_time=dept_start_time,
+            parent_end_time=dept_end_time,
+            read_service=read_service,
+            ingestion_service=ingestion_service
         )
     else:
         print(f"    [INFO] No categories found under department {department_name}")
@@ -158,7 +426,11 @@ async def process_department_entry(
         await process_datasets(
             datasets,
             department_id,
-            yaml_base_path
+            yaml_base_path,
+            year,
+            parent_start_time=dept_start_time,
+            parent_end_time=dept_end_time,
+            ingestion_service=ingestion_service
         )
 
 # Process a single minister entry from the YAML.
@@ -190,7 +462,7 @@ async def process_minister_entry(
     
     print(f"  Found {len(active_ministers)} active minister relationship(s) in {year}")
     
-    # Select the minister with latest startTime for direct categories/datasets
+    # Select the minister with latest startTime for direct categories
     minister_id = None
     if active_ministers:
         latest_minister = max(
@@ -213,17 +485,19 @@ async def process_minister_entry(
             print(f"\n  [DEPARTMENT] Processing: {department_name}")
             
             # Find department connected to any of the active ministers
-            department_id = await find_department_by_name_and_ministers(
+            department_info = await find_department_by_name_and_ministers(
                 department_name,
                 active_ministers,
                 year,
                 read_service
             )
             
-            if not department_id:
+            if not department_info:
                 print(f"    [WARNING] Department '{department_name}' not found or not connected to active ministers")
                 continue
             
+            department_id = department_info['department_id']
+            department_relation = department_info['relation']
             print(f"    Found department ID: {department_id}")
             
             # Process the department entry
@@ -231,7 +505,11 @@ async def process_minister_entry(
                 department_entry,
                 department_id,
                 yaml_base_path,
-                year
+                year,
+                dept_start_time=department_relation.startTime or "",
+                dept_end_time=department_relation.endTime or "",
+                read_service=read_service,
+                ingestion_service=ingestion_service
             )
     
     # Process direct categories under minister if they exist
@@ -246,7 +524,11 @@ async def process_minister_entry(
                     minister_id,
                     "minister",
                     yaml_base_path,
-                    year
+                    year,
+                    parent_start_time=latest_minister['start_time'],
+                    parent_end_time=latest_minister['end_time'],
+                    read_service=read_service,
+                    ingestion_service=ingestion_service
                 )
             else:
                 print(f"  [INFO] No categories found under minister {minister_name}")
@@ -260,12 +542,30 @@ async def process_minister_entry(
             await process_datasets(
                 datasets,
                 minister_id,
-                yaml_base_path
+                yaml_base_path,
+                year,
+                parent_start_time=latest_minister['start_time'],
+                parent_end_time=latest_minister['end_time'],
+                ingestion_service=ingestion_service
             )
 
 
 async def main():
     """Main entry point for the ingestion script."""
+    # Check required environment variables first
+    read_base_url = os.getenv("READ_BASE_URL")
+    ingestion_base_url = os.getenv("INGESTION_BASE_URL")
+    
+    if not read_base_url:
+        print("Error: READ_BASE_URL environment variable is not set")
+        print("Please set it before running the ingestion script.")
+        sys.exit(1)
+    
+    if not ingestion_base_url:
+        print("Error: INGESTION_BASE_URL environment variable is not set")
+        print("Please set it before running the ingestion script.")
+        sys.exit(1)
+    
     parser = argparse.ArgumentParser(
         description='Ingest datasets from YAML manifest files using flat folder structure'
     )

@@ -48,3 +48,37 @@ def get_latest_relationship_in_year(relationships: list[Relation], year: str) ->
     )
     
     return active_relationships[0]
+
+
+# Calculate the attribute time period as the intersection of parent time period and target year. 
+# (eg if year is 2020 and parent time period is 2020-2021 only get the time during 2020 that it was active)
+# Return None if there's no overlap between parent time period and year
+def calculate_attribute_time_period(
+    parent_start_time: str,
+    parent_end_time: str,
+    year: str
+) -> Optional[tuple[str, str]]:
+
+    # Get year boundaries
+    year_start, year_end = get_year_boundaries(year)
+    
+    # Calculate intersection start: max of parent_start_time and year_start
+    attr_start = max(parent_start_time, year_start)
+    
+    # If attr_start is after year_end, there's no overlap
+    if attr_start > year_end:
+        return None
+    
+    # Calculate intersection end
+    if not parent_end_time or parent_end_time == "":
+        # Parent has no end time (ongoing), so use year_end
+        attr_end = year_end
+    else:
+        # Parent has an end time, use the minimum of parent_end_time and year_end
+        attr_end = min(parent_end_time, year_end)
+    
+    # Validate: if attr_start > attr_end, there's no overlap
+    if attr_start > attr_end:
+        return None
+    
+    return (attr_start, attr_end)

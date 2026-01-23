@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from ingestion.services.read_service import ReadService
 from ingestion.models.schema import Entity, Relation, Kind
 from ingestion.utils.date_utils import is_relationship_active_in_year
@@ -75,7 +75,7 @@ async def find_ministers_by_name_and_year(name: str, year: str, read_service: Re
 
 #Find a department by name that is connected to any of the given ministers and active in the target year.
 # Returns department id
-async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[str]:
+async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[Dict[str, Any]]:
 
     if not active_ministers:
         return None
@@ -158,4 +158,7 @@ async def find_department_by_name_and_ministers(name: str, active_ministers: Lis
         key=lambda x: x['relation'].startTime if x['relation'].startTime else ""
     )
     
-    return latest_relation['department_id']
+    return {
+        'department_id': latest_relation['department_id'],
+        'relation': latest_relation['relation']
+    }
