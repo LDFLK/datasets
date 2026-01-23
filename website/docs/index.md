@@ -16,7 +16,7 @@ Browse cleaned Sri Lankan government datasets by year, ministry, and department.
 
 ## Other Resources
 
-- **[Acts Research](./acts)** - Research on Sri Lankan Acts and their anatomy.
+- **[Data Research](./research/acts)** - Research on Sri Lankan Acts and their anatomy.
 
 - **[Contribute](./contribute)** - Learn how to contribute government data.
 

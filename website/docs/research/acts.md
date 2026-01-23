@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-title: Acts Research
+sidebar_position: 1
+title: Acts
 ---
 
-# Acts Research <span class="badge badge--primary">Alpha</span>
+# Acts <span class="status-badge status-badge--alpha">Alpha</span>
 
 :::caution Work in Progress
 This research is in **alpha stage**. We are actively collecting data, analyzing government Acts, and refining our understanding. Content may change significantly as our research progresses. Contributions and feedback are welcome.

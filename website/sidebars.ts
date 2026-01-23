@@ -18,9 +18,15 @@ const sidebars: SidebarsConfig = {
       label: 'Interactive Browser',
     },
     {
-      type: 'doc',
-      id: 'acts',
-      label: 'Acts Research',
+      type: 'category',
+      label: 'Data Research',
+      items: [
+        {
+          type: 'doc',
+          id: 'research/acts',
+          label: 'Acts',
+        },
+      ],
     },
     {
       type: 'doc',
