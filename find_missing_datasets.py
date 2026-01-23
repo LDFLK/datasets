@@ -20,7 +20,7 @@ class MissingDatasetFinder:
                         content = f.read().strip()
                         if not content:
                             is_empty = True
-                except Exception:
+                except (IOError, OSError, UnicodeDecodeError):
                     # Treat read errors as empty/missing for safety
                     is_empty = True
                 
@@ -68,7 +68,8 @@ class MissingDatasetFinder:
             report_lines.append("✅ No missing datasets found! All data.json files are populated.")
         else:
             report_lines.append("# 🚨 Missing Datasets Report")
-            report_lines.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            # TODO: Avoid unnecessary diffs (Issue #97: https://github.com/LDFLK/datasets/issues/97)
+            report_lines.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}") # See Issue #97
             report_lines.append("")
 
             # Sort years descending
@@ -97,7 +98,7 @@ class MissingDatasetFinder:
                 with open(output_file, 'w', encoding='utf-8') as f:
                     f.write(front_matter + full_report)
                 print(f"Report written to: {output_file}")
-            except Exception as e:
+            except (IOError, OSError) as e:
                 print(f"Error writing to file: {e}")
 
         # Try to use rich for pretty printing (always print to console too)

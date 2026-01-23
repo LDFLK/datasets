@@ -176,10 +176,11 @@ def build_tree_structure(datasets: List[Dict]) -> Dict:
             current = current[clean_part]["_children"]
 
         # Add the dataset to the deepest level
+        # TODO: Optimize tree traversal logic (Issue #96: https://github.com/LDFLK/datasets/issues/96)
         parent_key = clean_name(hierarchy[-2]) if len(hierarchy) > 1 else ""
         if parent_key:
             # Navigate to parent
-            current_nav = tree
+            current_nav = tree # See Issue #96
             for part in hierarchy[:-2]:
                 clean_part = clean_name(part)
                 if clean_part in current_nav:

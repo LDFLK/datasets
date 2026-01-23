@@ -17,8 +17,8 @@ const config: Config = {
   organizationName: 'LDFLK',
   projectName: 'datasets',
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   i18n: {
     defaultLocale: 'en',

@@ -38,6 +38,14 @@ interface DatasetIndex {
 
 const typedIndex = datasetIndex as DatasetIndex;
 
+// Constants for fallback categories
+const UNKNOWN_YEAR = 'Unknown';
+const OTHER_MINISTRY = 'Other';
+
+// Helper to normalize year/ministry values
+const normalizeYear = (year: string): string => year || UNKNOWN_YEAR;
+const normalizeMinistry = (ministry: string): string => ministry || OTHER_MINISTRY;
+
 export default function DataBrowser(): JSX.Element {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYears, setSelectedYears] = useState<string[]>([]);
@@ -52,6 +60,25 @@ export default function DataBrowser(): JSX.Element {
     title: '',
   });
 
+  // Compute available years and ministries, including fallback categories if needed
+  const availableYears = useMemo(() => {
+    const hasUnknownYear = typedIndex.datasets.some((d) => !d.year);
+    const years = [...typedIndex.years];
+    if (hasUnknownYear && !years.includes(UNKNOWN_YEAR)) {
+      years.push(UNKNOWN_YEAR);
+    }
+    return years;
+  }, []);
+
+  const availableMinistries = useMemo(() => {
+    const hasOtherMinistry = typedIndex.datasets.some((d) => !d.ministry);
+    const ministries = [...typedIndex.ministries];
+    if (hasOtherMinistry && !ministries.includes(OTHER_MINISTRY)) {
+      ministries.push(OTHER_MINISTRY);
+    }
+    return ministries;
+  }, []);
+
   // Filter datasets based on search and filters
   const filteredDatasets = useMemo(() => {
     let results = typedIndex.datasets;
@@ -64,17 +91,17 @@ export default function DataBrowser(): JSX.Element {
       );
     }
 
-    // Apply year filter
+    // Apply year filter (using normalized values for consistency)
     if (selectedYears.length > 0) {
       results = results.filter((dataset) =>
-        selectedYears.includes(dataset.year)
+        selectedYears.includes(normalizeYear(dataset.year))
       );
     }
 
-    // Apply ministry filter
+    // Apply ministry filter (using normalized values for consistency)
     if (selectedMinistries.length > 0) {
       results = results.filter((dataset) =>
-        selectedMinistries.includes(dataset.ministry)
+        selectedMinistries.includes(normalizeMinistry(dataset.ministry))
       );
     }
 
@@ -86,8 +113,8 @@ export default function DataBrowser(): JSX.Element {
     const tree: Record<string, Record<string, Dataset[]>> = {};
 
     filteredDatasets.forEach((dataset) => {
-      const year = dataset.year || 'Unknown';
-      const ministry = dataset.ministry || 'Other';
+      const year = normalizeYear(dataset.year);
+      const ministry = normalizeMinistry(dataset.ministry);
 
       if (!tree[year]) {
         tree[year] = {};
@@ -154,8 +181,8 @@ export default function DataBrowser(): JSX.Element {
       />
 
       <FilterPanel
-        years={typedIndex.years}
-        ministries={typedIndex.ministries}
+        years={availableYears}
+        ministries={availableMinistries}
         selectedYears={selectedYears}
         selectedMinistries={selectedMinistries}
         onYearToggle={handleYearToggle}
