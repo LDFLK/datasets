@@ -1,6 +1,14 @@
 {
-  "columns": ["Year", "Professional Level (Number)", "Professional Level (%)", "Middle Level (Number)", "Middle Level (%)", "Skilled (Number)", "Skilled (%)", "Clerical & Related (Number)", "Clerical & Related (%)", "Semi Skilled Domestic housekeeping assistants (Number)", "Semi-Skilled Others (Number)","Semi-Skilled Others (Total)", "Semi-Skilled Others (%)", "Low skilled (Number)", "Low skilled (%)", "Total"],
+  "columns": [
+    "Year",
+    "Skilled",
+    "Low Skilled"
+  ],
   "rows": [
-    ["2023", 0, 0.00, 0, 0.00, 208586, 70.08, 0, 0.00, 0, 0, 0, 0.00, 89070, 29.92, 297656]
+    [
+      "2023",
+      208586,
+      89070
+    ]
   ]
 }

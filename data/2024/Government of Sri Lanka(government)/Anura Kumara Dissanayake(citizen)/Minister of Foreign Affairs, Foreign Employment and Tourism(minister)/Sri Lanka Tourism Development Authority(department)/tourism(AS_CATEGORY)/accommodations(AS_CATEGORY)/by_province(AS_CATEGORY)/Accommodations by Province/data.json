@@ -1,7 +1,7 @@
 {
     "columns": [
         "Province",
-        "Total Rooms"
+        "Number of Rooms"
     ],
     "rows": [
         ["Eastern Province", 2620],

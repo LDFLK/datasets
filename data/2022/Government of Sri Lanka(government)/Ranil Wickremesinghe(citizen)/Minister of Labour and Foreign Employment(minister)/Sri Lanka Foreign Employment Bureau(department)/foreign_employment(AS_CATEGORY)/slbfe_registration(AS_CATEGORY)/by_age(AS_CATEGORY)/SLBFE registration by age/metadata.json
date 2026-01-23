@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE registration by age",
-  "column_count": 4,
+  "column_count": 3,
   "row_count": 9,
   "node_count": null,
   "edges_count": null,

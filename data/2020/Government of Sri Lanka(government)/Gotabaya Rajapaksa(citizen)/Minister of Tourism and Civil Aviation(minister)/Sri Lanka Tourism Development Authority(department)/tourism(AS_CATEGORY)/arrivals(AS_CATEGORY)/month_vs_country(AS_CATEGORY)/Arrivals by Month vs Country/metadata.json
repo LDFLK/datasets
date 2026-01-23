@@ -2,7 +2,7 @@
   "storage_type": "tabular",
   "dataset_name": "Arrivals by Month vs Country",
   "column_count": 13,
-  "row_count": 188,
+  "row_count": 186,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",

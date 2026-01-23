@@ -1,13 +1,13 @@
 {
-"columns": ["Age Group","Professional Female","Professional Male","Skilled Female","Skilled Male","Semi Skilled Domestic Housekeeping Assistant Female","Semi Skilled Other Female","Semi Skilled Other Male","Middle Level Female","Middle Level Male","Clerical & Related Female","Clerical & Related Male","Low Skilled Female","Low Skilled Male","Total"],
+"columns": ["Age Group","Professional Female","Professional Male","Skilled Female","Skilled Male","Semi Skilled Domestic Housekeeping Assistant Female","Semi Skilled Other Female","Semi Skilled Other Male","Middle Level Female","Middle Level Male","Clerical & Related Female","Clerical & Related Male","Low Skilled Female","Low Skilled Male"],
 "rows": [
-    ["Equal or Below 19",1,20,123,621,0,0,22,0,24,12,47,111,801,1782],
-    ["20-24", 65, 483, 1435, 8978, 1363, 56, 571, 100, 465, 287, 897, 2723, 10863, 28286],
-    ["25-29", 380, 2227, 1570, 14693, 6142, 96, 1037, 297, 1274, 639, 1868, 4542, 16125, 50890],
-    ["30-34", 392, 3083, 1048, 14404, 9428, 77, 766, 279, 1455, 521, 1920, 4980, 13100, 51453],
-    ["35-39", 264, 2549, 877, 13822, 13089, 47, 510, 210, 1214, 323, 1644, 6179, 9861, 50589],
-    ["40-44", 159, 1868, 752, 13910, 16388, 54, 385, 162, 995, 287, 1338, 7407, 8331, 52036],
-    ["45-49", 96, 1251, 515, 9456, 12400, 25, 213, 133, 646, 200, 877, 5526, 4669, 36007],
-    ["Equal or More than 50", 109, 1360, 538, 10094, 15197, 57, 217, 154, 722, 278, 996, 5998, 4293, 40013]
+    ["Equal or Below 19",1,20,123,621,0,0,22,0,24,12,47,111,801],
+    ["20-24", 65, 483, 1435, 8978, 1363, 56, 571, 100, 465, 287, 897, 2723, 10863],
+    ["25-29", 380, 2227, 1570, 14693, 6142, 96, 1037, 297, 1274, 639, 1868, 4542, 16125],
+    ["30-34", 392, 3083, 1048, 14404, 9428, 77, 766, 279, 1455, 521, 1920, 4980, 13100],
+    ["35-39", 264, 2549, 877, 13822, 13089, 47, 510, 210, 1214, 323, 1644, 6179, 9861],
+    ["40-44", 159, 1868, 752, 13910, 16388, 54, 385, 162, 995, 287, 1338, 7407, 8331],
+    ["45-49", 96, 1251, 515, 9456, 12400, 25, 213, 133, 646, 200, 877, 5526, 4669],
+    ["Equal or More than 50", 109, 1360, 538, 10094, 15197, 57, 217, 154, 722, 278, 996, 5998, 4293]
 ]
 }

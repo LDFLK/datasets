@@ -1,7 +1,7 @@
 {
     "columns": [
         "Age",
-        "% Share"
+        "Percentage"
     ],
     "rows": [
         ["60 or 60 +", 17.2],

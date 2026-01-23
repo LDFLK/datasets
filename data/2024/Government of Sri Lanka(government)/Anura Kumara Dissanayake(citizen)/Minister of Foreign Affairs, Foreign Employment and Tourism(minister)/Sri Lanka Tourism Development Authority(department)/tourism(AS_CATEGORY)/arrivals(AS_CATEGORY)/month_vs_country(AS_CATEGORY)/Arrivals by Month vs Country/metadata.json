@@ -2,7 +2,7 @@
   "storage_type": "tabular",
   "dataset_name": "Arrivals by Month vs Country",
   "column_count": 13,
-  "row_count": 195,
+  "row_count": 193,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.sltda.gov.lk/storage/common_media/All-Countries-2024-Jan-Dec.pdf",
