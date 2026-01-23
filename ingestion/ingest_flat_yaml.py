@@ -169,7 +169,6 @@ async def process_categories(
         category_id = await create_category(
             name=category_name,
             parent_id=parent_id,
-            year=year,
             parent_start_time=parent_start_time,
             parent_end_time=parent_end_time,
             read_service=read_service,
@@ -228,7 +227,6 @@ async def process_subcategories_recursive(
         subcategory_id = await create_category(
             name=subcategory_name,
             parent_id=parent_id,
-            year=year,
             parent_start_time=parent_start_time,
             parent_end_time=parent_end_time,
             read_service=read_service,
