@@ -4,26 +4,16 @@ minister:
   - name: official_communications
     subcategory:
     - name: news
-      subcategory:
-      - name: news_from_other_sources
-        datasets:
-        - datasets/News From Other Sources
-      - name: mission_news
-        datasets:
-        - datasets/Mission News
-      - name: ministry_news
-        datasets:
-        - datasets/Ministry News
+      datasets:
+      - datasets/News From Other Sources
+      - datasets/Mission News
+      - datasets/Ministry News
   - name: human_resources
     subcategory:
     - name: cadre_management
-      subcategory:
-      - name: staff_of_missions
-        datasets:
-        - datasets/Staff of Missions
-      - name: staff_of_ministry
-        datasets:
-        - datasets/Staff of the Ministry
+      datasets:
+          - datasets/Staff of Missions
+          - datasets/Staff of the Ministry
 - name: Minister of Tourism and Civil Aviation
   department:
   - name: Sri Lanka Tourism Development Authority
