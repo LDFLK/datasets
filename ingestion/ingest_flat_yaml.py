@@ -15,8 +15,7 @@ import os
 import sys
 import uuid
 import json
-import re
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 
 from ingestion.services.yaml_parser import YamlParser
 from ingestion.services.read_service import ReadService
@@ -32,7 +31,6 @@ from ingestion.utils.date_utils import calculate_attribute_time_period
 async def create_category(
     name: str,
     parent_id: str,
-    year: str,
     parent_start_time: str,
     parent_end_time: str,
     read_service: ReadService,
