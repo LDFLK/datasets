@@ -1,6 +1,24 @@
 {
-  "columns": ["Year", "Professional Level (Number)", "Professional Level (%)", "Middle Level (Number)", "Middle Level (%)", "Skilled (Number)", "Skilled (%)", "Clerical & Related (Number)", "Clerical & Related (%)", "Semi Skilled Domestic housekeeping assistants (Number)", "Semi-Skilled Others (Number)","Semi-Skilled Others (Total)", "Semi-Skilled Others (%)", "Low skilled (Number)", "Low skilled (%)", "Total"],
+  "columns": [
+    "Year",
+    "Professional Level",
+    "Middle Level",
+    "Skilled",
+    "Clerical & Related",
+    "Semi Skilled Domestic housekeeping assistants",
+    "Semi Skilled Others",
+    "Low Skilled"
+  ],
   "rows": [
-    ["2019", 9861, 4.85, 5725, 2.82, 62711, 30.88, 9163, 4.51, 61489, 2950, 64439, 31.73, 51188, 25.20, 203087]
+    [
+      "2019",
+      9861,
+      5725,
+      62711,
+      9163,
+      61489,
+      2950,
+      51188
+    ]
   ]
 }

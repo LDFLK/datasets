@@ -1,5 +1,5 @@
 {
-  "columns": ["Month", "Arrivals"],
+  "columns": ["Month", "Number of tourist arrivals"],
   "rows": [
     ["January", 1682],
     ["February", 3366],

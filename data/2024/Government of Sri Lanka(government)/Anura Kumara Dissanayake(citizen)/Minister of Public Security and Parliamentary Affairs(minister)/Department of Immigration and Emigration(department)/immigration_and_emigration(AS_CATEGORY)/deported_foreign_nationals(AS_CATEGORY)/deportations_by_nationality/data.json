@@ -1,5 +1,5 @@
 {
-    "columns": ["Nationality", "Deportations"],
+    "columns": ["Nationality", "Number of Deportations"],
     "rows": [
       ["Bangladeshi", 400],
       ["Chinese", 51],
@@ -13,8 +13,8 @@
       ["Ethiopian", 2],
       ["Madagascan", 1],
       ["Thai", 31],
-      ["Uzbekistani", 3],
-      ["Angolaan", 1],
+      ["Uzbek", 3],
+      ["Angolan", 1],
       ["Iranian", 1],
       ["Maldivian", 5],
       ["Portuguese", 1],

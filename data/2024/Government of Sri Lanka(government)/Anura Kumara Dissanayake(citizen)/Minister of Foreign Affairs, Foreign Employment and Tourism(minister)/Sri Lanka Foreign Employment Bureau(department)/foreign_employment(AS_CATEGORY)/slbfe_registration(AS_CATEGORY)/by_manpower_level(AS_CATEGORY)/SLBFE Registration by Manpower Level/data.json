@@ -1,7 +1,14 @@
 {
-    "columns": ["Year", "Skilled", "Skilled %", "Low Skilled", "Low Skilled %", "Total"],
-    "rows": [
-      ["2024",244467, 77.66 , 70319, 22.34, 314786]
+  "columns": [
+    "Year",
+    "Skilled",
+    "Low Skilled"
+  ],
+  "rows": [
+    [
+      "2024",
+      244467,
+      70319
     ]
-  }
-  
+  ]
+}

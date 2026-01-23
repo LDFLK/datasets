@@ -1,7 +1,7 @@
 {
-    "columns": ["Year", "Male", "Male %", "Female", "Female %", "Total"],
+    "columns": ["Year", "Male", "Female"],
     "rows": [
-      ["2024",186674, 59.30 , 128112, 40.70, 314786]
+      ["2024",186674, 128112]
     ]
 }
   

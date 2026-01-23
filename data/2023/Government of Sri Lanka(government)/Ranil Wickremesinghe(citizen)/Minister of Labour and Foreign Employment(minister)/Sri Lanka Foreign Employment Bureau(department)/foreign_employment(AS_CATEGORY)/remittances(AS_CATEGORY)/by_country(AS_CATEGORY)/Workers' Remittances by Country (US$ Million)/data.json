@@ -4,8 +4,7 @@
       "Q1 (US$ Million)",
       "Q2 (US$ Million)",
       "Q3 (US$ Million)",
-      "Q4 (US$ Million)",
-      "Total (US$ Million)"
+      "Q4 (US$ Million)"
   ],
   "rows": [
       [
@@ -255,14 +254,6 @@
           305.20,
           267.10,
           1092.60
-      ],
-      [
-          "Total",
-          1413.20,
-          1409.40,
-          1522.50,
-          1624.40,
-          5969.50
       ]
   ]
 }

@@ -1,8 +1,8 @@
 {
   "storage_type": "tabular",
   "dataset_name": "Inflow of workers' Remittances by country (US$ Million)",
-  "column_count": 6,
-  "row_count": 32,
+  "column_count": 5,
+  "row_count": 31,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",
