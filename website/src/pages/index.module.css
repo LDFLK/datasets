@@ -1,0 +1,357 @@
+/* Hero Section */
+.hero {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, oklch(0.35 0.2 240) 0%, oklch(0.50 0.2 240) 100%);
+  color: white;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  opacity: 0.95;
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary-darkest);
+  background: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: var(--ifm-color-primary-darkest);
+  text-decoration: none;
+}
+
+.secondaryButton {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: white;
+  color: white;
+  text-decoration: none;
+}
+
+/* Stats Section */
+.stats {
+  padding: 3rem 2rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.statCard {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.statValue {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.9375rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem;
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.featureCard {
+  display: block;
+  padding: 2rem;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary-light);
+  text-decoration: none;
+  color: inherit;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.featureTitle {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-color-primary-dark);
+}
+
+.featureDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.5;
+}
+
+/* Sources Section */
+.sources {
+  padding: 4rem 2rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.sourcesIntro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.sourcesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sourceCard {
+  padding: 1.25rem;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+}
+
+.sourceName {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.sourceName a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.sourceName a:hover {
+  text-decoration: underline;
+}
+
+.sourceDescription {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* License Section */
+.license {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.licenseContent {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.licenseIcon {
+  flex-shrink: 0;
+}
+
+.licenseIcon img {
+  display: block;
+}
+
+.licenseText {
+  flex: 1;
+}
+
+.licenseText p {
+  margin: 0 0 1rem 0;
+}
+
+.licenseText ul {
+  margin: 0 0 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.licenseText li {
+  margin-bottom: 0.5rem;
+}
+
+.licenseDetails {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.disclaimer {
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-warning);
+}
+
+.disclaimer h4 {
+  margin: 0 0 0.75rem 0;
+  color: var(--ifm-color-warning-darkest);
+}
+
+.disclaimer p {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  background: var(--ifm-background-surface-color);
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.7;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 996px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.125rem;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    text-align: center;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .statValue {
+    font-size: 2rem;
+  }
+
+  .licenseContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .licenseText ul {
+    text-align: left;
+  }
+}
