@@ -85,22 +85,9 @@ class Util:
         
         return True
 
+    # Format name to human readable title case
     @staticmethod
     def format_attribute_name(name: str) -> str:
-        """
-        Format a name to be used as an attribute name in a human-readable format.
-        
-        Converts the name to a nice human-readable format by:
-        - Replacing underscores and hyphens with spaces
-        - Converting to title case
-        - Cleaning up extra whitespace
-        
-        Args:
-            name: The original name to format
-            
-        Returns:
-            Formatted human-readable attribute name (e.g., "Monthly Foreign Exchange Earnings")
-        """
         # Replace underscores and hyphens with spaces
         formatted = name.replace('_', ' ').replace('-', ' ')
         # Remove extra whitespace and convert to title case

@@ -28,6 +28,7 @@ from ingestion.utils.util_functions import Util
 from ingestion.utils.date_utils import calculate_attribute_time_period
 
 
+# Create either a category or subcategory IF it does not exist yet
 async def create_category(
     name: str,
     parent_id: str,
@@ -38,22 +39,7 @@ async def create_category(
     ingestion_service: IngestionService,
     is_subcategory: bool
 ) -> str:
-    """
-    Create a category or subcategory entity, checking for existence first.
-    
-    Args:
-        name: Category/subcategory name
-        parent_id: ID of the parent entity (minister, department, or category)
-        year: Target year (for reference)
-        parent_start_time: Start time from parent entity relationship
-        parent_end_time: End time from parent entity relationship (empty string if ongoing)
-        read_service: ReadService instance for API calls
-        ingestion_service: IngestionService instance for creating entities
-        is_subcategory: Boolean flag to determine Kind type
-        
-    Returns:
-        Entity ID (string) - either existing or newly created
-    """
+
     # Determine Kind based on is_subcategory flag
     if is_subcategory:
         kind = Kind(major="Category", minor="childCategory")
@@ -279,6 +265,7 @@ async def process_subcategories_recursive(
                 ingestion_service=ingestion_service
             )
 
+# Add a dataset as an attribute to the parent entity.Return True if successful
 async def add_dataset_attribute(
     parent_id: str,
     dataset_path: str,
@@ -288,21 +275,7 @@ async def add_dataset_attribute(
     parent_end_time: str,
     ingestion_service: IngestionService
 ) -> bool:
-    """
-    Add a dataset as an attribute to the parent entity.
-    
-    Args:
-        parent_id: ID of the parent entity (category or subcategory)
-        dataset_path: Path to the dataset directory (relative to yaml_base_path)
-        yaml_base_path: Base path where YAML file is located
-        year: Target year for the dataset
-        parent_start_time: Start time from parent entity relationship
-        parent_end_time: End time from parent entity relationship (empty string if ongoing)
-        ingestion_service: IngestionService instance for updating entities
-        
-    Returns:
-        True if successful, False otherwise
-    """
+
     # Calculate attribute time period (intersection of parent time and year)
     time_period = calculate_attribute_time_period(
         parent_start_time,
@@ -389,7 +362,7 @@ async def add_dataset_attribute(
         return False
 
 
-# Process dataset files
+# Process dataset files and add them as attributes to the parent entity.
 async def process_datasets(
     datasets: List[str],
     parent_id: str,
@@ -399,18 +372,7 @@ async def process_datasets(
     parent_end_time: str,
     ingestion_service: IngestionService
 ):
-    """
-    Process a list of datasets and add them as attributes to the parent entity.
-    
-    Args:
-        datasets: List of dataset paths (relative to yaml_base_path)
-        parent_id: ID of the parent entity (category, subcategory, department, or minister)
-        yaml_base_path: Base path where YAML file is located
-        year: Target year for the datasets
-        parent_start_time: Start time from parent entity relationship
-        parent_end_time: End time from parent entity relationship (empty string if ongoing)
-        ingestion_service: IngestionService instance for updating entities
-    """
+
     for dataset_path in datasets:
         dataset_name = os.path.basename(dataset_path.rstrip('/'))
         print(f"      [DATASET] Processing dataset: {dataset_name} under parent {parent_id}")

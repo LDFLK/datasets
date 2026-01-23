@@ -50,27 +50,15 @@ def get_latest_relationship_in_year(relationships: list[Relation], year: str) ->
     return active_relationships[0]
 
 
+# Calculate the attribute time period as the intersection of parent time period and target year. 
+# (eg if year is 2020 and parent time period is 2020-2021 only get the time during 2020 that it was active)
+# Return None if there's no overlap between parent time period and year
 def calculate_attribute_time_period(
     parent_start_time: str,
     parent_end_time: str,
     year: str
 ) -> Optional[tuple[str, str]]:
-    """
-    Calculate the attribute time period as the intersection of parent time period and target year.
-    
-    The attribute's startTime and endTime must be within both:
-    - The parent entity's time period (parent_start_time to parent_end_time)
-    - The target year's time period ({year}-01-01T00:00:00Z to {year}-12-31T23:59:59Z)
-    
-    Args:
-        parent_start_time: Start time of the parent entity relationship (ISO 8601 format)
-        parent_end_time: End time of the parent entity relationship (ISO 8601 format, empty string if ongoing)
-        year: Target year as a string (e.g., "2020")
-        
-    Returns:
-        Tuple of (attribute_start_time, attribute_end_time) if there's an overlap, None otherwise.
-        Returns None if the parent time period doesn't overlap with the target year.
-    """
+
     # Get year boundaries
     year_start, year_end = get_year_boundaries(year)
     
