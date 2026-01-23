@@ -66,9 +66,9 @@ function FeaturesSection() {
       icon: '🔍',
     },
     {
-      title: 'Acts Research',
+      title: 'Data Research',
       description: 'Research on Sri Lankan Acts and their anatomy, understanding how government institutions are governed.',
-      link: '/browse/acts',
+      link: '/browse/research/acts',
       icon: '📜',
     },
     {
@@ -153,18 +153,18 @@ function LicenseSection() {
       <h2 className={styles.sectionTitle}>License</h2>
       <div className={styles.licenseContent}>
         <div className={styles.licenseIcon}>
-          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+          <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
             <img
               alt="Creative Commons License"
-              src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+              src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
             />
           </a>
         </div>
         <div className={styles.licenseText}>
           <p>
             This work is licensed under a{' '}
-            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-              Creative Commons Attribution 4.0 International License (CC BY 4.0)
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+              Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
             </a>.
           </p>
           <p className={styles.licenseDetails}>
@@ -172,13 +172,15 @@ function LicenseSection() {
           </p>
           <ul>
             <li><strong>Share</strong> - copy and redistribute the material in any medium or format</li>
-            <li><strong>Adapt</strong> - remix, transform, and build upon the material for any purpose, even commercially</li>
+            <li><strong>Adapt</strong> - remix, transform, and build upon the material for any purpose</li>
           </ul>
           <p className={styles.licenseDetails}>
             Under the following terms:
           </p>
           <ul>
             <li><strong>Attribution</strong> - You must give appropriate credit to the Lanka Data Foundation and the original government sources, provide a link to the license, and indicate if changes were made.</li>
+            <li><strong>NonCommercial</strong> - You may not use the material for commercial purposes.</li>
+            <li><strong>ShareAlike</strong> - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</li>
           </ul>
         </div>
       </div>

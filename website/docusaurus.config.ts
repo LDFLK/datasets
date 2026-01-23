@@ -76,8 +76,8 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/browse/acts',
-          label: 'Acts Research',
+          to: '/browse/research/acts',
+          label: 'Data Research',
           position: 'left',
         },
         {
@@ -116,8 +116,8 @@ const config: Config = {
           title: 'Learn',
           items: [
             {
-              label: 'Acts Research',
-              to: '/browse/acts',
+              label: 'Data Research',
+              to: '/browse/research/acts',
             },
             {
               label: 'Contribute',
@@ -135,7 +135,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright ${new Date().getFullYear()} Lanka Data Foundation. Licensed under CC BY 4.0.`,
+      copyright: `Copyright ${new Date().getFullYear()} Lanka Data Foundation. Licensed under CC BY-NC-SA 4.0.`,
     },
     prism: {
       theme: prismThemes.github,
