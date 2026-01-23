@@ -7,3 +7,4 @@ dependencies:
   - pymongo
   - protobuf
   - rich
+  - pyyaml
