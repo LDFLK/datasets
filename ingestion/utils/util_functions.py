@@ -91,10 +91,8 @@ class Util:
         
         formatted = str(name).strip()
         # Replace underscores and hyphens with spaces
-        formatted = name.replace('_', ' ').replace('-', ' ')
+        formatted = formatted.replace('_', ' ').replace('-', ' ')
         # Remove extra whitespace and convert to title case
         formatted = ' '.join(formatted.split())
         formatted = formatted.title()
         return formatted
-
-    
