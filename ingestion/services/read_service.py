@@ -56,6 +56,7 @@ class ReadService:
         except Exception as e:
             raise Exception(f"Read API Error: {str(e)}")
     
+    @api_retry_decorator
     async def fetch_relations(self, entityId: str, relation: Relation):
         if not entityId or not relation:
             raise Exception("Entity ID and relation are required")
