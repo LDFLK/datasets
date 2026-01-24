@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Accomodations by Province",
+  "dataset_name": "Accommodations by Province",
   "column_count": 2,
   "row_count": 9,
   "node_count": null,

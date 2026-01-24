@@ -1,6 +1,6 @@
 {
   "storage_type": "tabular",
-  "dataset_name": "Accomodations by District",
+  "dataset_name": "Accommodations by District",
   "column_count": 2,
   "row_count": 25,
   "node_count": null,
