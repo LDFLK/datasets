@@ -54,14 +54,14 @@ The ingestion script requires the following environment variables:
 You can set these in your environment or create a `.env` file in the `ingestion/` directory:
 
 ```bash
-export READ_BASE_URL="http://localhost:8080"
-export INGESTION_BASE_URL="http://localhost:8081"
+export READ_BASE_URL="http://localhost:8081"
+export INGESTION_BASE_URL="http://localhost:8080"
 ```
 
 Or create a `.env` file:
 ```
-READ_BASE_URL=http://localhost:8080
-INGESTION_BASE_URL=http://localhost:8081
+READ_BASE_URL=http://localhost:8081
+INGESTION_BASE_URL=http://localhost:8080
 ```
 
 If using a `.env` file, make sure you have `python-dotenv` installed (included in `requirements.txt`).
