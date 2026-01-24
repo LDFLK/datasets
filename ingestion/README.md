@@ -124,7 +124,7 @@ ingestion/
 
 ### ModuleNotFoundError: No module named 'ingestion'
 
-Make sure you're running the command from the project root directory (`/Users/zaeema/Documents/datasets/`), not from within the `ingestion/` folder.
+Make sure you're running the command from the project root directory (`/Users/LDF/Documents/datasets/`), not from within the `ingestion/` folder.
 
 ### Missing Dependencies
 
