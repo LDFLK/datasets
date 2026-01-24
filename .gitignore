@@ -1,4 +1,13 @@
+# Python cache
 __pycache__/*
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
+# Environment
 .DS_Store
 docs/.DS_Store
+.env
+ingestion/.env
