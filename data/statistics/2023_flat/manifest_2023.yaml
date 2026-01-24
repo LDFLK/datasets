@@ -122,7 +122,7 @@
           - datasets/Arrivals by Age
         - name: month_vs_country
           datasets:
-          - datasets/Arrivals by Month vs Country
+          - datasets/Tourist Arrivals by Country and Month
         - name: by_carrier
           datasets:
           - datasets/Arrivals by Carrier

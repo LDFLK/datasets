@@ -34,7 +34,7 @@
           - datasets/By Country
         - name: month_vs_country
           datasets:
-          - datasets/Month Vs Country
+          - datasets/Tourist Arrivals by Country and Month
         - name: by_age
           datasets:
           - datasets/Arrivals by Age
