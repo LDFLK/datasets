@@ -1,0 +1,14 @@
+{
+  "columns": [
+    "Year",
+    "Value in Rupees(Mn)",
+    "Value in USD(Mn)"
+  ],
+  "rows": [
+    [
+      "2019",
+      646362.3,
+      3606.9
+    ]
+  ]
+}

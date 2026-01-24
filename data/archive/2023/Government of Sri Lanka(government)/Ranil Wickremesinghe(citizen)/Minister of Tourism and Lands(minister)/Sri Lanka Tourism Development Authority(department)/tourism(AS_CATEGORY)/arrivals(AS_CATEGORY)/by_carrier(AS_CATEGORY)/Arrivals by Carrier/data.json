@@ -1,0 +1,25 @@
+{
+  "columns": ["Airline", "Number of Passengers"],
+  "rows": [
+    ["Sri Lankan Airlines", 464958],
+    ["Qatar Airways", 174601],
+    ["Emirates", 161458],
+    ["IndiGo", 98778],
+    ["Red Wings Airlines", 60664],
+    ["Fly Dubai", 55698],
+    ["Aeroflot", 42789],
+    ["Azur Air", 39006],
+    ["Air Arabia", 36924],
+    ["Air India", 33707],
+    ["China Eastern Airlines", 32243],
+    ["Etihad Airways", 30496],
+    ["Singapore Airlines", 29444],
+    ["Air Asia", 26868],
+    ["Vistara Airline", 21609],
+    ["Turkish Airlines", 21325],
+    ["Oman Air", 16217],
+    ["Gulf Air", 14239],
+    ["Malaysia Airlines", 11821],
+    ["Others", 114458]
+  ]
+}

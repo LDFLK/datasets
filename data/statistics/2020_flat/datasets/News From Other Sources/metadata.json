@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "News From Other Sources",
+  "column_count": 5,
+  "row_count": 15,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "News From Other Sources - Year 2020 data",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
+  "extracted_date": "2025-09-08",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}
