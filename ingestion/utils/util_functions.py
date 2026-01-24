@@ -88,6 +88,8 @@ class Util:
     # Format name to human readable title case
     @staticmethod
     def format_attribute_name(name: str) -> str:
+        
+        formatted = str(name).strip()
         # Replace underscores and hyphens with spaces
         formatted = name.replace('_', ' ').replace('-', ' ')
         # Remove extra whitespace and convert to title case
