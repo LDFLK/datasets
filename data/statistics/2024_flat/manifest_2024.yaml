@@ -37,19 +37,19 @@
           - datasets/Tourist Arrivals by Country and Month
         - name: by_age
           datasets:
-          - datasets/Arrivals by Age
+          - datasets/Tourist Arrivals by Age
         - name: by_carrier
           datasets:
-          - datasets/Arrivals by Carrier
+          - datasets/Tourist Arrivals by Carrier
         - name: by_sex
           datasets:
-          - datasets/Arrivals by Sex
+          - datasets/Tourist Arrivals by Sex
         - name: by_month
           datasets:
-          - datasets/Arrivals by Month
+          - datasets/Tourist Arrivals by Month
         - name: by_purpose
           datasets:
-          - datasets/Arrivals by Purpose
+          - datasets/Tourist Arrivals by Purpose
       - name: accommodations
         subcategory:
         - name: by_province

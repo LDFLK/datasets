@@ -63,10 +63,10 @@
           - datasets/Tourist Arrivals by Country and Month
         - name: by_country
           datasets:
-          - datasets/Arrivals by Country
+          - datasets/Tourist Arrivals by Country
         - name: by_month
           datasets:
-          - datasets/Arrivals by Month
+          - datasets/Tourist Arrivals by Month
 - name: State Minister of Foreign Employment Promotion and Market Diversification
   department:
   - name: Sri Lanka Foreign Employment Bureau

@@ -49,28 +49,28 @@ minister:
         subcategory:
         - name: by_age
           datasets:
-          - datasets/Arrivals by Age
+          - datasets/Tourist Arrivals by Age
         - name: month_vs_country
           datasets:
           - datasets/Tourist Arrivals by Country and Month
         - name: by_carrier
           datasets:
-          - datasets/Arrivals by Carrier
+          - datasets/Tourist Arrivals by Carrier
         - name: by_port
           datasets:
-          - datasets/Arrivals by Port
+          - datasets/Tourist Arrivals by Port
         - name: by_country
           datasets:
-          - datasets/Arrivals by Country
+          - datasets/Tourist Arrivals by Country
         - name: by_sex
           datasets:
-          - datasets/Arrivals by Sex
+          - datasets/Tourist Arrivals by Sex
         - name: by_month
           datasets:
-          - datasets/Arrivals by Month
+          - datasets/Tourist Arrivals by Month
         - name: by_purpose
           datasets:
-          - datasets/Arrivals by Purpose
+          - datasets/Tourist Arrivals by Purpose
 - name: State Minister of Internal Security, Home affairs and Disaster Management
   department:
   - name: Department of Immigration and Emigration
