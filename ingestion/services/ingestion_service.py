@@ -36,7 +36,7 @@ api_retry_decorator = retry_async.AsyncRetry(
     initial=1.0,
     maximum=6.0,
     multiplier=2.0,
-    timeout=20.0 # retry for 20 seconds
+    timeout=120.0 # retry for 120 seconds
 )
 
 class IngestionService:
