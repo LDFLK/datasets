@@ -12,8 +12,8 @@ def clean_name(name):
     return name
 
 def main():
-    base_dir = "data/statistics/2020_flat/datasets"
-    manifest_path = "data/statistics/2020_flat/manifest_2020.yaml"
+    base_dir = "data/statistics/2020/datasets"
+    manifest_path = "data/statistics/2020/data_hierarchy_2020.yaml"
     
     if not os.path.exists(base_dir):
         print(f"Directory {base_dir} not found.")

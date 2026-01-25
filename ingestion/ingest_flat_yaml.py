@@ -556,7 +556,7 @@ async def main():
     parser.add_argument(
         'yaml_file',
         type=str,
-        help='Path to the YAML manifest file (e.g., data/2020_flat/manifest_2020.yaml)'
+        help='Path to the YAML manifest file (e.g., data/2020/data_hierarchy_2020.yaml)'
     )
     parser.add_argument(
         '--year',
