@@ -18,7 +18,7 @@ Before running the ingestion script, ensure you have completed the following set
 
 ### 1. Start OpenGin Services
 
-Make sure the OpenGin services are up and running. The ingestion script requires:
+Make sure the OpenGIN services are up and running. The ingestion script requires:
 - **Read Service**: For querying existing entities and relationships
 - **Ingestion Service**: For creating and updating entities
 
@@ -106,6 +106,9 @@ python -m ingestion.ingest_flat_yaml data/statistics/2021_flat/manifest_2021.yam
 ```
 ingestion/
 ├── ingest_flat_yaml.py      # Main ingestion script
+├── .env                     # Environment variables
+├── exception/               # Exception handling
+│   └── exceptions.py
 ├── models/                  # Data models and schemas
 │   └── schema.py
 ├── services/                # Service layer
