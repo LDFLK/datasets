@@ -13,6 +13,8 @@ from ingestion.exception.exceptions import (
     GatewayTimeoutError
 )
 
+from ingestion.utils.logger import logger
+
 load_dotenv()
 INGESTION_BASE_URL = os.getenv("INGESTION_BASE_URL")
 
@@ -48,8 +50,7 @@ class IngestionService:
         url = f"{INGESTION_BASE_URL}/entities"
         headers = {"Content-Type":"application/json"}      
         payload = entity.model_dump()
-        print(f"    [DEBUG] Create payload: {payload}")
-        print(f"    [DEBUG] Create URL: {url}")
+
 
         async with self.session.post(url, headers=headers, json=payload) as response:
             return await handle_api_response(response, error_prefix="Failed to create entity")

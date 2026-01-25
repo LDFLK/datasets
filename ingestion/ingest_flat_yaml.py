@@ -16,6 +16,7 @@ from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
 from ingestion.utils.util_functions import Util
 from ingestion.utils.date_utils import calculate_attribute_time_period
+from ingestion.utils.logger import logger
 
 
 # Create either a category or subcategory IF it does not exist yet
@@ -44,7 +45,7 @@ async def create_category(
     try:
         relations = await read_service.fetch_relations(parent_id, relation_filter)
     except Exception as e:
-        print(f"    [WARNING] Failed to fetch relations for existence check: {e}")
+        logger.warning(f"Failed to fetch relations for existence check: {e}")
         relations = []
     
     # Iterate through ALL returned relations
@@ -63,15 +64,15 @@ async def create_category(
                 # Check if the entity's name matches
                 decoded_name = Util.decode_protobuf_attribute_name(entity.name)
                 if decoded_name == name:
-                    print(f"    [INFO] Category '{decoded_name}' already exists with ID: {related_entity_id}")
+                    logger.info(f"Category '{decoded_name}' already exists with ID: {related_entity_id}")
                     return related_entity_id
         except Exception as e:
             # Continue checking other relations if this one fails
-            print(f"    [WARNING] Failed to fetch entity {related_entity_id} for existence check: {e}")
+            logger.warning(f"Failed to fetch entity {related_entity_id} for existence check: {e}")
             continue
     
     # Category not found - create new one
-    print(f"    [CREATE] Creating new category '{name}'")
+    logger.info(f"[CREATE] Creating new category '{name}'")
     
     # Generate a unique ID for the entity
     unique_id = str(uuid.uuid4())
@@ -96,13 +97,13 @@ async def create_category(
         result = await ingestion_service.create_entity(category_create)
         # Extract entity ID from response
         created_cat_id = result.get('id', unique_id)
-        print(f"    [SUCCESS] Created category '{name}' with ID: {created_cat_id}")
+        logger.success(f"Created category '{name}' with ID: {created_cat_id}")
     except Exception as e:
-        print(f"    [ERROR] Failed to create category '{name}': {e}")
+        logger.error(f"Failed to create category '{name}': {e}")
         raise
     
     # Step 2: Update the parent entity to add the relationship
-    print(f"    [UPDATE] Adding relationship from parent {parent_id} to category {created_cat_id}")
+    logger.info(f"[UPDATE] Adding relationship from parent {parent_id} to category {created_cat_id}")
     
     try:
         # Create the new relationship in API format
@@ -126,12 +127,12 @@ async def create_category(
         
         # Update the parent entity
         await ingestion_service.update_entity(parent_id, parent_cat_rel_update)
-        print(f"    [SUCCESS] Added relationship from parent {parent_id} to category {created_cat_id}")
+        logger.success(f"Added relationship from parent {parent_id} to category {created_cat_id}")
         
     except Exception as e:
-        print(f"    [WARNING] Failed to update parent entity with relationship: {e}")
+        logger.warning(f"Failed to update parent entity with relationship: {e}")
         # Category was created successfully, so we still return the ID
-        print(f"    [INFO] Category {created_cat_id} was created but relationship may not have been added")
+        logger.info(f"Category {created_cat_id} was created but relationship may not have been added")
     
     return created_cat_id
 
@@ -153,7 +154,7 @@ async def process_categories(
         if not category_name:
             continue
         
-        print(f"  [CATEGORY] Processing category: {category_name} under {parent_type} {parent_id}")
+        logger.info(f"[CATEGORY] Processing category: {category_name} under {parent_type} {parent_id}")
         
         # Create category entity and relationship to parent
         category_id = await create_category(
@@ -210,7 +211,7 @@ async def process_subcategories_recursive(
         if not subcategory_name:
             continue
         
-        print(f"    [SUBCATEGORY] Processing subcategory: {subcategory_name} under parent {parent_id}")
+        logger.info(f"[SUBCATEGORY] Processing subcategory: {subcategory_name} under parent {parent_id}")
         
         # Create subcategory entity and relationship to parent
         subcategory_id = await create_category(
@@ -269,7 +270,7 @@ async def add_dataset_attribute(
     )
     
     if time_period is None:
-        print(f"        [WARNING] No time overlap between parent period and year {year}, skipping dataset")
+        logger.warning(f"No time overlap between parent period and year {year}, skipping dataset")
         return False
     
     attr_start_time, attr_end_time = time_period
@@ -281,11 +282,11 @@ async def add_dataset_attribute(
     
     # Check if dataset directory and data.json exist
     if not os.path.exists(full_dataset_path):
-        print(f"        [WARNING] Dataset path does not exist: {full_dataset_path}")
+        logger.warning(f"Dataset path does not exist: {full_dataset_path}")
         return False
     
     if not os.path.exists(data_json_path):
-        print(f"        [WARNING] data.json not found at: {data_json_path}")
+        logger.warning(f"data.json not found at: {data_json_path}")
         return False
     
     # Read data.json
@@ -293,10 +294,10 @@ async def add_dataset_attribute(
         with open(data_json_path, 'r', encoding='utf-8') as f:
             data_content = json.load(f)
     except json.JSONDecodeError as e:
-        print(f"        [ERROR] Failed to parse data.json: {e}")
+        logger.error(f"Failed to parse data.json: {e}")
         return False
     except Exception as e:
-        print(f"        [ERROR] Failed to read data.json: {e}")
+        logger.error(f"Failed to read data.json: {e}")
         return False
     
     # Validate structure using utility function
@@ -311,9 +312,9 @@ async def add_dataset_attribute(
     
     columns = data_content.get('columns', [])
     rows = data_content.get('rows', [])
-    print(f"        [ATTRIBUTE] Adding attribute '{attribute_name}' to parent {parent_id}")
-    print(f"          Time period: {attr_start_time} to {attr_end_time}")
-    print(f"          Columns: {len(columns)}, Rows: {len(rows)}")
+    logger.info(f"[ATTRIBUTE] Adding attribute '{attribute_name}' to parent {parent_id}")
+    logger.info(f"  Time period: {attr_start_time} to {attr_end_time}")
+    logger.info(f"  Columns: {len(columns)}, Rows: {len(rows)}")
     
     # Create attribute structure - use data_content directly
     attribute = {
@@ -328,8 +329,6 @@ async def add_dataset_attribute(
             ]
         }
     }
-
-    print(f"        [DEBUG] Attribute structure: {attribute}")
     
     # Update parent entity with the attribute
     try:
@@ -339,11 +338,11 @@ async def add_dataset_attribute(
         )
         
         await ingestion_service.update_entity(parent_id, entity_update)
-        print(f"        [SUCCESS] Added attribute '{attribute_name}' to parent {parent_id}")
+        logger.success(f"Added attribute '{attribute_name}' to parent {parent_id}")
         return True
         
     except Exception as e:
-        print(f"        [ERROR] Failed to update parent entity with attribute: {e}")
+        logger.error(f"Failed to update parent entity with attribute: {e}")
         return False
 
 # Process dataset files and add them as attributes to the parent entity.
@@ -359,7 +358,7 @@ async def process_datasets(
 
     for dataset_path in datasets:
         dataset_name = os.path.basename(dataset_path.rstrip('/'))
-        print(f"      [DATASET] Processing dataset: {dataset_name} under parent {parent_id}")
+        logger.info(f"[DATASET] Processing dataset: {dataset_name} under parent {parent_id}")
         
         # Add dataset as attribute to parent entity
         success = await add_dataset_attribute(
@@ -373,7 +372,7 @@ async def process_datasets(
         )
         
         if not success:
-            print(f"        [WARNING] Failed to add dataset '{dataset_name}' as attribute")
+            logger.warning(f"Failed to add dataset '{dataset_name}' as attribute")
 
 # Process a single department entry from the YAML.
 async def process_department_entry(
@@ -404,7 +403,7 @@ async def process_department_entry(
             ingestion_service=ingestion_service
         )
     else:
-        print(f"    [INFO] No categories found under department {department_name}")
+        logger.info(f"No categories found under department {department_name}")
     
     # Process datasets directly under department if they exist
     datasets = YamlParser.get_datasets(department_entry)
@@ -430,10 +429,10 @@ async def process_minister_entry(
 
     minister_name = minister_entry.get('name', '')
     if not minister_name:
-        print(f"[WARNING] Skipping minister entry with no name")
+        logger.warning(f"Skipping minister entry with no name")
         return
     
-    print(f"\n[MINISTER] Processing: {minister_name}")
+    logger.info(f"[MINISTER] Processing: {minister_name}")
     
     # Find all ministers with this name active in the target year
     active_ministers = await find_ministers_by_name_and_year(
@@ -443,10 +442,10 @@ async def process_minister_entry(
     )
     
     if not active_ministers:
-        print(f"  [WARNING] No ministers found with name '{minister_name}' active in year {year}")
+        logger.warning(f"No ministers found with name '{minister_name}' active in year {year}")
         return
     
-    print(f"  Found {len(active_ministers)} active minister relationship(s) in {year}")
+    logger.info(f"Found {len(active_ministers)} active minister relationship(s) in {year}")
     
     # Select the minister with latest startTime for direct categories
     minister_id = None
@@ -456,19 +455,19 @@ async def process_minister_entry(
             key=lambda m: m['start_time'] if m['start_time'] else ""
         )
         minister_id = latest_minister['minister_id']
-        print(f"  [SELECTED] Using minister ID: {minister_id} (latest startTime: {latest_minister['start_time']})")
+        logger.info(f"[SELECTED] Using minister ID: {minister_id} (latest startTime: {latest_minister['start_time']})")
     
     # Process departments if they exist
     if YamlParser.has_departments(minister_entry):
         departments = YamlParser.get_departments(minister_entry)
-        print(f"  [DEPARTMENTS] Found {len(departments)} department(s)")
+        logger.info(f"[DEPARTMENTS] Found {len(departments)} department(s)")
         
         for department_entry in departments:
             department_name = department_entry.get('name', '')
             if not department_name:
                 continue
             
-            print(f"\n  [DEPARTMENT] Processing: {department_name}")
+            logger.info(f"[DEPARTMENT] Processing: {department_name}")
             
             # Find department connected to any of the active ministers
             department_info = await find_department_by_name_and_ministers(
@@ -479,12 +478,12 @@ async def process_minister_entry(
             )
             
             if not department_info:
-                print(f"    [WARNING] Department '{department_name}' not found or not connected to active ministers")
+                logger.warning(f"Department '{department_name}' not found or not connected to active ministers")
                 continue
             
             department_id = department_info['department_id']
             department_relation = department_info['relation']
-            print(f"    Found department ID: {department_id}")
+            logger.info(f"Found department ID: {department_id}")
             
             # Process the department entry
             await process_department_entry(
@@ -501,7 +500,7 @@ async def process_minister_entry(
     # Process direct categories under minister if they exist
     if YamlParser.has_categories(minister_entry):
         if not minister_id:
-            print(f"  [WARNING] Cannot process categories: No active minister selected")
+            logger.warning(f"Cannot process categories: No active minister selected")
         else:
             categories = YamlParser.get_categories(minister_entry)
             if categories:
@@ -517,13 +516,13 @@ async def process_minister_entry(
                     ingestion_service=ingestion_service
                 )
             else:
-                print(f"  [INFO] No categories found under minister {minister_name}")
+                logger.info(f"No categories found under minister {minister_name}")
     
     # Process direct datasets under minister if they exist
     datasets = YamlParser.get_datasets(minister_entry)
     if datasets:
         if not minister_id:
-            print(f"  [WARNING] Cannot process datasets: No active minister selected")
+            logger.warning(f"Cannot process datasets: No active minister selected")
         else:
             await process_datasets(
                 datasets,
@@ -542,13 +541,13 @@ async def main():
     ingestion_base_url = os.getenv("INGESTION_BASE_URL")
     
     if not read_base_url:
-        print("Error: READ_BASE_URL environment variable is not set")
-        print("Please set it before running the ingestion script.")
+        logger.error("READ_BASE_URL environment variable is not set")
+        logger.error("Please set it before running the ingestion script.")
         sys.exit(1)
     
     if not ingestion_base_url:
-        print("Error: INGESTION_BASE_URL environment variable is not set")
-        print("Please set it before running the ingestion script.")
+        logger.error("INGESTION_BASE_URL environment variable is not set")
+        logger.error("Please set it before running the ingestion script.")
         sys.exit(1)
     
     parser = argparse.ArgumentParser(
@@ -570,7 +569,7 @@ async def main():
     
     yaml_path = args.yaml_file
     if not os.path.exists(yaml_path):
-        print(f"Error: YAML file not found: {yaml_path}")
+        logger.error(f"YAML file not found: {yaml_path}")
         sys.exit(1)
     
     # Extract year from filename or use override
@@ -580,31 +579,31 @@ async def main():
         try:
             year = YamlParser.extract_year_from_filename(yaml_path)
         except ValueError as e:
-            print(f"Error: {e}")
+            logger.error(f"{e}")
             sys.exit(1)
     
-    print(f"Processing YAML file: {yaml_path}")
-    print(f"Target year: {year}")
+    logger.info(f"Processing YAML file: {yaml_path}")
+    logger.info(f"Target year: {year}")
     
     # Get base path for resolving dataset paths
     yaml_base_path = os.path.dirname(os.path.abspath(yaml_path))
-    print(f"Base path: {yaml_base_path}")
+    logger.info(f"Base path: {yaml_base_path}")
     
     # Parse YAML
     try:
         manifest = YamlParser.parse_manifest(yaml_path)
     except Exception as e:
-        print(f"Error parsing YAML: {e}")
+        logger.error(f"Error parsing YAML: {e}")
         sys.exit(1)
     
     # Get list of ministers
     try:
         ministers = YamlParser.get_ministers(manifest)
     except Exception as e:
-        print(f"Error extracting ministers from YAML: {e}")
+        logger.error(f"Error extracting ministers from YAML: {e}")
         sys.exit(1)
     
-    print(f"\nFound {len(ministers)} minister(s) in YAML")
+    logger.info(f"Found {len(ministers)} minister(s) in YAML")
     
     # Initialize HTTP client
     await http_client.start()
@@ -624,7 +623,7 @@ async def main():
                 ingestion_service
             )
         
-        print("\n[COMPLETE] Ingestion process finished")
+        logger.success("[COMPLETE] Ingestion process finished")
     finally:
         # Clean up HTTP client
         await http_client.close()
