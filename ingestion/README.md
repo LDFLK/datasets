@@ -72,10 +72,10 @@ Once all prerequisites are met, you can run the ingestion script:
 
 ```bash
 # From the project root directory
-python -m ingestion.ingest_flat_yaml data/statistics/2020/data_hierarchy_2020.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml
 
 # Or with an explicit year override
-python -m ingestion.ingest_flat_yaml data/statistics/2020/data_hierarchy_2020.yaml --year 2020
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml --year 2020
 ```
 
 ### Command Line Arguments
@@ -87,10 +87,10 @@ python -m ingestion.ingest_flat_yaml data/statistics/2020/data_hierarchy_2020.ya
 
 ```bash
 # Ingest 2020 data
-python -m ingestion.ingest_flat_yaml data/statistics/2020/data_hierarchy_2020.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml
 
 # Ingest 2021 data
-python -m ingestion.ingest_flat_yaml data/statistics/2021/data_hierarchy_2021.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2021/data_hierarchy_2021.yaml
 ```
 
 ## How It Works
@@ -105,7 +105,7 @@ python -m ingestion.ingest_flat_yaml data/statistics/2021/data_hierarchy_2021.ya
 
 ```
 ingestion/
-├── ingest_flat_yaml.py      # Main ingestion script
+├── ingest_data_yaml.py      # Main ingestion script
 ├── .env                     # Environment variables
 ├── exception/               # Exception handling
 │   └── exceptions.py
