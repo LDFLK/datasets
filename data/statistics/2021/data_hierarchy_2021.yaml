@@ -2,18 +2,12 @@ minister:
   - name: Foreign Minister
     category:
     - name: official_communications
-      subcategory:
-      - name: news
-        subcategory:
-        - name: news_from_other_sources
-          datasets:
-          - datasets/News From Other Sources
-        - name: mission_news
-          datasets:
-          - datasets/Mission News
-        - name: ministry_news
-          datasets:
-          - datasets/Ministry News
+    subcategory:
+    - name: news
+      datasets:
+      - datasets/News From Other Sources
+      - datasets/Mission News
+      - datasets/Ministry News
   - name: State Minister of National Security, Home Affairs and Disaster Management
     department:
     - name: Department of Immigration and Emigration
