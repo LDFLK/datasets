@@ -1,143 +1,144 @@
-- name: Minister of Labour and Foreign Employment
-  department:
-  - name: Sri Lanka Foreign Employment Bureau
+minister:
+  - name: Minister of Labour and Foreign Employment
+    department:
+    - name: Sri Lanka Foreign Employment Bureau
+      category:
+      - name: foreign_employment
+        subcategory:
+        - name: slbfe_registration
+          subcategory:
+          - name: by_country_vs_manpower_level
+            datasets:
+            - datasets/SLBFE Registration by Country  Manpower Level
+          - name: by_age_vs_manpower_level
+            datasets:
+            - datasets/SLBFE Registration by Age  Manpower Level
+          - name: by_age
+            datasets:
+            - datasets/SLBFE Registration by Age
+          - name: by_gender
+            datasets:
+            - datasets/SLBFE registration by gender
+          - name: by_manpower_level
+            datasets:
+            - datasets/SLBFE Registration by Manpower Level
+          - name: by_district_vs_manpower_level_vs_gender
+            datasets:
+            - datasets/SLBFE Registration by District Manpower Level  Gender
+          - name: by_manpower_level_vs_gender
+            datasets:
+            - datasets/SLBFE Registration by Manpower Level  Gender
+        - name: local_arrivals
+          datasets:
+          - datasets/Local arrivals
+        - name: workers_remittances
+          datasets:
+          - datasets/Workers Remittances
+        - name: complaints_recieved
+          datasets:
+          - datasets/Number of complaints received
+        - name: monthly_foreign_exchange_earnings
+          datasets:
+          - datasets/Monthly foreign exchange earnings
+        - name: remittances
+          subcategory:
+          - name: by_country
+            datasets:
+            - datasets/Inflow of workers Remittances by country US Million
+        - name: complaints_settled
+          datasets:
+          - datasets/Number of complaints resolved
+        - name: local_departures
+          datasets:
+          - datasets/Local departures
+  - name: Minister of Foreign Affairs
     category:
-    - name: foreign_employment
+    - name: official_communications
       subcategory:
-      - name: slbfe_registration
+      - name: news
         subcategory:
-        - name: by_country_vs_manpower_level
+        - name: news_from_other_sources
           datasets:
-          - datasets/SLBFE Registration by Country  Manpower Level
-        - name: by_age_vs_manpower_level
+          - datasets/News From Other Sources
+        - name: mission_news
           datasets:
-          - datasets/SLBFE Registration by Age  Manpower Level
-        - name: by_age
+          - datasets/Mission News
+        - name: ministry_news
           datasets:
-          - datasets/SLBFE Registration by Age
-        - name: by_gender
-          datasets:
-          - datasets/SLBFE registration by gender
-        - name: by_manpower_level
-          datasets:
-          - datasets/SLBFE Registration by Manpower Level
-        - name: by_district_vs_manpower_level_vs_gender
-          datasets:
-          - datasets/SLBFE Registration by District Manpower Level  Gender
-        - name: by_manpower_level_vs_gender
-          datasets:
-          - datasets/SLBFE Registration by Manpower Level  Gender
-      - name: local_arrivals
+          - datasets/Ministry News
+      - name: special_notices
         datasets:
-        - datasets/Local arrivals
-      - name: workers_remittances
-        datasets:
-        - datasets/Workers Remittances
-      - name: complaints_recieved
-        datasets:
-        - datasets/Number of complaints received
-      - name: monthly_foreign_exchange_earnings
-        datasets:
-        - datasets/Monthly foreign exchange earnings
-      - name: remittances
+        - datasets/Special Notices
+  - name: Minister of Investment Planning
+    department:
+    - name: Department of Immigration and Emigration
+      category:
+      - name: immigration_and_emigration
         subcategory:
-        - name: by_country
+        - name: fraudulent_visa
           datasets:
-          - datasets/Inflow of workers Remittances by country US Million
-      - name: complaints_settled
-        datasets:
-        - datasets/Number of complaints resolved
-      - name: local_departures
-        datasets:
-        - datasets/Local departures
-- name: Minister of Foreign Affairs
-  category:
-  - name: official_communications
-    subcategory:
-    - name: news
-      subcategory:
-      - name: news_from_other_sources
-        datasets:
-        - datasets/News From Other Sources
-      - name: mission_news
-        datasets:
-        - datasets/Mission News
-      - name: ministry_news
-        datasets:
-        - datasets/Ministry News
-    - name: special_notices
-      datasets:
-      - datasets/Special Notices
-- name: Minister of Investment Planning
-  department:
-  - name: Department of Immigration and Emigration
-    category:
-    - name: immigration_and_emigration
-      subcategory:
-      - name: fraudulent_visa
-        datasets:
-        - datasets/Fraudulent Visa Detection By Nationality
-      - name: refugees
-        datasets:
-        - datasets/Refugees By Nationality
-      - name: fake_passports
-        datasets:
-        - datasets/Fake Passport Detection By Nationality
-      - name: asylum_seekers
-        datasets:
-        - datasets/Asylum Seekers By Nationality
-      - name: deported_foreign_nationals
-        datasets:
-        - datasets/Deportations By Nationality
-      - name: refused_foreign_entry
-        datasets:
-        - datasets/Refused Entry By Nationality
-- name: Minister of Tourism and Lands
-  department:
-  - name: Sri Lanka Tourism Development Authority
-    category:
-    - name: tourism
-      subcategory:
-      - name: annual_tourism_receipts
-        datasets:
-        - datasets/Annual Tourism Receipts
-      - name: accommodations
+          - datasets/Fraudulent Visa Detection By Nationality
+        - name: refugees
+          datasets:
+          - datasets/Refugees By Nationality
+        - name: fake_passports
+          datasets:
+          - datasets/Fake Passport Detection By Nationality
+        - name: asylum_seekers
+          datasets:
+          - datasets/Asylum Seekers By Nationality
+        - name: deported_foreign_nationals
+          datasets:
+          - datasets/Deportations By Nationality
+        - name: refused_foreign_entry
+          datasets:
+          - datasets/Refused Entry By Nationality
+  - name: Minister of Tourism and Lands
+    department:
+    - name: Sri Lanka Tourism Development Authority
+      category:
+      - name: tourism
         subcategory:
-        - name: by_province
+        - name: annual_tourism_receipts
           datasets:
-          - datasets/Accommodations by Province
-        - name: by_district
+          - datasets/Annual Tourism Receipts
+        - name: accommodations
+          subcategory:
+          - name: by_province
+            datasets:
+            - datasets/Accommodations by Province
+          - name: by_district
+            datasets:
+            - datasets/Accommodations by District
+        - name: location_vs_revenue_vs_visitors_count
           datasets:
-          - datasets/Accommodations by District
-      - name: location_vs_revenue_vs_visitors_count
-        datasets:
-        - datasets/Location vs Revenue vs Visitor Count
-      - name: top_10_source_markets
-        datasets:
-        - datasets/Top 10 source markets
-      - name: arrivals
-        subcategory:
-        - name: by_age
+          - datasets/Location vs Revenue vs Visitor Count
+        - name: top_10_source_markets
           datasets:
-          - datasets/Tourist Arrivals by Age
-        - name: month_vs_country
-          datasets:
-          - datasets/Tourist Arrivals by Country and Month
-        - name: by_carrier
-          datasets:
-          - datasets/Tourist Arrivals by Carrier
-        - name: by_port
-          datasets:
-          - datasets/Tourist Arrivals by Port
-        - name: by_country
-          datasets:
-          - datasets/Tourist Arrivals by Country
-        - name: by_sex
-          datasets:
-          - datasets/Tourist Arrivals by Sex
-        - name: by_month
-          datasets:
-          - datasets/Tourist Arrivals by Month
-        - name: by_purpose
-          datasets:
-          - datasets/Tourist Arrivals by Purpose
+          - datasets/Top 10 source markets
+        - name: arrivals
+          subcategory:
+          - name: by_age
+            datasets:
+            - datasets/Tourist Arrivals by Age
+          - name: month_vs_country
+            datasets:
+            - datasets/Tourist Arrivals by Country and Month
+          - name: by_carrier
+            datasets:
+            - datasets/Tourist Arrivals by Carrier
+          - name: by_port
+            datasets:
+            - datasets/Tourist Arrivals by Port
+          - name: by_country
+            datasets:
+            - datasets/Tourist Arrivals by Country
+          - name: by_sex
+            datasets:
+            - datasets/Tourist Arrivals by Sex
+          - name: by_month
+            datasets:
+            - datasets/Tourist Arrivals by Month
+          - name: by_purpose
+            datasets:
+            - datasets/Tourist Arrivals by Purpose
