@@ -69,7 +69,7 @@ minister:
       - name: special_notices
         datasets:
         - datasets/Special Notices
-  - name: Minister of Investment Planning
+  - name: Minister of Public Security
     department:
     - name: Department of Immigration and Emigration
       category:

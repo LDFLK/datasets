@@ -1,5 +1,5 @@
 minister:
-- name: Minister of Foreign Relations
+- name: Foreign Minister
   category:
   - name: official_communications
     subcategory:
