@@ -4,7 +4,14 @@ import os
 from dotenv import load_dotenv
 from ingestion.models.schema import EntityCreate
 from google.api_core import retry_async
-from ingestion.exception.exceptions import BadRequestError, NotFoundError, InternalServerError
+from ingestion.utils.response_handler import handle_api_response
+from ingestion.exception.exceptions import (
+    BadRequestError, 
+    NotFoundError, 
+    InternalServerError, 
+    ServiceUnavailableError, 
+    GatewayTimeoutError
+)
 
 load_dotenv()
 INGESTION_BASE_URL = os.getenv("INGESTION_BASE_URL")
@@ -17,15 +24,17 @@ def custom_retry_predicate(exception: Exception) -> bool:
     if isinstance(exception, (BadRequestError, NotFoundError)):
         return False
     
-    if isinstance(exception, (InternalServerError)):
+    if isinstance(exception, (InternalServerError, ServiceUnavailableError, GatewayTimeoutError)):
         return True
+    
+    return False
 
 api_retry_decorator = retry_async.AsyncRetry(
     predicate=custom_retry_predicate,
     initial=1.0,
     maximum=6.0,
     multiplier=2.0,
-    timeout=10.0 # retry for 10 seconds
+    timeout=20.0 # retry for 20 seconds
 )
 
 class IngestionService:
@@ -42,14 +51,8 @@ class IngestionService:
         print(f"    [DEBUG] Create payload: {payload}")
         print(f"    [DEBUG] Create URL: {url}")
 
-        try:
-            async with self.session.post(url, headers=headers, json=payload) as response:
-                if response.status == 201:
-                    return await response.json()
-                else:
-                    raise Exception(f"Failed to create entity: {response.status}")
-        except Exception as e:
-            raise Exception(f"Failed to create entity: {e}")
+        async with self.session.post(url, headers=headers, json=payload) as response:
+            return await handle_api_response(response, error_prefix="Failed to create entity")
 
     @api_retry_decorator
     async def update_entity(self, entity_id: str, entity: EntityCreate):
@@ -59,13 +62,5 @@ class IngestionService:
         # Include the id in the payload as required by the API
         payload["id"] = entity_id
 
-        try:
-            async with self.session.put(url, headers=headers, json=payload) as response:
-                if response.status == 200:
-                    return await response.json()
-                else:
-                    error_text = await response.text()
-                    raise Exception(f"Failed to update entity: {response.status} - {error_text}")
-        except Exception as e:
-            raise Exception(f"Failed to update entity: {e}")
-        
+        async with self.session.put(url, headers=headers, json=payload) as response:
+            return await handle_api_response(response, error_prefix="Failed to update entity")
