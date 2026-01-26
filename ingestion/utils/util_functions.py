@@ -4,6 +4,8 @@ import re
 from datetime import datetime
 from google.protobuf.wrappers_pb2 import StringValue
 
+from ingestion.utils.logger import logger
+
 class Util:
     # helper: decode protobuf attribute name 
     @staticmethod      
@@ -27,7 +29,7 @@ class Util:
                     cleaned = ''.join(ch for ch in decoded_str if ch.isprintable())
                     return cleaned.strip()
             except Exception as e:
-                print(f"[DEBUG decode] outer exception: {e}")
+                logger.error(f"Attribute decode error: {e}")
                 return "Unknown"
 
     @staticmethod
@@ -50,26 +52,26 @@ class Util:
         """
         # Validate structure: must have columns and rows
         if not isinstance(data_content, dict):
-            print(f"        [ERROR] data.json is not a dictionary")
+            logger.error("data.json is not a dictionary")
             return False
         
         columns = data_content.get('columns')
         rows = data_content.get('rows')
         
         if not isinstance(columns, list):
-            print(f"        [ERROR] 'columns' in data.json is not a list")
+            logger.error("'columns' in data.json is not a list")
             return False
         
         if not isinstance(rows, list):
-            print(f"        [ERROR] 'rows' in data.json is not a list")
+            logger.error("'rows' in data.json is not a list")
             return False
         
         if not columns:
-            print(f"        [ERROR] 'columns' list is empty")
+            logger.error("'columns' list is empty")
             return False
         
         if not rows:
-            print(f"        [ERROR] 'rows' list is empty")
+            logger.error("'rows' list is empty")
             return False
         
         expected_column_count = len(columns)
@@ -77,10 +79,10 @@ class Util:
         # Validate rows structure (each row must be a list with same number of columns)
         for i, row in enumerate(rows):
             if not isinstance(row, list):
-                print(f"        [ERROR] Row {i} is not a list")
+                logger.error(f"Row {i} is not a list")
                 return False
             if len(row) != expected_column_count:
-                print(f"        [ERROR] Row {i} has {len(row)} values but expected {expected_column_count}")
+                logger.error(f"Row {i} has {len(row)} values but expected {expected_column_count}")
                 return False
         
         return True

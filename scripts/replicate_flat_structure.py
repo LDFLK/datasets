@@ -170,7 +170,7 @@ def main():
     year = args.year
     
     src_dir = f"data/{year}"
-    base_dst_dir = f"data/statistics/{year}_flat"
+    base_dst_dir = f"data/statistics/{year}"
     dst_datasets_dir = os.path.join(base_dst_dir, "datasets")
     
     if not os.path.exists(src_dir):
@@ -305,7 +305,7 @@ def main():
         print(f"Processed: {dataset_name} ({d['safe_name']}) -> {target_path}")
 
     # Write Manifest
-    manifest_path = os.path.join(base_dst_dir, f"manifest_{year}.yaml")
+    manifest_path = os.path.join(base_dst_dir, f"data_hierarchy_{year}.yaml")
     with open(manifest_path, 'w') as f:
         yaml.dump(manifest_list, f, sort_keys=False, default_flow_style=False)
         

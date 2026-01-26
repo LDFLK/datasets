@@ -53,6 +53,4 @@ class EntityCreate(BaseModel):
     metadata: list[Dict[str, Any]] = []
     attributes: list[Dict[str, Any]] = []
     relationships: list[AddRelation] = []
-
-class Date(BaseModel):
-    date: str
+    

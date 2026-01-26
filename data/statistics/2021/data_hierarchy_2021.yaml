@@ -1,0 +1,125 @@
+minister:
+  - name: Foreign Minister
+    category:
+    - name: official_communications
+    subcategory:
+    - name: news
+      datasets:
+      - datasets/News From Other Sources
+      - datasets/Mission News
+      - datasets/Ministry News
+  - name: State Minister of National Security, Home Affairs and Disaster Management
+    department:
+    - name: Department of Immigration and Emigration
+      category:
+      - name: immigration_and_emigration
+        subcategory:
+        - name: refugees
+          datasets:
+          - datasets/Refugees By Nationality
+        - name: asylum_seekers
+          datasets:
+          - datasets/Asylum Seekers By Nationality
+        - name: deported_foreign_nationals
+          datasets:
+          - datasets/Deportations By Nationality
+        - name: refused_foreign_entry
+          datasets:
+          - datasets/Refused Entry By Nationality
+  - name: Minister of Tourism
+    department:
+    - name: Sri Lanka Tourism Development Authority
+      category:
+      - name: tourism
+        subcategory:
+        - name: annual_tourism_receipts
+          datasets:
+          - datasets/Annual Tourism Receipts
+        - name: accommodations
+          subcategory:
+          - name: by_province
+            datasets:
+            - datasets/Accommodations by Province
+          - name: by_district
+            datasets:
+            - datasets/Accommodations by District
+        - name: occupancy_rate
+          subcategory:
+          - name: by_district
+            datasets:
+            - datasets/Occupancy Rate by District
+        - name: top_10_source_markets
+          datasets:
+          - datasets/Top 10 source markets
+        - name: arrivals
+          subcategory:
+          - name: month_vs_country
+            datasets:
+            - datasets/Tourist Arrivals by Country and Month
+          - name: by_country
+            datasets:
+            - datasets/Tourist Arrivals by Country
+          - name: by_month
+            datasets:
+            - datasets/Tourist Arrivals by Month
+  - name: State Minister of Foreign Employment Promotion and Market Diversification
+    department:
+    - name: Sri Lanka Foreign Employment Bureau
+      category:
+      - name: foreign_employment
+        subcategory:
+        - name: slbfe_registration
+          subcategory:
+          - name: by_country_vs_manpower_level
+            datasets:
+            - datasets/SLBFE Registration by Country vs Manpower Level
+          - name: by_age_vs_manpower_level
+            datasets:
+            - datasets/SLBFE Registration by Age vs Manpower Level
+          - name: by_age
+            datasets:
+            - datasets/SLBFE Registration by Age
+          - name: by_gender
+            datasets:
+            - datasets/SLBFE registration by gender
+          - name: by_manpower_level
+            datasets:
+            - datasets/SLBFE registration by manpower level
+          - name: by_district_vs_manpower_level_vs_gender
+            datasets:
+            - datasets/SLBFE Registration by District vs Manpower Level vs Gender
+          - name: by_manpower_level_vs_gender
+            datasets:
+            - datasets/SLBFE Registration by Manpower Level vs Gender
+          - name: by_source_vs_country
+            datasets:
+            - datasets/SLBFE Registration through Private Sources by Country
+          - name: by_country
+            datasets:
+            - datasets/SLBFE registration by country
+        - name: local_arrivals
+          datasets:
+          - datasets/Local arrivals
+        - name: workers_remittances
+          datasets:
+          - datasets/Workers Remittances
+        - name: legal_division_performance
+          datasets:
+          - datasets/Legal division performance
+        - name: complaints_received
+          datasets:
+          - datasets/Number of complaints received
+        - name: monthly_foreign_exchange_earnings
+          datasets:
+          - datasets/Monthly foreign exchange earnings
+        - name: remittances
+          subcategory:
+          - name: by_region
+            datasets:
+            - datasets/Private Remittances Region-wise
+        - name: complaints_settled
+          datasets:
+          - datasets/Number of complaints resolved
+        - name: local_departures
+          datasets:
+          - datasets/Local departures
