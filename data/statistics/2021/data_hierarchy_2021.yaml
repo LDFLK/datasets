@@ -72,10 +72,10 @@ minister:
           subcategory:
           - name: by_country_vs_manpower_level
             datasets:
-            - datasets/SLBFE Registration by Country  Manpower Level
+            - datasets/SLBFE Registration by Country vs Manpower Level
           - name: by_age_vs_manpower_level
             datasets:
-            - datasets/SLBFE Registration by Age  Manpower Level
+            - datasets/SLBFE Registration by Age vs Manpower Level
           - name: by_age
             datasets:
             - datasets/SLBFE Registration by Age
@@ -87,10 +87,10 @@ minister:
             - datasets/SLBFE registration by manpower level
           - name: by_district_vs_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE Registration by District Manpower Level  Gender
+            - datasets/SLBFE Registration by District vs Manpower Level vs Gender
           - name: by_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE Registration by Manpower Level  Gender
+            - datasets/SLBFE Registration by Manpower Level vs Gender
           - name: by_source_vs_country
             datasets:
             - datasets/SLBFE Registration through Private Sources by Country

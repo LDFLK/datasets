@@ -89,8 +89,8 @@ minister:
       subcategory:
       - name: cadre_management
         datasets:
-            - datasets/Staff of Missions
-            - datasets/Staff of the Ministry
+        - datasets/Staff of Missions
+        - datasets/Staff of the Ministry
   - name: Minister of Tourism and Lands
     department:
     - name: Sri Lanka Tourism Development Authority
