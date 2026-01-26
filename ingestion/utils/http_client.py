@@ -6,7 +6,7 @@ class HTTPClient:
 
     def __init__(self):
         self._session: Optional[ClientSession] = None
-        self.timeout = ClientTimeout(total=90, connect=30, sock_connect=30, sock_read=90)
+        self.timeout = ClientTimeout(total=120, connect=30, sock_connect=30, sock_read=120)
 
     async def start(self):
         """Create session on app startup"""

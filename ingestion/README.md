@@ -18,7 +18,7 @@ Before running the ingestion script, ensure you have completed the following set
 
 ### 1. Start OpenGin Services
 
-Make sure the OpenGin services are up and running. The ingestion script requires:
+Make sure the OpenGIN services are up and running. The ingestion script requires:
 - **Read Service**: For querying existing entities and relationships
 - **Ingestion Service**: For creating and updating entities
 
@@ -72,10 +72,10 @@ Once all prerequisites are met, you can run the ingestion script:
 
 ```bash
 # From the project root directory
-python -m ingestion.ingest_flat_yaml data/statistics/2020_flat/manifest_2020.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml
 
 # Or with an explicit year override
-python -m ingestion.ingest_flat_yaml data/statistics/2020_flat/manifest_2020.yaml --year 2020
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml --year 2020
 ```
 
 ### Command Line Arguments
@@ -87,10 +87,10 @@ python -m ingestion.ingest_flat_yaml data/statistics/2020_flat/manifest_2020.yam
 
 ```bash
 # Ingest 2020 data
-python -m ingestion.ingest_flat_yaml data/statistics/2020_flat/manifest_2020.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml
 
 # Ingest 2021 data
-python -m ingestion.ingest_flat_yaml data/statistics/2021_flat/manifest_2021.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2021/data_hierarchy_2021.yaml
 ```
 
 ## How It Works
@@ -105,7 +105,10 @@ python -m ingestion.ingest_flat_yaml data/statistics/2021_flat/manifest_2021.yam
 
 ```
 ingestion/
-├── ingest_flat_yaml.py      # Main ingestion script
+├── ingest_data_yaml.py      # Main ingestion script
+├── .env                     # Environment variables
+├── exception/               # Exception handling
+│   └── exceptions.py
 ├── models/                  # Data models and schemas
 │   └── schema.py
 ├── services/                # Service layer
