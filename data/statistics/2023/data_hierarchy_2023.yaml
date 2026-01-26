@@ -59,7 +59,7 @@ minister:
         datasets:
         - datasets/News From Other Sources
         - datasets/Mission News
-      - datasets/Ministry News
+        - datasets/Ministry News
     - name: special_notices
       datasets:
       - datasets/Special Notices
