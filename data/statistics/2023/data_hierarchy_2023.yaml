@@ -53,12 +53,12 @@ minister:
           - datasets/Local departures
   - name: Minister of Foreign Affairs
     category:
-  - name: official_communications
-    subcategory:
-    - name: news
-      datasets:
-      - datasets/News From Other Sources
-      - datasets/Mission News
+    - name: official_communications
+      subcategory:
+      - name: news
+        datasets:
+        - datasets/News From Other Sources
+        - datasets/Mission News
       - datasets/Ministry News
     - name: special_notices
       datasets:
