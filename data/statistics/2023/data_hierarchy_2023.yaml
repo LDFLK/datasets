@@ -9,10 +9,10 @@ minister:
           subcategory:
           - name: by_country_vs_manpower_level
             datasets:
-            - datasets/SLBFE Registration by Country  Manpower Level
+            - datasets/SLBFE Registration by Country vs Manpower Level
           - name: by_age_vs_manpower_level
             datasets:
-            - datasets/SLBFE Registration by Age  Manpower Level
+            - datasets/SLBFE Registration by Age vs Manpower Level
           - name: by_age
             datasets:
             - datasets/SLBFE Registration by Age
@@ -24,17 +24,17 @@ minister:
             - datasets/SLBFE Registration by Manpower Level
           - name: by_district_vs_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE Registration by District Manpower Level  Gender
+            - datasets/SLBFE Registration by District vs Manpower Level vs Gender
           - name: by_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE Registration by Manpower Level  Gender
+            - datasets/SLBFE Registration by Manpower Level vs Gender
         - name: local_arrivals
           datasets:
           - datasets/Local arrivals
         - name: workers_remittances
           datasets:
           - datasets/Workers Remittances
-        - name: complaints_recieved
+        - name: complaints_received
           datasets:
           - datasets/Number of complaints received
         - name: monthly_foreign_exchange_earnings

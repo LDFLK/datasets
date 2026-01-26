@@ -39,10 +39,10 @@ minister:
           subcategory:
           - name: by_province
             datasets:
-            - datasets/Accomodations by Province
+            - datasets/Accommodations by Province
           - name: by_district
             datasets:
-            - datasets/Accomodations by District
+            - datasets/Accommodations by District
         - name: occupancy_rate
           subcategory:
           - name: by_district
@@ -106,7 +106,7 @@ minister:
         - name: legal_division_performance
           datasets:
           - datasets/Legal division performance
-        - name: complaints_recieved
+        - name: complaints_received
           datasets:
           - datasets/Number of complaints received
         - name: monthly_foreign_exchange_earnings

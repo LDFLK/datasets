@@ -30,7 +30,7 @@ minister:
             - datasets/SLBFE registration by country vs manpower level
           - name: by_age_vs_manpower_level
             datasets:
-            - datasets/SLBFE registration by age vs Man power level
+            - datasets/SLBFE registration by age vs Manpower level
           - name: by_age
             datasets:
             - datasets/SLBFE registration by age
@@ -45,7 +45,7 @@ minister:
             - datasets/SLBFE registration by district vs manpower level vs gender
           - name: by_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE registration by manpower level vs Gender
+            - datasets/SLBFE registration by manpower level vs gender
           - name: by_source_vs_country
             datasets:
             - datasets/SLBFE registration all sources by country
@@ -64,7 +64,7 @@ minister:
         - name: legal_division_performance
           datasets:
           - datasets/Legal division performance
-        - name: complaints_recieved
+        - name: complaints_received
           datasets:
           - datasets/Number of complaints received
         - name: monthly_foreign_exchange_earnings
