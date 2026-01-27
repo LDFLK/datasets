@@ -657,7 +657,7 @@ async def main():
         ministers = YamlParser.get_ministers(manifest)
     except Exception as e:
         logger.error(f"Error extracting ministers from YAML: {e}")
-        sys.exit(1)
+        ministers = []
     
     logger.info(f"Found {len(ministers)} minister(s) in YAML")
 

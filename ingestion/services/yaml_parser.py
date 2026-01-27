@@ -46,7 +46,7 @@ class YamlParser:
     @staticmethod
     def get_ministers(manifest: Dict[str, Any]) -> List[Dict[str, Any]]:
         if 'minister' not in manifest:
-            raise ValueError("Manifest does not contain 'minister' key")
+            return []
         
         ministers = manifest['minister']
 
