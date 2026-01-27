@@ -35,10 +35,10 @@ minister:
             - datasets/Accommodations by District
         - name: location_vs_revenue_vs_visitors_count
           datasets:
-          - datasets/Location Vs Revenue Vs Visitors Count
+          - datasets/Location vs Revenue vs Visitors Count
         - name: top_10_source_markets
           datasets:
-          - datasets/Top 10 source markets
+          - datasets/Top 10 Source Markets
     - name: Sri Lanka Foreign Employment Bureau
       category:
       - name: foreign_employment
@@ -47,19 +47,19 @@ minister:
           subcategory:
           - name: by_country_vs_manpower_level
             datasets:
-            - datasets/Migrant Employees Registration by Country and Manpower Level
+            - datasets/SLBFE Registration by Country vs Manpower Level
           - name: by_gender
             datasets:
-            - datasets/Migrant Employees Registration by Gender
+            - datasets/SLBFE Registration by Gender
           - name: by_manpower_level
             datasets:
-            - datasets/Migrant Employees Registration by Manpower Level
+            - datasets/SLBFE Registration by Manpower Level
           - name: by_district
             datasets:
-            - datasets/Migrant Employees Registration by Districts
+            - datasets/SLBFE Registration by District
           - name: by_manpower_level_vs_gender
             datasets:
-            - datasets/Migrant Employees Registration by Gender and Manpower Level
+            - datasets/SLBFE Registration by Manpower Level vs Gender
   - name: Minister of Public Security and Parliamentary Affairs
     department:
     - name: Department of Immigration and Emigration
