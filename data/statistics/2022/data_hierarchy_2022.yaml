@@ -131,21 +131,21 @@ minister:
           - name: by_purpose
             datasets:
             - datasets/Tourist Arrivals by Purpose
-
-government:
-  - name: Government of Sri Lanka
-    category:
-    - name: budget
-      subcategory:
-      - name: ministry_budget
-        datasets:
-        - datasets/Ministry Capital Expenditure
-        - datasets/Ministry Recurrent Expenditure
-      - name: president_budget
-        datasets:
-        - datasets/President Capital Expenditure
-        - datasets/President Recurrent Expenditure
-      - name: prime_minister_budget 
-        datasets:
-        - datasets/Prime Minister Capital Expenditure
-        - datasets/Prime Minister Recurrent Expenditure
+  - name: Minister of Finance, Economic Stabilization and National Policies
+    department:
+    - name: Department of National Budget
+      category:
+      - name: budget
+        subcategory:
+        - name: ministry_budget
+          datasets:
+          - datasets/Ministry Capital Expenditure
+          - datasets/Ministry Recurrent Expenditure
+        - name: president_budget
+          datasets:
+          - datasets/President Capital Expenditure
+          - datasets/President Recurrent Expenditure
+        - name: prime_minister_budget 
+          datasets:
+          - datasets/Prime Minister Capital Expenditure
+          - datasets/Prime Minister Recurrent Expenditure
