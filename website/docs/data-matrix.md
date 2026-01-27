@@ -12,7 +12,7 @@ Tabular overview of all datasets organized by ministry, showing years available,
 | Dataset Name | Years Available | Collection Status | Verification Status |
 |--------------|-----------------|-------------------|---------------------|
 | Ministry News | 2020, 2021, 2022, 2023 | Collected | Verified (2020, 2021, 2022, 2023) |
-| Mission News | 2020, 2021, 2023 | Collected | Verified (2020, 2021, 2022, 2023) |
+| Mission News | 2020, 2021, 2022, 2023 | Collected | Verified (2020, 2021, 2022, 2023) |
 | News From Other Sources | 2020, 2021, 2023 | Collected | Verified (2020, 2021, 2023) |
 | Special Notices | 2023 | Collected | Verified (2023) |
 | Staff of Missions | 2020, 2022 | Collected | Verified (2020, 2022) |
