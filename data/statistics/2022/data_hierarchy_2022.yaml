@@ -7,16 +7,16 @@ minister:
         subcategory:
         - name: refugees
           datasets:
-          - datasets/Refugees By Nationality
+          - datasets/Refugees by Nationality
         - name: asylum_seekers
           datasets:
-          - datasets/Asylum Seekers By Nationality
+          - datasets/Asylum Seekers by Nationality
         - name: deported_foreign_nationals
           datasets:
-          - datasets/Deportations By Nationality
+          - datasets/Deportations by Nationality
         - name: refused_foreign_entry
           datasets:
-          - datasets/Refused Entry By Nationality
+          - datasets/Refused Entry by Nationality
   - name: Minister of Labour and Foreign Employment
     department:
     - name: Sri Lanka Foreign Employment Bureau
@@ -27,55 +27,55 @@ minister:
           subcategory:
           - name: by_country_vs_manpower_level
             datasets:
-            - datasets/SLBFE registration by country vs manpower level
+            - datasets/SLBFE Registration by Country vs Manpower Level
           - name: by_age_vs_manpower_level
             datasets:
-            - datasets/SLBFE registration by age vs Manpower level
+            - datasets/SLBFE Registration by Age vs Manpower Level
           - name: by_age
             datasets:
-            - datasets/SLBFE registration by age
+            - datasets/SLBFE Registration by Age
           - name: by_gender
             datasets:
-            - datasets/SLBFE registration by gender
+            - datasets/SLBFE Registration by Gender
           - name: by_manpower_level
             datasets:
-            - datasets/SLBFE registration by manpower level
+            - datasets/SLBFE Registration by Manpower Level
           - name: by_district_vs_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE registration by district vs manpower level vs gender
+            - datasets/SLBFE Registration by District vs Manpower Level vs Gender
           - name: by_manpower_level_vs_gender
             datasets:
-            - datasets/SLBFE registration by manpower level vs gender
+            - datasets/SLBFE Registration by Manpower Level vs Gender
           - name: by_source_vs_country
             datasets:
-            - datasets/SLBFE registration all sources by country
+            - datasets/SLBFE Registration All Sources by Country
           - name: by_country
             datasets:
-            - datasets/SLBFE registration by country
+            - datasets/SLBFE Registration by Country
         - name: local_arrivals
           datasets:
-          - datasets/Local arrivals
+          - datasets/Local Arrivals
         - name: workers_remittances
           datasets:
           - datasets/Workers Remittances
         - name: raids_conducted
           datasets:
-          - datasets/Number of raids conducted
+          - datasets/Number of Raids Conducted
         - name: legal_division_performance
           datasets:
-          - datasets/Legal division performance
+          - datasets/Legal Division Performance
         - name: complaints_received
           datasets:
-          - datasets/Number of complaints received
+          - datasets/Number of Complaints Received
         - name: monthly_foreign_exchange_earnings
           datasets:
-          - datasets/Monthly foreign exchange earnings
+          - datasets/Monthly Foreign Exchange Earnings
         - name: complaints_settled
           datasets:
-          - datasets/Number of complaints resolved
+          - datasets/Number of Complaints Resolved
         - name: local_departures
           datasets:
-          - datasets/Local departures
+          - datasets/Local Departures
   - name: Minister of Foreign Affairs
     category:
     - name: official_communications

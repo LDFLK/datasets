@@ -16,16 +16,16 @@ minister:
         subcategory:
         - name: refugees
           datasets:
-          - datasets/Refugees By Nationality
+          - datasets/Refugees by Nationality
         - name: asylum_seekers
           datasets:
-          - datasets/Asylum Seekers By Nationality
+          - datasets/Asylum Seekers by Nationality
         - name: deported_foreign_nationals
           datasets:
-          - datasets/Deportations By Nationality
+          - datasets/Deportations by Nationality
         - name: refused_foreign_entry
           datasets:
-          - datasets/Refused Entry By Nationality
+          - datasets/Refused Entry by Nationality
   - name: Minister of Tourism
     department:
     - name: Sri Lanka Tourism Development Authority
@@ -50,7 +50,7 @@ minister:
             - datasets/Occupancy Rate by District
         - name: top_10_source_markets
           datasets:
-          - datasets/Top 10 source markets
+          - datasets/Top 10 Source Markets
         - name: arrivals
           subcategory:
           - name: month_vs_country
@@ -81,10 +81,10 @@ minister:
             - datasets/SLBFE Registration by Age
           - name: by_gender
             datasets:
-            - datasets/SLBFE registration by gender
+            - datasets/SLBFE Registration by Gender
           - name: by_manpower_level
             datasets:
-            - datasets/SLBFE registration by manpower level
+            - datasets/SLBFE Registration by Manpower Level
           - name: by_district_vs_manpower_level_vs_gender
             datasets:
             - datasets/SLBFE Registration by District vs Manpower Level vs Gender
@@ -93,25 +93,25 @@ minister:
             - datasets/SLBFE Registration by Manpower Level vs Gender
           - name: by_source_vs_country
             datasets:
-            - datasets/SLBFE Registration through Private Sources by Country
+            - datasets/SLBFE Registration Through Private Sources by Country
           - name: by_country
             datasets:
-            - datasets/SLBFE registration by country
+            - datasets/SLBFE Registration by Country
         - name: local_arrivals
           datasets:
-          - datasets/Local arrivals
+          - datasets/Local Arrivals
         - name: workers_remittances
           datasets:
           - datasets/Workers Remittances
         - name: legal_division_performance
           datasets:
-          - datasets/Legal division performance
+          - datasets/Legal Division Performance
         - name: complaints_received
           datasets:
-          - datasets/Number of complaints received
+          - datasets/Number of Complaints Received
         - name: monthly_foreign_exchange_earnings
           datasets:
-          - datasets/Monthly foreign exchange earnings
+          - datasets/Monthly Foreign Exchange Earnings
         - name: remittances
           subcategory:
           - name: by_region
@@ -119,7 +119,7 @@ minister:
             - datasets/Private Remittances Region-wise
         - name: complaints_settled
           datasets:
-          - datasets/Number of complaints resolved
+          - datasets/Number of Complaints Resolved
         - name: local_departures
           datasets:
-          - datasets/Local departures
+          - datasets/Local Departures
