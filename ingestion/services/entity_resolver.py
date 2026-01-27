@@ -73,6 +73,25 @@ async def find_ministers_by_name_and_year(name: str, year: str, read_service: Re
     
     return active_ministers
 
+# Find all governments with the given name that were active in the target year.
+async def find_government_by_name(name: str, read_service: ReadService) -> Optional[Entity]:
+    
+    # Search for government by name
+    search_entity = Entity(
+        name=name,
+        kind=Kind(major="Organisation", minor="government")
+    )
+    
+    try:
+        governments = await read_service.get_entities(search_entity)
+    except Exception as e:
+        raise Exception(f"Failed to search for governments: {e}")
+    
+    if not governments:
+        return None
+           
+    return governments[0]
+
 #Find a department by name that is connected to any of the given ministers and active in the target year.
 # Returns department id
 async def find_department_by_name_and_ministers(name: str, active_ministers: List[Dict[str, str]], year: str, read_service: ReadService) -> Optional[Dict[str, Any]]:

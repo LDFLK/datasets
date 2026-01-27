@@ -11,7 +11,12 @@ from typing import Dict, List, Any
 from ingestion.services.yaml_parser import YamlParser
 from ingestion.services.read_service import ReadService
 from ingestion.services.ingestion_service import IngestionService
-from ingestion.services.entity_resolver import find_ministers_by_name_and_year, find_department_by_name_and_ministers
+from ingestion.services.ingestion_service import IngestionService
+from ingestion.services.entity_resolver import (
+    find_ministers_by_name_and_year, 
+    find_department_by_name_and_ministers,
+    find_government_by_name
+)
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
 from ingestion.utils.util_functions import Util
@@ -534,6 +539,57 @@ async def process_minister_entry(
                 ingestion_service=ingestion_service
             )
 
+# Process a single government entry from the YAML.
+async def process_government_entry(
+    government_entry: Dict[str, Any],
+    yaml_base_path: str,
+    year: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
+):
+    government_name = government_entry.get('name', '')
+    if not government_name:
+        logger.warning(f"Skipping government entry with no name")
+        return
+
+    logger.info(f"[GOVERNMENT] Processing: {government_name}")
+
+    # Find government with this name
+    active_government = await find_government_by_name(
+        government_name,
+        read_service
+    )
+
+    if not active_government or not active_government.id:
+        logger.warning(f"No governments found with name '{government_name}'")
+        return
+
+    government_id = active_government.id
+    logger.info(f"[SELECTED] Using government ID: {government_id}")
+
+    # Define government relationship start/end times
+    gov_start_time = "1948-02-04"
+    gov_end_time = ""
+
+    # Process categories under government
+    if YamlParser.has_categories(government_entry):
+        if not government_id:
+            logger.warning(f"Cannot process categories: No active government selected")
+        else:
+            categories = YamlParser.get_categories(government_entry)
+            if categories:
+                await process_categories(
+                    categories,
+                    government_id,
+                    "government",
+                    yaml_base_path,
+                    year,
+                    parent_start_time=gov_start_time,
+                    parent_end_time=gov_end_time,
+                    read_service=read_service,
+                    ingestion_service=ingestion_service
+                )
+
 async def main():
     """Main entry point for the ingestion script."""
     # Check required environment variables first
@@ -604,6 +660,15 @@ async def main():
         sys.exit(1)
     
     logger.info(f"Found {len(ministers)} minister(s) in YAML")
+
+    # Get list of governments
+    try:
+        governments = YamlParser.get_governments(manifest)
+    except Exception as e:
+        logger.error(f"Error extracting governments from YAML: {e}")
+        governments = []
+    
+    logger.info(f"Found {len(governments)} government(s) in YAML")
     
     # Initialize HTTP client
     await http_client.start()
@@ -612,6 +677,16 @@ async def main():
         # Initialize services
         read_service = ReadService()
         ingestion_service = IngestionService()
+
+        # Process each government entry
+        for government_entry in governments:
+            await process_government_entry(
+                government_entry,
+                yaml_base_path,
+                year,
+                read_service,
+                ingestion_service
+            )
         
         # Process each minister entry sequentially - change to parallel later
         for minister_entry in ministers:
@@ -622,7 +697,7 @@ async def main():
                 read_service,
                 ingestion_service
             )
-        
+          
         logger.success("[COMPLETE] Ingestion process finished")
     finally:
         # Clean up HTTP client
