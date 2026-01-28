@@ -123,4 +123,47 @@ Generated on: 2025-12-23 22:45:05
 >
 > **Workaround:**
 > As a temporary workaround, please use **decimal point values** in the first row of your dataset to enforce correct type inference.
-> - **Overflowing Case:** Always prefer `float` for large numbers until this is officially supported.
+
+### 4. Git Large File Storage (LFS)
+
+This repository uses [Git LFS](https://git-lfs.github.com/) to manage large files, particularly PDF reports in `data/sources`.
+
+**Setup:**
+
+1.  Install Git LFS:
+    ```bash
+    brew install git-lfs  # macOS
+    sudo apt install git-lfs # Ubuntu
+    ```
+2.  Initialize LFS in your repo:
+    ```bash
+    git lfs install
+    ```
+
+**Usage:**
+
+When adding new large files (e.g., PDFs):
+
+```bash
+# Example: Track all PDF files in a specific directory
+git lfs track "data/sources/**/*.pdf"
+
+# Make sure to add .gitattributes
+git add .gitattributes
+```
+
+**Policy:**
+
+*   **Mandatory:** Any file larger than **100 MB** MUST be tracked with LFS (GitHub limit).
+*   **Recommended:** Binary files (PDFs, Images, Archives) larger than **50 MB**.
+
+**Troubleshooting:**
+
+If you encounter a "Large files detected" error during push:
+
+1.  Check if you committed a large file as a regular git object in a **previous commit**.
+2.  Use `git lfs migrate` to rewrite history and convert them to LFS pointers:
+    ```bash
+    git lfs migrate import --include="path/to/large/files/*.pdf" --everything
+    ```
+3.  Force push the changes.
