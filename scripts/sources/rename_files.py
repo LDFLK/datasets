@@ -96,12 +96,12 @@ def rename_treasury():
 
         # Extract Volume
         vol_num = "unknown"
-        if "volume_i" in filename_lower and "volume_ii" not in filename_lower and "volume_iii" not in filename_lower:
-             vol_num = "1"
-        elif "volume_ii" in filename_lower and "volume_iii" not in filename_lower:
-             vol_num = "2"
-        elif "volume_iii" in filename_lower:
+        if "volume_iii" in filename_lower:
              vol_num = "3"
+        elif "volume_ii" in filename_lower:
+             vol_num = "2"
+        elif "volume_i" in filename_lower:
+             vol_num = "1"
         elif "vol_1" in filename_lower:
              vol_num = "1"
         elif "vol_2" in filename_lower:

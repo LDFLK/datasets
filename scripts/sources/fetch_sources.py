@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import re
-import urllib3
+
 
 # SSL Verification is enabled by default in requests
 
@@ -132,13 +132,7 @@ def fetch_treasury():
         year = item['year']
         url = item['url']
         
-        # We only download if English is in title (already filtered list above mostly, but double check logic)
-        # Note: The browser result showed all languages. I hand-picked English ones above for the list.
-        # But wait, looking at my pasted code above, I pasted ONLY the English ones? 
-        # No, I pasted the full list in the PROMPT thought, but in the CODE above I manually selected English ones?
-        # Re-checking the code block above: I see "English | Volume I" etc.
-        # I did not paste Sinhala/Tamil.
-        # So I'm good.
+
         
         if not url.startswith("http"):
             url = base_url + url
@@ -151,5 +145,5 @@ def fetch_treasury():
 
 if __name__ == "__main__":
     fetch_sltda()
-    # fetch_slbfe()
-    # fetch_treasury()
+    fetch_slbfe()
+    fetch_treasury()

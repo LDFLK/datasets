@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import re
-import urllib3
+
 from urllib.parse import quote
 
 
@@ -136,7 +136,8 @@ def generate_sltda_table(mapping):
             archive_url = f"{GITHUB_RAW_BASE}/statistics/sltda/{f}"
             
             rows.append(f"| {year} | Annual Report {year} | [Source]({source_url}) | [Archive]({archive_url}) |")
-        except: pass
+        except Exception as e:
+            print(f"Error processing SLTDA file {f}: {e}")
             
     header = "| Year | Report Name | Source URL | Archive URL |\n|---|---|---|---|\n"
     return header + "\n".join(rows)
@@ -161,7 +162,8 @@ def generate_slbfe_table(mapping):
             archive_url = f"{GITHUB_RAW_BASE}/statistics/slbfe/{f}"
             
             rows.append(f"| {year} | Annual Report {year} ({lang.capitalize()}) | [Source]({source_url}) | [Archive]({archive_url}) |")
-        except: pass
+        except Exception as e:
+            print(f"Error processing SLBFE file {f}: {e}")
 
     # Add 2024 N/A entry
     rows.append("| 2024 | Annual Report 2024 | N/A | N/A |")
@@ -202,7 +204,8 @@ def generate_treasury_table(mapping):
             if is_revised: report_name += " (Revised)"
             
             rows.append(f"| {year} | {report_name} | [Source]({source_url}) | [Archive]({archive_url}) |")
-        except: pass
+        except Exception as e:
+            print(f"Error processing Treasury file {f}: {e}")
 
     header = "| Year | Report Name | Source URL | Archive URL |\n|---|---|---|---|\n"
     return header + "\n".join(rows)
@@ -246,7 +249,8 @@ def generate_treasury_activity_table(mapping):
             report_name = f"Activity Budget Estimates {year} ({lang.capitalize()})"
             
             rows_data.append((int(year), f"| {year} | {report_name} | [Source]({source_url}) | [Archive]({archive_url}) |"))
-        except: pass
+        except Exception as e:
+            print(f"Error processing Treasury Activity file {f}: {e}")
 
     # Sort by year
     rows_data.sort(key=lambda x: x[0])
