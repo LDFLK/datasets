@@ -11,7 +11,6 @@ from typing import Dict, List, Any
 from ingestion.services.yaml_parser import YamlParser
 from ingestion.services.read_service import ReadService
 from ingestion.services.ingestion_service import IngestionService
-from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import (
     find_ministers_by_name_and_year, 
     find_department_by_name_and_ministers,
@@ -573,22 +572,19 @@ async def process_government_entry(
 
     # Process categories under government
     if YamlParser.has_categories(government_entry):
-        if not government_id:
-            logger.warning(f"Cannot process categories: No active government selected")
-        else:
-            categories = YamlParser.get_categories(government_entry)
-            if categories:
-                await process_categories(
-                    categories,
-                    government_id,
-                    "government",
-                    yaml_base_path,
-                    year,
-                    parent_start_time=gov_start_time,
-                    parent_end_time=gov_end_time,
-                    read_service=read_service,
-                    ingestion_service=ingestion_service
-                )
+        categories = YamlParser.get_categories(government_entry)
+        if categories:
+            await process_categories(
+                categories,
+                government_id,
+                "government",
+                yaml_base_path,
+                year,
+                parent_start_time=gov_start_time,
+                parent_end_time=gov_end_time,
+                read_service=read_service,
+                ingestion_service=ingestion_service
+            )
 
 async def main():
     """Main entry point for the ingestion script."""

@@ -13,7 +13,7 @@ minister:
           datasets:
           - datasets/President Capital Expenditure
           - datasets/President Recurrent Expenditure
-        - name: prime_minister_budget 
+        - name: prime_minister_budget
           datasets:
           - datasets/Prime Minister Capital Expenditure
           - datasets/Prime Minister Recurrent Expenditure

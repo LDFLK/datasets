@@ -73,7 +73,7 @@ async def find_ministers_by_name_and_year(name: str, year: str, read_service: Re
     
     return active_ministers
 
-# Find all governments with the given name that were active in the target year.
+# Find all governments with the given name
 async def find_government_by_name(name: str, read_service: ReadService) -> Optional[Entity]:
     
     # Search for government by name
