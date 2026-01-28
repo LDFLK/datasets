@@ -17,7 +17,7 @@ def rename_sltda():
             continue
             
         # Match year at start
-        year_match = re.search(r'^(202[0-9])', filename)
+        year_match = re.search(r'(20\d{2})', filename)
         if year_match:
             year = year_match.group(1)
             new_name = f"sltda_annual_report_{year}.pdf"
@@ -43,7 +43,7 @@ def rename_slbfe():
         filename_lower = filename.lower()
         
         # Extract Year
-        year_match = re.search(r'20(1[0-9]|2[0-9])', filename)
+        year_match = re.search(r'20\d{2}', filename)
         if not year_match:
             print(f"Could not extract year from: {filename}")
             continue
@@ -81,7 +81,7 @@ def rename_treasury():
         filename_lower = filename.lower()
 
         # Extract Year
-        year_match = re.search(r'^(202[0-9])', filename)
+        year_match = re.search(r'(20\d{2})', filename)
         if not year_match:
              print(f"Could not extract year from: {filename}")
              continue
@@ -91,18 +91,23 @@ def rename_treasury():
         is_revised = "revised" in filename_lower
 
         # Extract Volume
+        if "activity_budget" in filename_lower:
+             continue
+
+        # Extract Volume
         vol_num = "unknown"
         if "volume_i" in filename_lower and "volume_ii" not in filename_lower and "volume_iii" not in filename_lower:
-            # Matches volume_i but helps avoid confusion if names are substrings (unlikely with this naming)
-            # Actually simple check:
-             pass
-        
-        if "volume_iii" in filename_lower:
-            vol_num = "3"
-        elif "volume_ii" in filename_lower:
-            vol_num = "2"
-        elif "volume_i" in filename_lower:
-            vol_num = "1"
+             vol_num = "1"
+        elif "volume_ii" in filename_lower and "volume_iii" not in filename_lower:
+             vol_num = "2"
+        elif "volume_iii" in filename_lower:
+             vol_num = "3"
+        elif "vol_1" in filename_lower:
+             vol_num = "1"
+        elif "vol_2" in filename_lower:
+             vol_num = "2"
+        elif "vol_3" in filename_lower:
+             vol_num = "3"
         
         # Construct new name
         # treasury_budget_est_<YYYY>_<REV>_vol_<NUM>.pdf

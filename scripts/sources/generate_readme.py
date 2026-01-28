@@ -5,7 +5,7 @@ import re
 import urllib3
 from urllib.parse import quote
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SOURCES_DIR = os.path.join(BASE_DIR, "data", "sources")
@@ -23,13 +23,13 @@ def get_sltda_map():
     url = "https://www.sltda.gov.lk/en/annual-statistical-report"
     mapping = {} # Year -> Source URL
     try:
-        response = requests.get(url, headers=HEADERS, verify=False)
+        response = requests.get(url, headers=HEADERS)
         soup = BeautifulSoup(response.content, 'html.parser')
         links = soup.find_all('a', href=True)
         for link in links:
             text = link.get_text().strip()
             href = link['href']
-            year_match = re.search(r'202[0-5]', text)
+            year_match = re.search(r'20\d{2}', text)
             text_lower = text.lower()
             if year_match and ("statistical" in text_lower or "year in review" in text_lower or "review" in text_lower):
                 year = year_match.group(0)
@@ -45,7 +45,7 @@ def get_slbfe_map():
     url = "https://www.slbfe.lk/annual-reports/"
     mapping = {} # Year_Lang -> Source URL (Lang: english, sinhala, tamil)
     try:
-        response = requests.get(url, headers=HEADERS, verify=False)
+        response = requests.get(url, headers=HEADERS)
         soup = BeautifulSoup(response.content, 'html.parser')
         links = soup.find_all('a', href=True)
         for link in links:
@@ -56,8 +56,8 @@ def get_slbfe_map():
             text = link.get_text().strip().lower()
 
             # Year extraction
-            year_match = re.search(r'20(19|2[0-3])', filename_from_url)
-            if not year_match: year_match = re.search(r'20(19|2[0-3])', text)
+            year_match = re.search(r'20\d{2}', filename_from_url)
+            if not year_match: year_match = re.search(r'20\d{2}', text)
             
             if year_match:
                 year = year_match.group(0)

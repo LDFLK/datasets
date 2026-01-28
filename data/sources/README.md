@@ -3,6 +3,16 @@
 ## SLTDA Reports
 | Year | Report Name | Source URL | Archive URL |
 |---|---|---|---|
+| 2010 | Annual Report 2010 | [Source](https://sltda.gov.lk/storage/common_media/ASR%2020101541160295.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2010.pdf) |
+| 2011 | Annual Report 2011 | [Source](https://sltda.gov.lk/storage/documents/b7f151699117b5be594b183a083ca46f.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2011.pdf) |
+| 2012 | Annual Report 2012 | [Source](https://sltda.gov.lk/storage/documents/d0b10601f0cedd91115f9774a935c6d8.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2012.pdf) |
+| 2013 | Annual Report 2013 | [Source](https://sltda.gov.lk/storage/documents/826914be6b2f346c08d0e66db21809cb.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2013.pdf) |
+| 2014 | Annual Report 2014 | [Source](https://sltda.gov.lk/storage/documents/8ce164b492a0b74f2c528b08249c3a4d.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2014.pdf) |
+| 2015 | Annual Report 2015 | [Source](https://sltda.gov.lk/storage/documents/87e6120675b19fecce8c986006200ecf.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2015.pdf) |
+| 2016 | Annual Report 2016 | [Source](https://sltda.gov.lk/storage/documents/d53dc2fc78e00367a10a395dacd1c033.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2016.pdf) |
+| 2017 | Annual Report 2017 | [Source](https://sltda.gov.lk/storage/documents/0f7443899b258fa5bffbabf2ecc54e27.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2017.pdf) |
+| 2018 | Annual Report 2018 | [Source](https://www.sltda.gov.lk/storage/common_media/Tourist%20Board%20Annual%20Statistical%20Report%202018_Web784216427.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2018.pdf) |
+| 2019 | Annual Report 2019 | [Source](https://srilanka.travel/SLTDA_documents/ASR%25202019.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2019.pdf) |
 | 2020 | Annual Report 2020 | [Source](https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2020.pdf) |
 | 2021 | Annual Report 2021 | [Source](https://www.sltda.gov.lk/storage/common_media/new%20year%20in%20review%20Update%2020213611163389.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2021.pdf) |
 | 2022 | Annual Report 2022 | [Source](https://www.sltda.gov.lk/storage/common_media/Year-in-Review-2022-Final-Report-2023.12.12.pdf) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/statistics/sltda/sltda_annual_report_2022.pdf) |
@@ -21,21 +31,8 @@
 ## Treasury Budget Estimates
 | Year | Report Name | Source URL | Archive URL |
 |---|---|---|---|
-| 2021 | Budget Estimates 2021 Volume 1 | [Source](https://www.treasury.gov.lk/api/file/249a21e4-3cfc-4d4d-8b4f-266faad40f4a) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2021_vol_1.pdf) |
-| 2021 | Budget Estimates 2021 Volume 2 | [Source](https://www.treasury.gov.lk/api/file/c2110cb6-23a0-433f-8839-9ab864d38eb4) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2021_vol_2.pdf) |
-| 2021 | Budget Estimates 2021 Volume 3 | [Source](https://www.treasury.gov.lk/api/file/316657bf-9737-4827-9c49-1d25ba400a62) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2021_vol_3.pdf) |
-| 2022 | Budget Estimates 2022 Volume 1 (Revised) | [Source](https://www.treasury.gov.lk/api/file/33df4007-66d2-4b70-9aa7-e0b1e15bc0dc) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_revised_vol_1.pdf) |
-| 2022 | Budget Estimates 2022 Volume 2 (Revised) | [Source](https://www.treasury.gov.lk/api/file/31da7494-54c9-4d97-b194-06921821bb64) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_revised_vol_2.pdf) |
-| 2022 | Budget Estimates 2022 Volume 3 (Revised) | [Source](https://www.treasury.gov.lk/api/file/8372c7fe-5cfd-40ef-a0e6-eee682bef6ba) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_revised_vol_3.pdf) |
-| 2022 | Budget Estimates 2022 Volume 1 | [Source](https://www.treasury.gov.lk/api/file/1d617e1d-482c-4adb-b652-1c58b4007895) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_vol_1.pdf) |
-| 2022 | Budget Estimates 2022 Volume 2 | [Source](https://www.treasury.gov.lk/api/file/8842770a-0ed6-4d20-ac75-4ef40f8295c7) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_vol_2.pdf) |
-| 2022 | Budget Estimates 2022 Volume 3 | [Source](https://www.treasury.gov.lk/api/file/e0e5c360-e254-4a48-8a95-137f271ac613) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2022_vol_3.pdf) |
-| 2023 | Budget Estimates 2023 Volume 1 | [Source](https://www.treasury.gov.lk/api/file/e286b9e4-59b1-406f-b324-12f2b46969f2) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2023_vol_1.pdf) |
-| 2023 | Budget Estimates 2023 Volume 2 | [Source](https://www.treasury.gov.lk/api/file/f99d5173-a204-4acc-a684-e4581d0828ea) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2023_vol_2.pdf) |
-| 2023 | Budget Estimates 2023 Volume 3 | [Source](https://www.treasury.gov.lk/api/file/02b4cd04-ddc5-449c-8809-90b8bb790954) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2023_vol_3.pdf) |
 | 2025 | Budget Estimates 2025 Volume 1 | [Source](https://www.treasury.gov.lk/api/file/fdf51693-6d93-4c85-b3d3-0e0e3353f7d9) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2025_vol_1.pdf) |
 | 2025 | Budget Estimates 2025 Volume 2 | [Source](https://www.treasury.gov.lk/api/file/9fa040f5-f2be-424d-bad5-c90c90e23bff) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2025_vol_2.pdf) |
-| 2025 | Budget Estimates 2025 Volume 3 | [Source](https://www.treasury.gov.lk/api/file/84d93cbc-da57-47cc-a45d-ed421c7892da) | [Archive](https://github.com/LDFLK/datasets/raw/main/data/sources/treasury/budget/treasury_budget_est_2025_vol_3.pdf) |
 
 ## Treasury Activity Budget Estimates
 | Year | Report Name | Source URL | Archive URL |

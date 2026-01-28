@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import re
 import urllib3
 
-# Suppress insecure request warnings if any (though we verify SSL)
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+# SSL Verification is enabled by default in requests
+
 
 # Constants for paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -31,7 +31,7 @@ def download_file(url, folder, filename):
 
     print(f"Downloading {filename} from {url}...")
     try:
-        response = requests.get(url, headers=HEADERS, stream=True, verify=False)
+        response = requests.get(url, headers=HEADERS, stream=True)
         response.raise_for_status()
         with open(filepath, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
@@ -44,7 +44,7 @@ def fetch_sltda():
     print("\n--- Fetching SLTDA Reports ---")
     url = "https://www.sltda.gov.lk/en/annual-statistical-report"
     try:
-        response = requests.get(url, headers=HEADERS, verify=False)
+        response = requests.get(url, headers=HEADERS)
         soup = BeautifulSoup(response.content, 'html.parser')
         
         links = soup.find_all('a', href=True)
@@ -53,7 +53,7 @@ def fetch_sltda():
             text = link.get_text().strip()
             href = link['href']
             
-            year_match = re.search(r'202[0-5]', text)
+            year_match = re.search(r'20\d{2}', text)
             text_lower = text.lower()
             if year_match and ("statistical" in text_lower or "year in review" in text_lower or "review" in text_lower):
                 year = year_match.group(0)
@@ -73,7 +73,7 @@ def fetch_slbfe():
     print("\n--- Fetching SLBFE Reports ---")
     url = "https://www.slbfe.lk/annual-reports/"
     try:
-        response = requests.get(url, headers=HEADERS, verify=False)
+        response = requests.get(url, headers=HEADERS)
         soup = BeautifulSoup(response.content, 'html.parser')
         
         links = soup.find_all('a', href=True)
@@ -84,10 +84,10 @@ def fetch_slbfe():
                  continue
                  
              filename_from_url = os.path.basename(href).lower()
-             year_match = re.search(r'20(19|2[0-3])', filename_from_url)
+             year_match = re.search(r'20\d{2}', filename_from_url)
              if not year_match:
                  text = link.get_text().strip()
-                 year_match = re.search(r'20(19|2[0-3])', text)
+                 year_match = re.search(r'20\d{2}', text)
             
              if year_match:
                  year = year_match.group(0)
