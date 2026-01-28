@@ -1,5 +1,5 @@
 {
-  "columns": ["Ministry Office", "Amount (Rs.Million)"],
+  "columns": ["Ministry", "Amount (Rs.Million)"],
   "rows": [
     ["Ministry of Buddhasasana, Religious and Cultural Affairs", 5828],
     ["Ministry of Finance, Economic Stabilization and National Policies", 1105563],

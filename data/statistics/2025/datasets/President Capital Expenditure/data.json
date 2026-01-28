@@ -1,6 +1,12 @@
 {
-  "columns": ["Institution", "Amount (Rs.Million)"],
+  "columns": [
+    "Institution",
+    "Amount (Rs.Million)"
+  ],
   "rows": [
-    ["His Excellency the President", 6454]
+    [
+      "President",
+      6454
+    ]
   ]
 }
