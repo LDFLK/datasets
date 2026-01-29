@@ -11,3 +11,8 @@ __pycache__/
 docs/.DS_Store
 .env
 ingestion/.env
+
+# Generated zip files (not used by website)
+website/static/downloads/archive_Data.zip
+website/static/downloads/sources_Data.zip
+website/static/downloads/statistics_Data.zip
