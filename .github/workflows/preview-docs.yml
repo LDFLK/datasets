@@ -1,0 +1,78 @@
+name: Deploy PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+
+      - name: Run prebuild scripts
+        run: python scripts/prebuild.py
+
+      - name: Install dependencies
+        working-directory: website
+        run: npm ci
+
+      - name: Build website
+        working-directory: website
+        run: npm run build -- --out-dir build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      - name: Install Surge
+        run: npm install -g surge
+
+      - name: Deploy to Surge
+        id: deploy
+        run: |
+          PREVIEW_URL="ldf-datasets-pr-${{ github.event.pull_request.number }}.surge.sh"
+          surge ./website/build $PREVIEW_URL --token ${{ secrets.SURGE_TOKEN }}
+          echo "preview_url=https://$PREVIEW_URL" >> $GITHUB_OUTPUT
+
+      - name: Find existing comment
+        uses: peter-evans/find-comment@v3
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: '<!-- docs-preview -->'
+
+      - name: Create or update comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
+          body: |
+            <!-- docs-preview -->
+            ## 📚 Documentation Preview
+
+            | Status | URL |
+            |--------|-----|
+            | ✅ Ready | [${{ steps.deploy.outputs.preview_url }}](${{ steps.deploy.outputs.preview_url }}) |
+
+            Preview deployed from commit ${{ github.event.pull_request.head.sha }}
+
+            ---
+            <sub>This preview will be available until the PR is closed.</sub>
