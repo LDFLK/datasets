@@ -46,7 +46,7 @@ class YamlParser:
     @staticmethod
     def get_ministers(manifest: Dict[str, Any]) -> List[Dict[str, Any]]:
         if 'minister' not in manifest:
-            raise ValueError("Manifest does not contain 'minister' key")
+            return []
         
         ministers = manifest['minister']
 
@@ -54,6 +54,19 @@ class YamlParser:
         if not isinstance(ministers, list):
             return [ministers] if ministers else []
         return ministers
+    
+    # Extract the list of governments from the parsed manifest.
+    @staticmethod
+    def get_governments(manifest: Dict[str, Any]) -> List[Dict[str, Any]]:
+        if 'government' not in manifest:
+            return []
+        
+        governments = manifest['government']
+
+        # if there's only one government, wrap in a list
+        if not isinstance(governments, list):
+            return [governments] if governments else []
+        return governments
     
     # Check if a minister entry has departments (vs. direct categories).
     @staticmethod

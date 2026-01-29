@@ -72,3 +72,21 @@ minister:
         - name: deported_foreign_nationals
           datasets:
           - datasets/Deportations by Nationality
+  - name: Minister of Finance, Planning and Economic Development
+    department:
+    - name: Department of National Budget
+      category:
+      - name: budget
+        subcategory:
+        - name: ministry_budget
+          datasets:
+          - datasets/Ministry Capital Expenditure
+          - datasets/Ministry Recurrent Expenditure
+        - name: president_budget
+          datasets:
+          - datasets/President Capital Expenditure
+          - datasets/President Recurrent Expenditure
+        - name: prime_minister_budget 
+          datasets:
+          - datasets/Prime Minister Capital Expenditure
+          - datasets/Prime Minister Recurrent Expenditure
