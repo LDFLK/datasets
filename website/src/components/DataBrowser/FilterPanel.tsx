@@ -3,30 +3,30 @@ import styles from './DataBrowser.module.css';
 
 interface FilterPanelProps {
   years: string[];
-  ministries: string[];
+  categories: string[];
   selectedYears: string[];
-  selectedMinistries: string[];
+  selectedCategories: string[];
   onYearToggle: (year: string) => void;
-  onMinistryToggle: (ministry: string) => void;
+  onCategoryToggle: (category: string) => void;
   onClearAll: () => void;
   hasActiveFilters: boolean;
 }
 
 export default function FilterPanel({
   years,
-  ministries,
+  categories,
   selectedYears,
-  selectedMinistries,
+  selectedCategories,
   onYearToggle,
-  onMinistryToggle,
+  onCategoryToggle,
   onClearAll,
   hasActiveFilters,
 }: FilterPanelProps): JSX.Element {
-  const [showAllMinistries, setShowAllMinistries] = useState(false);
+  const [showAllCategories, setShowAllCategories] = useState(false);
 
-  const visibleMinistries = showAllMinistries
-    ? ministries
-    : ministries.slice(0, 5);
+  const visibleCategories = showAllCategories
+    ? categories
+    : categories.slice(0, 6);
 
   return (
     <div className={styles.filterPanel}>
@@ -49,33 +49,33 @@ export default function FilterPanel({
       </div>
 
       <div className={styles.filterSection}>
-        <h4 className={styles.filterTitle}>Filter by Ministry</h4>
+        <h4 className={styles.filterTitle}>Filter by Category</h4>
         <div className={styles.filterChips}>
-          {visibleMinistries.map((ministry) => (
+          {visibleCategories.map((category) => (
             <button
-              key={ministry}
+              key={category}
               className={`${styles.filterChip} ${
-                selectedMinistries.includes(ministry)
+                selectedCategories.includes(category)
                   ? styles.filterChipActive
                   : ''
               }`}
-              onClick={() => onMinistryToggle(ministry)}
-              aria-pressed={selectedMinistries.includes(ministry)}
-              title={ministry}
+              onClick={() => onCategoryToggle(category)}
+              aria-pressed={selectedCategories.includes(category)}
+              title={category}
             >
-              {ministry.length > 30
-                ? `${ministry.substring(0, 30)}...`
-                : ministry}
+              {category.length > 30
+                ? `${category.substring(0, 30)}...`
+                : category}
             </button>
           ))}
-          {ministries.length > 5 && (
+          {categories.length > 6 && (
             <button
               className={styles.showMoreButton}
-              onClick={() => setShowAllMinistries(!showAllMinistries)}
+              onClick={() => setShowAllCategories(!showAllCategories)}
             >
-              {showAllMinistries
+              {showAllCategories
                 ? 'Show less'
-                : `+${ministries.length - 5} more`}
+                : `+${categories.length - 6} more`}
             </button>
           )}
         </div>

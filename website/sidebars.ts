@@ -18,6 +18,11 @@ const sidebars: SidebarsConfig = {
       label: 'Interactive Browser',
     },
     {
+      type: 'doc',
+      id: 'sources',
+      label: 'Data Sources',
+    },
+    {
       type: 'category',
       label: 'Data Research',
       items: [
@@ -37,6 +42,11 @@ const sidebars: SidebarsConfig = {
       type: 'doc',
       id: 'missing-datasets',
       label: 'Missing Datasets',
+    },
+    {
+      type: 'doc',
+      id: 'cite',
+      label: 'Cite This Dataset',
     },
   ],
 };

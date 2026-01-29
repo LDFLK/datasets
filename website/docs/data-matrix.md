@@ -74,3 +74,14 @@ Tabular overview of all datasets organized by ministry, showing years available,
 | Fraudulent Visa Detection by Nationality | 2023 | Collected | Verified (2023) |
 | Refugees by Nationality | 2020, 2021, 2022, 2023, 2024 | Collected | Verified (2020, 2021, 2022, 2023, 2024) |
 | Refused Entry by Nationality | 2020, 2021, 2022, 2023 | Collected | Verified (2020, 2021, 2022, 2023) - Unavailable (2024) |
+
+## Department of National Budget
+
+| Dataset Name | Years Available | Collection Status | Verification Status |
+|--------------|-----------------|-------------------|---------------------|
+| Ministry Capital Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |
+| Ministry Recurrent Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |
+| President Capital Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |
+| President Recurrent Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |
+| Prime Minister Capital Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |
+| Prime Minister Recurrent Expenditure | 2021, 2022, 2023, 2024, 2025 | Collected | Verified (2021, 2022, 2023, 2024, 2025) |

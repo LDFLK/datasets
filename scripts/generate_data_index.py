@@ -22,6 +22,53 @@ def clean_name(name: str) -> str:
     return name.strip().title()
 
 
+def categorize_dataset(dataset_name: str) -> str:
+    """Categorize a dataset based on its name"""
+    name_lower = dataset_name.lower()
+
+    # Tourism datasets
+    tourism_keywords = [
+        'tourist', 'tourism', 'accommodation', 'occupancy',
+        'top 10 source', 'location vs revenue', 'tourist attraction'
+    ]
+    if any(keyword in name_lower for keyword in tourism_keywords):
+        return 'Tourism'
+
+    # Foreign Employment datasets
+    employment_keywords = [
+        'slbfe', 'remittance', 'foreign exchange', 'local arrival',
+        'local departure', 'legal division', 'complaints', 'raids'
+    ]
+    if any(keyword in name_lower for keyword in employment_keywords):
+        return 'Foreign Employment'
+
+    # Immigration datasets
+    immigration_keywords = [
+        'asylum', 'deportation', 'refugee', 'refused entry',
+        'fake passport', 'fraudulent visa'
+    ]
+    if any(keyword in name_lower for keyword in immigration_keywords):
+        return 'Immigration'
+
+    # Budget datasets
+    budget_keywords = [
+        'capital expenditure', 'recurrent expenditure', 'budget'
+    ]
+    if any(keyword in name_lower for keyword in budget_keywords):
+        return 'Budget'
+
+    # Foreign Affairs datasets
+    foreign_affairs_keywords = [
+        'ministry news', 'mission news', 'staff of mission',
+        'staff of the ministry', 'special notice', 'news from other',
+        'cadre management'
+    ]
+    if any(keyword in name_lower for keyword in foreign_affairs_keywords):
+        return 'Foreign Affairs'
+
+    return 'Other'
+
+
 def get_category_from_path(path_parts: List[str]) -> str:
     """Extract category from path parts, looking for AS_CATEGORY markers"""
     for part in path_parts:
@@ -48,6 +95,7 @@ def scan_data_folder(data_path: str = "data") -> Dict[str, Any]:
     years_set = set()
     ministries_set = set()
     departments_set = set()
+    categories_set = set()
 
     for root, dirs, files in os.walk(data_path):
         if "data.json" in files:
@@ -80,6 +128,10 @@ def scan_data_folder(data_path: str = "data") -> Dict[str, Any]:
 
             # Clean dataset name
             dataset_name_clean = clean_name(dataset_name)
+
+            # Categorize dataset based on name (for flat statistics structure)
+            if not category:
+                category = categorize_dataset(dataset_name_clean)
 
             # Build path for data access (served via staticDirectories from ../data)
             data_path_rel = f"{rel_path}/data.json".replace('\\', '/')
@@ -131,6 +183,8 @@ def scan_data_folder(data_path: str = "data") -> Dict[str, Any]:
                 ministries_set.add(ministry)
             if department:
                 departments_set.add(department)
+            if category:
+                categories_set.add(category)
 
     # Sort datasets by year (descending) then by name
     datasets.sort(key=lambda x: (x['year'], x['ministry'], x['department'], x['name']), reverse=False)
@@ -143,12 +197,14 @@ def scan_data_folder(data_path: str = "data") -> Dict[str, Any]:
         "years": sorted(list(years_set), reverse=True),
         "ministries": sorted(list(ministries_set)),
         "departments": sorted(list(departments_set)),
+        "categories": sorted(list(categories_set)),
         "tree": tree,
         "statistics": {
             "totalDatasets": len(datasets),
             "totalYears": len(years_set),
             "totalMinistries": len(ministries_set),
             "totalDepartments": len(departments_set),
+            "totalCategories": len(categories_set),
         }
     }
 
@@ -200,7 +256,8 @@ def main():
     # Determine paths relative to script location
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    data_path = project_root / "data"
+    # Only scan the statistics folder (published data)
+    data_path = project_root / "data" / "statistics"
     output_path = project_root / "website" / "src" / "data" / "datasetIndex.json"
 
     # Ensure output directory exists
@@ -216,7 +273,7 @@ def main():
     print(f"Generated {output_path}")
     print(f"  - Total datasets: {index_data['statistics']['totalDatasets']}")
     print(f"  - Years: {', '.join(index_data['years'])}")
-    print(f"  - Ministries: {index_data['statistics']['totalMinistries']}")
+    print(f"  - Categories: {', '.join(index_data['categories'])}")
 
 
 if __name__ == "__main__":
