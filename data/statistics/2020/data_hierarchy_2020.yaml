@@ -133,7 +133,7 @@ minister:
       - name: legal_division_performance
         datasets:
         - datasets/Legal Division Performance
-      - name: complaints_recieved
+      - name: complaints_received
         datasets:
         - datasets/Number of Complaints Received
       - name: monthly_foreign_exchange_earnings
