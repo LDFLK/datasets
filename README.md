@@ -50,7 +50,7 @@ To add new datasets to this repository:
 
 ### Ingesting Data into OpenGIN
 
-If you want to ingest this data into your own OpenGin database instance, see [Data Ingestion Guide](ingestion/README.md) for complete setup instructions, prerequisites, and usage examples.
+If you want to ingest this data into your own OpenGIN database instance, see [Data Ingestion Guide](ingestion/README.md) for complete setup instructions, prerequisites, and usage examples.
 
 ## Contributing
 

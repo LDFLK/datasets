@@ -101,8 +101,7 @@ We value all contributions and appreciate your effort to improve this project!
 
 ## Additional Resources
 
-- [See Issues](https://github.com/LDFLK/OpenGIN/issues)
-- [Getting Started](docs/docs/getting_started/installation.md)
+- [Getting Started](README.md#getting-started)
 
 ---
 

@@ -66,7 +66,7 @@ python scripts/update_dataset_index.py
 
 ---
 
-### 4. Prebuild Orchestrator (`prebuild.py`)
+### 3. Prebuild Orchestrator (`prebuild.py`)
 
 Runs the main build steps for the website in order:
 
@@ -86,7 +86,7 @@ Run this before building or deploying the site so the index, ZIPs, and docs are 
 
 ---
 
-### 5. JSON Linter (`linter.py`)
+### 4. JSON Linter (`linter.py`)
 
 Formats dataset JSON files so that each row in the `rows` array is on a single line (columns keep indentation). Only touches files that look like dataset JSON (dict with `rows` list).
 
@@ -104,7 +104,7 @@ python scripts/linter.py data
 
 ---
 
-### 6. Other Scripts
+### 5. Other Scripts
 
 - **`fix_2020_names.py`**, **`replicate_flat_structure.py`**: One-off/migration helpers; see script docstrings or comments.
 - **`sources/`**: Scripts for fetching or generating source metadata (e.g. `fetch_sources.py`, `generate_readme.py`, `rename_files.py`). Use as needed for source and README upkeep.

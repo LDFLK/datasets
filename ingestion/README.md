@@ -1,6 +1,6 @@
 # Data Ingestion Module
 
-This module provides tools for ingesting structured datasets from YAML data hierarchyfiles through the OpenGIN services. It processes hierarchical data structures (ministers, departments, categories, subcategories, and datasets) and creates corresponding entities and relationships in the OpenGIN system.
+This module provides tools for ingesting structured datasets from YAML data hierarchy files through the OpenGIN services. It processes hierarchical data structures (ministers, departments, categories, subcategories, and datasets) and creates corresponding entities and relationships in the OpenGIN system.
 
 ## Overview
 
