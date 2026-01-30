@@ -134,12 +134,13 @@ def scan_data_folder(data_path: str = "data") -> Dict[str, Any]:
                 category = categorize_dataset(dataset_name_clean)
 
             # Build path for data access (served via staticDirectories from ../data)
-            data_path_rel = f"{rel_path}/data.json".replace('\\', '/')
+            # Prefix with 'statistics/' since we scan data/statistics but serve from data/
+            data_path_rel = f"statistics/{rel_path}/data.json".replace('\\', '/')
 
             # Check for metadata.json
             metadata_path = os.path.join(root, "metadata.json")
             has_metadata = os.path.exists(metadata_path)
-            metadata_path_rel = f"{rel_path}/metadata.json".replace('\\', '/') if has_metadata else None
+            metadata_path_rel = f"statistics/{rel_path}/metadata.json".replace('\\', '/') if has_metadata else None
 
             # Check if data.json is empty
             data_json_path = os.path.join(root, "data.json")
