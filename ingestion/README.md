@@ -1,22 +1,22 @@
 # Data Ingestion Module
 
-This module provides tools for ingesting structured datasets from YAML manifest files into the OpenGin services. It processes hierarchical data structures (ministers, departments, categories, subcategories, and datasets) and creates corresponding entities and relationships in the OpenGin system.
+This module provides tools for ingesting structured datasets from YAML data hierarchy files through the OpenGIN services. It processes hierarchical data structures (ministers, departments, categories, subcategories, and datasets) and creates corresponding entities and relationships in the OpenGIN system.
 
 ## Overview
 
-The ingestion system reads YAML manifest files that describe the structure of datasets organized in a flexible hierarchy:
+The ingestion system reads YAML data hierarchy files that describe the structure of datasets organized in a flexible hierarchy:
 - **Ministers** → **Categories** → **Subcategories** → **Datasets**
 - **Ministers** → **Categories** → **Datasets**
 - **Ministers** → **Departments** → **Categories** → **Subcategories** → **Datasets**
 - **Ministers** → **Departments** → **Categories** → **Datasets**
 
-Each dataset is stored as a JSON file and is ingested as an attribute on the appropriate parent entity (subcategory, minister, department).
+Each dataset is stored as a JSON file and is ingested as an attribute on the appropriate parent entity (category or subcategory).
 
 ## Prerequisites
 
 Before running the ingestion script, ensure you have completed the following setup steps:
 
-### 1. Start OpenGin Services
+### 1. Start OpenGIN Services
 
 Make sure the OpenGIN services are up and running. The ingestion script requires:
 - **Read Service**: For querying existing entities and relationships
@@ -28,15 +28,35 @@ Restore the `0.0.1` data backup to ensure you have the base entities (ministers,
 
 ### 3. Set Up Python Environment
 
-Create a virtual environment and install the required dependencies:
+Create a virtual environment and install the required dependencies.
+
+**Option 1: Using Mamba or Conda (Recommended)**
+
+```bash
+# Create the environment from environment.yml
+mamba env create -f environment.yml
+
+# Or using Conda:
+# conda env create -f environment.yml
+
+# Activate the environment
+mamba activate datasets_env
+
+# Or using Conda:
+# conda activate datasets_env
+```
+
+**Option 2: Using Python venv**
 
 ```bash
 # Create a virtual environment
 python -m venv venv
 
 # Activate the virtual environment
+
 # On macOS/Linux:
 source venv/bin/activate
+
 # On Windows:
 # venv\Scripts\activate
 

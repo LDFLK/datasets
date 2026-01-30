@@ -1,169 +1,158 @@
 # Developer Guide
 
-This guide provides instructions for using the utility scripts in this repository to manage and verify dataset ingestion into OpenGIN.
+This guide describes the utility scripts in this repository for managing data, ingesting into OpenGIN, and building the website.
 
-## Utility Scripts
+## Data Ingestion
 
-### 1. Data Ingestion (`write_attributes.py`)
+Ingestion is handled by the `ingestion` module, which reads YAML manifest files and pushes categories and datasets into OpenGIN. For full setup (environment variables, OpenGIN services, backups), see [ingestion/README.md](ingestion/README.md).
 
-This script is responsible for traversing the local dataset directory structure and ingesting the data into OpenGIN. It creates the necessary entities (Categories, Datasets) and populates them with data from `data.json` files.
+### Ingestion Script (`ingestion/ingest_data_yaml.py`)
+
+The script traverses a YAML data hierarchy file (e.g. under `data/statistics/<year>/`), resolves existing entities (governments, ministers, departments) in OpenGIN, creates categories and subcategories as needed, and adds each dataset as an attribute on the appropriate parent. Dataset content is read from `data.json` in the paths referenced by the YAML.
 
 **Usage:**
 
 ```bash
-python write_attributes.py --year <YEAR>
+# From project root
+python -m ingestion.ingest_data_yaml <yaml_file> [--year YEAR]
 ```
 
 **Arguments:**
 
-*   `--year`: The specific year directory to process (e.g., `2020`).
+- `yaml_file` (required): Path to the YAML file (e.g. `data/statistics/2020/data_hierarchy_2020.yaml`).
+- `--year` (optional): Override the year derived from the filename.
 
 **Example:**
 
 ```bash
-python write_attributes.py --year 2020
+python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml
+python -m ingestion.ingest_data_yaml data/statistics/2024/data_hierarchy_2024.yaml --year 2024
 ```
 
-### 2. Data Verification (`verify.py`)
+**Prerequisites:**
 
-This script verifies that the datasets present in your local file system have been correctly ingested into OpenGIN. It compares the count of datasets per category between your local environment and the remote OpenGIN instance.
+- OpenGIN Read and Ingestion services running.
+- Environment variables set: `READ_BASE_URL`, `INGESTION_BASE_URL` (see `ingestion/.env.template`).
 
-**Verification Logic:**
+---
 
-The verification process ensures accuracy through an exact comparison for the specified year:
+## Utility Scripts (`scripts/`)
 
-1.  **Local Discovery**: The script identifies all categories present in your local file system for the specified `--year`.
-2.  **Remote Resolution**: It queries OpenGIN to find all dataset entities. It filters these remote datasets by the `created` date to include only those matching the specified year.
-3.  **Comparision**:
-    *   **Category-wise Check**: It iterates through each category and confirms that the number of local files exactly matches the number of remote datasets for that year.
-    *   **Total Count Check**: It also verifying that the *total* number of local datasets matches the *total* number of remote datasets found for that year.
+These scripts are intended to be run from the **project root** (parent of `scripts/`).
 
-    > [!NOTE]
-    > **Exact Matching:**
-    > Since the script now filters both local and remote datasets by the specified year (e.g., `--year 2021`), we expect an **exact count match** (e.g., `Local=1, Remote=1`). Any discrepancy indicates a missing or extra dataset for that specific year.
+### 1. Data Index for Website (`generate_data_index.py`)
+
+Scans the `data/` tree and builds a JSON index of all datasets (with hierarchy, paths, empty flag, etc.) for the React DataBrowser. Output is written to `website/src/data/datasetIndex.json`.
 
 **Usage:**
 
 ```bash
-python verify.py --year <YEAR>
+python scripts/generate_data_index.py
 ```
 
-**Arguments:**
+No arguments. Uses project layout to resolve `data/` and output path.
 
-*   `--year`: The specific year directory to verify (e.g., `2020`).
+---
+
+### 2. ZIP Downloads (`update_dataset_index.py`)
+
+Creates one ZIP per year containing all JSON files under that year in `data/`. Output goes to `website/static/downloads/` for the website.
+
+**Usage:**
+
+```bash
+python scripts/update_dataset_index.py
+```
+
+---
+
+### 3. Prebuild Orchestrator (`prebuild.py`)
+
+Runs the main build steps for the website in order:
+
+1. `generate_data_index.py` – dataset index for the DataBrowser.
+2. `update_dataset_index.py` – year ZIPs in `website/static/downloads/`.
+3. `find_missing_datasets.py` – missing-datasets report.
+4. Copy of assets from `docs/assets/` to `website/static/`.
+5. Copy of existing downloads from `docs/downloads/` if present.
+
+**Usage:**
+
+```bash
+python scripts/prebuild.py
+```
+
+Run this before building or deploying the site so the index, ZIPs, and docs are up to date.
+
+---
+
+### 4. JSON Linter (`linter.py`)
+
+Formats dataset JSON files so that each row in the `rows` array is on a single line (columns keep indentation). Only touches files that look like dataset JSON (dict with `rows` list).
+
+**Usage:**
+
+```bash
+python scripts/linter.py <directory>
+```
 
 **Example:**
 
 ```bash
-python verify.py --year 2020
+python scripts/linter.py data
 ```
 
-**Output:**
+---
 
-The script will output a summary of the verification process, listing each category and the count of datasets found locally vs. remotely. Mismatches will be highlighted.
+### 5. Other Scripts
 
-```text
-Found 40 local datasets across 36 categories.
-Searching OpenGIN for entities with kind.major='Dataset'...
-Found 40 raw entities. Tracing parent categories...
-Found 40 datasets in OpenGIN across 36 parent categories.
+- **`fix_2020_names.py`**, **`replicate_flat_structure.py`**: One-off/migration helpers; see script docstrings or comments.
+- **`sources/`**: Scripts for fetching or generating source metadata (e.g. `fetch_sources.py`, `generate_readme.py`, `rename_files.py`). Use as needed for source and README upkeep.
 
---- Detailed Verification ---
-✅ Category 'annual_tourism_receipts': Local=1, Remote=1
-...
-✅ Verification SUCCESS: All local datasets accounted for.
-```
-
-### 3. Missing Dataset Detection (`find_missing_datasets.py`)
-
-This script scans your local data directory to identify "empty" datasets (i.e., `data.json` files that exist but have no content). This is useful for tracking data coverage and identifying which years or categories still need population.
-
-**Features:**
-- **Recursive Scan**: Crawls the entire data directory structure.
-- **Empty Detection**: identifying `data.json` files that are empty or whitespace-only.
-- **Pretty Output**: Generates a formatted Markdown table in the terminal (uses `rich` if installed).
-- **File Export**: Can save the report to a Markdown file with Jekyll front matter for documentation sites.
-
-**Usage:**
-
-```bash
-# Print report to terminal
-python find_missing_datasets.py
-
-# Save report to a file (e.g. for docs)
-python find_missing_datasets.py --output-file docs/missing_datasets.md
-```
-
-**Arguments:**
-
-*   `--dir`: The base data directory to scan (default: `data`).
-*   `--output-file`: Optional path to write the generated markdown report. if provided, it adds Jekyll front matter (`layout: default`) to the file.
-
-**Example Output:**
-
-```text
-# 🚨 Missing Datasets Report
-Generated on: 2025-12-23 22:45:05
-
-## 📅 Year: 2024 (Missing: 21)
-| Category | Relative Path | Status |
-| :--- | :--- | :--- |
-| **annual_tourism_receipts** | `2024/...` | 🔴 Empty `data.json` |
-...
-```
+---
 
 ## Limitations
 
 > [!WARNING]
-> **Type Inference Issues**
-> There is a known issue in OpenGIN where type inference can be incorrect for certain numeric values (e.g., distinguishing between float/int or handling large numbers).
+> **Type inference in OpenGIN**
+> OpenGIN may infer types incorrectly for some numeric values (e.g. float vs int, or large numbers).
 >
-> **Known Issues:**
-> - [Issue #409: Type Inference Logic Update](https://github.com/LDFLK/OpenGIN/issues/409)
->
-> **Workaround:**
-> As a temporary workaround, please use **decimal point values** in the first row of your dataset to enforce correct type inference.
+> **Workaround:** Use decimal values in the first row of the dataset where appropriate so the inferred type is correct.
 
-### 4. Git Large File Storage (LFS)
+---
 
-This repository uses [Git LFS](https://git-lfs.github.com/) to manage large files, particularly PDF reports in `data/sources`.
+## Git Large File Storage (LFS)
+
+This repository uses [Git LFS](https://git-lfs.github.com/) for large files (e.g. PDFs under `data/sources/`).
 
 **Setup:**
 
-1.  Install Git LFS:
-    ```bash
-    brew install git-lfs  # macOS
-    sudo apt install git-lfs # Ubuntu
-    ```
-2.  Initialize LFS in your repo:
-    ```bash
-    git lfs install
-    ```
+1. Install Git LFS:
+   ```bash
+   brew install git-lfs   # macOS
+   sudo apt install git-lfs  # Ubuntu
+   ```
+2. Initialize in the repo:
+   ```bash
+   git lfs install
+   ```
 
-**Usage:**
-
-When adding new large files (e.g., PDFs):
+**When adding large files (e.g. PDFs):**
 
 ```bash
-# Example: Track all PDF files in a specific directory
 git lfs track "data/sources/**/*.pdf"
-
-# Make sure to add .gitattributes
 git add .gitattributes
 ```
 
 **Policy:**
 
-*   **Mandatory:** Any file larger than **100 MB** MUST be tracked with LFS (GitHub limit).
-*   **Recommended:** Binary files (PDFs, Images, Archives) larger than **50 MB**.
+- **Mandatory:** Files larger than **100 MB** must be tracked with LFS (GitHub limit).
+- **Recommended:** Use LFS for binary files (PDFs, images, archives) larger than **50 MB**.
 
-**Troubleshooting:**
+**If push fails with “Large files detected”:**
 
-If you encounter a "Large files detected" error during push:
-
-1.  Check if you committed a large file as a regular git object in a **previous commit**.
-2.  Use `git lfs migrate` to rewrite history and convert them to LFS pointers:
-    ```bash
-    git lfs migrate import --include="path/to/large/files/*.pdf" --everything
-    ```
-3.  Force push the changes.
+1. The large file may have been committed as a normal object in an earlier commit.
+2. Migrate to LFS and rewrite history, then force-push:
+   ```bash
+   git lfs migrate import --include="path/to/large/files/*.pdf" --everything
+   ```
