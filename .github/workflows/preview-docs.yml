@@ -1,5 +1,7 @@
 name: Deploy PR Preview
 
+# This workflow runs from the base branch context to have write permissions
+# It will only work after being merged to main
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, closed]
