@@ -2,14 +2,17 @@ name: Deploy PR Preview
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
+
+concurrency: preview-${{ github.ref }}
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
   preview:
+    if: github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,39 +43,24 @@ jobs:
         env:
           NODE_OPTIONS: --max-old-space-size=4096
 
-      - name: Install Surge
-        run: npm install -g surge
-
-      - name: Deploy to Surge
-        id: deploy
-        run: |
-          PREVIEW_URL="ldf-datasets-pr-${{ github.event.pull_request.number }}.surge.sh"
-          surge ./website/build $PREVIEW_URL --token ${{ secrets.SURGE_TOKEN }}
-          echo "preview_url=https://$PREVIEW_URL" >> $GITHUB_OUTPUT
-
-      - name: Find existing comment
-        uses: peter-evans/find-comment@v3
-        id: find-comment
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1
         with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-author: 'github-actions[bot]'
-          body-includes: '<!-- docs-preview -->'
+          source-dir: website/build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
 
-      - name: Create or update comment
-        uses: peter-evans/create-or-update-comment@v4
+  cleanup:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cleanup PR Preview
+        uses: rossjrw/pr-preview-action@v1
         with:
-          comment-id: ${{ steps.find-comment.outputs.comment-id }}
-          issue-number: ${{ github.event.pull_request.number }}
-          edit-mode: replace
-          body: |
-            <!-- docs-preview -->
-            ## 📚 Documentation Preview
-
-            | Status | URL |
-            |--------|-----|
-            | ✅ Ready | [${{ steps.deploy.outputs.preview_url }}](${{ steps.deploy.outputs.preview_url }}) |
-
-            Preview deployed from commit ${{ github.event.pull_request.head.sha }}
-
-            ---
-            <sub>This preview will be available until the PR is closed.</sub>
+          source-dir: website/build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: remove
