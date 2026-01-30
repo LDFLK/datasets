@@ -28,28 +28,30 @@ interface DatasetIndex {
   years: string[];
   ministries: string[];
   departments: string[];
+  categories: string[];
   statistics: {
     totalDatasets: number;
     totalYears: number;
     totalMinistries: number;
     totalDepartments: number;
+    totalCategories: number;
   };
 }
 
 const typedIndex = datasetIndex as DatasetIndex;
 
-// Constants for fallback categories
+// Constants for fallback values
 const UNKNOWN_YEAR = 'Unknown';
-const OTHER_MINISTRY = 'Other';
+const OTHER_CATEGORY = 'Other';
 
-// Helper to normalize year/ministry values
+// Helper to normalize year/category values
 const normalizeYear = (year: string): string => year || UNKNOWN_YEAR;
-const normalizeMinistry = (ministry: string): string => ministry || OTHER_MINISTRY;
+const normalizeCategory = (category: string): string => category || OTHER_CATEGORY;
 
 export default function DataBrowser(): JSX.Element {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYears, setSelectedYears] = useState<string[]>([]);
-  const [selectedMinistries, setSelectedMinistries] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [modalData, setModalData] = useState<{
     isOpen: boolean;
     url: string;
@@ -60,7 +62,7 @@ export default function DataBrowser(): JSX.Element {
     title: '',
   });
 
-  // Compute available years and ministries, including fallback categories if needed
+  // Compute available years and categories, including fallback values if needed
   const availableYears = useMemo(() => {
     const hasUnknownYear = typedIndex.datasets.some((d) => !d.year);
     const years = [...typedIndex.years];
@@ -70,13 +72,13 @@ export default function DataBrowser(): JSX.Element {
     return years;
   }, []);
 
-  const availableMinistries = useMemo(() => {
-    const hasOtherMinistry = typedIndex.datasets.some((d) => !d.ministry);
-    const ministries = [...typedIndex.ministries];
-    if (hasOtherMinistry && !ministries.includes(OTHER_MINISTRY)) {
-      ministries.push(OTHER_MINISTRY);
+  const availableCategories = useMemo(() => {
+    const hasOtherCategory = typedIndex.datasets.some((d) => !d.category);
+    const categories = [...(typedIndex.categories || [])];
+    if (hasOtherCategory && !categories.includes(OTHER_CATEGORY)) {
+      categories.push(OTHER_CATEGORY);
     }
-    return ministries;
+    return categories;
   }, []);
 
   // Filter datasets based on search and filters
@@ -98,15 +100,15 @@ export default function DataBrowser(): JSX.Element {
       );
     }
 
-    // Apply ministry filter (using normalized values for consistency)
-    if (selectedMinistries.length > 0) {
+    // Apply category filter (using normalized values for consistency)
+    if (selectedCategories.length > 0) {
       results = results.filter((dataset) =>
-        selectedMinistries.includes(normalizeMinistry(dataset.ministry))
+        selectedCategories.includes(normalizeCategory(dataset.category))
       );
     }
 
     return results;
-  }, [searchQuery, selectedYears, selectedMinistries]);
+  }, [searchQuery, selectedYears, selectedCategories]);
 
   // Build filtered tree structure
   const filteredTree = useMemo(() => {
@@ -114,15 +116,15 @@ export default function DataBrowser(): JSX.Element {
 
     filteredDatasets.forEach((dataset) => {
       const year = normalizeYear(dataset.year);
-      const ministry = normalizeMinistry(dataset.ministry);
+      const category = normalizeCategory(dataset.category);
 
       if (!tree[year]) {
         tree[year] = {};
       }
-      if (!tree[year][ministry]) {
-        tree[year][ministry] = [];
+      if (!tree[year][category]) {
+        tree[year][category] = [];
       }
-      tree[year][ministry].push(dataset);
+      tree[year][category].push(dataset);
     });
 
     return tree;
@@ -136,18 +138,18 @@ export default function DataBrowser(): JSX.Element {
     );
   }, []);
 
-  const handleMinistryToggle = useCallback((ministry: string) => {
-    setSelectedMinistries((prev) =>
-      prev.includes(ministry)
-        ? prev.filter((m) => m !== ministry)
-        : [...prev, ministry]
+  const handleCategoryToggle = useCallback((category: string) => {
+    setSelectedCategories((prev) =>
+      prev.includes(category)
+        ? prev.filter((c) => c !== category)
+        : [...prev, category]
     );
   }, []);
 
   const handleClearFilters = useCallback(() => {
     setSearchQuery('');
     setSelectedYears([]);
-    setSelectedMinistries([]);
+    setSelectedCategories([]);
   }, []);
 
   const handleViewJson = useCallback((url: string, title: string) => {
@@ -161,7 +163,7 @@ export default function DataBrowser(): JSX.Element {
   const hasActiveFilters =
     searchQuery.trim() !== '' ||
     selectedYears.length > 0 ||
-    selectedMinistries.length > 0;
+    selectedCategories.length > 0;
 
   return (
     <div className={styles.dataBrowser}>
@@ -170,23 +172,23 @@ export default function DataBrowser(): JSX.Element {
         <p className={styles.subtitle}>
           Browse {typedIndex.statistics.totalDatasets} datasets across{' '}
           {typedIndex.statistics.totalYears} years and{' '}
-          {typedIndex.statistics.totalMinistries} ministries
+          {typedIndex.statistics.totalCategories || availableCategories.length} categories
         </p>
       </div>
 
       <SearchBar
         value={searchQuery}
         onChange={setSearchQuery}
-        placeholder="Search datasets by name, ministry, department..."
+        placeholder="Search datasets by name, category, year..."
       />
 
       <FilterPanel
         years={availableYears}
-        ministries={availableMinistries}
+        categories={availableCategories}
         selectedYears={selectedYears}
-        selectedMinistries={selectedMinistries}
+        selectedCategories={selectedCategories}
         onYearToggle={handleYearToggle}
-        onMinistryToggle={handleMinistryToggle}
+        onCategoryToggle={handleCategoryToggle}
         onClearAll={handleClearFilters}
         hasActiveFilters={hasActiveFilters}
       />

@@ -1,0 +1,70 @@
+name: Deploy PR Preview
+
+# This workflow runs from the base branch context to have write permissions
+# It will only work after being merged to main
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+
+concurrency: preview-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+
+      - name: Run prebuild scripts
+        run: python scripts/prebuild.py
+
+      - name: Install dependencies
+        working-directory: website
+        run: npm ci
+
+      - name: Build website
+        working-directory: website
+        run: npm run build -- --out-dir build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: website/build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+
+  cleanup:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cleanup PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: website/build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: remove
