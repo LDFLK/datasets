@@ -46,7 +46,7 @@ To add new datasets to this repository:
 #### Data File Requirements
 - **data.json**: Must contain valid JSON data
 - **metadata.json**: Optional, should contain dataset metadata (description, source, etc.)
-- Files must be placed in appropriately named folders with category indicators
+- Files must be placed in appropriately named folders with appropriate categories
 
 ### Ingesting Data into OpenGIN
 
