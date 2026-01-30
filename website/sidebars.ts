@@ -40,11 +40,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      id: 'missing-datasets',
-      label: 'Missing Datasets',
-    },
-    {
-      type: 'doc',
       id: 'cite',
       label: 'Cite This Dataset',
     },

@@ -22,10 +22,4 @@ Browse cleaned Sri Lankan government datasets by year, ministry, and department.
 
 - **[Contribute](./contribute)** - Learn how to contribute government data.
 
-- **[Missing Datasets](./missing-datasets)** - Track which datasets need to be populated.
-
 - **[Cite This Dataset](./cite)** - Citation formats for academic use (BibTeX, APA, Chicago, IEEE).
-
-:::note Action Required
-View the [Missing Datasets Report](./missing-datasets) to see which datasets need to be populated.
-:::
