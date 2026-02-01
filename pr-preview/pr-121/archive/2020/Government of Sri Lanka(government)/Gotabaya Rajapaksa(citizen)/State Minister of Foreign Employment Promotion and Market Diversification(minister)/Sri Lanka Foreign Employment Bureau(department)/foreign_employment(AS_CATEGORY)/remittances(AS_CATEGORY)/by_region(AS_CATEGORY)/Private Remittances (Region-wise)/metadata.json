@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Private Remittances (Region-wise)",
+  "column_count": 3,
+  "row_count": 11,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
+  "resource_page": "52",
+  "resource_section": "Private Remittances (Region-wise) 2016-2020",
+  "resource_identifier": "Table 62",
+  "extracted_date": "2025-09-17",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}
