@@ -1,6 +1,5 @@
 {
   "columns": [
-    "Year",
     "Professional Level",
     "Middle Level",
     "Skilled",
@@ -11,7 +10,6 @@
   ],
   "rows": [
     [
-      "2022",
       14307,
       8130,
       92836,
