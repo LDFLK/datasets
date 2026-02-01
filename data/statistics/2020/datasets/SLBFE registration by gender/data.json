@@ -1,10 +1,7 @@
 {
   "columns": [
-    "Male (Number)",
-    "Male (%)",
-    "Female (Number)",
-    "Female (%)",
-    "Total"
+    "Male",
+    "Female"
   ],
   "rows": [
     [

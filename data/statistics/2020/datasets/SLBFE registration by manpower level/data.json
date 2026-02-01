@@ -13,8 +13,7 @@
     "Semi-Skilled Others (Total)",
     "Semi-Skilled Others (%)",
     "Low skilled (Number)",
-    "Low skilled (%)",
-    "Total"
+    "Low skilled (%)"
   ],
   "rows": [
     [
@@ -31,8 +30,7 @@
       16111,
       29.99,
       13987,
-      26.04,
-      53711
+      26.04
     ]
   ]
 }
