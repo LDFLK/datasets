@@ -1,0 +1,28 @@
+{
+  "columns": [
+    "Age Group",
+    "Professional Female",
+    "Professional Male",
+    "Skilled Female",
+    "Skilled Male",
+    "Semi Skilled Domestic Housekeeping Assistant Female",
+    "Semi Skilled Other Female",
+    "Semi Skilled Other Male",
+    "Middle Level Female",
+    "Middle Level Male",
+    "Clerical & Related Female",
+    "Clerical & Related Male",
+    "Low Skilled Female",
+    "Low Skilled Male"
+  ],
+  "rows": [
+    ["Equal or Below 19", 0, 0, 168, 635, 0, 0, 0, 0, 0, 0, 0, 60, 601],
+    ["20 - 24", 0, 0, 6315, 9846, 0, 0, 0, 0, 0, 0, 0, 2825, 9321],
+    ["25 - 29", 0, 0, 11902, 19303, 0, 0, 0, 0, 0, 0, 0, 4366, 13824],
+    ["30 - 34", 0, 0, 14469, 20223, 0, 0, 0, 0, 0, 0, 0, 4771, 11539],
+    ["35 - 39", 0, 0, 16318, 17444, 0, 0, 0, 0, 0, 0, 0, 5051, 8793],
+    ["40 - 44", 0, 0, 20031, 17123, 0, 0, 0, 0, 0, 0, 0, 6187, 6881],
+    ["45 - 49", 0, 0, 15859, 11532, 0, 0, 0, 0, 0, 0, 0, 4485, 4058],
+    ["Equal or More than 50", 0, 0, 16761, 10657, 0, 0, 0, 0, 0, 0, 0, 3480, 3368]
+  ]
+}

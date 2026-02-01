@@ -1,0 +1,15 @@
+
+{
+  "columns": ["Category", "Staff Type", "Approved Cadre", "Existing", "Vacancy_Excess_Count", "Vacancy_Excess_Type"],
+  "rows": [
+    ["Senior", "Staff of the Ministry (Colombo)", 98, 86, 12, "vacancies"],
+    ["Tertiary", "Staff of the Ministry (Colombo)", 8, 2, 6, "vacancies"],
+    ["Secondary", "Staff of the Ministry (Colombo)", 363, 345, 18, "vacancies"],
+    ["Primary", "Staff of the Ministry (Colombo)", 131, 147, 16, "excess"],
+    ["Senior/Tertiary", "Home Based Staff of the Missions", 257, 179, 78, "vacancies"],
+    ["Secondary", "Home Based Staff of the Missions", 263, 245, 18, "vacancies"],
+    ["Primary", "Home Based Staff of the Missions", 7, 6, 1, "vacancies"],
+    ["Secondary", "Locally Recruited Staff of the Missions", 255, 174, 81, "vacancies"],
+    ["Primary", "Locally Recruited Staff of the Missions", 326, 278, 48, "vacancies"]
+  ]
+}

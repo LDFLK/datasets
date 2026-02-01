@@ -1,0 +1,34 @@
+{
+  "columns": [
+    "Professional Male",
+    "Middle Level Male",
+    "Skilled Male",
+    "Clerical & Related Male",
+    "Semi Skilled Male",
+    "Low Skilled Male",
+    "Professional Female",
+    "Middle Level Female",
+    "Skilled Female",
+    "Clerical & Related Female",
+    "Semi Skilled Female Domestic Housekeeping Assistant",
+    "Semi Skilled Female Other",
+    "Low Skilled Female"
+  ],
+  "rows": [
+    [
+      12841,
+      6795,
+      85978,
+      9587,
+      3721,
+      68043,
+      1466,
+      1335,
+      6858,
+      2547,
+      74007,
+      412,
+      37466
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "columns": [
+    "Remittances Middle East (Rs. Million)",
+    "Remittances Middle East (US$ Million)",
+    "Remittances Total (Rs. Million)",
+    "Remittances Total (US$ Million)"
+  ],
+  "rows": [
+    [
+      824491,
+      2493,
+      1252504,
+      3789
+    ]
+  ]
+}

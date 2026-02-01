@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Port",
+  "column_count": 2,
+  "row_count": 5,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual_Statistical_Report_2023.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
+  "extracted_date": "2025-08-28",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

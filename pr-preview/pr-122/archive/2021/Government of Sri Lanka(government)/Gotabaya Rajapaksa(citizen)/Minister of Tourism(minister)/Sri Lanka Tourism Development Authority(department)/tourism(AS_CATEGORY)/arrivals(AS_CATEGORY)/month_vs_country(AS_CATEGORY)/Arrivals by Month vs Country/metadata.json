@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Month vs Country",
+  "column_count": 13,
+  "row_count": 188,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/All%20Countries%2020211600995180.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
+  "extracted_date": "2025-09-07",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

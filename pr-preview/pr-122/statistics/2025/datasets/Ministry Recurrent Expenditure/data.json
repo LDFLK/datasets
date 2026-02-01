@@ -1,0 +1,29 @@
+{
+  "columns": ["Ministry", "Amount (Rs.Million)"],
+  "rows": [
+    ["Ministry of Buddha Sasana Religious and Cultural Affairs", 8600],
+    ["Ministry of Finance Planning and Economic Development", 3416314],
+    ["Ministry of Defence", 382000],
+    ["Ministry of Justice and National Integration", 38061],
+    ["Ministry of Health and Mass Media", 413250],
+    ["Ministry of Foreign Affairs Foreign Employment and Tourism", 19407],
+    ["Ministry of Trade Commerce Food Security and Co-operative Development", 2167],
+    ["Ministry of Transport Highways Ports and Civil Aviation", 52410],
+    ["Ministry of Agriculture Livestock Land and Irrigation", 83894],
+    ["Ministry of Energy", 1061],
+    ["Ministry of Urban Development Construction and Housing", 3282],
+    ["Ministry of Rural Development Social Security and Community Empowerment", 24990],
+    ["Ministry of Education Higher Education and Vocational Education", 207200],
+    ["Ministry of Public Administration Provincial Councils and Local Government", 550000],
+    ["Ministry of Plantation and Community Infrastructure", 5450],
+    ["Ministry of Industry and Entrepreneurship Development", 4805],
+    ["Ministry of Fisheries Aquatic and Ocean Resources", 6213],
+    ["Ministry of Environment", 12534],
+    ["Ministry of Women and Child Affairs", 15234],
+    ["Ministry of Digital Economy", 6752],
+    ["Ministry of Public Security and Parliamentary Affairs", 159000],
+    ["Ministry of Labour", 4370],
+    ["Ministry of Youth Affairs and Sports", 7100],
+    ["Ministry of Science and Technology", 2800]
+  ]
+}
