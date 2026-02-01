@@ -2,7 +2,7 @@
   "storage_type": "tabular",
   "dataset_name": "SLBFE registration by country",
   "column_count": 3,
-  "row_count": 57,
+  "row_count": 56,
   "node_count": null,
   "edges_count": null,
   "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
