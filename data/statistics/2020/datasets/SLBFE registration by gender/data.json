@@ -1,6 +1,18 @@
 {
-"columns": ["Year","Male (Number)", "Male (%)", "Female (Number)", "Female (%)","Total"],
-"rows": [
-  ["2020",32500,60.51,21211,39.49,53711]
-]
+  "columns": [
+    "Male (Number)",
+    "Male (%)",
+    "Female (Number)",
+    "Female (%)",
+    "Total"
+  ],
+  "rows": [
+    [
+      32500,
+      60.51,
+      21211,
+      39.49,
+      53711
+    ]
+  ]
 }
