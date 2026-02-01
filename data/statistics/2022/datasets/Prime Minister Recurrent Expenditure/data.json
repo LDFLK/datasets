@@ -1,6 +1,12 @@
 {
-  "columns": ["Ministry Office", "Amount (Rs.Million)"],
+  "columns": [
+    "Institution",
+    "Amount (Rs.Million)"
+  ],
   "rows": [
-    ["Office of the Prime Minister", 1172]
+    [
+      "Office of the Prime Minister",
+      1172
+    ]
   ]
 }
