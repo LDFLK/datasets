@@ -1,12 +1,10 @@
 {
   "columns": [
-    "Year",
     "Skilled",
     "Low Skilled"
   ],
   "rows": [
     [
-      "2024",
       244467,
       70319
     ]

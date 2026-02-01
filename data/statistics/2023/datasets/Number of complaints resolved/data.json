@@ -1,6 +1,10 @@
 {
-"columns": ["Year","Complaints Resolved"],
-"rows": [
-  ["2023",6555]
-]
+  "columns": [
+    "Complaints Resolved"
+  ],
+  "rows": [
+    [
+      6555
+    ]
+  ]
 }
