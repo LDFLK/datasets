@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "H T Krishantha Silva Abeysena",
+            "National People's Power",
+            "Minister of Science and Technology",
+            null,
+            "Roman Catholicism",
+            null,
+            "chrishanthaa@parliament.lk",
+            "0777591715",
+            "MBBS, MSc (Community Medicine), MD (Community Medicine), PgDip (Applied Statistics), BA (Christian Studies), MA (Buddhist Studies), MA (International Relations)",
+            "Consultant Community Physician"
+        ]
+    ]
+}

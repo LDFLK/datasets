@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Hettithanthri Patabendige Dammika",
+            "National People's Power",
+            "Minister of Environment",
+            "1969-07-03",
+            "Buddhism",
+            "Medical Practitioner",
+            "dammikap@parliament.lk",
+            "01121775005",
+            "Medical Doctor",
+            "Medical Doctor"
+        ]
+    ]
+}

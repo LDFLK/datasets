@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Herath Mudiyanselage Susil Ranasingha",
+            "National People's Power",
+            "Minister of Housing, Construction and Water Supply",
+            "1977-12-31",
+            "Buddhism",
+            "Medical Doctor",
+            "susilr@parliament.lk",
+            "0112785612",
+            "MBBS",
+            "Medical Officer"
+        ]
+    ]
+}

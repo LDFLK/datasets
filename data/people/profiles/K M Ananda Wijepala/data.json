@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "K M Ananda Wijepala",
+            "National People's Power",
+            "Minister of Public Security and Parliamentary Affairs",
+            null,
+            "Buddhism",
+            null,
+            null,
+            "0773041587",
+            "B.A (Hons) Sociology, Pg. Diploma (Criminology), MSSc (Master of Social Science)",
+            null
+        ]
+    ]
+}

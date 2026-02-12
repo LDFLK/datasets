@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Harini Amarasuriya",
+            "National People's Power",
+            "Prime Minister and Minister of Education, Higher Education and Vocational Education",
+            "1970-03-06",
+            "Buddhism",
+            "University Lecturer",
+            "harinia@parliament.lk",
+            null,
+            "BA (Hons) Sociology, MA App. Anthropology & Development Studies, PHD, Social Anthropology",
+            "University Lecturer"
+        ]
+    ]
+}

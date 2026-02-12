@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Herath Mudiyanselage Wasantha Samarasingha",
+            "National People's Power",
+            "Minister of Trade, Commerce, Food Security and Cooperative Development",
+            "1976-05-24",
+            "Buddhism",
+            "Politician",
+            "wasanthas@parliament.lk",
+            "0112785612",
+            "BBMgt ACC (Spl), University of Kelaniya",
+            null
+        ]
+    ]
+}

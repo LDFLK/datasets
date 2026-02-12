@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Bimal Niroshan Rathnayaka",
+            "National People's Power",
+            "Minister of Transport, Highways and Urban Development and Leader of the House of Parliament",
+            "1973-03-28",
+            "Buddhism",
+            "Politician",
+            "bimalr@parliament.lk",
+            "0112785612",
+            "BSc. Engineering Undergraduate",
+            null
+        ]
+    ]
+}
