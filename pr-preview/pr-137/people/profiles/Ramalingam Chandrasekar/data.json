@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Ramalingam Chandrasekar",
+            "National People's Power",
+            "Minister of Fisheries, Aquatic and Ocean Resources",
+            "1963-01-22",
+            "Hindu",
+            null,
+            "chandrasekar@parliament.lk",
+            "0212248515",
+            "G. C. E. (A/L)",
+            null
+        ]
+    ]
+}

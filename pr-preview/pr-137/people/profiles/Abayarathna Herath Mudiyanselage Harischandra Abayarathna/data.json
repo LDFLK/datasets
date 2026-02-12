@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Abayarathna Herath Mudiyanselage Harischandra Abayarathna",
+            "National People's Power",
+            "Minister of Public Administration, Provincial Councils and Local Government",
+            "1965-09-19",
+            "Buddhism",
+            "Academician",
+            "abayarathnah@parliament.lk",
+            "0112969688",
+            "Scholar (Honours) (BA), Doctor of Philosophy (Ph.D) in Philosophy",
+            null
+        ]
+    ]
+}

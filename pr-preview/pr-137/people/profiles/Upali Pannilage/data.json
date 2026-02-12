@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Upali Pannilage",
+            "National People's Power",
+            "Minister of Rural Development, Social Security and Community Empowerment",
+            "1964-12-16",
+            "Buddhism",
+            "Sociologist",
+            "pannila@parliament.lk",
+            "0775018545",
+            "Doctor of Philosophy (PhD), Master of Philosophy (MPhil), Post Graduate Diploma in Community Development, BA (Hons) Sociology Special",
+            "Post-Doctoral Fellowship (Postdoc). Norwegian University of Life Sciences, Norway"
+        ]
+    ]
+}

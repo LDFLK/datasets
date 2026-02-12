@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Anura Karunathilaka",
+            "National People's Power",
+            "Minister of Ports and Civil Aviation",
+            "1967-12-31",
+            "Buddhism",
+            "Academician",
+            "anurak@parliament.lk",
+            "0714458399",
+            "MSc. in Industrial Mathematics, University of Kaiserlautern, Germany; BSc. in Mathematics, University of Kelaniya",
+            null
+        ]
+    ]
+}

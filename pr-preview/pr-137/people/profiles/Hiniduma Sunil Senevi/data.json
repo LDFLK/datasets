@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Hiniduma Sunil Senevi",
+            "National People's Power",
+            "Minister of Buddhasasana, Religious and Cultural Affairs",
+            "1972-07-21",
+            "Buddhism",
+            null,
+            "sunilsenevi@parliament.lk",
+            "0714370706",
+            "Ph.D. , M.Phil. , B.A.",
+            "CTHE - University of Colombo, ATHE - UK"
+        ]
+    ]
+}

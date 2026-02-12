@@ -1,0 +1,76 @@
+{
+  "columns": [
+    "Nationality",
+    "Number of Cases"
+  ],
+  "rows": [
+    [
+      "Sri Lankan",
+      28
+    ],
+    [
+      "Canadian",
+      7
+    ],
+    [
+      "German",
+      5
+    ],
+    [
+      "Malaysian",
+      4
+    ],
+    [
+      "Chinese",
+      4
+    ],
+    [
+      "British",
+      3
+    ],
+    [
+      "Taiwanese",
+      2
+    ],
+    [
+      "Swiss",
+      2
+    ],
+    [
+      "Emirati",
+      2
+    ],
+    [
+      "Common Wealth",
+      1
+    ],
+    [
+      "Guinean",
+      1
+    ],
+    [
+      "Mexican",
+      1
+    ],
+    [
+      "American",
+      1
+    ],
+    [
+      "Guyanese",
+      1
+    ],
+    [
+      "Austrian",
+      1
+    ],
+    [
+      "Bengali",
+      1
+    ],
+    [
+      "Bruneian",
+      1
+    ]
+  ]
+}

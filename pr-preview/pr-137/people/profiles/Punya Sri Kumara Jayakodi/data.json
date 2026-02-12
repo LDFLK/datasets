@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Punya Sri Kumara Jayakodi",
+            "National People's Power",
+            "Minister of Energy",
+            "1967-03-26",
+            "Buddhism",
+            "Engineer",
+            "kumaraj@parliament.lk",
+            "0718449424",
+            "BSc Engineering",
+            "Engineer"
+        ]
+    ]
+}

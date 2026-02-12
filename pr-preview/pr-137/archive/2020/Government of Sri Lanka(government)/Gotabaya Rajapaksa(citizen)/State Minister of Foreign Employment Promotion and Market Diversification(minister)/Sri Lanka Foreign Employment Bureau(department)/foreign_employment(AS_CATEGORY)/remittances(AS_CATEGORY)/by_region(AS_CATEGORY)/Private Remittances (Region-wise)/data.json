@@ -1,0 +1,21 @@
+{
+    "columns": [
+      "Origin",
+      "US$ Million",
+      "Rs. Million"
+    ],
+    "rows": [
+      ["Middle East", 3673, 680892],
+      ["European Union", 1350, 250231],
+      ["Far East Asia", 870, 161333],
+      ["Europe-Other", 305, 56631],
+      ["North America", 178, 32935],
+      ["South East Asia", 408, 75728],
+      ["Australia and New Zealand", 178, 32925],
+      ["South Asia", 114, 21072],
+      ["South and Central America", 21, 3951],
+      ["Other", 7, 1317]
+    ]
+  }
+  
+  

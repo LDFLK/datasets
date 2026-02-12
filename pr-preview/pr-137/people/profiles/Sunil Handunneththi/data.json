@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Portfolio",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications"
+    ],
+    "rows": [
+        [
+            "Sunil Handunneththi",
+            "National People's Power",
+            "Minister of Industry and Entrepreneurship Development",
+            "1971-10-19",
+            "Buddhism",
+            "Politician",
+            "handunnetti_s@parliament.lk",
+            "0112580429",
+            "B. Sc. (Bus. Adm). Special",
+            "Licentiate Examination - Part 1 in Business Mangement of the Institute of Charted Accountants - Sri Lanka."
+        ]
+    ]
+}
