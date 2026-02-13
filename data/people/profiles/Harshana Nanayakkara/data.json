@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "harshanan@parliament.lk",
             "0773572736",
             "LLB (Honors)",
-            "Barrister at Law, Attorney at Law"
+            "Barrister at Law, Attorney at Law",
+            "data/people/images/harshana-nanayakkara-npp.jpg"
         ]
     ]
 }

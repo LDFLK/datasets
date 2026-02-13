@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "nalinda_j@parliament.lk",
             "0112785612",
             "MBBS",
-            null
+            null,
+            "data/people/images/nalinda-jayatissa-npp.jpg"
         ]
     ]
 }

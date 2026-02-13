@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "harinia@parliament.lk",
             null,
             "BA (Hons) Sociology, MA Applied Anthropology & Development Studies, PhD, Social Anthropology",
-            "University Lecturer"
+            "University Lecturer",
+            "data/people/images/harini-amarasuriya-npp.jpg"
         ]
     ]
 }

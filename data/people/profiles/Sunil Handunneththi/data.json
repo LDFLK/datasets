@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "handunnetti_s@parliament.lk",
             "0112580429",
             "B. Sc. (Bus. Adm). Special",
-            "Licentiate Examination - Part 1 in Business Management of the Institute of Chartered Accountants - Sri Lanka."
+            "Licentiate Examination - Part 1 in Business Management of the Institute of Chartered Accountants - Sri Lanka.",
+            "data/people/images/sunil-handunnetti-npp.jpg"
         ]
     ]
 }

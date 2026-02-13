@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "herath_v@parliament.lk",
             "0332321720",
             "B. Sc. (University of Kelaniya)",
-            null
+            null,
+            "data/people/images/vijitha-herath-npp.jpg"
         ]
     ]
 }

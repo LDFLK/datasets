@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "pannila@parliament.lk",
             "0775018545",
             "Doctor of Philosophy (PhD), Master of Philosophy (MPhil), Post Graduate Diploma in Community Development, BA (Hons) Sociology Special",
-            "Post-Doctoral Fellowship (Postdoc), Norwegian University of Life Sciences, Norway"
+            "Post-Doctoral Fellowship (Postdoc), Norwegian University of Life Sciences, Norway",
+            "data/people/images/upali-pannilage-npp.jpg"
         ]
     ]
 }

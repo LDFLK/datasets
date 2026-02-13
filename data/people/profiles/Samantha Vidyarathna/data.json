@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "samanthav@parliament.lk",
             "0714479589",
             "Specialist in Economics",
-            null
+            null,
+            "data/people/images/samantha-vidyarathna-npp.jpg"
         ]
     ]
 }
