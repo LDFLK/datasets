@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "Migrant Employee's Registration by Manpower Level",
-  "column_count": 3,
+  "column_count": 2,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,

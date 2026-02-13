@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "Workers Remittances",
-  "column_count": 5,
+  "column_count": 4,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,

@@ -1,7 +1,7 @@
 {
   "storage_type": "tabular",
   "dataset_name": "SLBFE registration by manpower level",
-  "column_count": 16,
+  "column_count": 15,
   "row_count": 1,
   "node_count": null,
   "edges_count": null,

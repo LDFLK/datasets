@@ -1,6 +1,12 @@
 {
-"columns": ["Year","Male", "Female"],
-"rows": [
-  ["2021",81110,41154]
-]
+  "columns": [
+    "Male",
+    "Female"
+  ],
+  "rows": [
+    [
+      81110,
+      41154
+    ]
+  ]
 }
