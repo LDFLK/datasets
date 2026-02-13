@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "kumaraj@parliament.lk",
             "0718449424",
             "BSc Engineering",
-            "Engineer"
+            "Engineer",
+            "data/people/images/kumara-jayakody-npp.jpg"
         ]
     ]
 }

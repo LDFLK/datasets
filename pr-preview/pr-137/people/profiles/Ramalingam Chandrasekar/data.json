@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "chandrasekar@parliament.lk",
             "0212248515",
             "G. C. E. (A/L)",
-            null
+            null,
+            "data/people/images/ramalingam-chandrasekar-npp.jpg"
         ]
     ]
 }

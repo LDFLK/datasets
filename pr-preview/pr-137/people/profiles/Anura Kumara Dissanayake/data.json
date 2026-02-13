@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             null,
             null,
             "Bachelor of Science",
-            null
+            null,
+            "data/people/images/anura-kumara-dissanayake-npp.jpg"
         ]
     ]
 }

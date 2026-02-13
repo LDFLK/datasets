@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "susilr@parliament.lk",
             "0112785612",
             "MBBS",
-            "Medical Officer"
+            "Medical Officer",
+            "data/people/images/susil-ranasingha-npp.jpg"
         ]
     ]
 }

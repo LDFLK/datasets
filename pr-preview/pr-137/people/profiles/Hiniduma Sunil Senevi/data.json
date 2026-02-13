@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "sunilsenevi@parliament.lk",
             "0714370706",
             "Ph.D., M.Phil., B.A.",
-            "CTHE - University of Colombo, ATHE - UK"
+            "CTHE - University of Colombo, ATHE - UK",
+            "data/people/images/sunil-senevi-npp.jpg"
         ]
     ]
 }

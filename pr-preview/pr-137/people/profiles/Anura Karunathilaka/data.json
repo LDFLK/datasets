@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "anurak@parliament.lk",
             "0714458399",
             "MSc. in Industrial Mathematics, University of Kaiserlautern, Germany; BSc. in Mathematics, University of Kelaniya",
-            null
+            null,
+            "data/people/images/anura-karunathilaka-npp.jpg"
         ]
     ]
 }

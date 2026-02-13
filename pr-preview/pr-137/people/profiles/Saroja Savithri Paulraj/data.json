@@ -8,7 +8,8 @@
         "Email",
         "Phone Number",
         "Education Qualifications",
-        "Professional Qualifications"
+        "Professional Qualifications",
+        "Image URL"
     ],
     "rows": [
         [
@@ -20,7 +21,8 @@
             "sarojap@parliament.lk",
             "0714878676",
             "Diploma in Linguistics, University of Kelaniya",
-            "Teacher's Training"
+            "Teacher's Training",
+            "data/people/images/saroja-savithri-npp.jpg"
         ]
     ]
 }
