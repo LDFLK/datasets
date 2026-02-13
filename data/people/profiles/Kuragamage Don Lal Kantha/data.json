@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Kuragamage Don Lal Kantha",
             "National People's Power",
-            "Minister of Agriculture, Livestock, Land and Irrigation",
             "1964-08-18",
             "Buddhism",
             "Politician",

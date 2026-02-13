@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "H T Krishantha Silva Abeysena",
             "National People's Power",
-            "Minister of Science and Technology",
             null,
             "Roman Catholicism",
             null,

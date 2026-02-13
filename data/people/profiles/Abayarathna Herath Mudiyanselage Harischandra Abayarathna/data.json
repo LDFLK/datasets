@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Abayarathna Herath Mudiyanselage Harischandra Abayarathna",
             "National People's Power",
-            "Minister of Public Administration, Provincial Councils and Local Government",
             "1965-09-19",
             "Buddhism",
             "Academician",

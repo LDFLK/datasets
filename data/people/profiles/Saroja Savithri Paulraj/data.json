@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,13 +14,12 @@
         [
             "Saroja Savithri Paulraj",
             "National People's Power",
-            "Minister of Women and Child Affairs",
             "1977-07-02",
             "Hindu",
             "Teacher",
             "sarojap@parliament.lk",
             "0714878676",
-            "Diploma in Linguistic University of Kelaniya",
+            "Diploma in Linguistics, University of Kelaniya",
             "Teacher's Training"
         ]
     ]
