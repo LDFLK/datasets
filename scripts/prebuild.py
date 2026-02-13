@@ -107,12 +107,7 @@ def main():
         print("Warning: update_dataset_index.py failed")
         success = False
 
-    # 3. Generate missing datasets report
-    if not run_script("find_missing_datasets.py", script_dir):
-        print("Warning: find_missing_datasets.py failed")
-        success = False
-
-    # 4. Copy assets (images, documents)
+    # 3. Copy assets (images, documents)
     if not copy_assets(project_root):
         print("Warning: Failed to copy assets")
         success = False

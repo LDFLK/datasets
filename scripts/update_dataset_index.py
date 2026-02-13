@@ -66,7 +66,8 @@ def main():
     # Determine paths relative to script location
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    data_path = project_root / "data"
+    # Only generate ZIPs from statistics folder (published data)
+    data_path = project_root / "data" / "statistics"
     output_dir = project_root / "website" / "static" / "downloads"
 
     zip_files = generate_all_zips(str(data_path), str(output_dir))

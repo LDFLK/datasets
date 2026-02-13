@@ -106,10 +106,6 @@ const config: Config = {
               label: 'Interactive Browser',
               to: '/browse/interactive-browser',
             },
-            {
-              label: 'Missing Datasets',
-              to: '/browse/missing-datasets',
-            },
           ],
         },
         {
