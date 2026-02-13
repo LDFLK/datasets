@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Herath Mudiyanselage Susil Ranasingha",
             "National People's Power",
-            "Minister of Housing, Construction and Water Supply",
             "1977-12-31",
             "Buddhism",
             "Medical Doctor",

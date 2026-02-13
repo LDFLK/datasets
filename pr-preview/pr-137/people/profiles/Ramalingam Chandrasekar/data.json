@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Ramalingam Chandrasekar",
             "National People's Power",
-            "Minister of Fisheries, Aquatic and Ocean Resources",
             "1963-01-22",
             "Hindu",
             null,

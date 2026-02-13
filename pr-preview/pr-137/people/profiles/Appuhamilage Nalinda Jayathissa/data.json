@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Appuhamilage Nalinda Jayathissa",
             "National People's Power",
-            "Minister of Health and Mass Media and Chief Government Whip",
             "1977-04-21",
             "Buddhism",
             "Medical Practitioner",

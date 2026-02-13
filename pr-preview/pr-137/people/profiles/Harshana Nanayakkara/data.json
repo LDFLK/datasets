@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Harshana Nanayakkara",
             "National People's Power",
-            "Minister of Justice and National Integration",
             "1972-01-16",
             "Buddhism",
             "Attorney-at-Law",

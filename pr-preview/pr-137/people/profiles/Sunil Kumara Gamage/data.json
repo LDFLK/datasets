@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,14 +14,13 @@
         [
             "Sunil Kumara Gamage",
             "National People's Power",
-            "Minister of Youth Affairs and Sports",
             "1966-04-16",
             "Buddhism",
             "Chartered Accountant",
             "sunilkumara@parliament.lk",
             "0777174146",
             "B.Com (Special) Hons; M.Sc. (Management) - USJ",
-            "ACA (Charterd Accountant)"
+            "ACA (Chartered Accountant)"
         ]
     ]
 }

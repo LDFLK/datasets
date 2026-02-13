@@ -2,7 +2,6 @@
     "columns": [
         "Name",
         "Political Party",
-        "Portfolio",
         "Date of Birth",
         "Religion",
         "Profession",
@@ -15,7 +14,6 @@
         [
             "Punya Sri Kumara Jayakodi",
             "National People's Power",
-            "Minister of Energy",
             "1967-03-26",
             "Buddhism",
             "Engineer",
