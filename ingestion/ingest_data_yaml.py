@@ -487,12 +487,23 @@ async def add_profile_attribute(
     if not Util.validate_tabular_dataset(data_content):
         return False
     
+    # Sanitize data: convert null values to empty strings
+    # The server doesn't support null values in rows
+    rows = data_content.get('rows', [])
+    sanitized_rows = []
+    for row in rows:
+        sanitized_row = ['' if cell is None else cell for cell in row]
+        sanitized_rows.append(sanitized_row)
+    
+    # Update data_content with sanitized rows
+    data_content['rows'] = sanitized_rows
+    
     # Generate attribute name from profile path
     profile_name = os.path.basename(profile_path.rstrip('/'))
     attribute_name = Util.format_attribute_name(profile_name) + " Profile"
     
     columns = data_content.get('columns', [])
-    rows = data_content.get('rows', [])
+    rows = sanitized_rows
     logger.info(f"[ATTRIBUTE] Adding profile attribute '{attribute_name}' to citizen {citizen_id}")
     logger.info(f"  Columns: {len(columns)}, Rows: {len(rows)}")
     
@@ -763,6 +774,11 @@ async def main():
         default=None,
         help='Override year extracted from filename (optional)'
     )
+    parser.add_argument(
+        '--profiles',
+        action='store_true',
+        help='Process profiles YAML (no year required, only processes citizens)'
+    )
     
     args = parser.parse_args()
     
@@ -771,18 +787,24 @@ async def main():
         logger.error(f"YAML file not found: {yaml_path}")
         sys.exit(1)
     
-    # Extract year from filename or use override
-    if args.year:
-        year = args.year
+    # Handle year extraction based on mode
+    if args.profiles:
+        year = None
+        logger.info("Processing in PROFILES mode (no year required)")
+        logger.info(f"Processing YAML file: {yaml_path}")
     else:
-        try:
-            year = YamlParser.extract_year_from_filename(yaml_path)
-        except ValueError as e:
-            logger.error(f"{e}")
-            sys.exit(1)
-    
-    logger.info(f"Processing YAML file: {yaml_path}")
-    logger.info(f"Target year: {year}")
+        # Extract year from filename or use override
+        if args.year:
+            year = args.year
+        else:
+            try:
+                year = YamlParser.extract_year_from_filename(yaml_path)
+            except ValueError as e:
+                logger.error(f"{e}")
+                sys.exit(1)
+        
+        logger.info(f"Processing YAML file: {yaml_path}")
+        logger.info(f"Target year: {year}")
     
     # Get base path for resolving dataset paths
     yaml_base_path = os.path.dirname(os.path.abspath(yaml_path))
@@ -813,6 +835,15 @@ async def main():
     
     logger.info(f"Found {len(governments)} government(s) in YAML")
     
+    # Get list of citizens
+    try:
+        citizens = YamlParser.get_citizens(manifest)
+    except Exception as e:
+        logger.error(f"Error extracting citizens from YAML: {e}")
+        citizens = []
+    
+    logger.info(f"Found {len(citizens)} citizen(s) in YAML")
+    
     # Initialize HTTP client
     await http_client.start()
     
@@ -821,21 +852,32 @@ async def main():
         read_service = ReadService()
         ingestion_service = IngestionService()
 
-        # Process each government entry
-        for government_entry in governments:
-            await process_government_entry(
-                government_entry,
-                yaml_base_path,
-                year,
-                read_service,
-                ingestion_service
-            )
+        # Process governments and ministers only when NOT in profiles mode
+        if not args.profiles:
+            # Process each government entry
+            for government_entry in governments:
+                await process_government_entry(
+                    government_entry,
+                    yaml_base_path,
+                    year,
+                    read_service,
+                    ingestion_service
+                )
+            
+            # Process each minister entry sequentially - change to parallel later
+            for minister_entry in ministers:
+                await process_minister_entry(
+                    minister_entry,
+                    year,
+                    yaml_base_path,
+                    read_service,
+                    ingestion_service
+                )
         
-        # Process each minister entry sequentially - change to parallel later
-        for minister_entry in ministers:
-            await process_minister_entry(
-                minister_entry,
-                year,
+        # Process each citizen entry (only relevant when --profiles is set)
+        for citizen_entry in citizens:
+            await process_citizen_entry(
+                citizen_entry,
                 yaml_base_path,
                 read_service,
                 ingestion_service
