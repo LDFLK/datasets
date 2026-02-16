@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE Registration through Private Sources by Country",
+  "column_count": 2,
+  "row_count": 57,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
+  "resource_page": "13",
+  "resource_section": "Registration with the SLBFE through private sources",
+  "resource_identifier": "Table 13",
+  "extracted_date": "2025-11-26",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

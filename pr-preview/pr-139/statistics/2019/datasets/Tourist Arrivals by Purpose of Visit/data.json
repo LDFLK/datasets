@@ -1,0 +1,48 @@
+{
+  "columns": [
+    "Purpose",
+    "Percentage"
+  ],
+  "rows": [
+    [
+      "Pleasure/Vacation",
+      83.2
+    ],
+    [
+      "Visiting Friends & Relatives",
+      10.48
+    ],
+    [
+      "Business",
+      3.65
+    ],
+    [
+      "Convention/Meeting",
+      0.99
+    ],
+    [
+      "Sports",
+      0.72
+    ],
+    [
+      "Health/Ayurveda",
+      0.59
+    ],
+    [
+      "Education",
+      0.32
+    ],
+    [
+      "Religious & Cultural",
+      0.3
+    ],
+    [
+      "Other/Not Responded",
+      0.1
+    ],
+    [
+      "Official",
+      0.1
+    ]
+  ]
+}

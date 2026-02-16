@@ -1,0 +1,14 @@
+{
+  "columns": [
+    "Year",
+    "Skilled",
+    "Low Skilled"
+  ],
+  "rows": [
+    [
+      "2023",
+      208586,
+      89070
+    ]
+  ]
+}

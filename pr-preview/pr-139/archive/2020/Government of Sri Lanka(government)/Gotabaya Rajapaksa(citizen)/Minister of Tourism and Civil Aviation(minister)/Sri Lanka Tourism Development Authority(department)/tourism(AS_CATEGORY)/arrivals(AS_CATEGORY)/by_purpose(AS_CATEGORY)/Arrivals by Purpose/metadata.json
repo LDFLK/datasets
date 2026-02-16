@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Purpose",
+  "column_count": 2,
+  "row_count": 10,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "68",
+  "resource_section": "Percentage Distribution of Tourist Arrivals by Purpose of Visit -2006 - 2020",
+  "resource_identifier": "Table 9",
+  "extracted_date": "2025-09-04",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains tourist arrival statistics by purpose of visit for 2020, showing the distribution of tourists by purpose as percentages. Columns: Purpose and Percentage. Data includes 10 categories ranging from Pleasure/Holiday (87.52%) to Others (0.01%), with Pleasure/Holiday being the dominant purpose."
+}

@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Kuragamage Don Lal Kantha",
+            "National People's Power",
+            "1964-08-18",
+            "Buddhism",
+            "Politician",
+            "lalk@parliament.lk",
+            "0712473104",
+            null,
+            null,
+            "data/people/images/lal-kantha-npp.jpg"
+        ]
+    ]
+}

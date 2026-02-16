@@ -1,0 +1,20 @@
+{
+    "columns": [
+        "Month",
+        "Number of tourist arrivals"
+    ],
+    "rows": [
+        ["January", 208253],
+        ["February", 218350],
+        ["March", 209181],
+        ["April", 148867],
+        ["May", 112128],
+        ["June", 113470],
+        ["July", 187810],
+        ["August", 164609],
+        ["September", 122140],
+        ["October", 135907],
+        ["November", 184158],
+        ["December", 248592]
+    ]
+}

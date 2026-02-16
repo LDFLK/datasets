@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Ramalingam Chandrasekar",
+            "National People's Power",
+            "1963-01-22",
+            "Hindu",
+            null,
+            "chandrasekar@parliament.lk",
+            "0212248515",
+            "G. C. E. (A/L)",
+            null,
+            "data/people/images/ramalingam-chandrasekar-npp.jpg"
+        ]
+    ]
+}

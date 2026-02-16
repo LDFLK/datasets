@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Month vs Country",
+  "column_count": 13,
+  "row_count": 186,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "47",
+  "resource_section": "Tourists arrivals by country of residence and month (All Countries) 2020",
+  "resource_identifier": "Table 4",
+  "extracted_date": "2025-09-04",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains tourist arrival statistics by month and country for 2020, showing monthly arrivals for 188 countries. Columns: Country and 12 months (January through December). Data shows arrivals primarily in the first three months (January-March) with most countries having zero arrivals from April onwards, reflecting the impact of COVID-19 travel restrictions."
+}

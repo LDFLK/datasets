@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Total Registration with the SLBFE by age",
+  "column_count": 3,
+  "row_count": 8,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
+  "resource_page": "10",
+  "resource_section": "Total Registration with the SLBFE by age 2017-2020",
+  "resource_identifier": "Table 08",
+  "extracted_date": "2025-09-17",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "This is the total registration with the SLBFE by age in 2020"
+}

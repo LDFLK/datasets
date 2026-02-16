@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE registration by country",
+  "column_count": 2,
+  "row_count": 56,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2023/09/Statistics-2020.pdf",
+  "resource_page": "14",
+  "resource_section": "Total Registration with the SLBFE through all sources by Country 2016-2020*",
+  "resource_identifier": "Table 14",
+  "extracted_date": "2025-09-06",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Arrivals by Port",
+  "column_count": 2,
+  "row_count": 5,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "22",
+  "resource_section": "Distribution by ports of arrival (percentage) – 2020",
+  "resource_identifier": "Chart 9",
+  "extracted_date": "2025-09-04",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains tourist arrival statistics by port of entry for 2020, showing the number of arrivals at each port. Columns: Port and Arrivals. Data includes 5 ports with Katunayake (Bandaranaike International Airport) having the highest arrivals (818,975, 93.7%), followed by Colombo Harbour (26,816, 3.1%), Mattala Rajapaksa International Airport (14,406, 1.6%), Galle Harbour (13,416, 1.5%), and Trincomalee Harbour (404, 0.05%). Total arrivals across all ports amount to 874,017."
+}

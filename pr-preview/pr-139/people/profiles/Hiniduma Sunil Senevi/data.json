@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Hiniduma Sunil Senevi",
+            "National People's Power",
+            "1972-07-21",
+            "Buddhism",
+            null,
+            "sunilsenevi@parliament.lk",
+            "0714370706",
+            "Ph.D., M.Phil., B.A.",
+            "CTHE - University of Colombo, ATHE - UK",
+            "data/people/images/sunil-senevi-npp.jpg"
+        ]
+    ]
+}

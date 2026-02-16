@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Anura Kumara Dissanayake",
+            "National People's Power",
+            "1968-11-24",
+            "Buddhism",
+            "Politician",
+            null,
+            null,
+            "Bachelor of Science",
+            null,
+            "data/people/images/anura-kumara-dissanayake-npp.jpg"
+        ]
+    ]
+}

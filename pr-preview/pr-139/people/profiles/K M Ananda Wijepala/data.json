@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "K M Ananda Wijepala",
+            "National People's Power",
+            null,
+            "Buddhism",
+            null,
+            null,
+            "0773041587",
+            "B.A (Hons) Sociology, Pg. Diploma (Criminology), MSSc (Master of Social Science)",
+            null,
+            "data/people/images/ananda-wijepala-npp.jpg"
+        ]
+    ]
+}

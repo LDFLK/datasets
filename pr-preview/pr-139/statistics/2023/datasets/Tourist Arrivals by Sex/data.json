@@ -1,0 +1,7 @@
+{
+  "columns": ["Sex", "Percentage"],
+  "rows": [
+    ["Male", 53],
+    ["Female", 47]
+  ]
+}

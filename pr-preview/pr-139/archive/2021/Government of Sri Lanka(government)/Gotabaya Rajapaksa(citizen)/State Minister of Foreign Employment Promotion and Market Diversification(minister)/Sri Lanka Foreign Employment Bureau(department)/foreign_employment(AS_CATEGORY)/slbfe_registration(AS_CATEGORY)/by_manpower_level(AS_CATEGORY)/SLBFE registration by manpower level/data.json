@@ -1,0 +1,24 @@
+{
+  "columns": [
+    "Year",
+    "Professional Level",
+    "Middle Level",
+    "Skilled",
+    "Clerical & Related",
+    "Semi Skilled Domestic housekeeping assistants",
+    "Semi Skilled Others",
+    "Low Skilled"
+  ],
+  "rows": [
+    [
+      "2021",
+      8575,
+      4267,
+      40390,
+      6570,
+      29266,
+      1938,
+      31881
+    ]
+  ]
+}
