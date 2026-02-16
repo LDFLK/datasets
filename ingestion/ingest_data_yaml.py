@@ -14,7 +14,8 @@ from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import (
     find_ministers_by_name_and_year, 
     find_department_by_name_and_ministers,
-    find_government_by_name
+    find_government_by_name,
+    find_citizen_by_name
 )
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
@@ -377,6 +378,152 @@ async def process_datasets(
         
         if not success:
             logger.warning(f"Failed to add dataset '{dataset_name}' as attribute")
+
+# Process a single citizen entry from the YAML.
+async def process_citizen_entry(
+    citizen_entry: Dict[str, Any],
+    yaml_base_path: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
+):
+
+    citizen_name = citizen_entry.get('name', '')
+    if not citizen_name:
+        logger.warning(f"Skipping citizen entry with no name")
+        return
+    
+    logger.info(f"[CITIZEN] Processing: {citizen_name}")
+    
+    # Find citizen entity by name
+    citizen_entity = await find_citizen_by_name(citizen_name, read_service)
+    
+    if not citizen_entity:
+        logger.error(f"Citizen entity not found for '{citizen_name}'. Skipping.")
+        return
+    
+    citizen_id = citizen_entity.id
+    logger.info(f"[SELECTED] Using citizen ID: {citizen_id}")
+    
+    # Extract time period from the citizen entity
+    citizen_start_time = citizen_entity.created
+    citizen_end_time = citizen_entity.terminated if citizen_entity.terminated else ""
+    
+    # Process profiles for this citizen
+    profiles = YamlParser.get_profiles(citizen_entry)
+    if profiles:
+        await process_profiles(
+            profiles,
+            citizen_id,
+            yaml_base_path,
+            citizen_start_time=citizen_start_time,
+            citizen_end_time=citizen_end_time,
+            ingestion_service=ingestion_service
+        )
+    else:
+        logger.info(f"No profiles found for citizen {citizen_name}")
+
+# Process profile datasets and add them as attributes to the citizen entity.
+async def process_profiles(
+    profiles: List[str],
+    citizen_id: str,
+    yaml_base_path: str,
+    citizen_start_time: str,
+    citizen_end_time: str,
+    ingestion_service: IngestionService
+):
+
+    for profile_path in profiles:
+        profile_name = os.path.basename(profile_path.rstrip('/'))
+        logger.info(f"[PROFILE] Processing profile: {profile_name} for citizen {citizen_id}")
+        
+        # Add profile as attribute
+        success = await add_profile_attribute(
+            citizen_id=citizen_id,
+            profile_path=profile_path,
+            yaml_base_path=yaml_base_path,
+            citizen_start_time=citizen_start_time,
+            citizen_end_time=citizen_end_time,
+            ingestion_service=ingestion_service
+        )
+        
+        if not success:
+            logger.warning(f"Failed to add profile '{profile_name}' as attribute")
+
+# Add a profile dataset as an attribute to a citizen entity. Return True if successful
+async def add_profile_attribute(
+    citizen_id: str,
+    profile_path: str,
+    yaml_base_path: str,
+    citizen_start_time: str,
+    citizen_end_time: str,
+    ingestion_service: IngestionService
+) -> bool:
+
+    # Resolve full path to profile directory
+    full_profile_path = os.path.join(yaml_base_path, profile_path)
+    data_json_path = os.path.join(full_profile_path, 'data.json')
+    
+    # Check if profile directory and data.json exist
+    if not os.path.exists(full_profile_path):
+        logger.warning(f"Profile path does not exist: {full_profile_path}")
+        return False
+    
+    if not os.path.exists(data_json_path):
+        logger.warning(f"data.json not found at: {data_json_path}")
+        return False
+    
+    # Read data.json
+    try:
+        with open(data_json_path, 'r', encoding='utf-8') as f:
+            data_content = json.load(f)
+    except json.JSONDecodeError as e:
+        logger.error(f"Failed to parse data.json: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"Failed to read data.json: {e}")
+        return False
+    
+    # Validate structure
+    if not Util.validate_tabular_dataset(data_content):
+        return False
+    
+    # Generate attribute name from profile path
+    profile_name = os.path.basename(profile_path.rstrip('/'))
+    attribute_name = Util.format_attribute_name(profile_name) + " Profile"
+    
+    columns = data_content.get('columns', [])
+    rows = data_content.get('rows', [])
+    logger.info(f"[ATTRIBUTE] Adding profile attribute '{attribute_name}' to citizen {citizen_id}")
+    logger.info(f"  Columns: {len(columns)}, Rows: {len(rows)}")
+    
+    # Create attribute structure
+    attribute = {
+        "key": attribute_name,
+        "value": {
+            "values": [
+                {
+                    "startTime": citizen_start_time,
+                    "endTime": citizen_end_time if citizen_end_time else "",
+                    "value": data_content
+                }
+            ]
+        }
+    }
+    
+    # Update citizen entity with the attribute
+    try:
+        entity_update = EntityCreate(
+            id=citizen_id,
+            attributes=[attribute]
+        )
+        
+        await ingestion_service.update_entity(citizen_id, entity_update)
+        logger.success(f"Added profile attribute '{attribute_name}' to citizen {citizen_id}")
+        return True
+        
+    except Exception as e:
+        logger.error(f"Failed to update citizen entity with profile attribute: {e}")
+        return False
 
 # Process a single department entry from the YAML.
 async def process_department_entry(
