@@ -786,12 +786,14 @@ async def main():
     if not os.path.exists(yaml_path):
         logger.error(f"YAML file not found: {yaml_path}")
         sys.exit(1)
+
+    logger.info(f"Processing YAML file: {yaml_path}")
     
     # Handle year extraction based on mode
     if args.profiles:
         year = None
         logger.info("Processing in PROFILES mode (no year required)")
-        logger.info(f"Processing YAML file: {yaml_path}")
+        
     else:
         # Extract year from filename or use override
         if args.year:
@@ -803,7 +805,6 @@ async def main():
                 logger.error(f"{e}")
                 sys.exit(1)
         
-        logger.info(f"Processing YAML file: {yaml_path}")
         logger.info(f"Target year: {year}")
     
     # Get base path for resolving dataset paths
