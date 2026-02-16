@@ -144,3 +144,29 @@ class YamlParser:
     @staticmethod
     def has_datasets(entry: Dict[str, Any]) -> bool:
         return 'datasets' in entry and entry['datasets'] is not None
+    
+    # Extract the list of citizens from the parsed manifest.
+    @staticmethod
+    def get_citizens(manifest: Dict[str, Any]) -> List[Dict[str, Any]]:
+        if 'citizen' not in manifest:
+            return []
+        
+        citizens = manifest['citizen']
+
+        # if there's only one citizen, wrap in a list
+        if not isinstance(citizens, list):
+            return [citizens] if citizens else []
+        return citizens
+    
+    # Get the list of profile paths from a citizen entry.
+    @staticmethod
+    def get_profiles(citizen_entry: Dict[str, Any]) -> List[str]:
+        if 'profile' not in citizen_entry or citizen_entry['profile'] is None:
+            return []
+        
+        profiles = citizen_entry['profile']
+
+        # if there's only one profile, wrap in a list
+        if not isinstance(profiles, list):
+            return [profiles] if profiles else []
+        return profiles
