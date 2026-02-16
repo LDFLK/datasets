@@ -181,3 +181,31 @@ async def find_department_by_name_and_ministers(name: str, active_ministers: Lis
         'department_id': latest_relation['department_id'],
         'relation': latest_relation['relation']
     }
+
+# Find a citizen entity by exact name match.
+# Returns the full Entity object if found, None otherwise.
+async def find_citizen_by_name(name: str, read_service: ReadService) -> Optional[Entity]:
+    
+    # Search for citizen by name
+    search_entity = Entity(
+        name=name,
+        kind=Kind(major="Person", minor="citizen")
+    )
+    
+    try:
+        citizens = await read_service.get_entities(search_entity)
+    except Exception as e:
+        raise Exception(f"Failed to search for citizens: {e}")
+    
+    if not citizens or len(citizens) == 0:
+        return None
+    
+    # Warn if multiple citizens found with the same name
+    if len(citizens) > 1:
+        citizen_ids = [citizen.id for citizen in citizens]
+        logger.warning(
+            f"Found {len(citizens)} citizens with name '{name}'. "
+            f"IDs: {', '.join(citizen_ids)}. Using the first one: {citizen_ids[0]}"
+        )
+    
+    return citizens[0]
