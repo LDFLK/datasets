@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Hettithanthri Patabendige Dammika",
+            "National People's Power",
+            "1969-07-03",
+            "Buddhism",
+            "Medical Practitioner",
+            "dammikap@parliament.lk",
+            "0352230380",
+            "Medical Doctor",
+            "Medical Doctor",
+            "data/people/images/dammika-patabadige-npp.jpg"
+        ]
+    ]
+}

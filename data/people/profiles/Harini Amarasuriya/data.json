@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Harini Amarasuriya",
+            "National People's Power",
+            "1970-03-06",
+            "Buddhism",
+            "University Lecturer",
+            "harinia@parliament.lk",
+            null,
+            "BA (Hons) Sociology, MA Applied Anthropology & Development Studies, PhD, Social Anthropology",
+            "University Lecturer",
+            "data/people/images/harini-amarasuriya-npp.jpg"
+        ]
+    ]
+}
