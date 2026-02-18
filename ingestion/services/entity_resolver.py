@@ -203,9 +203,38 @@ async def find_citizen_by_name(name: str, read_service: ReadService) -> Optional
     # Return an error if multiple citizens found with the same name
     if len(citizens) > 1:
         citizen_ids = [citizen.id for citizen in citizens]
-        logger.error(
+        logger.warning(
             f"Found {len(citizens)} citizens with name '{name}'. "
             f"IDs: {', '.join(citizen_ids)}."
+        )
+        return None
+    
+    return citizens[0]
+
+# Find a citizen entity by ID.
+# Returns the full Entity object if found, None otherwise.
+async def find_citizen_by_id(citizen_id: str, read_service: ReadService) -> Optional[Entity]:
+    
+    # Search for citizen by id
+    search_entity = Entity(
+        id=citizen_id,
+    )
+    
+    try:
+        citizens = await read_service.get_entities(search_entity)
+    except Exception as e:
+        raise Exception(f"Failed to search for citizen by ID: {e}")
+    
+    if not citizens:
+        return None
+    
+    entity = citizens[0]
+    
+    # Validate that the entity is a citizen (Person/citizen kind)
+    if not entity.kind or entity.kind.major != "Person" or entity.kind.minor != "citizen":
+        logger.warning(
+            f"Entity with ID '{citizen_id}' is not a citizen. "
+            f"Expected kind Person/citizen, got {entity.kind.major}/{entity.kind.minor}."
         )
         return None
     

@@ -15,7 +15,8 @@ from ingestion.services.entity_resolver import (
     find_ministers_by_name_and_year, 
     find_department_by_name_and_ministers,
     find_government_by_name,
-    find_citizen_by_name
+    find_citizen_by_name,
+    find_citizen_by_id
 )
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
@@ -387,18 +388,30 @@ async def process_citizen_entry(
     ingestion_service: IngestionService
 ):
 
+    citizen_id_override = citizen_entry.get('id', None)
     citizen_name = citizen_entry.get('name', '')
-    if not citizen_name:
-        logger.warning(f"Skipping citizen entry with no name")
-        return
-    
-    logger.info(f"[CITIZEN] Processing: {citizen_name}")
-    
-    # Find citizen entity by name
-    citizen_entity = await find_citizen_by_name(citizen_name, read_service)
-    
-    if not citizen_entity:
-        logger.error(f"Citizen entity not found for '{citizen_name}'. Skipping.")
+
+    if citizen_id_override:
+        # ID takes priority
+        logger.info(f"[CITIZEN] Looking up by ID: {citizen_id_override}")
+        citizen_entity = await find_citizen_by_id(citizen_id_override, read_service)
+        if not citizen_entity:
+            logger.error(f"Citizen entity not found for ID '{citizen_id_override}'. Skipping.")
+            return
+
+        citizen_name = Util.decode_protobuf_attribute_name(citizen_entity.name)
+        logger.info(f"[CITIZEN] Resolved by ID: {citizen_id_override} → {citizen_name}")
+
+    elif citizen_name:
+        # Fall back to name lookup
+        logger.info(f"[CITIZEN] Processing: {citizen_name}")
+        citizen_entity = await find_citizen_by_name(citizen_name, read_service)
+        if not citizen_entity:
+            logger.error(f"Citizen entity not found for '{citizen_name}'. Skipping.")
+            return
+
+    else:
+        logger.error("Citizen entry has neither 'name' nor 'id'. Skipping.")
         return
     
     citizen_id = citizen_entity.id
@@ -414,6 +427,7 @@ async def process_citizen_entry(
         await process_profiles(
             profiles,
             citizen_id,
+            citizen_name,
             yaml_base_path,
             citizen_start_time=citizen_start_time,
             citizen_end_time=citizen_end_time,
@@ -426,6 +440,7 @@ async def process_citizen_entry(
 async def process_profiles(
     profiles: List[str],
     citizen_id: str,
+    citizen_name: str,
     yaml_base_path: str,
     citizen_start_time: str,
     citizen_end_time: str,
@@ -433,12 +448,12 @@ async def process_profiles(
 ):
 
     for profile_path in profiles:
-        profile_name = os.path.basename(profile_path.rstrip('/'))
-        logger.info(f"[PROFILE] Processing profile: {profile_name} for citizen {citizen_id}")
+        logger.info(f"[PROFILE] Processing profile for citizen {citizen_name} ({citizen_id})")
         
         # Add profile as attribute
         success = await add_profile_attribute(
             citizen_id=citizen_id,
+            citizen_name=citizen_name,
             profile_path=profile_path,
             yaml_base_path=yaml_base_path,
             citizen_start_time=citizen_start_time,
@@ -452,6 +467,7 @@ async def process_profiles(
 # Add a profile dataset as an attribute to a citizen entity. Return True if successful
 async def add_profile_attribute(
     citizen_id: str,
+    citizen_name: str,
     profile_path: str,
     yaml_base_path: str,
     citizen_start_time: str,
@@ -487,9 +503,8 @@ async def add_profile_attribute(
     if not Util.validate_tabular_dataset(data_content):
         return False
     
-    # Generate attribute name from profile path
-    profile_name = os.path.basename(profile_path.rstrip('/'))
-    attribute_name = Util.format_attribute_name(profile_name) + " Profile"
+    # Generate attribute name from citizen name
+    attribute_name = Util.format_attribute_name(citizen_name) + " Profile"
     
     columns = data_content.get('columns', [])
     rows = data_content.get('rows', [])
