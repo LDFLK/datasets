@@ -200,12 +200,13 @@ async def find_citizen_by_name(name: str, read_service: ReadService) -> Optional
     if not citizens:
         return None
     
-    # Warn if multiple citizens found with the same name
+    # Return an error if multiple citizens found with the same name
     if len(citizens) > 1:
         citizen_ids = [citizen.id for citizen in citizens]
-        logger.warning(
+        logger.error(
             f"Found {len(citizens)} citizens with name '{name}'. "
-            f"IDs: {', '.join(citizen_ids)}. Using the first one: {citizen_ids[0]}"
+            f"IDs: {', '.join(citizen_ids)}."
         )
+        return None
     
     return citizens[0]
