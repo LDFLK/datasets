@@ -76,7 +76,9 @@ class Util:
         
         expected_column_count = len(columns)
         
-        # Validate rows structure (each row must be a list with same number of columns)
+        # Validate rows structure and sanitize null values
+        # Each row must be a list with the same number of columns.
+        # Null values are converted to empty strings as the server doesn't support them.
         for i, row in enumerate(rows):
             if not isinstance(row, list):
                 logger.error(f"Row {i} is not a list")
@@ -84,6 +86,10 @@ class Util:
             if len(row) != expected_column_count:
                 logger.error(f"Row {i} has {len(row)} values but expected {expected_column_count}")
                 return False
+            # Sanitize: replace None with empty string in-place
+            for j, cell in enumerate(row):
+                if cell is None:
+                    row[j] = ''
         
         return True
 

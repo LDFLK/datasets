@@ -483,27 +483,16 @@ async def add_profile_attribute(
         logger.error(f"Failed to read data.json: {e}")
         return False
     
-    # Validate structure
+    # Validate structure (also sanitizes null values in rows)
     if not Util.validate_tabular_dataset(data_content):
         return False
-    
-    # Sanitize data: convert null values to empty strings
-    # The server doesn't support null values in rows
-    rows = data_content.get('rows', [])
-    sanitized_rows = []
-    for row in rows:
-        sanitized_row = ['' if cell is None else cell for cell in row]
-        sanitized_rows.append(sanitized_row)
-    
-    # Update data_content with sanitized rows
-    data_content['rows'] = sanitized_rows
     
     # Generate attribute name from profile path
     profile_name = os.path.basename(profile_path.rstrip('/'))
     attribute_name = Util.format_attribute_name(profile_name) + " Profile"
     
     columns = data_content.get('columns', [])
-    rows = sanitized_rows
+    rows = data_content.get('rows', [])
     logger.info(f"[ATTRIBUTE] Adding profile attribute '{attribute_name}' to citizen {citizen_id}")
     logger.info(f"  Columns: {len(columns)}, Rows: {len(rows)}")
     
