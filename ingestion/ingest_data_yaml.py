@@ -788,11 +788,31 @@ async def main():
         sys.exit(1)
 
     logger.info(f"Processing YAML file: {yaml_path}")
+
+    # Get base path for resolving dataset paths
+    yaml_base_path = os.path.dirname(os.path.abspath(yaml_path))
+    logger.info(f"Base path: {yaml_base_path}")
+    
+    # Parse YAML
+    try:
+        manifest = YamlParser.parse_manifest(yaml_path)
+    except Exception as e:
+        logger.error(f"Error parsing YAML: {e}")
+        sys.exit(1)
     
     # Handle year extraction based on mode
     if args.profiles:
         year = None
         logger.info("Processing in PROFILES mode (no year required)")
+        
+        # Get list of citizens
+        try:
+            citizens = YamlParser.get_citizens(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting citizens from YAML: {e}")
+            citizens = []
+        
+        logger.info(f"Found {len(citizens)} citizen(s) in YAML")   
         
     else:
         # Extract year from filename or use override
@@ -806,45 +826,26 @@ async def main():
                 sys.exit(1)
         
         logger.info(f"Target year: {year}")
-    
-    # Get base path for resolving dataset paths
-    yaml_base_path = os.path.dirname(os.path.abspath(yaml_path))
-    logger.info(f"Base path: {yaml_base_path}")
-    
-    # Parse YAML
-    try:
-        manifest = YamlParser.parse_manifest(yaml_path)
-    except Exception as e:
-        logger.error(f"Error parsing YAML: {e}")
-        sys.exit(1)
-    
-    # Get list of ministers
-    try:
-        ministers = YamlParser.get_ministers(manifest)
-    except Exception as e:
-        logger.error(f"Error extracting ministers from YAML: {e}")
-        ministers = []
-    
-    logger.info(f"Found {len(ministers)} minister(s) in YAML")
 
-    # Get list of governments
-    try:
-        governments = YamlParser.get_governments(manifest)
-    except Exception as e:
-        logger.error(f"Error extracting governments from YAML: {e}")
-        governments = []
-    
-    logger.info(f"Found {len(governments)} government(s) in YAML")
-    
-    # Get list of citizens
-    try:
-        citizens = YamlParser.get_citizens(manifest)
-    except Exception as e:
-        logger.error(f"Error extracting citizens from YAML: {e}")
-        citizens = []
-    
-    logger.info(f"Found {len(citizens)} citizen(s) in YAML")
-    
+        # Get list of ministers
+        try:
+            ministers = YamlParser.get_ministers(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting ministers from YAML: {e}")
+            ministers = []
+        
+        logger.info(f"Found {len(ministers)} minister(s) in YAML")
+
+        # Get list of governments
+        try:
+            governments = YamlParser.get_governments(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting governments from YAML: {e}")
+            governments = []
+        
+        logger.info(f"Found {len(governments)} government(s) in YAML")
+
+
     # Initialize HTTP client
     await http_client.start()
     
@@ -865,7 +866,7 @@ async def main():
                     ingestion_service
                 )
             
-            # Process each minister entry sequentially - change to parallel later
+            # Process each minister entry
             for minister_entry in ministers:
                 await process_minister_entry(
                     minister_entry,
@@ -874,17 +875,17 @@ async def main():
                     read_service,
                     ingestion_service
                 )
-        
-        # Process each citizen entry (only relevant when --profiles is set)
-        for citizen_entry in citizens:
-            await process_citizen_entry(
-                citizen_entry,
-                yaml_base_path,
-                read_service,
-                ingestion_service
-            )
-          
-        logger.success("[COMPLETE] Ingestion process finished")
+        else:
+            # Process each citizen entry (only relevant when --profiles is set)
+            for citizen_entry in citizens:
+                await process_citizen_entry(
+                    citizen_entry,
+                    yaml_base_path,
+                    read_service,
+                    ingestion_service
+                )
+            
+            logger.success("[COMPLETE] Ingestion process finished")
     finally:
         # Clean up HTTP client
         await http_client.close()
