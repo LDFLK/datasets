@@ -514,7 +514,7 @@ async def add_profile_attribute(
             "values": [
                 {
                     "startTime": citizen_start_time,
-                    "endTime": citizen_end_time if citizen_end_time else "",
+                    "endTime": citizen_end_time,
                     "value": data_content
                 }
             ]
