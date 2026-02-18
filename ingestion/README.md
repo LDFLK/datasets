@@ -10,7 +10,9 @@ The ingestion system reads YAML data hierarchy files that describe the structure
 - **Ministers** → **Departments** → **Categories** → **Subcategories** → **Datasets**
 - **Ministers** → **Departments** → **Categories** → **Datasets**
 
-Each dataset is stored as a JSON file and is ingested as an attribute on the appropriate parent entity (category or subcategory).
+It also supports ingesting **citizen profiles** — personal datasets attached to individual citizen entities. Profiles are year-independent and are processed separately using the `--profiles` flag.
+
+Each dataset is stored as a JSON file and is ingested as an attribute on the appropriate parent entity (category, subcategory, or citizen).
 
 ## Prerequisites
 
@@ -96,14 +98,22 @@ python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.ya
 
 # Or with an explicit year override
 python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.yaml --year 2020
+
+# Ingest citizen profiles (no year required)
+python -m ingestion.ingest_data_yaml data/people/profiles_hierarchy.yaml --profiles
 ```
 
 ### Command Line Arguments
 
-- `yaml_file` (required): Path to the YAML manifest file
-- `--year` (optional): Override the year extracted from the filename
+| Argument | Type | Description |
+|---|---|---|
+| `yaml_file` | required | Path to the YAML manifest file |
+| `--year` | optional | Override the year extracted from the filename |
+| `--profiles` | optional flag | Process a profiles YAML — skips year extraction and only processes citizen entries |
 
-### Example
+### Standard Mode (without `--profiles`)
+
+Used for ingesting statistical datasets organised by ministers, departments, and categories. A year is required (either extracted from the filename or provided via `--year`).
 
 ```bash
 # Ingest 2020 data
@@ -113,13 +123,37 @@ python -m ingestion.ingest_data_yaml data/statistics/2020/data_hierarchy_2020.ya
 python -m ingestion.ingest_data_yaml data/statistics/2021/data_hierarchy_2021.yaml
 ```
 
+In this mode the script will:
+- Extract the year from the filename (or use `--year`)
+- Process governments, ministers, departments, categories, and their datasets
+
+### Profiles Mode (`--profiles`)
+
+Used for ingesting citizen profile datasets. Profiles are personal data records (e.g. name, political party, date of birth) attached to existing citizen entities. They are **not** year-specific.
+
+```bash
+# Ingest citizen profiles
+python -m ingestion.ingest_data_yaml data/people/profiles_hierarchy.yaml --profiles
+```
+
+In this mode the script will:
+- **Skip** year extraction entirely
+- **Skip** government and minister processing
+- Only process citizen entries and attach their profile datasets as attributes
+
 ## How It Works
 
+### Standard Mode
 1. **Parse YAML Manifest**: Reads the YAML file to extract the hierarchical structure
 2. **Find Entities**: Uses the Read Service to find existing ministers and departments by name and year
 3. **Create Categories**: Creates category and subcategory entities as needed
 4. **Process Datasets**: Reads dataset JSON files and adds them as attributes to parent entities
 5. **Create Relationships**: Establishes relationships between entities (e.g., `AS_CATEGORY`)
+
+### Profiles Mode (`--profiles`)
+1. **Parse YAML Manifest**: Reads the profiles YAML file to extract citizen entries
+2. **Find Citizens**: Uses the Read Service to look up existing citizen entities by name
+3. **Process Profiles**: Reads each citizen's profile `data.json` and attaches it as an attribute on the citizen entity using the citizen's own start/end time period
 
 ## Module Structure
 
@@ -169,7 +203,9 @@ If you see connection errors, verify that:
 
 ## Notes
 
-- The script processes ministers sequentially (can be parallelized later)
-- Datasets are validated before ingestion
+- The script processes ministers and citizens sequentially
+- Datasets are validated before ingestion; null values in rows are automatically converted to empty strings
 - The script handles time period calculations for attributes based on parent entity time ranges and dataset years
 - Categories and subcategories are checked for existence before creation to avoid duplicates
+- In profiles mode, citizen entities must already exist in the system — if a citizen is not found, it is skipped with an error log
+- If multiple citizen entities are found with the same name, a warning is logged and the first result is used
