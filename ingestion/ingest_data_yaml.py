@@ -284,7 +284,7 @@ async def add_dataset_attribute(
     # Resolve full path to dataset directory
     full_dataset_path = os.path.join(yaml_base_path, dataset_path)
     data_json_path = os.path.join(full_dataset_path, 'data.json')
-    metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
+    # metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
     
     # Check if dataset directory and data.json exist
     if not os.path.exists(full_dataset_path):
@@ -388,19 +388,19 @@ async def process_citizen_entry(
     ingestion_service: IngestionService
 ):
 
-    citizen_id_override = citizen_entry.get('id', None)
+    citizen_id = citizen_entry.get('id', None)
     citizen_name = citizen_entry.get('name', '')
 
-    if citizen_id_override:
+    if citizen_id:
         # ID takes priority
-        logger.info(f"[CITIZEN] Looking up by ID: {citizen_id_override}")
-        citizen_entity = await find_citizen_by_id(citizen_id_override, read_service)
+        logger.info(f"[CITIZEN] Looking up by ID: {citizen_id}")
+        citizen_entity = await find_citizen_by_id(citizen_id, read_service)
         if not citizen_entity:
-            logger.error(f"Citizen entity not found for ID '{citizen_id_override}'. Skipping.")
+            logger.error(f"Citizen entity not found for ID '{citizen_id}'. Skipping.")
             return
 
         citizen_name = Util.decode_protobuf_attribute_name(citizen_entity.name)
-        logger.info(f"[CITIZEN] Resolved by ID: {citizen_id_override} → {citizen_name}")
+        logger.info(f"[CITIZEN] Resolved by ID: {citizen_id} → {citizen_name}")
 
     elif citizen_name:
         # Fall back to name lookup
@@ -409,7 +409,6 @@ async def process_citizen_entry(
         if not citizen_entity:
             logger.error(f"Citizen entity not found for '{citizen_name}'. Skipping.")
             return
-
     else:
         logger.error("Citizen entry has neither 'name' nor 'id'. Skipping.")
         return
@@ -434,7 +433,7 @@ async def process_citizen_entry(
             ingestion_service=ingestion_service
         )
     else:
-        logger.info(f"No profiles found for citizen {citizen_name}")
+        logger.warning(f"No profiles found for citizen {citizen_name}")
 
 # Process profile datasets and add them as attributes to the citizen entity.
 async def process_profiles(

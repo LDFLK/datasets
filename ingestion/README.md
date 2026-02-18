@@ -141,6 +141,32 @@ In this mode the script will:
 - **Skip** government and minister processing
 - Only process citizen entries and attach their profile datasets as attributes
 
+#### Identifying citizens in the YAML
+
+Each citizen entry in the profiles YAML can be identified by **name** or **id**. Note, if **both** are provided, the `id` takes priority.
+
+```yaml
+citizen:
+  # By name — looks up the citizen entity by name
+  - name: Harini Amarasuriya
+    profile:
+    - profiles/Harini Amarasuriya
+
+  # By id — looks up the citizen entity by ID, resolves the name from the returned entity
+  - id: 2151-38_cit_14
+    profile:
+    - profiles/Anura Karunathilaka
+
+  # Both — id takes priority, name is ignored for lookup
+  - id: 2151-38_cit_14
+    name: Anura Karunathilaka
+    profile:
+    - profiles/Anura Karunathilaka
+```
+
+> [!NOTE]
+> The citizen entity must already exist in the system. If it cannot be found by the given name or id, the entry is skipped with an error log. When looking up by id, the entity must be of kind `Person/citizen` — any other kind will also be skipped.
+
 ## How It Works
 
 ### Standard Mode
@@ -152,7 +178,7 @@ In this mode the script will:
 
 ### Profiles Mode (`--profiles`)
 1. **Parse YAML Manifest**: Reads the profiles YAML file to extract citizen entries
-2. **Find Citizens**: Uses the Read Service to look up existing citizen entities by name
+2. **Find Citizens**: Uses the Read Service to look up existing citizen entities — by `id` if provided, otherwise by `name`
 3. **Process Profiles**: Reads each citizen's profile `data.json` and attaches it as an attribute on the citizen entity using the citizen's own start/end time period
 
 ## Module Structure
