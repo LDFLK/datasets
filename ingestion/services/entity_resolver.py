@@ -197,7 +197,7 @@ async def find_citizen_by_name(name: str, read_service: ReadService) -> Optional
     except Exception as e:
         raise Exception(f"Failed to search for citizens: {e}")
     
-    if not citizens or len(citizens) == 0:
+    if not citizens:
         return None
     
     # Warn if multiple citizens found with the same name
