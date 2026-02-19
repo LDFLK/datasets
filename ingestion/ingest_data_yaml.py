@@ -503,7 +503,7 @@ async def add_profile_attribute(
         return False
     
     # Generate attribute name from citizen name
-    attribute_name = Util.format_attribute_name(citizen_name) + " Profile"
+    attribute_name = str(citizen_id) + "_profile"
     
     columns = data_content.get('columns', [])
     rows = data_content.get('rows', [])
