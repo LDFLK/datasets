@@ -14,7 +14,9 @@ from ingestion.services.ingestion_service import IngestionService
 from ingestion.services.entity_resolver import (
     find_ministers_by_name_and_year, 
     find_department_by_name_and_ministers,
-    find_government_by_name
+    find_government_by_name,
+    find_citizen_by_name,
+    find_citizen_by_id
 )
 from ingestion.utils.http_client import http_client
 from ingestion.models.schema import Entity, EntityCreate, Relation, Kind, NameValue, AddRelation, AddRelationValue
@@ -282,7 +284,7 @@ async def add_dataset_attribute(
     # Resolve full path to dataset directory
     full_dataset_path = os.path.join(yaml_base_path, dataset_path)
     data_json_path = os.path.join(full_dataset_path, 'data.json')
-    metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
+    # metadata_json_path = os.path.join(full_dataset_path, 'metadata.json')
     
     # Check if dataset directory and data.json exist
     if not os.path.exists(full_dataset_path):
@@ -377,6 +379,163 @@ async def process_datasets(
         
         if not success:
             logger.warning(f"Failed to add dataset '{dataset_name}' as attribute")
+
+# Process a single citizen entry from the YAML.
+async def process_citizen_entry(
+    citizen_entry: Dict[str, Any],
+    yaml_base_path: str,
+    read_service: ReadService,
+    ingestion_service: IngestionService
+):
+
+    citizen_id = citizen_entry.get('id', None)
+    citizen_name = citizen_entry.get('name', '')
+
+    if citizen_id:
+        # ID takes priority
+        logger.info(f"[CITIZEN] Looking up by ID: {citizen_id}")
+        citizen_entity = await find_citizen_by_id(citizen_id, read_service)
+        if not citizen_entity:
+            logger.error(f"Citizen entity not found for ID '{citizen_id}'. Skipping.")
+            return
+
+        citizen_name = Util.decode_protobuf_attribute_name(citizen_entity.name)
+        logger.info(f"[CITIZEN] Resolved by ID: {citizen_id} → {citizen_name}")
+
+    elif citizen_name:
+        # Fall back to name lookup
+        logger.info(f"[CITIZEN] Processing: {citizen_name}")
+        citizen_entity = await find_citizen_by_name(citizen_name, read_service)
+        if not citizen_entity:
+            logger.error(f"Citizen entity not found for '{citizen_name}'. Skipping.")
+            return
+    else:
+        logger.error("Citizen entry has neither 'name' nor 'id'. Skipping.")
+        return
+    
+    citizen_id = citizen_entity.id
+    logger.info(f"[SELECTED] Using citizen ID: {citizen_id}")
+    
+    # Extract time period from the citizen entity
+    citizen_start_time = citizen_entity.created
+    citizen_end_time = citizen_entity.terminated if citizen_entity.terminated else ""
+    
+    # Process profiles for this citizen
+    profiles = YamlParser.get_profiles(citizen_entry)
+    if profiles:
+        await process_profiles(
+            profiles,
+            citizen_id,
+            citizen_name,
+            yaml_base_path,
+            citizen_start_time=citizen_start_time,
+            citizen_end_time=citizen_end_time,
+            ingestion_service=ingestion_service
+        )
+    else:
+        logger.warning(f"No profiles found for citizen {citizen_name}")
+
+# Process profile datasets and add them as attributes to the citizen entity.
+async def process_profiles(
+    profiles: List[str],
+    citizen_id: str,
+    citizen_name: str,
+    yaml_base_path: str,
+    citizen_start_time: str,
+    citizen_end_time: str,
+    ingestion_service: IngestionService
+):
+
+    for profile_path in profiles:
+        logger.info(f"[PROFILE] Processing profile for citizen {citizen_name} ({citizen_id})")
+        
+        # Add profile as attribute
+        success = await add_profile_attribute(
+            citizen_id=citizen_id,
+            profile_path=profile_path,
+            yaml_base_path=yaml_base_path,
+            citizen_start_time=citizen_start_time,
+            citizen_end_time=citizen_end_time,
+            ingestion_service=ingestion_service
+        )
+        
+        if not success:
+            logger.warning(f"Failed to add profile for {citizen_name} as attribute")
+
+# Add a profile dataset as an attribute to a citizen entity. Return True if successful
+async def add_profile_attribute(
+    citizen_id: str,
+    profile_path: str,
+    yaml_base_path: str,
+    citizen_start_time: str,
+    citizen_end_time: str,
+    ingestion_service: IngestionService
+) -> bool:
+
+    # Resolve full path to profile directory
+    full_profile_path = os.path.join(yaml_base_path, profile_path)
+    data_json_path = os.path.join(full_profile_path, 'data.json')
+    
+    # Check if profile directory and data.json exist
+    if not os.path.exists(full_profile_path):
+        logger.warning(f"Profile path does not exist: {full_profile_path}")
+        return False
+    
+    if not os.path.exists(data_json_path):
+        logger.warning(f"data.json not found at: {data_json_path}")
+        return False
+    
+    # Read data.json
+    try:
+        with open(data_json_path, 'r', encoding='utf-8') as f:
+            data_content = json.load(f)
+    except json.JSONDecodeError as e:
+        logger.error(f"Failed to parse data.json: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"Failed to read data.json: {e}")
+        return False
+    
+    # Validate structure (also sanitizes null values in rows)
+    if not Util.validate_tabular_dataset(data_content):
+        return False
+    
+    # Generate attribute name from citizen name
+    attribute_name = str(citizen_id) + "_profile"
+    
+    columns = data_content.get('columns', [])
+    rows = data_content.get('rows', [])
+    logger.info(f"[ATTRIBUTE] Adding profile attribute '{attribute_name}' to citizen {citizen_id}")
+    logger.info(f"  Columns: {len(columns)}, Rows: {len(rows)}")
+    
+    # Create attribute structure
+    attribute = {
+        "key": attribute_name,
+        "value": {
+            "values": [
+                {
+                    "startTime": citizen_start_time,
+                    "endTime": citizen_end_time,
+                    "value": data_content
+                }
+            ]
+        }
+    }
+    
+    # Update citizen entity with the attribute
+    try:
+        entity_update = EntityCreate(
+            id=citizen_id,
+            attributes=[attribute]
+        )
+        
+        await ingestion_service.update_entity(citizen_id, entity_update)
+        logger.success(f"Added profile attribute '{attribute_name}' to citizen {citizen_id}")
+        return True
+        
+    except Exception as e:
+        logger.error(f"Failed to update citizen entity with profile attribute: {e}")
+        return False
 
 # Process a single department entry from the YAML.
 async def process_department_entry(
@@ -616,6 +775,11 @@ async def main():
         default=None,
         help='Override year extracted from filename (optional)'
     )
+    parser.add_argument(
+        '--profiles',
+        action='store_true',
+        help='Process profiles YAML (no year required, only processes citizens)'
+    )
     
     args = parser.parse_args()
     
@@ -623,20 +787,9 @@ async def main():
     if not os.path.exists(yaml_path):
         logger.error(f"YAML file not found: {yaml_path}")
         sys.exit(1)
-    
-    # Extract year from filename or use override
-    if args.year:
-        year = args.year
-    else:
-        try:
-            year = YamlParser.extract_year_from_filename(yaml_path)
-        except ValueError as e:
-            logger.error(f"{e}")
-            sys.exit(1)
-    
+
     logger.info(f"Processing YAML file: {yaml_path}")
-    logger.info(f"Target year: {year}")
-    
+
     # Get base path for resolving dataset paths
     yaml_base_path = os.path.dirname(os.path.abspath(yaml_path))
     logger.info(f"Base path: {yaml_base_path}")
@@ -648,24 +801,52 @@ async def main():
         logger.error(f"Error parsing YAML: {e}")
         sys.exit(1)
     
-    # Get list of ministers
-    try:
-        ministers = YamlParser.get_ministers(manifest)
-    except Exception as e:
-        logger.error(f"Error extracting ministers from YAML: {e}")
-        ministers = []
-    
-    logger.info(f"Found {len(ministers)} minister(s) in YAML")
+    # Handle year extraction based on mode
+    if args.profiles:
+        year = None
+        logger.info("Processing in PROFILES mode (no year required)")
+        
+        # Get list of citizens
+        try:
+            citizens = YamlParser.get_citizens(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting citizens from YAML: {e}")
+            citizens = []
+        
+        logger.info(f"Found {len(citizens)} citizen(s) in YAML")   
+        
+    else:
+        # Extract year from filename or use override
+        if args.year:
+            year = args.year
+        else:
+            try:
+                year = YamlParser.extract_year_from_filename(yaml_path)
+            except ValueError as e:
+                logger.error(f"{e}")
+                sys.exit(1)
+        
+        logger.info(f"Target year: {year}")
 
-    # Get list of governments
-    try:
-        governments = YamlParser.get_governments(manifest)
-    except Exception as e:
-        logger.error(f"Error extracting governments from YAML: {e}")
-        governments = []
-    
-    logger.info(f"Found {len(governments)} government(s) in YAML")
-    
+        # Get list of ministers
+        try:
+            ministers = YamlParser.get_ministers(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting ministers from YAML: {e}")
+            ministers = []
+        
+        logger.info(f"Found {len(ministers)} minister(s) in YAML")
+
+        # Get list of governments
+        try:
+            governments = YamlParser.get_governments(manifest)
+        except Exception as e:
+            logger.error(f"Error extracting governments from YAML: {e}")
+            governments = []
+        
+        logger.info(f"Found {len(governments)} government(s) in YAML")
+
+
     # Initialize HTTP client
     await http_client.start()
     
@@ -674,27 +855,38 @@ async def main():
         read_service = ReadService()
         ingestion_service = IngestionService()
 
-        # Process each government entry
-        for government_entry in governments:
-            await process_government_entry(
-                government_entry,
-                yaml_base_path,
-                year,
-                read_service,
-                ingestion_service
-            )
-        
-        # Process each minister entry sequentially - change to parallel later
-        for minister_entry in ministers:
-            await process_minister_entry(
-                minister_entry,
-                year,
-                yaml_base_path,
-                read_service,
-                ingestion_service
-            )
-          
-        logger.success("[COMPLETE] Ingestion process finished")
+        # Process governments and ministers only when NOT in profiles mode
+        if not args.profiles:
+            # Process each government entry
+            for government_entry in governments:
+                await process_government_entry(
+                    government_entry,
+                    yaml_base_path,
+                    year,
+                    read_service,
+                    ingestion_service
+                )
+            
+            # Process each minister entry
+            for minister_entry in ministers:
+                await process_minister_entry(
+                    minister_entry,
+                    year,
+                    yaml_base_path,
+                    read_service,
+                    ingestion_service
+                )
+        else:
+            # Process each citizen entry (only relevant when --profiles is set)
+            for citizen_entry in citizens:
+                await process_citizen_entry(
+                    citizen_entry,
+                    yaml_base_path,
+                    read_service,
+                    ingestion_service
+                )
+            
+            logger.success("[COMPLETE] Ingestion process finished")
     finally:
         # Clean up HTTP client
         await http_client.close()
