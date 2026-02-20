@@ -452,7 +452,6 @@ async def process_profiles(
         # Add profile as attribute
         success = await add_profile_attribute(
             citizen_id=citizen_id,
-            citizen_name=citizen_name,
             profile_path=profile_path,
             yaml_base_path=yaml_base_path,
             citizen_start_time=citizen_start_time,
@@ -461,12 +460,11 @@ async def process_profiles(
         )
         
         if not success:
-            logger.warning(f"Failed to add profile '{profile_name}' as attribute")
+            logger.warning(f"Failed to add profile for {citizen_name} as attribute")
 
 # Add a profile dataset as an attribute to a citizen entity. Return True if successful
 async def add_profile_attribute(
     citizen_id: str,
-    citizen_name: str,
     profile_path: str,
     yaml_base_path: str,
     citizen_start_time: str,

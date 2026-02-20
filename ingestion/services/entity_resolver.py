@@ -238,4 +238,4 @@ async def find_citizen_by_id(citizen_id: str, read_service: ReadService) -> Opti
         )
         return None
     
-    return citizens[0]
+    return entity
