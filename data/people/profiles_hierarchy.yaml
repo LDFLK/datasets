@@ -68,4 +68,16 @@ citizen:
   - name: Anthonige Anil Jayantha Fernando
     profile:
     - profiles/Anthonige Anil Jayantha Fernando
+  - name: Dinesh Chandra Rupasingha Gunawardena
+    profile:
+    - profiles/Dinesh Chandra Rupasingha Gunawardena
+  - name: Ranil Wickremesinghe
+    profile:
+    - profiles/Ranil Wickremesinghe
+  - name: Mahinda Rajapaksa
+    profile:
+    - profiles/Mahinda Rajapaksa
+  - name: Gotabaya Rajapaksa
+    profile:
+    - profiles/Gotabaya Rajapaksa
     
