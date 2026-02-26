@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Harshana Nanayakkara",
+            "National People's Power",
+            "1972-01-16",
+            "Buddhism",
+            "Attorney-at-Law",
+            "harshanan@parliament.lk",
+            "0773572736",
+            "LLB (Honors)",
+            "Barrister at Law, Attorney at Law",
+            "data/people/images/harshana-nanayakkara-npp.jpg"
+        ]
+    ]
+}

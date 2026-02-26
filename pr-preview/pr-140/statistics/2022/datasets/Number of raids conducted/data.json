@@ -1,0 +1,12 @@
+{
+  "columns": [
+    "Number of Raids conducted",
+    "Number of Successful Raids"
+  ],
+  "rows": [
+    [
+      27,
+      27
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "columns": ["District", "Female", "Male"],
+    "rows": [
+      ["Ampara", 2529, 14990],
+      ["Anuradhapura", 8435, 6011],
+      ["Badulla", 4070, 3276],
+      ["Batticaloa", 3792, 14215],
+      ["Colombo", 12235, 20577],
+      ["Galle", 6921, 11411],
+      ["Gampaha", 12460, 21313],
+      ["Hambantota", 2541, 4276],
+      ["Jaffna", 345, 3040],
+      ["Kalutara", 7064, 10700],
+      ["Kandy", 9382, 15435],
+      ["Kegalle", 4980, 6625],
+      ["Kilinochchi", 235, 342],
+      ["Mannar", 278, 417],
+      ["Matale", 4886, 4938],
+      ["Matara", 2702, 5407],
+      ["Monaragala", 1422, 1507],
+      ["Mullaitivu", 261, 311],
+      ["Nuwara Eliya", 5366, 3096],
+      ["Polonnaruwa", 4215, 3288],
+      ["Puttalam", 8145, 9471],
+      ["Ratnapura", 5151, 4897],
+      ["Trincomalee", 4523, 5184],
+      ["Vavuniya", 889, 1133]
+    ]
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Mahinda Rajapaksa",
+            "Sri Lanka Podujana Peramuna (SLPP)",
+            "1945-11-18",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "data/people/images/mahinda-rajapaksa.jpg"
+        ]
+    ]
+}
