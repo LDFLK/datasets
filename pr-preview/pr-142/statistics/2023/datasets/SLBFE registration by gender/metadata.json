@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "SLBFE registration by gender",
+  "column_count": 2,
+  "row_count": 1,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.slbfe.lk/wp-content/uploads/2024/10/sodapdf-converted-18_compressed.pdf",
+  "resource_page": "7",
+  "resource_section": "Registration with the SLBFE by Gender 2019-2023",
+  "resource_identifier": "Table 1",
+  "extracted_date": "2025-09-05",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains SLBFE (Sri Lanka Bureau of Foreign Employment) registration statistics by gender for 2023, showing the distribution of registered workers by gender. Columns: Year, Male (Number), Male (%), Female (Number), Female (%), and Total. Data shows that in 2023, there were 164,608 male registrations (55.30%) and 133,048 female registrations (44.70%), totaling 297,656 workers. This indicates a slight male majority in foreign employment registrations."
+}

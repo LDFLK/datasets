@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Gotabaya Rajapaksa",
+            "Sri Lanka Podujana Peramuna (SLPP)",
+            "1949-06-20",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "data/people/images/gotabaya-rajapaksa.jpg"
+        ]
+    ]
+}

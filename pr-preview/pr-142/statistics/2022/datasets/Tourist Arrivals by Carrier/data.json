@@ -1,0 +1,21 @@
+{
+  "columns": ["Airline", "Number of Passengers"],
+  "rows": [
+    ["SriLankan Airlines", 239556],
+    ["Qatar Airways", 123156],
+    ["Emirates", 108042],
+    ["IndiGo", 35493],
+    ["flydubai", 32026],
+    ["Aeroflot", 19314],
+    ["Singapore Airlines", 18893],
+    ["Turkish Airlines", 15695],
+    ["Etihad Airways", 15613],
+    ["Air Arabia", 15609],
+    ["azur air", 11768],
+    ["Air India", 11714],
+    ["LOT Polish Airlines", 11664],
+    ["SpiceJet", 7558],
+    ["air astana", 7073],
+    ["OTHERS", 46814]
+  ]
+}

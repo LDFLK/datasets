@@ -1,0 +1,15 @@
+{
+  "columns": ["Purpose", "Percentage"],
+  "rows": [
+    ["Pleasure/Holiday", 87.52],
+    ["Business", 2.75],
+    ["Visiting Friends & Relations", 7.61],
+    ["Convention & meeting", 1.13],
+    ["Religious & Cultural", 0.01],
+    ["Health", 0.67],
+    ["Sports", 0.25],
+    ["Official", 0.02],
+    ["Education", 0.03],
+    ["Others", 0.01]
+  ]
+}

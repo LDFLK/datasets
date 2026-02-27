@@ -1,0 +1,22 @@
+{
+  "columns": [
+    "Professional Level",
+    "Middle Level",
+    "Skilled",
+    "Clerical & Related",
+    "Semi Skilled Domestic housekeeping assistants",
+    "Semi Skilled Others",
+    "Low Skilled"
+  ],
+  "rows": [
+    [
+      14307,
+      8130,
+      92836,
+      12134,
+      74007,
+      4133,
+      105509
+    ]
+  ]
+}

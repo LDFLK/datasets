@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Cadre Management of Ministry of Foreign Affairs",
+  "column_count": 4,
+  "row_count": 9,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://mfa.gov.lk/en/wp-content/uploads/2023/06/APR-2022-Trilingual-with-Cover-Page.pdf",
+  "resource_page": "338",
+  "resource_section": "6.1 Cadre Management",
+  "resource_identifier": "6.1.2 Staff of the Missions as at 31 December 2022",
+  "extracted_date": "2025-09-03",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}

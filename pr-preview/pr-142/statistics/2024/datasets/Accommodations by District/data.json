@@ -1,0 +1,33 @@
+{
+    "columns": [
+        "District",
+        "Number of Rooms"
+    ],
+    "rows": [
+        ["Ampara", 831],
+        ["Anuradhapura", 1784],
+        ["Badulla", 2055],
+        ["Batticaloa", 991],
+        ["Colombo", 11110],
+        ["Galle", 8885],
+        ["Gampaha", 4606],
+        ["Hambantota", 2556],
+        ["Jaffna", 712],
+        ["Kalutara", 4053],
+        ["Kandy", 4038],
+        ["Kegalle", 686],
+        ["Kilinochchi", 108],
+        ["Kurunegala", 580],
+        ["Mannar", 45],
+        ["Matale", 2404],
+        ["Matara", 2681],
+        ["Monaragala", 814],
+        ["Mullaitivu", 63],
+        ["Nuwara Eliya", 2553],
+        ["Polonnaruwa", 640],
+        ["Puttalam", 1558],
+        ["Rathnapura", 769],
+        ["Trincomalee", 798],
+        ["Vavuniya", 135]
+    ]
+}
