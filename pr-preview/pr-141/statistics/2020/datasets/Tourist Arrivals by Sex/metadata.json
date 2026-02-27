@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Tourist Arrivals by Sex",
+  "column_count": 2,
+  "row_count": 2,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "80",
+  "resource_section": "Percentage Distribution of Tourists by Sex and Age- 2007- 2020",
+  "resource_identifier": "Table 13",
+  "extracted_date": "2025-09-04",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains tourist arrival statistics by sex for 2020, showing the distribution of tourists by gender as percentages. Columns: Sex and Percentage. Data shows Male (51.9%) and Female (48.1%) arrivals, indicating a relatively balanced gender distribution."
+}

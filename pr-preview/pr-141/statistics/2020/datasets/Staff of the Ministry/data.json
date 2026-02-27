@@ -1,0 +1,10 @@
+
+{
+  "columns": ["Category","Approved Cadre", "Existing", "Vacancies", "Excess"],
+  "rows": [
+    ["Senior", 98, 86, 22, 10],
+    ["Tertiary", 8, 2, 6, 0],
+    ["Secondary", 363, 345, 28, 10],
+    ["Primary", 131, 147, 7, 23]
+  ]
+}

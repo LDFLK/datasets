@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Dinesh Chandra Rupasingha Gunawardena",
+            "Sri Lanka Podujana Peramuna (SLPP)",
+            "1949-03-02",
+            null,
+            null,
+            null,
+            null,
+            "B.B.A. University of Oregon, USA",
+            "Diploma International Business",
+            "data/people/images/dinesh-gunawardena.jpg"
+        ]
+    ]
+}

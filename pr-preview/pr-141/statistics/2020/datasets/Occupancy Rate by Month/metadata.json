@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Occupancy Rate by Month",
+  "column_count": 2,
+  "row_count": 12,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.sltda.gov.lk/storage/common_media/Annual%20Stastistical%20Report%202021%20-Final%2025.4.20223624932970.pdf",
+  "resource_page": "31",
+  "resource_section": "Distribution of occupancy rates by month (Percentage)- 2020",
+  "resource_identifier": "Chart 18",
+  "extracted_date": "2025-09-04",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": "Dataset contains hotel occupancy rate statistics by month for 2020, showing the occupancy rate percentage for each month. Columns: Month and Occupancy Rate. Data shows occupancy rates declining from January (55.9%) and February (42.3%) to very low rates from April onwards (ranging from 2.1% to 9.7%), clearly reflecting the severe impact of COVID-19 travel restrictions on the tourism industry."
+}
