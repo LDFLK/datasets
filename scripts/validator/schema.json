@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": ["columns", "rows"],
+  "properties": {
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {},
+        "minItems": 1
+      }
+    }
+  },
+  "additionalProperties": false
+}
