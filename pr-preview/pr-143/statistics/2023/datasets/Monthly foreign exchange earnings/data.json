@@ -1,0 +1,17 @@
+{
+"columns": ["Month","Earning (Rs. Million)"],
+"rows": [
+    ["January",158555.9],
+    ["February", 147473.4],
+    ["March", 187242.7],
+    ["April", 145932.1],
+    ["May", 148787.7],
+    ["June", 143312.4],
+    ["July", 172724.9],
+    ["August", 160519],
+    ["September", 155693.4],
+    ["October", 168011.2],
+    ["November", 176376.4],
+    ["December", 186156.8]
+]
+}

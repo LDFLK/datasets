@@ -1,0 +1,28 @@
+{
+    "columns": [
+        "Name",
+        "Political Party",
+        "Date of Birth",
+        "Religion",
+        "Profession",
+        "Email",
+        "Phone Number",
+        "Education Qualifications",
+        "Professional Qualifications",
+        "Image URL"
+    ],
+    "rows": [
+        [
+            "Ranil Wickremesinghe",
+            "United National Party (UNP)",
+            "1949-03-24",
+            null,
+            null,
+            null,
+            null,
+            "LLB",
+            "Attorney-at-Law, Advocate",
+            "data/people/images/ranil-wickremesinghe.jpg"
+        ]
+    ]
+}

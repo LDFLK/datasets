@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "Tourist Arrivals by Gender",
+  "column_count": 2,
+  "row_count": 2,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://srilanka.travel/SLTDA_documents/ASR%202019.pdf",
+  "resource_page": "",
+  "resource_section": "",
+  "resource_identifier": "",
+  "extracted_date": "2025-01-09",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "",
+  "remarks": ""
+}

@@ -1,0 +1,30 @@
+{
+  "columns": ["District", "Occupancy Rate"],
+  "rows": [
+    ["Colombo", 15.9],
+    ["Galle", 23.2],
+    ["Gampaha", 16.3],
+    ["Kandy", 22.0],
+    ["Kalutara", 15.5],
+    ["Matale", 16.6],
+    ["Hambantota", 16.9],
+    ["Nuwara Eliya", 15.4],
+    ["Matara", 16.8],
+    ["Badulla", 17.2],
+    ["Anuradhapura", 16.9],
+    ["Puttalam", 17.1],
+    ["Batticaloa", 18.1],
+    ["Ampara", 8.5],
+    ["Polonnaruwa", 7.1],
+    ["Trincomalee", 14.1],
+    ["Ratnapura", 8.9],
+    ["Moneragala", 9.8],
+    ["Jaffna", 14.5],
+    ["Kurunegala", 15.7],
+    ["Kegalle", 9.1],
+    ["Vavuniya", 10.6],
+    ["Kilinochchi", 0],
+    ["Mullaitivu", 0],
+    ["Mannar", 0]
+  ]
+}

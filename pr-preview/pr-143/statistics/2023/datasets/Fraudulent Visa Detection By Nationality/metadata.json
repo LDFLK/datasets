@@ -1,0 +1,16 @@
+{
+  "storage_type": "tabular",
+  "dataset_name": "fraudulent_visa_detection_by_nationality",
+  "column_count": 2,
+  "row_count": 19,
+  "node_count": null,
+  "edges_count": null,
+  "resource": "https://www.immigration.gov.lk/content/files/reports/performance_report_2023_english.pdf",
+  "resource_page": "62",
+  "resource_section": "Detection of fraudulent visa use through the Border Surveillance Unit (by nationality) in relation to the year 2023",
+  "resource_identifier": "2.15",
+  "extracted_date": "2025-09-15",
+  "extracted_by": "Lanka Data Foundation",
+  "verified_by": "Lanka Data Foundation",
+  "remarks": ""
+}
