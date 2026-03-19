@@ -1,3 +1,3 @@
 class BaseValidator:
-    def validate(self, data, file_path):
+    def validate(self, file_path):
         raise NotImplementedError
