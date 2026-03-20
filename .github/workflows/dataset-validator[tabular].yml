@@ -3,14 +3,24 @@ name: Run Tabular Validator
 on:
   pull_request:
     branches:
-      - workflow/validating-datasets
+      - main
     paths:
       - 'data/statistics/**'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Validation mode"
+        required: false
+        default: "tabular"
 
 jobs:
   validate:
-    name: Validate Statistics Data
+    name: Validate Statistics Data [Tabular]
     runs-on: ubuntu-latest
+
+    env:
+      DATASET_PATH: ${{ vars.DATASET_DIR_PATH_VAR || '../../data/statistics' }}
+      MODE: ${{ github.event.inputs.mode || 'tabular' }}
 
     steps:
       - name: Checkout repository
@@ -20,11 +30,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
+        
       - name: Install dependencies
-        working-directory: scripts/validator
-        run: pip install -r requirements.txt
+        run: pip install -r scripts/validator/requirements.txt
 
       - name: Run validator
         working-directory: scripts/validator
-        run: python main.py ../../data/statistics tabular
+        run: |
+          echo "Running with:"
+          echo "Dataset Directory: $DATASET_PATH"
+          echo "Validation Mode: $MODE"
+
+          python main.py "$DATASET_PATH" "$MODE"
