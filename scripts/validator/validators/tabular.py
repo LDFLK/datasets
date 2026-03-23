@@ -41,39 +41,21 @@ class TabularValidator(BaseValidator):
         errors = []
         for j, value in enumerate(row):
             expected_type = type(first_row[j])
-            if expected_type is str:    
-                if not isinstance(value, expected_type):
-                    errors.append(
-                            {
-                                "type": "error",
-                                "file": file_path,
-                                "row": i,
-                                "column": columns[j],
-                                "message": f"has {value} ({type(value).__name__}), expected {expected_type.__name__}",
-                            }
-                    )
-            elif expected_type is int:
-                if not isinstance(value, expected_type):
-                    errors.append(
-                        {
-                            "type": "error",
-                            "file": file_path,
-                            "row": i,
-                            "column": columns[j],
-                            "message": f"has {value} ({type(value).__name__}), expected {expected_type.__name__}",
-                        }
-                    )
-            elif expected_type is float:
-                if not isinstance(value, (expected_type, int)):
-                    errors.append(
-                        {
-                            "type": "error",
-                            "file": file_path,
-                            "row": i,
-                            "column": columns[j],
-                            "message": f"has {value} ({type(value).__name__}), expected {expected_type.__name__} or whole number",
-                        }
-                    )
+            if expected_type is float:
+                allowed_types = (float, int)
+                expected_msg = "float or whole number"
+            else:
+                allowed_types = (expected_type)
+                expected_msg = expected_type.__name__
+            
+            if not isinstance(value, allowed_types):
+                errors.append({
+                    "type": "error",
+                    "file": file_path,
+                    "row": i,
+                    "column": columns[j],
+                    "message": f"has {value} ({type(value).__name__}), expected {expected_msg}",
+                })
         return errors
 
     def _check_empty_values(self, file_path, i, row, columns):
