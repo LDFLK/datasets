@@ -116,14 +116,13 @@ class TabularValidator(BaseValidator):
             else:
                 message = "No rows or columns found"
 
-            errors.extend([{
+            errors.append({
                     "type": "error",
                     "file": file_path,
                     "row": rows if rows else None,
                     "column": columns if columns else None,
                     "message": message
-                }
-            ])
+                })
             return errors, warnings
 
         errors.extend(self._check_duplicate_columns(file_path, columns))
