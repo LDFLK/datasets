@@ -7,7 +7,6 @@ class Utils:
             location += f"Row {issue['row']}"
 
         if issue.get("column"):
-            # handle list of columns OR single column
             if isinstance(issue["column"], list):
                 cols = ", ".join(issue["column"])
                 location += f", Columns [{cols}]"

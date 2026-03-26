@@ -29,7 +29,7 @@ def test_check_row_column_mismatch(tabular_validator):
     assert len(errors) == 1
     assert errors[0]["type"] == "error"
     assert errors[0]["row"] == 1
-    assert "has only 3 value(s), expected 2 value(s)" in errors[0]["message"]
+    assert "has 3 value(s), expected 2 value(s)" in errors[0]["message"]
 
 def test_check_data_types(tabular_validator):
     columns = ["id", "score", "name"]
@@ -69,22 +69,22 @@ def test_check_value_overflow(tabular_validator):
     warnings = tabular_validator._check_value_overflow("mock.json", 0, row, columns)
     assert len(warnings) == 1
     assert warnings[0]["column"] == "big_num"
-    assert "this is a big integer in postgres" in warnings[0]["message"]
+    assert "which is a BIGINT as it exceeds PostgreSQL's 32-bit integer limit." in warnings[0]["message"]
 
 @patch("validators.tabular.open")
 def test_validate_invalid_json(mock_file_open, tabular_validator):
     mock_file_open.side_effect = FileNotFoundError()
-    errors, warnings = tabular_validator.validate("missing.json")
+    errors, warnings = tabular_validator.validate_data("missing.json")
     assert len(errors) == 1
     assert len(warnings) == 0
     assert "Invalid JSON" in errors[0]
 
 @patch("validators.tabular.open", new_callable=mock_open, read_data='{"invalid": "schema"}')
-def test_validate_schema_error(mock_file_open, tabular_validator):
-    errors, warnings = tabular_validator.validate("schema_error.json")
+def test_validate_schema_error(_mock_file_open, tabular_validator):
+    errors, warnings = tabular_validator.validate_data("schema_error.json")
     assert len(errors) == 1
     assert len(warnings) == 0
-    assert "Schema error" in errors[0]
+    assert "Schema error → 'columns' is a required property" in errors[0]["message"]
 
 @patch("validators.tabular.open", new_callable=mock_open)
 def test_validate_success(mock_file_open, tabular_validator):
@@ -96,7 +96,7 @@ def test_validate_success(mock_file_open, tabular_validator):
         ]
     }
     mock_file_open.return_value.read.return_value = json.dumps(valid_data)
-    errors, warnings = tabular_validator.validate("valid.json")
+    errors, warnings = tabular_validator.validate_data("valid.json")
     assert len(errors) == 0
     assert len(warnings) == 0
 
@@ -110,7 +110,7 @@ def test_validate_with_warnings_and_errors(mock_file_open, tabular_validator):
         ]
     }
     mock_file_open.return_value.read.return_value = json.dumps(invalid_data)
-    errors, warnings = tabular_validator.validate("invalid.json")
+    errors, warnings = tabular_validator.validate_data("invalid.json")
     
     # Should have duplicate column error, and type mismatch error for 'not-int'
     assert len(errors) >= 2 

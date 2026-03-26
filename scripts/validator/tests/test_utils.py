@@ -38,7 +38,7 @@ def test_format_issue_without_row_and_column():
     assert result == "[ERROR] config.json:  File not found or unreadable"
 
 
-def test_format_issue_without_rosw_and_column():
+def test_format_issue_without_rows_and_columns():
     issue = {
         "type": "error",
         "file": "file.csv",

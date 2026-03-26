@@ -3,7 +3,7 @@ from unittest.mock import patch, MagicMock
 from core.baseRunner import run_validation
 
 class MockValidator:
-    def validate(self, path):
+    def validate_data(self, path):
         # We'll override this in specific tests
         return [], []
 
@@ -23,7 +23,7 @@ def test_run_validation_no_files_found(mock_path_class, capsys):
 
 @patch("core.baseRunner.Path")
 def test_run_validation_all_valid(mock_path_class, capsys):
-    # Setup mock paths to return one file
+    # Setup mock paths to return two file
     mock_path_instance = MagicMock()
     # Need to return an interable for rglob
     mock_path_instance.rglob.return_value = ["mock_data_1.json", "mock_data_2.json"]
@@ -38,7 +38,7 @@ def test_run_validation_all_valid(mock_path_class, capsys):
 
     assert excinfo.value.code == 0
     captured = capsys.readouterr()
-    assert "All data valid ✅" in captured.out
+    assert "All data is valid ✅" in captured.out
 
 @patch("core.baseRunner.Path")
 def test_run_validation_with_errors_and_warnings(mock_path_class, capsys):
@@ -47,7 +47,7 @@ def test_run_validation_with_errors_and_warnings(mock_path_class, capsys):
     mock_path_class.return_value = mock_path_instance
 
     class FailureValidator(MockValidator):
-        def validate(self, path):
+        def validate_data(self, path):
             errors = [{
                 "type": "error", "file": str(path), "row": 1, "column": "id", "message": "is wrong"
             }]

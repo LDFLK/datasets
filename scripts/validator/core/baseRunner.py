@@ -14,7 +14,7 @@ def run_validation(file_path, validator):
         sys.exit(0)
 
     for path in paths:
-        errors, warnings = validator.validate(path)
+        errors, warnings = validator.validate_data(path)
         all_errors.extend(errors)
         all_warnings.extend(warnings)
 
@@ -29,6 +29,6 @@ def run_validation(file_path, validator):
             print(Utils.format_issue(warning))
 
     if not all_errors and not all_warnings:
-        print("All data valid ✅")
+        print("All data is valid ✅")
 
     sys.exit(1 if all_errors else 0)

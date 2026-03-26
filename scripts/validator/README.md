@@ -43,11 +43,9 @@ python main.py ../../data/statistics tabular
 
 ## Supported Validators
 
-| Validator | Description              | Status  |
-|-----------|--------------------------|---------|
-| `tabular` | Validates tabular data   | ✅ Available |
-
-> **Note:** Additional validators are currently under development.
+| Validator | Description            | Validations       | Status      |
+|-----------|------------------------|-------------------|-------------|
+| `tabular` | Validates tabular data | `schema-validation` `duplicate-columns` `row-column-mismatch` `data-types-mismatch` `empty-values` `value-overflow` | ✅ Available |
 
 ---
 
