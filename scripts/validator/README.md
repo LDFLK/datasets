@@ -43,9 +43,9 @@ python main.py ../../data/statistics tabular
 
 ## Supported Validators
 
-| Validator | Description            | Validations       | Status      |
-|-----------|------------------------|-------------------|-------------|
-| `tabular` | Validates tabular data | `schema-validation` `duplicate-columns` `row-column-mismatch` `data-types-mismatch` `empty-values` `value-overflow` | ✅ Available |
+| Validator | Description | Validations | Status |
+|-----------|-------------|-------------|--------|
+| `tabular` | Validates tabular data | `schema-validation` — Checks that the data conforms to a predefined schema (structures, types, constraints)<br><br>`duplicate-columns` — Detects columns that appear more than once<br><br>`row-column-mismatch` — Detects rows where the number of fields does not match the number of defined columns<br><br>`data-types-mismatch` — Identifies values that do not match the expected data type for their column (e.g. text in a numeric field)<br><br>`empty-values` — Flag cells that are null, blank, or contain only whitespace where a value is required<br><br>`value-overflow` — Catches values that exceed the maximum allowed length or numeric range for their column | ✅ Available |
 
 ---
 
