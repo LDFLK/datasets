@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'data/statistics/**'
+      - 'data/**'
   workflow_dispatch:
     inputs:
       mode:
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DATASET_PATH: ${{ vars.DATASET_DIR_PATH_VAR || '../../data/statistics' }}
+      DATASET_PATH: ${{ vars.DATASET_DIR_PATH_VAR || '../../data' }}
       MODE: ${{ github.event.inputs.mode || 'tabular' }}
 
     steps:

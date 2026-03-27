@@ -26,18 +26,18 @@ class TabularValidator(BaseValidator):
                 ]
         return []
 
-    def _check_row_column_mismatch(self, file_path, index, row, num_cols):
+    def _check_row_column_mismatch(self, file_path, row_index, row, num_cols):
         if len(row) != num_cols:
             return [{
             "type": "error",
             "file": file_path,
-            "row": index,
+            "row": row_index,
             "column": None,
             "message": f"has {len(row)} value(s), expected {num_cols} value(s)",
         }]
         return []   
 
-    def _check_data_types(self, file_path, index, row, first_row, columns):
+    def _check_data_types(self, file_path, row_index, row, first_row, columns):
         errors = []
         for j, value in enumerate(row):
             expected_type = type(first_row[j])
@@ -52,13 +52,13 @@ class TabularValidator(BaseValidator):
                 errors.append({
                     "type": "error",
                     "file": file_path,
-                    "row": index,
+                    "row": row_index,
                     "column": columns[j],
                     "message": f"has {value} ({type(value).__name__}), expected {expected_msg}",
                 })
         return errors
 
-    def _check_empty_values(self, file_path, index, row, columns):
+    def _check_empty_values(self, file_path, row_index, row, columns):
         warnings = []
         for j, value in enumerate(row):
             str_value = str(value).strip() if value is not None else ""
@@ -66,13 +66,13 @@ class TabularValidator(BaseValidator):
                 warnings.append({
                             "type": "warning",
                             "file": file_path,
-                            "row": index,
+                            "row": row_index,
                             "column": columns[j],
                             "message": "has empty value",
                 })
         return warnings
 
-    def _check_value_overflow(self, file_path, index, row, columns):
+    def _check_value_overflow(self, file_path, row_index, row, columns):
         warnings = []
         for j, value in enumerate(row):
             if isinstance(value, int):
@@ -80,7 +80,7 @@ class TabularValidator(BaseValidator):
                         warnings.append({
                                 "type": "warning",
                                 "file": file_path,
-                                "row": index,
+                                "row": row_index,
                                 "column": columns[j],
                                 "message": f"has {value} ({type(value).__name__}), which is a BIGINT as it exceeds PostgreSQL's 32-bit integer limit.",
                         })
@@ -131,16 +131,15 @@ class TabularValidator(BaseValidator):
                     "column": columns if columns else None,
                     "message": message
                 })
-            print(errors)
             return errors, warnings
 
         errors.extend(self._check_duplicate_columns(file_path, columns))
 
-        for index, row in enumerate(rows, start=1):
-            errors.extend(self._check_row_column_mismatch(file_path, index, row, num_cols))
-            warnings.extend(self._check_empty_values(file_path, index, row, columns))
-            warnings.extend(self._check_value_overflow(file_path, index, row, columns))
-            errors.extend(self._check_data_types(file_path, index, row, rows[0], columns))
+        for row_index, row in enumerate(rows, start=1):
+            errors.extend(self._check_row_column_mismatch(file_path, row_index, row, num_cols))
+            warnings.extend(self._check_empty_values(file_path, row_index, row, columns))
+            warnings.extend(self._check_value_overflow(file_path, row_index, row, columns))
+            errors.extend(self._check_data_types(file_path, row_index, row, rows[0], columns))
 
         return errors, warnings
    
