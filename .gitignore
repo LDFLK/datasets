@@ -16,3 +16,6 @@ ingestion/.env
 website/static/downloads/archive_Data.zip
 website/static/downloads/sources_Data.zip
 website/static/downloads/statistics_Data.zip
+
+# Virtual environment
+venv/
