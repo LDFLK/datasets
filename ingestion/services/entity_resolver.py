@@ -7,20 +7,34 @@ from ingestion.utils.date_utils import is_relationship_active_in_year
 
 logger = logging.getLogger(__name__)
 
+# Minister organisation kinds in OpenGIN (replaces the former minor kind "minister").
+MINISTER_MINOR_KINDS = ("cabinetMinister", "stateMinister")
+
+
 # Find all ministers with the given name that were active in the target year.
+# Searches both cabinetMinister and stateMinister kinds.
 # returns a list of dictionaries with id, starttime, endtime
 async def find_ministers_by_name_and_year(name: str, year: str, read_service: ReadService) -> List[Dict[str, str]]:
     
-    # Search for ministers by name
-    search_entity = Entity(
-        name=name,
-        kind=Kind(major="Organisation", minor="minister")
-    )
+    # Search for cabinet and state ministers by name in parallel
+    search_tasks = [
+        read_service.get_entities(
+            Entity(name=name, kind=Kind(major="Organisation", minor=minor))
+        )
+        for minor in MINISTER_MINOR_KINDS
+    ]
     
     try:
-        ministers = await read_service.get_entities(search_entity)
+        search_results = await asyncio.gather(*search_tasks)
     except Exception as e:
         raise Exception(f"Failed to search for ministers: {e}")
+    
+    # Merge results, dedupe by entity id
+    ministers_by_id: Dict[str, Entity] = {}
+    for result in search_results:
+        for minister in result:
+            ministers_by_id[minister.id] = minister
+    ministers = list(ministers_by_id.values())
     
     if not ministers:
         return []
