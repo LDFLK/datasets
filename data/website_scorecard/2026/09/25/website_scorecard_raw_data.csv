@@ -1,0 +1,624 @@
+ID,Name,URL,Site Accessibility,SSL Status,Language Switcher,English Content,Sinhala Content,Tamil Content,Translation Type,Gov.lk Hosting,Requires Gov.lk?,Domain Compliant,Domain name if not gov.lk,Does the main email address match the domain?,Main email address(es),Do MX records exist?,Developer Info,Flag for Review,Final Score
+,"Minister of Agriculture, Livestock, Land and Irrigation",,,,,,,,,,,,,,,,,,
+1,Agriculture and Agrarian Insurance Board,https://aib.gov.lk/aib/,Active,Valid,Yes,5,0,0,Static,Yes,Yes,Yes,,Yes,aaibinfo@aib.gov.lk,Yes,,,70
+2,Central Engineering Consultancy Bureau and its subsidiaries and affiliated companies,https://www.cecb.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,.lk,Yes,bpu@cecb.lk,Yes,,,65
+3,Department of Agrarian Development,https://www.agrarian.lk/,Active,Valid,Yes,5,4,3,Static,No,Yes,No,.lk,No,dadinfounit@gmail.com,No,,,42
+4,Department of Agriculture,https://doa.gov.lk/,Active,Valid,Yes,5,4,4,Static,Yes,Yes,Yes,,Yes,info@doa.gov.lk,Yes,,,78
+5,Department of Animal Production and Health,https://daph.gov.lk/,Active,Valid,Yes,5,5,5,Static,Yes,Yes,Yes,,No,dgdaph@sltnet.lk,Yes,GUI Solutions Lanka,,70
+6,Department of Cinnamon Development,https://cinnamon.gov.lk/,Active,Valid,Yes,5,5,2,Static,Yes,Yes,Yes,,No,cinnamondept@gmail.com,No,Ones & Zeros,,67
+7,Department of Export Agriculture,https://dea.gov.lk/,Active,Valid,Yes,5,3,3,Static,Yes,Yes,Yes,,Yes,info@dea.gov.lk,Yes,,,76
+8,Department of Irrigation,https://www.irrigation.gov.lk/,Active,Valid,Yes,5,5,4,Static,Yes,Yes,Yes,,Yes,info@irrigation.gov.lk,Yes, Procons Infotech,,79
+9,Department of Land Commissioner General,https://landcom.gov.lk/,Active,Valid,Yes,5,5,0,Static,Yes,Yes,Yes,,Yes,lcglandcom@gmail.com,Yes,,,75
+10,Department of Land Title Settlement,http://www.landsettledept.gov.lk/,Active,No Certificate,Yes,5,5,5,Static,Yes,Yes,Yes,,No,commissionergeneral.ltsd@gmail.com,Yes,,,45
+11,Department of Land Use Policy Planning,http://www.luppd.gov.lk/,Down,,,,,,,,,,,,,,,,0
+12,Hector Kobbekaduwa Agrarian Research and Training Institute,https://www.harti.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes, info@harti.gov.lk,Yes,,,65
+13,Institute of Surveying and Mapping,https://ism.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,ac.lk,No,snrdsgtr@survey.gov.lk,Yes,,,55
+14,Land Reform Commission,https://www.lrc.gov.lk/,Active,Valid,Yes,5,5,4,Static,No,Yes,No,,Yes,info@lrc.gov.lk  ,Yes, Procons Infotech,,54
+15,Land Survey Council,https://www.landsurveycouncil.org/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,org,No, landsurveycouncilnew@gmail.com,Yes,,,30
+16,Mahaweli Consultancy Bureau (Pvt) Ltd,https://mcb.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@mcb.gov.lk,Yes,,,65
+17,Milco (Pvt.) Ltd.,https://milco.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,.lk,Yes,info@milco.lk,Yes,,,65
+18,National Agricultural Diversification and Settlement Authority,hadabima.gov.lk,Active,Valid,Yes,5,1,0,Static,Yes,Yes,Yes,,No,authority.hadabima@gmail.com,Yes,,,61
+19,National Fertilizer Secretariat,https://sites.google.com/view/nationalfertilizersecretariat/home,Active,Valid,No,5,0,0,Not Applicable,No,Yes,Yes,sites.google.com,No,dirnfs@agrimin.gov.lk,No,Ravi,,55
+20,National Hunger Eradication Campaign Board of Sri Lanka (National Food Promotion Board),https://www.nfpb.lk/,Active,Valid,Yes,5,1,0,Static,No,No,Yes,.lk,No,ffhc.srilanka@gmail.com,Yes,Web Lankan,,61
+21,National Institute of Post-Harvest Management,https://www.niphm.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,No,lk,Yes,info@niphm.lk,Yes,Univosoft Solutions,,40
+22,National Livestock Development Board and affiliated companies,https://nldb.gov.lk/,Active,Valid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,No,nldbch@gmail.com,Yes,,,87
+23,Paddy Marketing Board,https://pmb.gov.lk/,Down,,,,,,,,,,,,,,,,0
+24,Sri Lanka Council for Agricultural Research Policy,https://slcarp.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,slcarp.agri@gmail.com,Yes,,,55
+25,Sri Lanka Mahaweli Authority,https://mahaweli.gov.lk/,Active,Valid,Yes,4,0,0,Not Applicable,Yes,Yes,Yes,,Yes,dg@mahaweli.gov.lk,Yes,"H.D.Amal Tharanga, PMU-MASL",,69
+26,Survey Department of Sri Lanka,https://survey.gov.lk/,Active,Valid,Yes,5,5,0,Static (Manual),Yes,Yes,Yes,,Yes,sg@survey.gov.lk,Yes,,,95
+,"Minister of Buddhasasana, Religious and Cultural Affairs",,,,,,,,,,,,,,,,,,
+27,Central Cultural Fund,https://ccf.gov.lk/,Active,Valid,No,5,0,0,,Yes,Yes,Yes,,No,ccfinform@gmail.com,Yes,,,55
+28,Department of Archaeology,archaeology.gov.lk,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@archaeology.gov.lk,Yes,University of Kelaniya,,90
+29,Department of Buddhist Affairs,https://www.dba.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,,dba.gov.lk@gmail.com,Yes,,,90
+30,Department of Christian Religious Affairs,https://christian.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,minchris@sltnet.lk,No,,,90
+31,Department of Cultural Affairs,https://www.culturaldept.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,culturaldept.info@gmail.com,Yes,Procons Infotech,,100
+32,Department of Hindu Religious and Cultural Affairs,http://www.hindudept.gov.lk/,Active,No Certificate,Yes,3,3,3,Static (Manual),Yes,Yes,Yes,,Yes,dir@hindudept.gov.lk,Yes,ICTA,one personal email was also available,69
+33,Department of Muslim Religious and Cultural Affairs,https://muslimaffairs.gov.lk/,Active,Valid,No,3,3,3,Not Applicable,Yes,Yes,Yes,,Yes,director@muslimaffairs.gov.lk,Yes,,,69
+34,Department of National Archives,https://archives.gov.lk/,Active,Valid,Yes,5,2,2,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@archives.gov.lk,Yes,Lithium,,84
+35,Department of National Museums,https://museum.gov.lk/,Active,Valid,Yes,2,2,2,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,nmdep@slt.lk,Yes,Mobitel (Pvt) Ltd,,71
+36,Department of Public Trustee,https://publictrustee.gov.lk/,Active,Invalid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,Yes,publictrustee@publictrustee.gov.lk,Yes,LankaCom,,77
+37,Galle Heritage Foundation,https://galleheritage.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,herifo@sltnet.lk,No,Procons Infotech,,55
+38,J.R. Jayewardene Centre,https://jrjc.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,No,jrjayewardenecentre@gmail.com,No,,,54
+39,Mahinda Rajapaksa National Tele Cinema Park,https://ranmihithanna.gov.lk/,Down,,,,,,,,,,,,,,,,0
+40,National Arts Council,https://artscouncil.lk/,Down,,,,,,,,,,,,,,,,0
+41,National Film Corporation,https://nfc.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,filmcorp@sltnet.lk,Yes,,,80
+42,National Library and Documentation Services Board,https://www.natlib.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@mail.natlib.lk,No,Loons Labs,https://www.natlib.lk/NLDSB/ here only this documentation part contained the language translations but the main website and the conference page didnt inlcude them,90
+43,National Performing Arts Theatre (Nelum Pokuna),https://www.nelumpokuna.com/,Down,,,,,,,,,,,,,,,,0
+44,Tower Hall Theatre Foundation,https://towerhall.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No,towersl@sltnet.lk,Yes,,,90
+,Minister of Defence,,,,,,,,,,,,,,,,,,
+45,Coast Guard Department of Sri Lanka,coastguard.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,dgsecretariat@coastguard.gov.lk,Yes,,"has gmail contact as well, not included here",65
+46,Defence Research and Development Centre,https://crd.lk/,Active,Valid,No,3,0,0,Not Applicable,No,No,Yes,lk,Yes,hq@crd.lk,Yes,,,63
+47,Defence Services College,https://defencesc.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,Yes,info@defencesc.lk,Yes,Sanith Samaraweera,,64
+48,Defence Services Command and Staff College,https://dscsc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,dscsc@army.lk,Yes,,,55
+49,Department of Meteorology,https://meteo.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@meteo.gov.lk,Yes,,"here even though the language switcher not include, but in the same path it include the content in both Languages(si,en and tm)",65
+50,Disaster Management Centre,dmc.gov.lk,Down,,,,,,,,,,,,,,,,0
+51,Institute of National Security Studies,https://www.inss.lk/,Down,,,,,,,,,,,,,,,,0
+52,Miloda Institute - as a Faculty of Kotelawala Defence University,https://mpc.kdu.ac.lk/,Down,,,,,,,,,,,,,,,,0
+53,National Authority for the Implementation of Chemical Weapons Convention,http://nacwc.gov.lk/,Active,No Certificate,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,nacwc.sl@gmail.com,Yes,,,65
+54,National Building Research Organization,https://nbri.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@nbri.gov.lk,Yes,Procons Infotech,,98
+55,National Cadet Corps,https://cadet.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,ncchq.lk@gmail.com,Yes,Real Pos,,65
+56,National Defence College,http://www.ndc.ac.lk/,Active,No Certificate,No,5,0,0,Not Applicable,Yes,Yes,Yes,lk,Yes,info@ndc.ac.lk,Yes,,,40
+57,National Disaster Relief Services Centre,http://www.ndrsc.gov.lk/,Active,No Certificate,Yes,0,0,0,Not Applicable,Yes,Yes,Yes,,,,Yes,,Only the language switcher page works,30
+58,Office of the Chief of Defence Staff,https://www.ocds.lk,Down,,,,,,,,,,,,,,,,0
+59,Rakna Arakshana Lanka Ltd.,https://rall.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@rall.lk,Yes,,,65
+60,Ranaviru Seva Authority,https://ranaviruseva.gov.lk/,Active,Valid,No,0,4,0,Not Applicable,Yes,Yes,Yes,,No,ranaviruseva@gmail.com,No,,,54
+61,Sir John Kotelawala Defence University,https://kdu.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,ac.lk,No main email provided,,Yes,CITS&DS,,80
+62,Sri Lanka Air Force,airforce.lk,Active,Valid,Yes,5,3,3,Static (Manual),No,No,Yes,lk,Yes,afhq@airforce.lk,Yes,,,96
+63,Sri Lanka Army,https://www.army.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@army.lk,Yes,,,100
+64,Sri Lanka National Hydrographic Office,https://nho.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,sectonh@nho.gov.lk,Yes,,,65
+65,Sri Lanka Navy,https://navy.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@navy.lk,Yes,,,100
+,Minister of Digital Economy,,,,,,,,,,,,,,,,,,
+66,Colombo Lotus Tower Management Co. (Pvt.) Ltd,https://colombolotustower.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes, info@colombolotustower.lk,Yes,Asset BPO,,100
+67,Data Protection Authority of Sri Lanka,https://www.dpa.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@dpa.gov.lk,Yes,,,65
+68,Department of Registration of Persons,https://drp.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@drp.lk,Yes,,,100
+,Information and Communication Technology Agency and Allied Institutions,,,,,,,,,,,,,,,,,,
+69,ICTA,https://www.icta.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@icta.lk,Yes,,,65
+70,National Spatial Data Infrastructure (NSDI),https://www.nsdi.gov.lk/,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,NSDISupport@icta.lk,Yes,,,82
+71,Gov-Pay,https://govpay.lk,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@govpay.lk,Yes,,,100
+72,The Government Information Centre (GIC),https://gic.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@gic.gov.lk,Yes,,,100
+73,Open Data Portal,https://data.gov.lk/,Active,Expired,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes, Pooranee Inspirations,,35
+74,Digital Government Forms,https://forms.gov.lk/welcome/public,Down,,,,,,,,,,,,,,,,0
+75,Electronic Revenue Licence System (eRL),https://web.erl2.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@erl2.gov.lk,Yes,Inova,,98
+76,gov.lk Website Platform,https://www.gov.lk/,Active,Valid,Yes,5,3,3,Static (Manual),Yes,Yes,Yes,,No main email provided,,Yes,,,86
+77,Lanka Government Cloud (LGC),https://lgc.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,lgc-support@icta.lk,Yes, ICTA,,55
+78,Freelancer TV Series,https://digitalfreelancer.gov.lk/,Active,Valid,Yes,4,1,1,Static (Manual),Yes,Yes,Yes,,No,info@lightingdigital.gov.lk,No, ICTA,,81
+79,GovTech Sri Lanka,https://govtech.lk/,Active,Valid,No,3,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,,,53
+,//,,,,,,,,,,,,,,,,,,
+80,Online Safety Commission,https://www.onlinesafety.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,No,onlinesafety@cert.gov.lk,Yes,CERT,,30
+81,Sri Lanka Computer Emergency Readiness Team,https://cert.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,cert@cert.gov.lk,Yes,,"Sinhala and Tamil coverage exists only as Google Translate output fired by the site's own dropdown, measured in headless Chrome; the Services page still stops at si 0.48 / ta 0.56. Read strictly, as content published by CERT, SI and TA are 0.",90
+82,Sri Lanka Telecom and its Subsidiaries and Allied Institutions,https://www.slt.lk/,Active,Valid,No,,,,,No,No,Yes,lk,Yes,"1212@slt.com.lk,pr@slt.lk",Yes,Four Corners,"Undocumented /si/ and /ta/ prefixes serve pre-translated About Us and Broadband pages, but page-level script share is only 0.14-0.23 because the mega-menu, product sidebar and awards lists stay English, so nothing meets 0.60. A looser reading of those two pages would give SI 2 / TA 2. The RTI page's si and ta hreflang alternates point at the PR team contact page.",60
+83,Telecommunication Regulatory Commission of Sri Lanka and Allied Institutions,https://www.trc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,cc@trc.gov.lk,Yes,,,100
+,"Minister of Education, Higher Education and Vocational Education",,,,,,,,,,,,,,,,,,
+,"All State Universities, Postgraduate Institutions and other Institutions under the purview of University Grants Commission",,,,,,,,,,,,,,,,,,
+,Universities,,,,,,,,,,,,,,,,,,
+84,University of Colombo,http://www.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,registrar@cmb.ac.lk,Yes,,"Certificate SAN lists only cmb.ac.lk, so the www host named in this batch fails hostname verification (openssl 62) and every non-browser client (curl, wget, scripted requests) refuses the connection. Recorded Valid because a browser is not blocked: Chrome aborts the https://www hop with ERR_CERT_COMMON_NAME_INVALID, auto-corrects to https://cmb.ac.lk/, and loads the site with no warning under a certificate that verifies (Let's Encrypt, notAfter 2026-11-23). Content was audited on the apex. Worth reporting to the university as a misconfiguration even though users do not see it, No main email is listed",65
+85,University of Peradeniya,https://www.pdn.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,registrar@pdn.ac.lk,Yes,"IT Center, University of Peradeniya","Sinhala and Tamil coverage is Google Translate output behind a widget the site's own CSS hides, measured in headless Chrome; the events listing stays half English. Read strictly, SI and TA are 0., No main email is listed",90
+86,University of Sri Jayewardenepura,http://www.sjp.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,registrar@sjp.ac.lk,Yes,,,65
+87,University of Kelaniya,http://www.kln.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,oneuok@kln.ac.lk,Yes,,,65
+88,University of Moratuwa,https://uom.lk,Active,Valid,No,5,0,0,Not Applicable,No,No,No,lk,Yes,info@uom.lk,Yes,,"The A record's DNSSEC signature expired 2026-09-05T07:09Z, so 8.8.8.8, 9.9.9.9, 208.67.222.222 and this machine's resolver all SERVFAIL and cannot reach the site; only 1.1.1.1 still answers, from cache. Recorded Active because the server serves 200 over 192.248.8.87, but a human should decide whether an unresolvable domain is Down.",40
+89,University of Jaffna,http://www.jfn.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@univ.jfn.ac.lk,Yes,,,65
+90,University of Ruhuna,http://www.ruh.ac.lk/,Active,Valid,No,,,,,No,No,Yes,lk,,,Yes,,"No general contact address is published: the Contact Information page gives the head office a phone number only, so the recorded addresses are two faculty deans plus deanmedruh@gmail.com, hence Partial. This site was down when checking for the second time",50
+91,The Open University of Sri Lanka,http://www.ou.ac.lk/,Active,Valid,Yes,5,0,0,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,pio@ou.ac.lk,Yes,,"The Sinhala homepage scores 0.588 against a 0.60 threshold, so SI is 1 rather than 2; the carousel, job titles and complaint-portal blocks stay English. Coverage was measured in headless Chrome with the site's ouslselectedLanguage cookie.",80
+92,"Eastern University, Sri Lanka",http://www.esn.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,receptions@esn.ac.lk,Yes,,,65
+93,South Eastern University of Sri Lanka,http://www.seu.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,vcseu@seu.ac.lk,Yes,,,65
+94,Rajarata University of Sri Lanka,http://www.rjt.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@rjt.ac.lk,Yes,,,65
+95,Sabaragamuwa University of Sri Lanka,http://www.sab.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@sab.ac.lk,Yes,,,65
+96,Wayamba University of Sri Lanka,http://www.wyb.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,psvc@wyb.ac.lk,Yes,,"Sinhala and Tamil coverage is GTranslate driving Google's Translate Element, visible only in a browser with the googtrans cookie. Read strictly, as content published by the university, SI and TA are 0.",90
+97,Uva Wellassa University of Sri Lanka,http://www.uwu.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,registrar@uwu.ac.lk,Yes,,,65
+98,University of the Visual & Performing Arts,http://www.vpa.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@vpa.ac.lk,Yes,,"Certificate SAN lists only vpa.ac.lk, so the www host named in this batch fails hostname verification (openssl 62) and non-browser clients refuse the connection. Recorded Valid because Chrome aborts the https://www hop with ERR_CERT_COMMON_NAME_INVALID, auto-corrects to https://vpa.ac.lk/ and loads the site with no warning under a certificate that verifies (notAfter 2026-12-26). Content was audited on the apex. No RTI page exists, so the five-page set used History, Course Programs, the Albert Crescent contact page and the news category listing",65
+99,Gampaha Wickramarachchi University of Indigenous Medicine,http://gwu.ac.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,,"No contact email published anywhere, so the email and domain-match cells are blank. The Contact Us page offers a POST form and a phone number only.",54
+100,University of Vavuniya,http://www.vau.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,registraroffice@vau.ac.lk,Yes,,,65
+,Campuses,,,,,,,,,,,,,,,,,,
+101,Sri Palee Campus,https://spc.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,sripalee@spc.cmb.ac.lk,Yes,,,65
+102,Trincomalee Campus,https://www.tc.esn.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,rector@esn.ac.lk,Yes,,,65
+,Institutes,,,,,,,,,,,,,,,,,,
+103,Postgraduate Institute of Agriculture,http://www.pgia.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@pgia.ac.lk,Yes,,,65
+104,Postgraduate Institute of Pali & Buddhist Studies,https://pgipbs.kln.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes, infopgipbs@kln.ac.lk,Yes,,,65
+105,Postgraduate Institute of Management,https://www.pim.sjp.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes, director@pim.sjp.ac.lk,Yes,,,65
+106,Postgraduate Institute of Science,http://www.pgis.lk,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@pgis.lk,Yes,,,90
+107,Postgraduate Institute of English,https://pgie.ou.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,sarpgie@ou.ac.lk,Yes, CeylonX,,65
+108,Postgraduate Institute of Humanities and Social Sciences,http://pgihs.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes, info@pgihs.ac.lk,Yes,Kapila Bandara,,65
+109,Postgraduate Institute of Indigenous Medicine,https://pgiimed.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,adm@pgiimed.cmb.ac.lk,Yes,,,65
+110,Postgraduate Institute of Medical Sciences,https://pgims.pdn.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,pgimsoffice@pgims.pdn.ac.lk,Yes,Udeshika Tilakaratne,,65
+111,Institute of Human Resource Advancement,http://www.ihra.cmb.ac.lk,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,aradmin@ihra.cmb.ac.lk,Yes,,,65
+112,University of Colombo School of Computing,http://www.ucsc.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@ucsc.cmb.ac.lk,Yes,,,65
+113,National Institute of Library and Information Science,https://nilis.cmb.ac.lk/home/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@nils.cmb.ac.lk,Yes,,,65
+114,The National Centre for Advanced Studies in Humanities & Social Sciences,http://www.ncas.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@ncas.ac.lk,Yes,,,65
+115,Institute for Agro-Technology and Rural Sciences,https://uciars.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,director@uciars.cmb.ac.lk,Yes,,,65
+116,Postgraduate Institute of Medicine,https://pgim.cmb.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,admin@pgim.cmb.ac.lk,Yes,,,65
+117,Postgraduate Institute of Archaeology,https://pgiar.kln.ac.lk/,Active,Valid,No,5,1,0,Not Applicable,No,No,Yes,lk,Yes,sarpgiar.kln.ac.lk,Yes,,,66
+118,Institute of Technology University of Moratuwa,https://itum.mrt.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@itum.mrt.ac.lk,Yes,,,65
+119,"Institute of Bio-Chemistry, Molecular Biology and Bio Technology",https://www.ibmbb.cmb.ac.lk/,Down,,,,,,,,,,,,,,,,0
+120,Swamy Vipulananda Institute of Aesthetic Studies,https://www.svias.esn.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,dr_svias@esn.ac.lk,Yes,,,65
+,//,,,,,,,,,,,,,,,,,,
+121,Buddhasravaka Bhikku University,https://busl.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@busl.ac.lk,Yes,,,65
+122,Buddhist and Pali University of Sri Lanka,https://bpu.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,mail@bpu.ac.lk,Yes,Kasun Munasinghe,,90
+123,Ceylon German Technical Training Institute,https://germantec.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,cgtti@sltnet.lk,Yes,,,55
+124,Department of Educational Publications,http://edupub.gov.lk/,Active,No Certificate,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,No,commissioner_epd@yahoo.com,Yes,ADD STUDIO,,35
+125,Department of Examinations,https://www.doenets.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,Yes,No,lk,Yes,exams@doenets.lk,Yes,"Inova, Headstart, Dialog",,75
+126,Department of Technical Education and Training,https://dtet.gov.lk/,Active,Valid,Yes,5,3,2,Static (Manual),Yes,Yes,Yes,,Yes,info@dtet.gov.lk,Yes,,,95
+127,National Apprenticeship and Industrial Training Authority,naita.gov.lk,Active,Valid,Yes,5,0,0,Static (Manual),Yes,Yes,Yes,,Yes,Naita@gov.lk,Yes,,,90
+,National Colleges of Education,,,,,,,,,,,,,,,,,,
+128,Batticaloa National College of Education,https://www.bncoe.net/,Active,Valid,No,5,0,0,Not Applicable,No,No,No,net,No,battincoe@gmail.com,Yes,,,30
+129,Jaffna National College of Education,https://jaffnancoe.lk/,Active,Valid,No,3,0,1,Not Applicable,No,No,No,lk,No main email provided,,Yes,,,29
+130,Maharagama National College Of Education,http://www.mgncoe.sch.lk/,Down,,,,,,,,,,,,,,,,0
+131,Mahaweli National College of Education,https://mncoe.sch.lk/index.htm,Down,,,,,,,,,,,,,,,,0
+132,Nilwala National College of Education,http://nncoe.sch.lk/,Down,,,,,,,,,,,,,,,,0
+133,Pasdunrata National College of Education,https://pasdunrata.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,No,com,No,pncoe@gmail.com,Yes,PNCOE Web Development Team,,30
+134,Pulathisipura National College of Education,https://www.pulathisipurancoe.edu.lk/,Active,Valid,No,3,3,0,Not Applicable,No,No,Yes,lk,No,pulathisipurancoe@gmail.com,Yes,GuidanceGrid,,56
+135,Ruhuna National College of Education,https://www.ruhunancoe.edu.lk/,Active,Valid,No,5,1,0,Not Applicable,No,No,Yes,lk,No,rncoeitclub@gmail.com,No,,,56
+136,Ruwanpura National College of Education,https://www.rncoe.lk/,Down,,,,,,,,,,,,,,,,0
+137,Sariputta National College of Education,http://dambasncoe.sch.lk/,Down,,,,,,,,,,,,,,,,0
+138,Siyane National College of Education,http://siyanencoe.sch.lk/,Down,,,,,,,,,,,,,,,,0
+139,Vavuniya National College of Education,https://vncoe.edu.lk/,Active,Valid,No,4,0,1,Not Applicable,No,No,Yes,lk,No,presidentvncoe@gmail.com,Yes,iTek solutions,,55
+140,Wayamba National College of Education,https://wncoe.moe.gov.lk/,Active,Valid,No,4,3,0,Not Applicable,Yes,Yes,Yes,,No,ncoewayamba@gmail.com,Yes,,,57
+141,Addalachahenai National College of Education,http://www.ancoe.sch.lk/,Down,,,,,,,,,,,,,,,,0
+,//,,,,,,,,,,,,,,,,,,
+142,National Education Commission,nec.gov.lk,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,Yes,sponec@slt.lk,No,,,40
+143,National Institute of Business Management and affiliated institutions,https://nibm.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,programes@nibm.lk,Yes,,,65
+144,National Institute of Education,https://www.nie.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@nie.edu.lk,Yes,,,65
+145,Ocean University of Sri Lanka,https://ocu.ac.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,admin@ocu.ac.lk,Yes,,the lk domain means I think they are not government but established under government - ex. UGC is under government but regulated by a different governing body,65
+146,Skills Development Fund Ltd.,http://www.skillsdevelop.lk,Down,,,,,,,,,,,,,,,,0
+147,South Asian Centre for Teacher Development (SACTD),https://sactd.edu.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,Yes,info@sactd.edu.lk,Yes,,,64
+148,Sri Lanka Institute of Advanced Technological Education,https://www.sliate.ac.lk/,Active,No Certificate,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,,,30
+149,State Printing Corporation,http://spclanka.gov.lk/,Active,No Certificate,No,4,0,0,Not Applicable,Yes,Yes,Yes,,No,chairmanspc2022@gmail.com,Yes,,,29
+150,Tertiary and Vocational Education Commission,https://tvec.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@tvec.gov.lk,Yes, Procons Infotech,,90
+151,UNESCO National Commission of Sri Lanka,https://slncu.lk/,Active,Valid,Yes,5,4,4,Static (Manual),No,No,Yes,lk,No,slncu@slt.lk,Yes,Procons Infotech,,88
+152,University Grants Commission,https://www.ugc.ac.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@ugc.ac.lk,Yes,,,100
+153,University of Vocational Technology,https://uovt.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@uovt.ac.lk,Yes,,,90
+154,Vocational Training Authority of Sri Lanka,https://course.vta.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,cgjp@vtasl.gov.lk,Yes,ICT UNIT of VTA.,,100
+,Minister of Energy,,,,,,,,,,,,,,,,,,
+155,Ceylon Electricity Board and its subsidiary Companies,https://www.ceb.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No main email provided,,Yes,,"I think this is CEB's old website, as now it has 4 companies good to check the new websites - National Transmission Network Service Provider - https://ntnsp.lk/",90
+156,Ceylon Petroleum Corporation,https://ceypetco.gov.lk/,Active,Valid,Yes,4,3,3,Static (Manual),Yes,Yes,Yes,,Yes,secratariat[at]ceypetco.gov.lk,Yes,,,95
+157,Ceylon Petroleum Storage Terminal Ltd.,https://www.cpstl.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,secretariat@cpstl.lk,Yes,,,65
+158,Electricity Distribution Lanka (Pvt) Ltd,https://edl.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,Yes,info@edl.lk,Yes,,,64
+159,Electricity Generation Lanka (Pvt) Ltd,https://egl.lk/,Active,No Certificate,No,4,0,0,Not Applicable,No,No,Yes,lk,Yes,info@egl.lk,Yes,,,39
+160,LTL Holdings (Pvt.) Ltd.,https://www.ltl.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes, info@ltl.lk,Yes,Web Lankan,,65
+161,Lanka Coal Company (Pvt) Ltd,https://lankacoal.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@lankacoal.lk,Yes,LI Studios,,65
+162,Lanka Electricity Company (Pvt) Ltd,https://www.leco.lk/,Active,Valid,Yes,5,5,0,Static (Manual),No,No,Yes,lk,Yes,general@leco.lk,Yes,Sri Lanka Telecom (Services) Ltd.,,95
+163,National Transmission Network Service Provider (Pvt) Ltd,https://ntnsp.lk/,Active,Invalid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@ntnsp.lk,Yes,"Digital Ventures Unit, EDL",,45
+164,Petroleum Development Authority of Sri Lanka,https://pdasl.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,exploresrilanka@pdasl.gov.lk,Yes,Graphics.lk,,65
+165,Sri Lanka Sustainable Energy Authority,https://energy.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes, info@energy.gov.lk,Yes,Affno.,,98
+166,Trinco Petroleum Terminal (Pvt) Ltd,https://trincopetroleum.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,No,secretary@ceypetco.gov.lk,No,,,55
+,Minister of Environment,,,,,,,,,,,,,,,,,,
+167,Central Environmental Authority,https://cea.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,Yes,No,lk,Yes,chaircea@cea.lk ,Yes,LankaCom,,75
+168,Department of Coast Conservation and Coastal Resource Management,https://www.coastal.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@coastal.gov.lk,Yes,Procons Infotech,,98
+169,Department of Forest Conservation,www.forestdept.gov.lk,Down,,,,,,,,,,,,,,,,0
+170,Department of National Botanic Gardens,https://botanicgardens.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,deptnbg@gmail.com,Yes,W3DATA,,90
+171,Department of National Zoological Gardens,https://nationalzoo.gov.lk/,Active,Valid,Yes,5,5,1,Static (Manual),Yes,Yes,Yes,,No,zoosl@slt.lk,No,Cloud Syntex (Pvt) Ltd.,,86
+172,Department of Wildlife Conservation,https://www.dwc.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,dg@dwc.gov.lk,Yes,,,65
+173,Marine Environment Protection Authority,https://mepa.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@mepa.gov.lk,Yes,amwebbers.com,,100
+174,Sri Lanka Climate Fund (Pvt) Ltd.,https://www.climatefund.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@climatefund.lk,Yes,,,65
+175,State Timber Corporation,http://www.timco.lk/,Active,No Certificate,Yes,5,3,3,Static (Manual),No,No,Yes,lk,Yes,stc@timco.lk,Yes,,,71
+176,Water Resources Board,https://wrb.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,infowrbit@gmail.com,Yes,,,55
+,"Minister of Finance, Planning and Economic Development",,,,,,,,,,,,,,,,,,
+,"All State Banks, Financial Institutions, Insurance Companies and their subsidiaries and related institutions",,,,,,,,,,,,,,,,,,
+177,Bank of Ceylon,https://www.boc.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,boc@boc.lk,Yes, Saberion,,100
+178,BOC Travels (Pvt) Ltd,https://www.boctravels.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,Yes,info@boctravels.com,Yes,,,65
+179,Hotels Colombo (1963) Limited,https://www.grandoriental.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,Yes,info@grandoriental.com,Yes,eBEYONDS,,65
+180,Ceybank Holiday Homes (Private) Limited,www.ceybankholidayhomes.com,Down,,,,,,,,,,,,,,,,0
+181,Merchant Bank of Sri Lanka & Finance PLC,https://www.mbslbank.com/,Active,Valid,Yes,5,4,4,Static (Manual),No,No,Yes,com,Yes,customercare@mbslbank.com,Yes,Kites Global,,98
+182,Property Development (Pvt) Ltd,https://pdl.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,pdlhrm@sltnet.lk,Yes,,,55
+183,Bank of Ceylon (UK) Limited,www.bankofceylon.co.uk,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,co.uk,Yes,cs@bankofceylon.co.uk,Yes,,,65
+184,MBSL Insurance Company Limited,www.mbslinsurance.lk,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@mbslinsurance.lk,Yes,Centronixx,,65
+185,People's Bank,https://www.peoplesbank.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes, info@peoplesbank.lk,Yes,Loops,,100
+186,People's Leasing & Finance PLC,https://www.plc.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@plc.lk,Yes,Efutures,,100
+187,People's Microfinance Limited,https://pml.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info.pml@plc.lk,No,Microweb Global,,65
+188,People's Insurance PLC,https://peoplesinsurance.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,pilassist@peoplesinsurance.lk,Yes,Microweb Global,,65
+189,Lankan Alliance Finance Limited ,alliancefinanceplc.com,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,Yes,info@alliancefinanceplc.com,Yes,,,65
+190,People's Travels (Pvt) Ltd,https://peoplestravels.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,Yes,info@peoplestravels.com,Yes,Coolco Digital,,65
+191,National Savings Bank (NSB),https://www.nsb.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes, callcentre@nsb.lk,Yes,,,100
+192,Sri Lanka Savings Bank,https://www.slsbank.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No, info@slsbl.lk,Yes,LankaCom,,55
+193,NSB Fund Management Co. Ltd,https://nsbfmc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,nsbfmc@nsb.lk,Yes,We Are Designers,,55
+,//,,,,,,,,,,,,,,,,,,
+194,Board of Investment of Sri Lanka,https://investsrilanka.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,No,info@boi.lk,No,,,55
+195,Central Bank of Sri Lanka,https://www.cbsl.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,cbslgen@cbsl.lk,No,,,90
+196,Colombo Port City Economic Commission,https://www.portcitycolombo.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,inquiries@portcity.gov.lk,Yes,,,65
+197,Credit Information Bureau of Sri Lanka,https://www.crib.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@crib.lk,Yes,,,100
+198,Department of Census and Statistics,https://www.statistics.gov.lk/,Active,Valid,Yes,5,3,3,Static (Manual),Yes,Yes,Yes,,Yes,information@statistics.gov.lk,Yes,,,96
+199,Department of Excise,https://excise.gov.lk/,Active,Valid,Yes,5,5,0,Static (Manual),Yes,Yes,Yes,,No,excisen@slt.lk,Yes,,,85
+200,Department of External Resources,https://www.erd.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@erd.gov.lk,Yes,proconsinfotech,,65
+201,Department of Import and Export Control,https://public.stratlinksl.imexport.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,deptimpt@sltnet.lk,No,,,55
+202,Department of Information Technology Management,https://itmd.treasury.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@itmd.treasury.gov.lk,Yes,,,90
+203,Department of Inland Revenue,https://www.ird.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,cgir@ird.gov.lk,Yes,,,100
+204,Department of National Planning,https://npd.treasury.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,dgnp@npd.treasury.gov.lk,Yes,,,65
+205,Department of Public Enterprises,https://www.pedmis.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,info@mo.treasury.gov.lk,No,,,55
+206,Department of Valuation,https://valuationdept.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,cv@valuationdept.gov.lk,Yes,proconsinfotech,,100
+207,Development Lotteries Board,https://www.dlb.lk/,Down,,,,,,,,,,,,,,,,0
+208,Employees' Trust Fund,https://etfb.lk/,Active,Valid,Yes,5,4,4,Static (Manual),No,No,Yes,lk,Yes,info@etfb.lk,Yes,,,98
+209,General Treasury,https://www.treasury.gov.lk/,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,Yes,info@mo.treasury.gov.lk,Yes,elysiancrest.com,,94
+210,Hotel Developers (Lanka) PLC (PQ 143),https://www.hoteldevelopers.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,manels@hdl.lk,No,LankaCom,,55
+211,Housing Development Finance Corporation,https://www.hdfc.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@hdfc.lk,Yes,Saberion,,100
+212,Institute of Policy Studies,https://www.ips.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,ips@ips.lk,Yes,Antyra solutions,,65
+213,Insurance Regulatory Commission of Sri Lanka,https://ircsl.gov.lk/,Active,Valid,Yes,5,3,3,Static (Manual),Yes,Yes,Yes,,Yes,info@ircsl.gov.lk,Yes,LankaCom,,96
+214,Lady Lochore Fund,https://lllf.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,gen@lllf.gov.lk,Yes,Vishmitha.com,,100
+215,National Credit Guarantee Institution Limited,https://www.ncgil.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@ncgil.lk,No,,,100
+216,National Insurance Trust Fund,https://www.nitf.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,mail@nitf.lk,Yes,NITF IT team,,100
+217,National Lotteries Board,https://www.nlb.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@nlb.lk,Yes,Lithium,,100
+218,Public Service Mutual Provident Fund,https://www.psmpa.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,No,"psmpa@sltnet.lk, psmpaoffice@gmail.com",Yes,MCS,,55
+219,Public Utilities Commission of Sri Lanka,https://www.pucsl.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@pucsl.gov.lk,Yes,PYXLE,,100
+220,Regional Development Bank,https://www.rdb.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@rdb.lk,Yes,Lakpura,,100
+221,Securities and Exchange Commission of Sri Lanka,https://www.sec.gov.lk/,Active,Valid,Yes,5,3,0,Static (Manual),Yes,Yes,Yes,,Yes,mail@sec.gov.lk,Yes,EFutures,,93
+222,Sri Lanka Accounting and Auditing Standard Monitoring Board,https://slaasmb.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,inquiry@slaasmb.gov.lk,Yes,LankaCom,,65
+223,Sri Lanka Customs,https://www.customs.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,"
+info@customs.gov.lk",Yes,,,90
+224,Sri Lanka Export Credit Insurance Corporation,https://www.slecic.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,inquiry@slecic.lk,Yes,,,65
+225,Sri Lanka Insurance Corporation and its subsidiaries and affiliated companies,https://www.srilankainsurance.com/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,com,Yes,email@srilankainsurance.com,Yes,Affno,Now this site work as a placeholder. From site we can go to two differenct sites which https://www.sliclife.com/en and  https://www.slicgeneral.com/en,100
+226,State Mortgage and Investment Bank,https://www.smib.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@smib.lk,Yes,Oglivy Martech,,100
+227,Strategic Enterprises Management Agency,https://www.sema.gov.lk,Down,,,,,,,,,,,,,,,,0
+228,Sustainable Development Council,https://www.sdc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@sdc.gov.lk,Yes,Encyte,,100
+229,Welfare Benefits Board,https://wbb.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@iwms.wbb.gov.lk,Yes,,,100
+,"Minister of Fisheries, Aquatic and Ocean Resources",,,,,,,,,,,,,,,,,,
+230,Cey-Nor Foundation Ltd.,https://ceynor.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,info@ceynor.lk,Yes, SLT-DIGITAL,,55
+231,Ceylon Fisheries Corporation,https://cfc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@cfc.gov.lk,Yes,Procons Infotech,,100
+232,Ceylon Fishery Harbours Corporation,https://www.cfhc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes, info@cfhc.gov.lk,Yes,ADDPRINT,,100
+233,Department of Fisheries and Aquatic Resources,https://www.fisheriesdept.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@fisheriesdept.gov.lk,Yes,,,100
+234,National Aquaculture Development Authority,naqda.gov.lk,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@naqda.gov.lk,Yes,,,70
+235,National Aquatic Resources Research and Development Agency,http://www.nara.ac.lk/,Active,No Certificate,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,postmaster@nara.ac.lk,Yes,,,40
+236,North Sea Ltd,https://www.northsea.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@northsea.lk,Yes,Deep Bees,,65
+,"Minister of Foreign Affairs, Foreign Employment and Tourism",,,,,,,,,,,,,,,,,,
+,Diplomatic Missions in abroad,,,,,,,,,,,,,,,,,,
+237,"High Commission of Sri Lanka, Dhaka, Bangladesh",hc-dhaka.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.dhaka@mfa.gov.lk,No,Frontwalker,,55
+238,"High Commission of Sri Lanka, New Delhi, India",hc-newdelhi.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.newdelhi@mfa.gov.lk,No,Frontwalker,,55
+239,"Deputy High Commission of Sri Lanka, Chennai, India",hc-chennai.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,sldhc.chennai@mfa.gov.lk,No,Frontwalker,,55
+240,"Consulate General of Sri Lanka, Mumbai, India",cg-mumbai.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.mumbai@mfa.gov.lk,No,Frontwalker,,55
+241,"High Commission of Sri Lanka, Malé, Maldives",hc-male.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.male@mfa.gov.lk,No,Frontwalker,,55
+242,"Embassy of Sri Lanka, Kathmandu, Nepal",emb-kathmandu.gov.lk,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,slemb.kathmandu@mfa.gov.lk,No,Frontwalker,the pages were half translated in the rest of the 4,82
+243,"High Commission of Sri Lanka, Islamabad, Pakistan",hc-islamabad.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.islamabad@mfa.gov.lk,No,Frontwalker,,55
+244,"Consulate General of Sri Lanka, Karachi, Pakistan",cg-karachi.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.karachi@mfa.gov.lk,No,Frontwalker,,55
+245,"High Commission of Sri Lanka, Canberra, Australia",hc-canberra.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.canberra@mfa.gov.lk,No,Frontwalker,,55
+246,"Consulate General of Sri Lanka, Melbourne, Australia",cg-melbourne.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,mail@slcgmel.org,No,Frontwalker,,55
+247,"Embassy of Sri Lanka, Beijing, China",emb-beijing.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.beijing@mfa.gov.lk,No,Frontwalker,,55
+248,"Consulate General of Sri Lanka, Shanghai, China",cg-shanghai.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.shanghai@mfa.gov.lk,No,Frontwalker,,55
+249,"Consulate General of Sri Lanka, Guangzhou, China",cg-guangzhou.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,cgguangzhou@mfa.gov.lk,No,Frontwalker,,55
+250,"Embassy of Sri Lanka, Jakarta, Indonesia",emb-jakarta.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.jakarta@mfa.gov.lk,No,Frontwalker,,55
+251,"Embassy of Sri Lanka, Tokyo, Japan",emb-tokyo.gov.lk,Active,Valid,Yes,5,3,1,Static (Manual),Yes,Yes,Yes,,No,slemb.tokyo@mfa.gov.lk,No,Frontwalker,"some were partially translated, but i considered as 0 since important stuff wasn't transalted",84
+252,"High Commission of Sri Lanka, Kuala Lumpur, Malaysia",hc-kualalumpur.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.kl@mfa.gov.lk,No,Frontwalker,,55
+253,"Embassy of Sri Lanka, Yangon, Myanmar",emb-yangon.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.yangon@mfa.gov.lk,No,Frontwalker,,55
+254,"High Commission of Sri Lanka, Singapore",hc-singapore.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.singapore@mfa.gov.lk,No,Frontwalker,,55
+255,"Embassy of Sri Lanka, Seoul, South Korea",emb-seoul.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.seoul@mfa.gov.lk,No,Frontwalker,,55
+256,"Embassy of Sri Lanka, Bangkok, Thailand",emb-bangkok.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.bangkok@mfa.gov.lk,No,Frontwalker,,55
+257,"Embassy of Sri Lanka, Manila, Philippines",emb-manila.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.manila@mfa.gov.lk,No,Frontwalker,,55
+258,"Embassy of Sri Lanka, Hanoi, Vietnam",emb-hanoi.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.hanoi@mfa.gov.lk,No,Frontwalker,,55
+259,"High Commission of Sri Lanka, Wellington, New Zealand",hc-wellington.gov.lk,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,slhc.wellington@mfa.gov.lk,No,Frontwalker,,82
+260,"Embassy and Permanent Mission of Sri Lanka, Vienna, Austria",emb-vienna.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.vienna@mfa.gov.lk,No,Frontwalker,,55
+261,"Embassy of Sri Lanka and Mission to the European Union, Brussels, Belgium",emb-brussels.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.brussels@mfa.gov.lk,No,Frontwalker,,55
+262,"Embassy of Sri Lanka, Paris, France",emb-paris.gov.lk,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,No,slemb.paris@mfa.gov.lk,No,Frontwalker,,88
+263,"Embassy of Sri Lanka, Berlin, Germany",emb-berlin.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,Slemb.berlin@mfa.gov.lk,No,Frontwalker,,55
+264,"Embassy of Sri Lanka, Rome, Italy",emb-rome.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.rome@mfa.gov.lk,No,Frontwalker,,55
+265,"Consulate General of Sri Lanka, Milan, Italy",cg-milan.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,Slcg.milan@mfa.gov.lk,No,Frontwalker,,55
+266,"Embassy of Sri Lanka, the Hague, the Netherlands",emb-hague.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.hague@mfa.gov.lk,No,Frontwalker,,55
+267,"Embassy of Sri Lanka, Warsaw, Poland",emb-warsaw.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,information@srilankaembassy.com.pl,No,Frontwalker,,55
+268,"Embassy of Sri Lanka, Bucharest, Romania",emb-bucharest.gov.lk,Active,Valid,Yes,5,5,3,Static (Manual),Yes,Yes,Yes,,No,consular.bucharest@mfa.gov.lk,No,Frontwalker,,88
+269,"Embassy of Sri Lanka, Moscow, Russia",emb-moscow.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.moscow@mfa.gov.lk,No,Frontwalker,,55
+270,"Embassy of Sri Lanka, Stockholm, Sweden",emb-stockholm.gov.lk,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,slemb.stockholm@mfa.gov.lk,No,Frontwalker,,82
+271,"Embassy of Sri Lanka, Ankara, Türkiye",emb-ankara.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.ankara@mfa.gov.lk,No,Frontwalker,,55
+272,"High Commission of Sri Lanka, United Kingdom of Great Britain and Northern Ireland",hc-london.gov.lk,Active,Valid,Yes,5,0,0,Static (Manual),Yes,Yes,Yes,,No,mail@slhc-london.co.uk,No,Frontwalker,,80
+273,"Permanent Mission of Sri Lanka to the United Nations & Consulate General of Sri Lanka, Geneva, Switzerland",un-geneva.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,prun.geneva@mfa.gov.lk,No,Frontwalker,,55
+274,"Embassy of Sri Lanka, Brasilia, Brazil",emb-brasilia.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.brasilia@mfa.gov.lk,No,https://frontwalker.com/en,,55
+275,"High Commission of Sri Lanka, Ottawa, Canada",hc-ottawa.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.ottawa@mfa.gov.lk,No,https://frontwalker.com/en,,55
+276,"Consulate General of Sri Lanka, Toronto, Canada",cg-toronto.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.toronto@mfa.gov.lk,No,https://frontwalker.com/en,,55
+277,"Embassy of Sri Lanka, Havana, Cuba",emb-havana.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.havana@mfa.gov.lk,No,https://frontwalker.com/en,,55
+278,"Embassy of Sri Lanka, Washington D.c., United States",emb-washington.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.washington@mfa.gov.lk,No,https://frontwalker.com/en,,55
+279,"Consulate General of Sri Lanka, Los Angeles, United States",cg-losangeles.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.losangeles@mfa.gov.lk,No,https://frontwalker.com/en,,55
+280,"Permanent Mission of Sri Lanka to the United Nations, New York, United States",un-newyork.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,prun.newyork@mfa.gov.lk,No,https://frontwalker.com/en,,55
+281,"Embassy of Sri Lanka, Manama, Kingdom of Bahrain",emb-manama.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.bahrain@mfa.gov.lk,No,https://frontwalker.com/en,,55
+282,"Consulate General of Sri Lanka, Nicosia, Cyprus",cg-nicosia.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.cyprus@mfa.gov.lk,No,https://frontwalker.com/en,,55
+283,"Embassy of Sri Lanka, Tehran, Iran",emb-tehran.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slembiran@yahoo.com,No,https://frontwalker.com/en,"The only published addresses are external consumer mailboxes, slembiran@yahoo.com and rgd.civil@gmail.com; nothing on mfa.gov.lk or emb-tehran.gov.lk appears on the site. The whole site has four content pages, so the five-page set could not be filled and English is scored over four.",55
+284,"Embassy of Sri Lanka, Tel Aviv, Israel",emb-telaviv.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.telaviv@mfa.gov.lk,No,https://frontwalker.com/en,,55
+285,"Embassy of Sri Lanka, Amman, Jordan",emb-amman.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.amman@mfa.gov.lk,No,https://frontwalker.com/en,,55
+286,"Embassy of Sri Lanka, Kuwait, State of Kuwait",emb-kuwait.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.kuwait@mfa.gov.lk,No,https://frontwalker.com/en,,55
+287,"Embassy of Sri Lanka, Beirut, Lebanon",emb-beirut.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.beirut@mfa.gov.lk,No,https://frontwalker.com/en,,55
+288,"Embassy of Sri Lanka, Muscat, Oman",emb-muscat.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.muscat@mfa.gov.lk,No,https://frontwalker.com/en,"The shared apex certificate omits emb-muscat.gov.lk, so an explicit https://emb-muscat.gov.lk/ request fails hostname verification (openssl 62) and Chrome shows a Privacy error. Recorded Valid because that is not the path a visitor takes: the URL in this batch has no scheme, the apex sends no HSTS header and is not preloaded, so a browser goes over http, follows the 301 to https://www.emb-muscat.gov.lk/en and lands on a certificate that verifies. Typing the bare host in Chrome was tested and reaches the site with no warning. Still a real defect for bookmarks and links that specify https on the apex, for scripted clients, and for users who switch on Always use secure connections",55
+289,"Representative Office of Sri Lanka, Ramallah, Palestine",rep-ramallah.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slrep.palestine@mfa.gov.lk,No,https://frontwalker.com/en,,55
+290,"Embassy of Sri Lanka, Doha, Qatar",emb-doha.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.doha@mfa.gov.lk,No,https://frontwalker.com/en,,55
+291,"Embassy of Sri Lanka, Riyadh, Saudi Arabia",emb-riyadh.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.riyadh@mfa.gov.lk,No,https://frontwalker.com/en,,55
+292,"Consulate General of Sri Lanka, Jeddah, Saudi Arabia",cg-jeddah.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.jeddah@mfa.gov.lk,No,https://frontwalker.com/en,,55
+293,"Embassy of Sri Lanka, Abu Dhabi, United Arab Emirates",emb-abudhabi.gov.lk,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,No,slemb.abudhabi@mfa.gov.lk,No,Frontwalker,,84
+294,"Consulate General of Sri Lanka, Dubai, United Arab Emirates",cg-dubai.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slcg.dubai@mfa.gov.lk,No,Frontwalker,,55
+295,"Embassy of Sri Lanka, Cairo, Egypt",emb-cairo.gov.lk,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,No,slemb.cairo@mfa.gov.lk,No,Frontwalker,,84
+296,"Embassy of Sri Lanka, Addis Ababa, Ethiopia",emb-addisababa.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slemb.addisababa@mfa.gov.lk,No,Frontwalker,,55
+297,"High Commission of Sri Lanka, Nairobi, Kenya",hc-nairobi.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.nairobi@mfa.gov.lk,No,Frontwalker,,55
+298,"High Commission of Sri Lanka, Victoria, Seychelles",hc-victoria.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,slhc.seychelles@mfa.gov.lk,No,Frontwalker,,55
+299,"High Commission of Sri Lanka, Pretoria, South Africa",hc-pretoria.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,consular.pretoria@mfa.gov.lk,No,Frontwalker,,55
+,//,,,,,,,,,,,,,,,,,,
+300,Foreign Employment Agency of Sri Lanka (Pvt.) Ltd.,https://slfea.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@slfea.lk,Yes,,,65
+301,Lakshman Kadirgamar Institute for International Relations and Strategic Studies,https://lki.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,programmes@lki.lk,Yes,Oddly,,65
+302,Sri Lanka Convention Bureau,https://meetinsrilanka.com/,Active,Expired,Yes,5,0,0,Not Applicable,No,No,Yes,com,No,mktslcb@srilanka.travel,Yes,Loops Integrated,,40
+303,Sri Lanka Foreign Employment Bureau,https://www.slbfe.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info_center@slbfe.lk,Yes,Web Lankan,,100
+304,Sri Lanka Institute of Tourism and Hotel Management,https://www.slithm.edu.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@slithm.edu.lk,No,Web Lankan,,65
+305,Sri Lanka Tourism Development Authority,https://www.sltda.gov.lk/,Active,Valid,Yes,5,4,4,Not Applicable,Yes,Yes,Yes,,No,info@srilanka.travel,Yes,,,68
+306,Sri Lanka Tourism Promotion Bureau,https://www.srilanka.travel/,Active,Valid,Yes,5,0,0,Not Applicable,No,No,Yes,other,No main email provided,,Yes,Sri Lanka Tourism Development Authority ICT Department,,60
+,Minister of Health and Mass Media,,,,,,,,,,,,,,,,,,
+307,1990 Suwaseriya Foundation,https://www.1990.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@1990.lk,Yes,,,65
+,"All National, Teaching and Specific Government Hospitals",,,,,,,,,,,,,,,,,,
+308,"National Hospital of Sri Lanka, Colombo",http://www.nhsl.health.gov.lk/,Active,No Certificate,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes,,,35
+309,National Cancer Institute Maharagama,https://www.ncisl.health.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes,,,55
+310,National Eye Hospital Colombo,https://www.neh.health.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,srilankanationaleyehospital@gmail.com,No,Rysera Innovations,,55
+311,Teaching Hospital Peradeniya,https://peradeniya-hospital.health.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,perahospital@gmail.com,Yes,,,80
+312,Castle Street Hospital for Women,https://www.cshw.health.gov.lk/,Active,Valid,No,5,1,1,Static (Manual),Yes,Yes,Yes,,Yes,castlehos@health.gov.lk  ,No,,,87
+313,De Soysa Hospital for Women,https://www.dmh.health.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,directordmh1879@gmail.com,No,,,55
+314,National Hospital - Kandy,https://nhkandy.org/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,org,No,dirnhkandy@health.gov.lk,Yes,SLLover Tech Solutions,,30
+315,Teaching Hospital Jaffna,https://thjaffna.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,No,thjaffna@gmail.com,Yes,Lanka Designs,,30
+316,Teaching Hospital Colombo North Ragama,https://www.cnth.health.gov.lk/,Active,Valid,Yes,5,1,1,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@cnth.health.gov.lk,No,,,82
+317,Teaching Hospital - Lady Ridgeway Hospital for Children,https://lrh.health.gov.lk/,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info.lrh@health.gov.lk,Yes,,,70
+318,National Institute of Mental Health,https://nimh.health.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@nimh.health.gov.lk,Yes,Kannys Lab,,98
+319,Teaching Hospital Colombo South Kalubowila,https://www.csth.health.gov.lk/,Active,No Certificate,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes,,,30
+,//,,,,,,,,,,,,,,,,,,
+320,Ashraff Memorial Hospital,https://www.amhkalmunai.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,Yes,info@amhkalmunai.lk,No,"ICT Unit , Ashraff Memorial Hospital",,40
+321,Associated Newspapers of Ceylon Ltd.,https://lakehouse.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,frontoffice@lakehouse.lk,Yes,,,65
+322,Ayurvedic Medical Council,www.ayurvedicmedicoun.gov.lk,Down,,,,,,,,,,,,,,,,0
+323,Department of Ayurveda,https://ayurveda.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes,,,55
+324,Department of Government Information,https://www.dgi.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@dgi.gov.lk,Yes,,,100
+325,Department of Government Printing,https://documents.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,gpinfo@documents.gov.lk,Yes,LankaCom,,100
+326,Department of Health Services,https://www.health.gov.lk,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@health.gov.lk,Yes,Weblankan & Arrogance Technologies (Pvt)Ltd,,100
+327,Homeopathy Medical Council,https://slhmc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,No,homosri.mcouncil@gmail.com,Yes,BeesPoint,,30
+328,Independent Television Network,https://itn.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@itn.lk,Yes,Arul Patmose Paramanathan,,65
+329,Lanka Puwath Ltd,https://lankapuvath.lk/,Active,Valid,Yes,5,5,0,Static (Manual),No,No,Yes,lk,No,lankapuvath@gmail.com,No,,,85
+330,Medical Research Institute,http://www.mri.gov.lk/,Down,,,,,,,,,,,,,,,,0
+331,National Authority on Tobacco and Alcohol,https://nata.gov.lk/,Active,Valid,Yes,5,4,3,Static (Manual),Yes,Yes,Yes,,No,natamoh.lk@gmail.com,No,Procons Infotech,,87
+332,National Institute of Health Sciences,https://nihs.health.gov.lk/,Active,Valid,Yes,5,1,0,Static (Manual),Yes,Yes,Yes,,Yes,info@nihs.health.gov.lk,No, DataNest (PVT) LTD ,"FLAG, correct address -",91
+333,"National Institute of Nephrology, Dialysis and Transplantation",https://nindt.health.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,nindt.maligawatte@gmail.com,No,President New Media Unit,,55
+334,National Medicines Regulatory Authority,https://www.nmra.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@nmra.gov.lk,Yes,,,65
+335,Postal Department,https://slpost.gov.lk/,Active,Valid,Yes,5,3,2,Static (Manual),Yes,Yes,Yes,,No,info@slpost.lk,Yes,,,85
+336,Private Health Services Regulatory Council,https://phsrc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,phsrc2015@gmail.com,Yes,Sri Lanka Telecom (Services) Ltd.,,55
+337,Right to Information Commission,https://rticommission.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,Yes,No,lk,Partial,"rti.commission16@gmail.com, info@rtic.gov.lk",No,IT Unit RTIC,,70
+338,Selacine Media Solutions (PVT) LTD,https://selacine.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No,selacine@gmail.com,Yes, Adflix Digital Solutions (pvt)ltd.,correct address,90
+339,Sri Jayewardenepura General Hospital,https://sjgh.health.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,info@sjghsrilanka.lk,No,,,55
+340,Sri Lanka Ayurvedic Drugs Corporation,https://sladc.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No,itsladc@gmail.com,Yes,,,90
+341,Sri Lanka Broadcasting Corporation,https://www.slbc.lk/,Active,Valid,No,2,5,0,Not Applicable,No,No,Yes,lk,No,info@slbcmail.lk,Yes,,,57
+342,Sri Lanka Foundation,https://www.slf.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,edu@slf.lk,Yes,,"""https://www.slf.lk/wp-login.php?redirect_to=https%3A%2F%2Fwww.slf.lk%2Fwp-admin%2F&reauth=1"" - The WordPress admin login URL is publicly accessible through the standard /wp-login.php endpoint. This exposes the admin login path and may increase the risk of automated brute-force or credential-based attacks.",90
+343,Sri Lanka Institute of Printing,https://sliop.edu.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,support@sliop.edu.lk,Yes,DGedits | BestCreations,,65
+344,Sri Lanka Media Training Institute,http://www.slmti.lk/,Down,,,,,,,,,,,,,,,,0
+345,Sri Lanka Medical College Council,https://cmcc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No, cmcc.fmc@gmail.com,Yes,,"FLAG, when you type cmcc.lk it does not go to the site",55
+346,Sri Lanka Medical Council,https://slmc.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@slmc.gov.lk,Yes,,,65
+347,Sri Lanka Nursing Council,https://slnc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,slnc@sltnet.lk,Yes, Phoenix Business Solutions,,55
+348,Sri Lanka Press Council,https://slpc.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@slpc.lk,Yes,Vishmitha,,100
+349,Sri Lanka Rupavahini Corporation,https://rupavahini.lk/,Active ,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,No email provided,Yes, OLAK,,55
+350,State Pharmaceutical Corporation,https://www.spc.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,"chairman@spc.lk,md@spc.lk,marketing@spc.lk",Yes,Senska,,90
+351,State Pharmaceutical Manufacturing Corporation,https://spmc.gov.lk/,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,Yes,chairman@spmc.gov.lk,Yes,Lithium,,94
+352,Vijaya Kumaratunga Memorial Hospital,https://wijayakmhospital.com/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,com,No,wkmhinfo@gmail.com,No,,,30
+,"Minister of Housing, Construction and Water Supply",,,,,,,,,,,,,,,,,,
+353,Building Material Corporation Limited,https://bmc.lk/en,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@bmc.lk,No,"IT Team, BMC",,100
+354,Construction Guarantee Fund,https://cgf.gov.lk/,Down,,,,,,,,,,,,,,,,0
+355,Construction Industry Development Authority,https://www.cida.gov.lk/,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@cida.gov.lk,Yes,Sri Lanka Telecom (Services) Ltd.,,70
+356,Department of Buildings,https://buildings.gov.lk/,Active,Valid,Yes,5,4,3,Static (Manual),Yes,Yes,Yes,,No,info@buildingsdept.gov.lk,No,ProCons Infotech,,87
+357,Department of Government Factories,http://govtfactory.gov.lk/,Active,No Certificate,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@govtfactory.gov.lk,Yes,,,75
+358,Department of National Community Water Supply,https://dncws.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,No,dncwsme@gmail.com,Yes,,,30
+359,Engineering Council of Sri Lanka,https://ecsl.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,registrar@ecsl.gov.lk,Yes,,,65
+360,National Housing Development Authority,https://nhda.gov.lk/,Active,Valid,Yes,5,3,3,Not Applicable,Yes,Yes,Yes,,No,nhdaemp@gmail.com,No,,,66
+361,National Water Supply and Drainage Board,https://www.waterboard.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,support@waterboard.lk,Yes,ProCons Infotech,,100
+362,Ocean View Development (Pvt) Ltd.,https://ovdc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,marketing@ovdc.lk,Yes,PrideCC,,65
+363,State Engineering Corporation,https://www.secsl.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@secsl.gov.lk,Yes,WebLankan,,65
+,Minister of Industry and Entrepreneurship Development,,,,,,,,,,,,,,,,,,
+364,BCC Lanka Limited,https://www.bcc.lk/,Active,Valid,Yes,5,3,0,Static (Manual),No,No,Yes,lk,No,bcclankaltd@gmail.com,Yes,SLT-DIGITAL,,83
+365,Ceylon Industrial Development Board,https://idb.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@idb.gov.lk,Yes,Graphics.lk,,100
+366,Department of Textile Industries,http://textiledept.gov.lk,Down,,,,,,,,,,,,,,,,0
+367,GSMB Technical Services (Pvt) Ltd.,www.gsmbts.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,No,GSMB Technical Services (Pvt) Ltd,,55
+368,Galoya Plantation (Pvt.) Company,https://galoya.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@galoya.lk,Yes,,,65
+369,Gem and Jewellery Research and Training Institute,https://www.gjrti.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@gjrti.gov.lk,Yes,,,98
+370,Geological Survey and Mines Bureau,https://www.gsmb.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@gsmb.gov.lk,Yes,Procons Infotech,,98
+371,Kahatagaha Graphite Lanka Ltd,https://kgraphite.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,kgllho2019@gmail.com,Yes,PSM IT Solutions,,55
+372,Lanka Leyland (Pvt) Ltd.,https://lal.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,,,55
+373,Lanka Mineral Sands Company,https://lankamineralsands.com/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,com,No,"marketing@lmsl.gov.lk, info@lmsl.gov.lk",Yes,,,55
+374,Lanka Phosphate Limited,https://lpl.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,info@lpl.lk,Yes,Procons Infotech,,100
+375,Lanka Sugar Company (Pvt.) Ltd.,https://www.lankasugar.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,,,55
+376,National Crafts Council,https://craftscouncil.gov.lk/,Active,Valid,Yes,0,5,5,Not Applicable,Yes,Yes,Yes,,No,craftscouncil@sltnet.lk,Yes,LankaCom,,65
+377,National Design Centre,https://slndc.gov.lk/,Redirects to Invalid Site,,,,,,,,,,,,,,,,0
+378,National Enterprise Development Authority,https://neda.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@neda.gov.lk,Yes,Oshani Bodhiwansa,,90
+379,National Gem and Jewellery Authority,https://ngja.gov.lk/,Active,Valid,Yes,5,3,3,Static (Manual),Yes,Yes,Yes,,Yes,info@ngja.gov.lk,Yes,ARTISTIC YOCH,,96
+380,National Paper Corporation Ltd.,https://npc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,"gm@npc.lk,sales@npc.lk",Yes,IT MART,,65
+381,National Productivity Secretariat,https://productivity.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,No,info@productivity.gov.lk,Yes,Procons Infotech,,30
+382,National Salt Limited,https://nationalsalt.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@nationalsalt.lk,No,,,65
+383,Paranthan Chemicals Ltd,https://pccl.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@pccl.lk,Yes,PCC IT,,65
+384,Sri Lanka Export Development Board,https://www.srilankabusiness.com/,Active,Valid,Yes,5,5,5,Not Applicable,No,No,Yes,com,Yes,edb@edb.gov.lk,Yes,eBEYONDS,,80
+385,Sri Lanka Handicraft Board (Laksala),http://laksala.gov.lk/,Down,,,,,,,,,,,,,,,,0
+386,Sri Lanka Institute of Textile and Apparels,https://www.slita.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,training@slita.ac.lk,Yes,Lithium,,55
+387,Sugar Cane Research Institute,https://sugarres.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@sugarres.lk,Yes,,,65
+,Minister of Justice and National Integration,,,,,,,,,,,,,,,,,,
+388,Attorney General's Department,https://www.attorneygeneral.gov.lk/,Active,Valid,No,4,0,0,Not Applicable,Yes,Yes,Yes,,Yes,administration@agd.gov.lk,Yes,Bellvantage,,64
+389,Community Based Correction Department,http://www.dcbc.gov.lk,Down,,,,,,,,,,,,,,,,0
+390,Department of Government Analyst,https://analyst.gov.lk/,Active,Valid,No,5,0,0,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@analyst.gov.lk,Yes,,,75
+391,Department of Official Languages,https://www.languagesdept.gov.lk/,Active,Valid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,No,languages.dept.ad04@gmail.com,No,Procons Infotech,,87
+392,Department of Prisons,http://www.prisons.gov.lk/,Active,No Certificate,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,No,prisons@sltnet.lk,No,,,62
+393,Law Commission of Sri Lanka,https://lawcom.gov.lk/,Active,Valid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,No,depoflawcommision@gmail.com,No,,,87
+394,Legal Aid Commission of Sri Lanka,https://legalaid.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,legalaidcommission1978@gmail.com,No,,,90
+395,Legal Draftsman's Department,https://ld.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@ld.gov.lk,Yes,,,100
+396,Mediation Boards Commission,https://mediation.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,general@mediation.gov.lk,Yes,,,100
+397,National Authority for the Protection of Victims of Crime and Witnesses,https://napvcw.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,witness.protection.srilanka@gmail.com,No,SLT Digital Services,,90
+398,National Institute of Language Education and Training,https://nilet.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,nilet.languages@gmail.com,No,,,90
+399,Office for National Unity and Reconciliation,https://onur.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@onur.gov.lk,Yes,,,100
+400,Office for Reparations,https://reparations.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@reparations.gov.lk,Yes,Procons Infotech,,100
+401,Office on Missing Persons,https://omp.gov.lk/,Active,Valid,Yes,5,3,4,Static (Manual),Yes,Yes,Yes,,No,ompsrilanka@gmail.com,Yes,,,87
+402,Official Languages Commission,https://olc.gov.lk/,Down,,,,,,,,,,,,,,,,0
+403,Sri Lanka Judges Institute,https://judgesinstitute.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,slji.information@gmail.com,No,USAID,,55
+,Minister of Labour,,,,,,,,,,,,,,,,,,
+404,Department of Labour,https://labourdept.gov.lk/,Active,Valid,Yes,0,5,0,Not Applicable,Yes,Yes,Yes,,Yes,admin@labourdept.gov.lk,Yes,SLT Digital,,70
+405,Department of Manpower and Employment,https://dme.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,dg@dome.gov.lk,No,Procons Infotech,,65
+406,National Institute for Occupational Safety and Health,https://niosh.gov.lk/,Active,Valid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,No main email provided,,Yes,Procons Infotech,,87
+407,National Institute of Labour Studies,https://nils.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,info@nils.lk,No,,,80
+408,Office of the Commissioner of Workmen's Compensation,https://www.compensation.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No email,,No,,,90
+409,Shrama Vasana Fund,https://www.svf.gov.lk/,Down,,,,,,,,,,,,,,,Translation works only for navbar and footer,0
+,Minister of Plantation and Community Infrastructure,,,,,,,,,,,,,,,,,,
+410,Chilaw Plantation Company Ltd,http://cpl.gov.lk/,Active,No Certificate,Yes,5,,0,Static (Manual),Yes,Yes,Yes,,No email,,Yes,Sri Lanka Telecom (Services) Ltd.,,55
+411,Coconut Cultivation Board,https://coconutsrilanka.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No email,,Yes,GUI Solutions Lanka,,90
+412,Coconut Development Authority,https://cda.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,chairman@cda.gov.lk,Yes,Procons Infotech,,100
+413,Coconut Research Institute,https://cri.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,director@cri.gov.lk,Yes,graphics.lk,,100
+414,Department of Rubber Development,https://rubberdev.gov.lk/,Active,Valid,Yes,5,4,3,Static (Manual),Yes,Yes,Yes,,No,rubbdev@gmail.com,Yes,Procons Infotech,Web page was blocked by Fortinet Secure DNS Service portal,87
+415,Elkaduwa Plantation Company Ltd.,https://elkaduwaplantations.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@elkaduwaplantations.lk,Yes,Websculpting,,65
+416,Janatha Estate Development Board,https://www.jedb.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,contact@jedb.lk,Yes,EchonLabs,,65
+417,Kalubovitiyana Tea Factory Ltd.,https://kalubowitiyanatea.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,office.gen@kalubowitiyanatea.lk,Yes,,,65
+418,Kithul Development Board,https://kdb.gov.lk/,Down,,,,,,,,,,,,,,,,0
+419,Kurunegala Plantation Company Ltd.,https://kurunegalaplantations.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Partial,"kurunegalaplt@sltnet.lk,info@kurunegalaplantations.lk",Yes,,,60
+420,National Institute of Plantation Management,https://nipm.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@nipm.gov.lk,Yes,GeoEDGE,,65
+421,Palmyrah Development Board,https://pdb.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,slpdbho@yahoo.com,Yes,,,80
+422,Plantation Human Development Trust,https://phdt.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@phdt.lk,Yes,Web Lankan,,65
+423,Rubber Research Institute,https://www.rrisl.gov.lk/,Active,Valid,Yes,5,2,0,Static (Manual),No,No,Yes,,No,dirrri@sltnet.lk,Yes,Sri Lanka Telecom (Services) Ltd.,,82
+424,Spices and Allied Products Marketing Board,https://www.spicelk.com,Down,,,,,,,,,,,,,,,,0
+425,Sri Lanka Cashew Corporation,https://www.cashew.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,No,,,55
+426,Sri Lanka State Plantation Corporation,https://slspc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,slspc@sltnet.lk,Yes,TECHLEAD INTL,,55
+427,Sri Lanka Tea Board,https://srilankateaboard.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,teaboard@pureceylontea.com,No,,,55
+428,Tea Research Institute,https://www.tri.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,info@tri.lk,Yes,,this website not loading,65
+429,Tea Small Holdings Development Authority,http://tshda.lk/,Down,,,,,,,,,,,,,,,Cloudflare Tunnel Error,0
+,Minister of Ports and Civil Aviation,,,,,,,,,,,,,,,,,,
+430,Airport and Aviation Services (Sri Lanka) Ltd.,airport.lk,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,comments@airport.lk,Yes,Not listed,"does not work for http, only for https, has to manually edit the url",65
+431,Ceylon Shipping Corporation Ltd.,http://www.cscl.lk/,Active,No Certificate,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,cscl@cscl.lk,Yes,,,40
+432,Civil Aviation Authority of Sri Lanka,https://www.caa.lk/,Active,Valid,Yes,5,4,4,Static (Manual),No,No,Yes,lk,Yes,contactus@caa.lk,Yes,,,98
+433,Merchant Shipping Secretariat,http://www.dgshipping.gov.lk/,Active,No Certificate,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,,Yes,,even though the lang switcher is availble transation not happens properly,57
+434,Sri Lanka Ports Authority and its Subsidiaries and Associates,https://www.slpa.lk/,Active,Valid,Yes,5,3,2,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@slpa.lk,Yes,Ports Authority IS Division,,85
+435,Sri Lankan Airlines and its subsidiaries,www.srilankan.com,Active,Valid,Yes,5,2,2,Static (Manual),No,No,Yes,com,Yes,reservations@srilankan.com,Yes,,"some were barely translated and in tamil, letters were not visible (font issue or something for the language)",94
+,"Minister of Public Administration, Provincial Councils and Local Government",,,,,,,,,,,,,,,,,,
+436,Department of Pensions,https://pensions.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,inquiries.pms@pensions.gov.lk,Yes,,,100
+437,Department of Registrar General,https://www.rgd.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@rgd.gov.lk,Yes,,"tamil was not translated properly, characters aren't visible",100
+438,Distance Learning Centre Ltd.,https://www.dlcsrilanka.org/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,org,Yes,info@dlcsrilanka.org,Yes,,,65
+439,Local Loans and Development Fund,https://lldf.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,lldf1916@gmail.com,Yes,,,90
+440,National Human Resources Development Council of Sri Lanka,https://nhrdc.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,kasuni.nhrdc@gmail.com,Yes,,,55
+441,Public Service Pensioners' Trust Fund,https://www.psptf.lk/,Active,Valid,Yes,5,4,2,Static (Manual),No,No,Yes,lk,No,psptflanka@gmail.com,Yes,,,86
+442,Sri Lanka Institute of Development Administration,https://www.slida.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,dg@slida.gov.lk,Yes,DLAD Software Solutions,,65
+443,Sri Lanka Institute of Local Government,https://www.slilg.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,No,,,55
+,Minister of Public Security and Parliamentary Affairs,,,,,,,,,,,,,,,,,,
+444,Bureau of Rehabilitation,https://bor.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,"bcg.rehabilitation@gmail.com,bcgr.rehabb@gmail.com",No,ProConst Infotech,,90
+445,Civil Security Department,https://csd.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No,csdsecy@gmail.com,No,CSD of Information Technology,,90
+446,Department of Immigration and Emigration,https://www.immigration.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,controller@Immigration.gov.lk,Yes,Sri Lanka Telecom (Services) Ltd,,100
+447,National Dangerous Drugs Control Board,https://www.nddcb.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,mail@nddcb.gov.lk,Yes,FishiFox Pvt Ltd.,,100
+448,National Police Academy,https://npa.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,academy@police.gov.lk,Yes,Sri Lanka Police Information Technology Division,,65
+449,Sri Lanka Police,https://www.police.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,No,Vampior designs,,55
+,"Minister of Rural Development, Social Security and Community Empowerment",,,,,,,,,,,,,,,,,,
+450,Department of Samurdhi Development,https://dsd.samurdhi.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@samurdhi.gov.lk,No,SYSCGAA,,90
+451,Department of Social Services,https://www.socialservices.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,director@socialservices.gov.lk,Yes,Procons Infotech,,100
+452,National Council for Elders and National Secretariat for Elders,http://nse.gov.lk/,Active,Valid,Yes,4,4,4,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@nse.gov.lk,Yes,Neil Jayathilake,,87
+453,National Institute of Social Development,https://nisd.ac.lk/,Active,Valid,No,3,0,0,Not Applicable,No,No,Yes,lk,Yes,info@nisd.ac.lk,Yes,,,63
+454,National Secretariat for Non Governmental Organization,https://ngosec.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@ngosec.gov.lk,Yes,,Two main emails ngosecretariat.gov@gmail.com/ info@ngosec.gov.lk,100
+455,National Secretariat for Persons with Disabilities,nspd.gov.lk,Active,No Certificate,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,mssnspd@gmail.com,Yes,Webcomms Global,,65
+456,Rural Development Training and Research Institute,https://www.rdtri.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,adpilima[at]rdtri.gov.lk,Yes,Procons Infotech,,100
+457,Saubhagya Development Bureau,https://www.rdb.gov.lk,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,ruraldevelopmentbureau@gmail.com,No,,,90
+458,Social Security Board,https://ssb.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@ssb.gov.lk,Yes,"Department of Information Technology, Faculty of Humanities & Social Sciences, University of Ruhuna",,100
+,Minister of Science and Technology,,,,,,,,,,,,,,,,,,
+459,Arthur C. Clarke Institute for Modern Technologies,https://www.accimt.ac.lk/,Active,Valid,No,4,0,0,Not Applicable,No,No,Yes,lk,Yes,sddhr@accimt.ac.lk,Yes,,,64
+460,Industrial Technology Institute,https://www.iti.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,clo@iti.lk,Yes,Web Lankan,,65
+461,National Engineering Research And Development Centre,https://nerdc.lk/,Active,Valid,Yes,5,0,0,Not Applicable,No,No,Yes,lk,Yes,nerdcentre@nerdc.lk,Yes,Lankacom,,70
+462,National Innovation Agency,https://nia.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,contact@nia.gov.lk,Yes,NIA,,65
+463,National Institute of Fundamental Studies,https://www.nifs.ac.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@nifs.ac.lk,Yes,Cloudwave PVT Ltd,,90
+464,National Research Council of Sri Lanka,https://www.nrc.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,Yes,https://www.onsys.com.au/,"No general contact address is published: the Contact NRC page lists only telephone and fax, so the main address is taken from the Contact Staff directory where accounts@nrc.gov.lk is the Front Desk entry. Two staff roles in that directory use Gmail (shanika.nrc@, praneeth.nrc@)",55
+465,National Science Foundation,https://www.nsf.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@nsf.gov.lk,Yes,,"Sinhala and Tamil coverage not scoreable from HTML: GTranslate runs with url_structure 'none', so translation happens in the browser; /index.php/si/ returns the English page (si 0.02). Needs manual browser verification",90
+466,National Science and Technology Commission,https://www.nastec.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@nastec.gov.lk,Yes,,,65
+467,Planetarium of Sri Lanka,https://www.planetarium.gov.lk/,Down,,,,,,,,,,,,,,,"Down: port 443 refused on both www and apex (connect:errno=61), port 80 answers with a bare IIS '404 - File or directory not found' (34 bytes). SSL recorded as Invalid on instruction; no certificate is served, so nothing can be shown expired. Language, email and developer checks not possible",0
+468,Sri Lanka Atomic Energy Board,https://aeb.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,officialmail@aeb.gov.lk,Yes,,"Sinhala and Tamil exist only for the home and Services pages; /si/ and /ta/ versions of Vision & Mission, Contact Us and Information Officers redirect to English",65
+469,Sri Lanka Atomic Energy Regulatory Council,https://www.aerc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,officialmail@aerc.gov.lk,Yes,,,100
+470,Sri Lanka Institute of Biotechnology (Pvt.) Ltd.,https://slibtec.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Partial,"info@slibtec.gov.lk,slibtec@gmail.com",Yes,Tenac Labs,,60
+471,Sri Lanka Institute of Nanotechnology (Pvt.) Ltd.,https://www.slintec.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,,Yes,biz_dev@slintec.lk,Yes,,"Site appears compromised: 46 off-screen CSS classes (position:absolute; left:-14683px and similar) wrap 34 hidden gambling links on the homepage; 22 of them point to injected pages under /tmp/ on this server (now 404) and 2 sit in the footer template, so they appear on every page including Contact Us. TLS, content and published addresses are otherwise sound. Needs a security review of the WordPress install, not a content edit. Evidence: evidence/471-sri-lanka-institute-of-nanotechnology/opus/, scan in out/opus-hidden-links.txt",65
+472,Sri Lanka Inventors' Commission,https://slic.gov.lk/,Active,Valid,Yes,5,0,0,Static (Manual),Yes,Yes,Yes,,Yes,info@slic.gov.lk,Yes,,"Sinhala and Tamil home pages exist under /si/ and /ta/ (Polylang) but serve English body text (si 0.02, ta 0.01); only two event pages are actually translated, and they are outside the five-page sample",90
+473,Sri Lanka Standards Institute,https://slsi.lk/,Active,Valid,Yes,5,0,0,Not Applicable,No,No,Yes,lk,Yes,slsi@slsi.lk,Yes,,Header switcher labels English/Sinhala/Tamil all link to '#'; the Sinhala site is reachable only by direct URL (hreflang metadata) and https://slsi.lk/ta/ returns an empty 21-byte body,70
+,"Minister of Trade, Commerce, Food Security and Cooperative Development",,,,,,,,,,,,,,,,,,
+474,Consumer Affairs Authority,https://caa.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No main email provided,,Yes,,,90
+475,Cooperative Employees Commission,https://cec.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,cec.gov1@gmail.com,Yes,Procons Infotech,,90
+476,Department of Commerce,https://doc.gov.lk/,Active,Valid,Yes,5,4,3,Static (Manual),Yes,Yes,Yes,,Yes,fortrade@doc.gov.lk,Yes,,,97
+477,Department of Cooperative Development (Registrar of Cooperative Societies),https://coop.gov.lk/,Down,,,,,,,,,,,,,,,"Site loads, but it says under construction, Down: 200 OK serves a 135-byte 'Under construction... We will be back soon...' placeholder on both coop.gov.lk and www; /index.php and /en/ return 500. Language, email and developer checks not possible",0
+478,"Department of Measurement Units, Standards and Services",https://measurementsdept.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@measurementsdept.gov.lk,Yes,,,98
+479,Department of the Registrar of Companies,https://drc.gov.lk/,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@drc.gov.lk,,,"Not sure about the developer, Language gateway at /intro/ shows Sinhala and Tamil icons but both link to '#'; /si/ redirect-loops and /ta/ falls back to the gateway, so no Sinhala or Tamil content exists",70
+480,Food Commissioner's Department,https://www.fcd.gov.lk,Down,,,,,,,,,,,,,,,"Down: HTTP 200 serves a DreamHost placeholder for an unrelated host (natcapwg.cap.gov), 766 bytes, no site content; port 443 times out (connect:errno=60). SSL recorded as Invalid on instruction; no certificate is served, so nothing can be shown expired. Language, email and developer checks not possible",0
+481,Lanka Sathosa Ltd.,http://www.lankasathosa.org/,Active,Invalid,Yes,5,4,2,Static (Manual),No,No,Yes,org,Yes,info@lankasathosa.org,Yes,,"Site is extremely slow, Port 443 accepts TCP but presents no certificate (no peer certificate available, tlsv1 alert protocol version), so the site is effectively HTTP-only; recorded as Invalid rather than Missing on instruction. The real homepage is reached only after a 7-second JS timer on the /welcome splash, and ?lang= switching works only with a PHP session cookie",76
+482,Mahapola Trust Fund,www.mahapola.lk,Active,Valid,Yes,5,4,4,Static (Manual),No,Yes,No,lk,Yes,mahapola@mahapola.lk,Yes,,,73
+483,National Institute of Cooperative Development,https://nicd.edu.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,nicd@sltnet.lk,Yes,,,65
+484,National Intellectual Property Office of Sri Lanka,https://www.nipo.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@nipo.gov.lk,Yes,Procons Infotech,,100
+,Regional Economic Centres,,,,,,,,,,,,,,,,,,
+485,Keppetipola,https://www.deckeppetipola.com/,Active,Valid,Yes,4,4,4,Dynamic (Automatically translated using 3rd party services),No,No,Yes,com,Yes,Info@deckeppetipola.com,Yes,,,87
+486,Thambuttegama,https://thambuttegamadec.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No,tmb.dec@gmail.com,Yes,Camellia Network,,90
+487,Dambulla,https://dambulladec.com/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,com,No,dambulladec@gmail.com,Yes,pentarix,,80
+488,Vavuniya,https://vavuniyadec.com/,Active,Valid,No,0,0,0,Not Applicable,No,No,Yes,com,No main email provided,,Yes,Core APIHUB,,50
+,//,,,,,,,,,,,,,,,,,,
+489,Sri Lanka Accreditation Board for Conformity Assessment,https://www.slab.lk/,Active,Valid,Yes,5,1,1,Static (Manual),No,No,Yes,lk,Yes,info@slab.lk,No,Prime One Global,,92
+490,Sri Lanka State Trading (General) Corporation Ltd,https://www.stc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No main email provided,,Yes,weblook,,55
+491,Sri Lanka Thriposha Co. Ltd.,https://thriposha.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,No,thriposha@gmail.com,Yes,SLTS,,80
+,"Minister of Transport, Highways and Urban Development",,,,,,,,,,,,,,,,,,0
+492,Condominium Management Authority (Common Amenities Board),https://condominium.lk/,Active,Valid,Yes,5,3,3,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@condominium.lk,Yes,,,86
+493,Department of Motor Traffic,https://dmt.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,Yes,No,lk,No,dmtweraheracom@gmail.com,Yes,Procons Infotech,,65
+494,Department of Sri Lanka Railways,https://www.railway.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,gmr@railway.gov.lk,Yes,ICTA,,98
+495,Maga Neguma,https://maganeguma.lk,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,Yes,mnrce@sltnet.lk,Yes,MNRCE IT,,40
+496,National Council for Road Safety,https://www.roadsafety.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,ncrstransport@gmail.com,No,Procons Infotech,,90
+497,National Physical Planning Department,https://nppd.gov.lk/,Down,No Certificate,,,,,,,,,,,,Yes,,,0
+498,National Transport Commission,https://www.ntc.gov.lk/,Active,Valid,Yes,3,1,1,Static (Manual),Yes,Yes,Yes,,Yes,info@ntc.gov.lk,Yes,NTC IT Division,,90
+499,National Transport Medical Institute,https://ntmi.lk/,Active,Valid,No,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,ntmi@sltnet.lk,No,NTMI ICT,,85
+,Road Development Authority and its subsidiaries and affiliates,,,,,,,,,,,,,,,,,,
+500,RDA,https://rda.gov.lk/,Active,Valid,Yes,5,3,3,Static (Manual),Yes,Yes,Yes,,No,rdachairman@gmail.com,Yes,Procons Infotech,,86
+501,Expressway Operation Maintenance & Management (EOM&M) Division,https://www.exway.rda.gov.lk/exway/index.php,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,heademu@yahoo.com,Yes,IT & Telecommunication Department - EOM&M Division,,55
+,//,,,,,,,,,,,,,,,,,,
+502,Sri Lanka Land Development Corporation and its subsidiaries and related institutions,https://www.landdevelopment.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,mail@sllrdc.lk,Yes,SLLDC - IT Unit,,55
+503,Sri Lanka Transport Board,https://sltb.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),No,No,Yes,lk,Yes,info@sltb.lk,Yes,,,90
+504,Urban Development Authority,https://www.uda.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,its@uda.gov.lk,Yes,EntryLabs (pvt) LTD,,65
+505,Urban Settlement Development Authority,https://usda.gov.lk/,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,,Talentfort,,60
+,Minister of Women and Child Affairs,,,,,,,,,,,,,,,,,,
+506,Department of Probation and Childcare Services,https://www.probation.gov.lk/,Active,Valid,Yes,1,1,1,Static (Manual),Yes,Yes,Yes,,No,pcc@sltnet.lk,Yes,Sri Lanka Telecom (Services) Ltd,,78
+507,National Child Protection Authority,https://childprotection.gov.lk/,Active,Valid,Yes,5,5,4,Static (Manual),Yes,Yes,Yes,,Yes,ncpa@childprotection.gov.lk,Yes,Affno,,99
+508,National Secretariat for Early Childhood Development,www.childsec.gov.lk,Active,No Certificate,Yes,0,0,0,Not Applicable,Yes,Yes,Yes,,No main email provided,,No,,Only the page with language switcher works,30
+,Minister of Youth Affairs and Sports,,,,,,,,,,,,,,,,,,
+509,Department of Sports Development,https://mms.dosd.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,departmentofsportsdevelopment@gmail.com,Yes,,,90
+510,Institute of Sports Medicine,www.ism.gov.lk,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,ism_medicine@yahoo.com,Yes,,,55
+511,National Centre for Leadership Development,http://ncld.gov.lk/,Down,,,,,,,,,,,,,,,,0
+512,National Institute of Sports Science,https://www.niss.gov.lk/,Down,,,,,,,,,,,,,,,,0
+513,National Youth Corps,https://youthcorps.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,Yes,infor@youthcorps.lk,Yes,,,100
+514,National Youth Services Council,https://www.nysc.lk/,Active,Valid,No,5,0,0,Not Applicable,No,Yes,No,lk,Yes,infor@nysc.lk,Yes,,,40
+515,Sri Lanka Anti-doping Agency,https://slada.lk/,Active,Valid,Yes,5,4,4,Static (Manual),No,Yes,No,lk,Yes,info@slada.lk,Yes,,,73
+516,Sugathadasa National Sports Complex Authority,https://snsca.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@snsca.gov.lk,Yes,,,65
+,Ministry Websites,,,,,,,,,,,,,,,,,,
+517,Ministry of Defence,https://www.defence.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,No,Yes,lk,No main email provided,,Yes,,,90
+518,"Ministry of Finance, Planning and Economic Development",https://www.treasury.gov.lk/,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,Yes,info@mo.treasury.gov.lk,Yes,elysiancrest.com,Site was under maintainence,94
+519,Ministry of Digital Economy,https://www.mode.gov.lk/,Active,Valid,Yes,5,2,2,Static (Manual),Yes,Yes,Yes,,Yes,info@mode.gov.lk,Yes,,,94
+520,"Ministry of Education, Higher Education and Vocational Education",https://www.moe.gov.lk,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@moe.gov.lk,Yes,Webcomms Global (PVT) Ltd,,100
+521,"Ministry of Education, Higher Education and Vocational Education",https://www.mohe.gov.lk/,Active,Valid,Yes,5,4,5,Static (Manual),Yes,Yes,Yes,,Yes,info@mohe.gov.lk,Yes,Procons Infotech,,99
+522,"Ministry of Education, Higher Education and Vocational Education",https://www.skillsmin.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,info@skillsmin.gov.lk,Yes,E-Tech Solutions,"""https://skillsmin.gov.lk/wp-login.php?redirect_to=https%3A%2F%2Fskillsmin.gov.lk%2Fwp-admin%2F&reauth=1"" - The WordPress admin login URL is publicly accessible through the standard /wp-login.php endpoint. This exposes the admin login path and may increase the risk of automated brute-force or credential-based attacks.",90
+523,Ministry of Health and Mass Media,https://www.health.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@health.gov.lk,Yes,Weblankan & Arrogance Technologies (Pvt)Ltd,"goes to the landing page,  there are two tabs when you click one it goes to a one wesite which is health.gov.lk and the other tab goes to media.gov.lk",100
+524,Ministry of Health and Mass Media,https://media.gov.lk/,Active,Valid,Yes,5,5,4,Static (Manual),Yes,Yes,Yes,,Yes,info@media.gov.lk,Yes,,goes to a landing page and then it goes to another landing page from there can go to the particluar website,99
+525,"Ministry of Foreign Affairs, Foreign Employment and Tourism",https://www.mfa.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,cypher@mfa.gov.lk ,Yes,,"This website is for Ministry of Foreign Affairs, Foreign Employment & Tourism / so the interface has three tabs to go. But the ministry of foreign employement tab is not working., FLAG",100
+526,"Ministry of Foreign Affairs, Foreign Employment and Tourism",https://tourismmin.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,admin@tourismmin.gov.lk,Yes,LankaCom,It only goes to a page but there are no features,100
+527,"Ministry of Foreign Affairs, Foreign Employment and Tourism",https://www.mlfe.gov.lk/,Active,Valid,Yes,5,1,0,Static (Manual),Yes,Yes,Yes,,No,info@mfe.gov.lk,Yes,,,81
+528,Ministry of Justice and National Integration,https://www.moj.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@moj.gov.lk,Yes,Procons infotech,,98
+529,Ministry of Public Security and Parliamentary Affairs,https://www.pubsec.gov.lk/,Active,Valid,Yes,5,4,1,Static (Manual),Yes,Yes,Yes,,Yes,info@pubsec.gov.lk,Yes,,,95
+530,Ministry of Women and Child Affairs,https://www.childwomenmin.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,secretary@childwomenmin.gov.lk,Yes,info@pubsec.gov.lk,,100
+531,Ministry of Industry and Entrepreneurship Development,https://www.industry.gov.lk,Down,,,,,,,,,,,,,,,,0
+533,"Ministry of Fisheries, Aquatic and Ocean Resources",https://www.fisheries.gov.lk/,Active,Valid,Yes,5,5,4,Static (Manual),Yes,Yes,Yes,,Yes,info@fisheries.gov.lk,Yes,IT UNIT,,99
+534,Ministry of Plantation and Community Infrastructure,https://www.plantation.gov.lk/,Active,Valid,Yes,5,3,2,Static (Manual),Yes,Yes,Yes,,Yes,info@plantation.gov.lk,Yes,Procons Infotech,,95
+535,Ministry of Labour,https://www.labourmin.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@labourmin.gov.lk,Yes,,,100
+537,"Ministry of Buddhasasana, Religious and Cultural Affairs",https://mbs.gov.lk/,Active,Valid,Yes,5,5,4,Static (Manual),Yes,Yes,Yes,,No,mbsecoffice@gmail.com,Yes,Procons Infotech,,89
+538,"Ministry of Trade, Commerce, Food Security and Co-operative Development",https://www.trade.gov.lk/,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,No,info@trademin.gov.lk,No,,,82
+539,"Minister of Transport, Highways and Urban Development ",https://www.transport.gov.lk/,Active,Valid,Yes,5,5,2,Static (Manual),Yes,Yes,Yes,,Yes,info@transport.gov.lk,Yes,Procons Infotech,,97
+540,Ministry of Ports and Civil Aviation,http://www.portmin.gov.lk/,Down,,,,,,,,,,,,,,,Site is under construction,0
+541,"Ministry of Agriculture, Livestock, Land and Irrigation",https://www.agrimin.gov.lk/,Active,Valid,Yes,5,0,0,Not Applicable,Yes,Yes,Yes,,Yes,info@agrimin.gov.lk,Yes,Ones and Zeros,switcher not working,70
+542,"Ministry of Agriculture, Livestock, Land and Irrigation",https://landmin.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@landmin.gov.lk,Yes,LankaCom,,100
+543,"Ministry of Agriculture, Livestock, Land and Irrigation",http://www.irrigationmin.gov.lk/,Active,No Certificate,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,No,sec@mahaweli.gov.lk,Yes, Pixel Clear,,63
+544,Ministry of Youth Affairs and Sports,https://www.moys.gov.lk/,Down,,,,,,,,,,,,,,,,0
+545,"Ministry of Public Administration, Provincial Councils and Local Government",https://www.pubad.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@pubad.gov.lk,Yes,,,100
+546,"Ministry of Public Administration, Provincial Councils and Local Government",https://www.moha.gov.lk/,Active,Valid,Yes,4,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@moha.gov.lk,Yes,,,97
+547,"Ministry of Public Administration, Provincial Councils and Local Government",https://mpclg.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@pclg.gov.lk,No,,,100
+548,"Ministry of Housing, Construction and Water Supply",https://www.moudh.gov.lk/,Active,Valid,Yes,5,5,3,Static (Manual),Yes,Yes,Yes,,Yes,info@smoud.gov.lk,Yes,Procons Infotech,,98
+549,"Ministry of Rural Development, Social Security and Community Empowerment",https://www.mrds.gov.lk/,Active,Valid,Yes,4,4,4,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,rdsscesecretary@sltnet.lk,No,,,77
+551,Ministry of Energy,https://www.energymin.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@energymin.gov.lk,Yes,IT Team Ministry of Energy,,100
+552,Ministry of Environment,https://www.env.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@env.gov.lk,Yes,,,100
+553,Ministry of Science and Technology,https://most.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,minister@most.gov.lk,Yes,Procons Infotech,,98
+,Commissions and other bodies,,,,,,,,,,,,,,,,,,
+554,Presidential Secretariat,https://www.presidentsoffice.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,ps@presidentsoffice.lk,Yes,,,90
+555,President's Fund,https://www.presidentsfund.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,prefund@presidentsoffice.lk,Yes,,,80
+556,Rebuilding Sri Lanka Presidential Task Force,https://rebuildingsrilanka.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,"info@mode.gov.lk
+",No,,,55
+557,Clean Sri Lanka Presidential Task Force,https://cleansrilanka.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,Yes,contact@cleansrilanka.gov.lk,Yes,Graphics.lk,,90
+558,Election Commission of Sri Lanka,https://elections.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@elections.gov.lk,Yes,,,100
+559,Public Service Commission (PSC),https://www.psc.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,info@psc.gov.lk,Yes,Procons Infotech,,98
+560,National Police Commission (NPC),https://www.npc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@npc.gov.lk,Yes,,,100
+561,Human Rights Commission of Sri Lanka (HRCSL),https://www.hrcsl.lk/,Active,Valid,Yes,5,5,5,Static (Manual),No,Yes,No,lk,Yes,secretary@hrcsl.lk,Yes,,,75
+562,Commission to Investigate Allegations of Bribery or Corruption (CIABOC),https://www.ciaboc.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,,,Yes,Tekgeeks,,90
+563,Finance Commission,https://www.fincom.gov.lk/,Active,Valid,Yes,5,1,1,Static (Manual),Yes,Yes,Yes,,Yes,info@fincom.gov.lk,Yes,,,92
+564,Delimitation Commission,https://www.delimitation.gov.lk/,Down,,,,,,,,,,,,,,,,0
+565,Audit Service Commission,https://www.asc.gov.lk/,Down,,,,,,,,,,,,,,,,0
+566,Right to Information Commission,https://rti.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,rtiunitsl@gmail.com,Yes,,,80
+567,National Procurement Commission,https://www.nproccom.gov.lk/,Down,,,,,,,,,,,,,,,,0
+568,Parliament of Sri Lanka,https://www.parliament.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,lk,Yes,appealofficer@parliament.lk,Yes,Tekgeeks,,90
+569,Prime Minister's Office,https://www.pmoffice.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@pmoffice.gov.lk,Yes,,,100
+570,Office of the Cabinet of Ministers,https://www.cabinetoffice.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,Yes,info@cabinetoffice.gov.lk,Yes,Lanka Gate,,100
+571,National Audit Office (Auditor General's Department),https://www.auditorgeneral.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,ag@auditorgeneral.gov.lk,Yes,LankaCom,,98
+578,National Audit Office (Auditor General's Department),https://naosl.gov.lk/,Active,Valid,Yes,5,4,4,Static (Manual),Yes,Yes,Yes,,Yes,ag@auditorgeneral.gov.lk,No,LankaCom,,98
+572,Judicial Service Commission,https://www.jsc.gov.lk/,Active,Valid,Yes,1,1,1,Static (Manual),Yes,Yes,Yes,,No main email provided,,Yes,,,78
+573,Court of Appeal of Sri Lanka,https://www.courtofappeal.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,No,registrarofca@gmail.com,Yes,SLT digital,,55
+574,Office of the Parliamentary Commissioner for Administration (Ombudsman),https://www.ombudsman.gov.lk/,Active,Valid,Yes,5,5,5,Static (Manual),Yes,Yes,Yes,,No,ombudssl@gmail.com,No,,,90
+575,Supreme Court of Sri Lanka,https://www.supremecourt.lk/,Active,Valid,No,5,0,0,Not Applicable,No,No,Yes,lk,Yes,scdreg@sltnet.lk,Yes,SLT digital,,65
+576,Financial Intelligence Unit,https://fiusrilanka.gov.lk/,Active,Valid,No,5,0,0,Not Applicable,Yes,Yes,Yes,,No,dfiu@cbsl.lk,Yes,EFutures,,55
+577,Prajashakthi,https://www.prajashakthi.gov.lk/,Active,Valid,Yes,5,5,5,Dynamic (Automatically translated using 3rd party services),Yes,Yes,Yes,,No,prajashakthi@presidentsoffice.lk,Yes,,,80
